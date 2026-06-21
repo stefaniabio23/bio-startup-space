@@ -1,6 +1,6 @@
 # Companies by area
 
-_21 entries._
+_31 entries._
 
 
 ## ai drug design
@@ -8,9 +8,21 @@ _21 entries._
 - **Insilico Medicine** — public, $400M
 - **Isomorphic Labs** — series-b, $2700M
 
+## ai pathology
+
+- **PathAI** — series-c, $255M
+
 ## ai simulated biology
 
 - **Recursion / Valence Labs** — public, $950.7M
+
+## ai-native drug discovery
+
+- **Xaira Therapeutics** — series-a, $1000M
+
+## ai-native pharma
+
+- **Formation Bio** — series-d-plus, $372M
 
 ## clinical trial recruitment
 
@@ -23,6 +35,10 @@ _21 entries._
 ## digital biomarkers
 
 - **Biofourmis** — series-d-plus, $465M
+
+## digital pathology
+
+- **Paige** — series-c, $125M
 
 ## digital twins
 
@@ -41,6 +57,10 @@ _21 entries._
 - **Generate Biomedicines** — public, $1100M
 - **Latent Labs** — series-a, $50M
 
+## liquid biopsy
+
+- **Guardant Health** — public, $1500M
+
 ## multimodal oncology data platform
 
 - **Tempus** — public, $1420M
@@ -48,6 +68,14 @@ _21 entries._
 ## multimodal patient stratification
 
 - **Owkin** — series-c, $350M
+
+## multiomics cancer detection
+
+- **Freenome** — series-d-plus, $1100M
+
+## next-gen cro
+
+- **Lindus Health** — series-a, $18M
 
 ## precision immunology
 
@@ -57,6 +85,18 @@ _21 entries._
 
 - **Midjourney Medical**
 - **Neko Health** — series-b, $325M
+
+## protein engineering platform
+
+- **Cradle** — series-b, $73M
+
+## protein foundation models
+
+- **EvolutionaryScale** — series-a, $142M
+
+## rapid immune diagnostics
+
+- **Cytovale** — series-b, $56M
 
 ## rna state ai
 
