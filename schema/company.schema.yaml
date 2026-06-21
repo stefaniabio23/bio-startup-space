@@ -1,0 +1,113 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+title: BioStartupEntry
+description: >
+  Factual + analytical schema. Structured fields in frontmatter (tags, numbers, enums).
+  Prose fields (one-liner, problem, workaround, method, TAM logic, gaps, notes) in body sections.
+type: object
+
+required:
+  - id
+  - name
+  - last_verified
+
+properties:
+
+  # ── IDENTITY ──────────────────────────────────────────────
+  id:
+    type: string
+    pattern: "^[a-z0-9-]+$"
+  name:
+    type: string
+  website:
+    type: string
+  founded:
+    type: integer
+  area:
+    type: string
+    description: Single broad category tag (e.g. ai drug design, digital twins)
+
+  # ── FUNDING ───────────────────────────────────────────────
+  funding_stage:
+    type: string
+    enum: [pre-seed, seed, series-a, series-b, series-c, series-d-plus, public, acquired, bootstrapped, unknown]
+  total_funding_usd_m:
+    type: number
+    description: Total funding in USD millions
+  public:
+    type: boolean
+    default: false
+
+  # ── BUSINESS ──────────────────────────────────────────────
+  business_model:
+    type: string
+    enum: [partnerships, own-pipeline, saas, services, reimbursement, hybrid]
+  buyer:
+    type: array
+    description: "pharma | biotech | payer | provider | consumer | cro | investor"
+    items:
+      type: string
+  buyer_urgency:
+    type: string
+    enum: [high, medium, low]
+  buyer_wtp:
+    type: string
+    description: Willingness to pay
+    enum: [high, medium, low]
+  sales_cycle:
+    type: string
+    enum: [short, medium, long]
+  regulatory_burden:
+    type: string
+    enum: [none, light, medium, heavy]
+
+  # ── MARKET ────────────────────────────────────────────────
+  tam_usd_m:
+    type: number
+    description: Total addressable market in USD millions
+
+  # ── MECHANICS ─────────────────────────────────────────────
+  data_centrality:
+    type: string
+    enum: [core-moat, important-enabler, supporting-evidence, product, not-central]
+  data_ownership:
+    type: array
+    items:
+      type: string
+      enum: [proprietary, public, licensed, partner-supplied, generated-in-house, customer-generated]
+  moat:
+    type: array
+    items:
+      type: string
+      enum: [data, model, wet-lab, clinical-evidence, IP, distribution, regulatory-trust, founder-brand, capital]
+  primary_value_chain_layer:
+    type: string
+  input:
+    type: array
+    items:
+      type: string
+  transformation_type:
+    type: string
+    enum: [measure, predict, generate, monitor]
+  output:
+    type: array
+    items:
+      type: string
+
+  # ── COMPETITIVE ───────────────────────────────────────────
+  barrier_to_entry:
+    type: string
+    enum: [low, medium, high, very-high, nearly-impossible]
+  barrier_to_entry_logic:
+    type: string
+    description: One line explaining why the barrier is what it is
+  hardness:
+    type: string
+    enum: [moderate, hard, very-hard, moonshot]
+  hardness_reason:
+    type: string
+    description: One line — the single hardest problem to solve
+
+  # ── META ──────────────────────────────────────────────────
+  last_verified:
+    type: string
+    pattern: "^\\d{4}-\\d{2}-\\d{2}$"
