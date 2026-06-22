@@ -4,7 +4,7 @@ name: Relation Therapeutics
 website: relationrx.com
 founded: 2019
 area: target validation
-funding_stage: unknown
+funding_stage: seed
 total_funding_usd_m: 116
 public: false
 business_model: partnerships
@@ -92,9 +92,9 @@ Does not run its own clinical programs (though Deerfield deal creates spinouts).
 
 ## Notes
 
-Rebranded website from relationtx.com to relationrx.com. HQ: Regent's Place, London. ~130 employees as of 2026. NVIDIA compute partnership for ML infrastructure. Primary disease focus: osteoporosis, immunology, metabolic disease. Total funding ~$116M; the rounds are not publicly labelled with a clean Series stage, so funding_stage is set to unknown.
+Rebranded website from relationtx.com to relationrx.com. HQ: Regent's Place, London. ~130 employees as of 2026. NVIDIA compute partnership for ML infrastructure. Primary disease focus: osteoporosis, immunology, metabolic disease. Total funding ~$116M. Latest is a $26M seed round (December 2025) backed by NVentures (NVIDIA), DCVC, and Magnetic Ventures; the company is still seed-stage despite the cumulative total.
 
 ## News signals
 
 - 2025-12: Announced strategic collaboration with Novartis for atopic diseases, $55M upfront (including equity and R&D funding) plus up to $1.7B in milestones and tiered royalties. (source: https://www.globenewswire.com/news-release/2025/12/09/3202076/0/en/Relation-announces-strategic-collaboration-with-Novartis-to-advance-therapeutics-for-atopic-diseases.html)
-- 2025-12: Raised a $26M round co-led by NVentures, DCVC, and Magnetic Ventures, bringing total funding to ~$116M. (source: https://www.dcvc.com/news-insights/relation-unveils-atopic-diseases-agreement-with-novartis-55-million-up-front-and-up-to-1-7-billion-in-milestone-based-payments-dcvc-nvidia-nventures-and-magnetic-ventures-co-lead-26m-fundraise/)
+- 2025-12: Raised a $26M seed round co-led by NVentures (NVIDIA), DCVC, and Magnetic Ventures, bringing total funding to ~$116M. (source: https://www.dcvc.com/news-insights/relation-unveils-atopic-diseases-agreement-with-novartis-55-million-up-front-and-up-to-1-7-billion-in-milestone-based-payments-dcvc-nvidia-nventures-and-magnetic-ventures-co-lead-26m-fundraise/)

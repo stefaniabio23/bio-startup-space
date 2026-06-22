@@ -5,7 +5,7 @@ website: insitro.com
 founded: 2018
 area: drug discovery
 funding_stage: series-c
-total_funding_usd_m: 643
+total_funding_usd_m: 800
 public: false
 business_model: hybrid
 buyer:
@@ -91,7 +91,7 @@ Brings advanced ML to disease modelling; still faces translation from cellular s
 
 ## Notes
 
-Founded by Daphne Koller (co-founder of Coursera, former Stanford AI professor, former Chief Computing Officer at Caltech), whose brand and network are part of the moat. Series C ($400M, 2024) total now $643M. The TherML platform and CombinAbleAI acquisition signal a shift from pure target discovery toward modality-agnostic drug design across the full discovery-to-development arc.
+Founded by Daphne Koller (co-founder of Coursera, former Stanford AI professor, former Chief Computing Officer at Caltech), whose brand and network are part of the moat. Series C ($400M, 2024), with approximately $800M in total capital raised to date. The TherML platform and CombinAbleAI acquisition signal a shift from pure target discovery toward modality-agnostic drug design across the full discovery-to-development arc.
 
 ## News signals
 

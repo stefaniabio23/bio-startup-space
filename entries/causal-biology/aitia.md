@@ -5,7 +5,7 @@ website: aitia.com
 founded: 2000
 area: digital twins
 funding_stage: series-d-plus
-total_funding_usd_m: 65.3
+total_funding_usd_m: 66
 public: false
 business_model: partnerships
 buyer:

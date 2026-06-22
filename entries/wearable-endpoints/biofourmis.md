@@ -5,7 +5,7 @@ website: biofourmis.com
 founded: 2015
 area: digital biomarkers
 funding_stage: series-d-plus
-total_funding_usd_m: 465
+total_funding_usd_m: 445
 public: false
 business_model: hybrid
 buyer:

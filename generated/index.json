@@ -60,7 +60,7 @@
     "founded": 2000,
     "area": "digital twins",
     "funding_stage": "series-d-plus",
-    "total_funding_usd_m": 65.3,
+    "total_funding_usd_m": 66,
     "public": false,
     "business_model": "partnerships",
     "buyer": [
@@ -2681,7 +2681,7 @@
     "founded": 2018,
     "area": "drug discovery",
     "funding_stage": "series-c",
-    "total_funding_usd_m": 643,
+    "total_funding_usd_m": 800,
     "public": false,
     "business_model": "hybrid",
     "buyer": [
@@ -2781,7 +2781,7 @@
     "website": "relationrx.com",
     "founded": 2019,
     "area": "target validation",
-    "funding_stage": "unknown",
+    "funding_stage": "seed",
     "total_funding_usd_m": 116,
     "public": false,
     "business_model": "partnerships",
@@ -2833,7 +2833,7 @@
     "founded": 2015,
     "area": "digital biomarkers",
     "funding_stage": "series-d-plus",
-    "total_funding_usd_m": 465,
+    "total_funding_usd_m": 445,
     "public": false,
     "business_model": "hybrid",
     "buyer": [

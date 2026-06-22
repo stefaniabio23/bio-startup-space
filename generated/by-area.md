@@ -58,7 +58,7 @@ _59 entries._
 
 ## digital biomarkers
 
-- **Biofourmis** — series-d-plus, $465M
+- **Biofourmis** — series-d-plus, $445M
 
 ## digital pathology
 
@@ -66,14 +66,14 @@ _59 entries._
 
 ## digital twins
 
-- **Aitia** — series-d-plus, $65.3M
+- **Aitia** — series-d-plus, $66M
 - **QuantHealth** — series-a, $30M
 - **Twin Health** — series-d-plus, $272M
 - **Unlearn** — series-c, $135M
 
 ## drug discovery
 
-- **insitro** — series-c, $643M
+- **insitro** — series-c, $800M
 
 ## employer GLP-1 telehealth
 
@@ -202,7 +202,7 @@ _59 entries._
 
 ## target validation
 
-- **Relation Therapeutics** — unknown, $116M
+- **Relation Therapeutics** — seed, $116M
 
 ## value-based care enablement
 
