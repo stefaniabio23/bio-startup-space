@@ -9,12 +9,12 @@ _59 entries._
 
 ## ai drug design
 
-- **Insilico Medicine** — public, $693M
+- **Insilico Medicine** — public, $800M
 - **Isomorphic Labs** — series-b, $2700M
 
 ## ai pathology
 
-- **PathAI** — acquired, $255M
+- **PathAI** — series-c, $255M
 
 ## ai simulated biology
 
@@ -94,7 +94,7 @@ _59 entries._
 ## generative biology
 
 - **Chai Discovery** — series-b, $225M
-- **Generate Biomedicines** — public, $1500M
+- **Generate Biomedicines** — public, $1100M
 - **Latent Labs** — series-a, $50M
 
 ## healthcare advocacy and navigation
@@ -152,7 +152,7 @@ _59 entries._
 
 ## oncology / undruggable target therapeutics (Helicon peptides)
 
-- **Parabilis Medicines** — public, $1482M
+- **Parabilis Medicines** — public, $1657M
 
 ## oral immunology / IBD therapeutics
 

@@ -76,7 +76,7 @@ Tempus calls themselves "the operating system for precision medicine 2.0" and st
 
 ## Validated by
 
-IPO after $1.42B raised. Multiple active pharma partnerships. Named pharma customers include AstraZeneca, Pfizer, BMS, GSK, Merck, Janssen, Eli Lilly, BioNTech, Genmab, Takeda, Boehringer Ingelheim, Recursion, United Therapeutics. FDA-approved companion diagnostic (xT CDx, 648-gene solid tumor panel). Acquired Ambry Genetics for $600M (Nov 2024) to expand germline testing. IPO on Nasdaq June 14, 2024 (TEM), raising $410.7M. SoftBank joint venture in Japan (SB Tempus, June 2024). 2K+ peer-reviewed publications citing Tempus data.
+IPO after $1.42B raised. Multiple active pharma partnerships. Named pharma customers include AstraZeneca, Pfizer, BMS, GSK, Merck, Janssen, Eli Lilly, BioNTech, Genmab, Takeda, Boehringer Ingelheim, Recursion, United Therapeutics. FDA-approved companion diagnostic (xT CDx, 648-gene solid tumor panel). Acquired Ambry Genetics for $600M (announced Nov 2024, closed February 2025) to expand germline testing. IPO on Nasdaq June 14, 2024 (TEM), raising $410.7M. SoftBank joint venture in Japan (SB Tempus, June 2024). 2K+ peer-reviewed publications citing Tempus data.
 
 ## Competes with
 
@@ -101,6 +101,6 @@ Hero comparison from EF previous batch (Immunara): investors excited by propriet
 
 ## News signals
 
-- 2026-02: Closed the Ambry Genetics acquisition (announced Nov 2024), expanding hereditary/germline testing. (source: https://www.businesswire.com/news/home/20260505411869/en/Tempus-Reports-First-Quarter-2026-Results)
+- 2025-02: Closed the Ambry Genetics acquisition on February 3, 2025 (announced November 2024), expanding hereditary/germline testing. (source: https://www.businesswire.com/news/home/20250203899156/en/Tempus-Completes-Acquisition-of-Ambry-Genetics)
 - 2026-05: Reported Q1 2026 revenue of $348.1M, up ~36% year-over-year, and raised full-year 2026 revenue guidance to roughly 25% growth with an adjusted EBITDA target of $65M. (source: https://www.businesswire.com/news/home/20260505411869/en/Tempus-Reports-First-Quarter-2026-Results)
 - 2026: Expanded the AI-enabled Next platform to six additional cancer indications, including breast, colorectal, ovarian, prostate, and urothelial. (source: https://stockanalysis.com/stocks/tem/)

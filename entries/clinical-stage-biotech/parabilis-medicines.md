@@ -5,7 +5,7 @@ website: parabilismed.com
 founded: 2015
 area: oncology / undruggable target therapeutics (Helicon peptides)
 funding_stage: public
-total_funding_usd_m: 1482
+total_funding_usd_m: 1657
 public: true
 business_model: own-pipeline
 buyer:
@@ -90,8 +90,8 @@ No approved product. Zolucatetide is first-in-class with no prior clinical valid
 
 ## Notes
 
-Originally FogPharma, co-founded 2015 by Gregory Verdine (Harvard chemistry professor). Rebranded Parabilis Medicines in 2024. CEO: Mathai Mammen, M.D., Ph.D. (ex-J&J EVP Pharmaceuticals R&D). Verdine is vice chairman. NASDAQ ticker: PBLS. Market cap $3.7B on day 1 of trading (June 10, 2026). Total private capital ~$811.8M before IPO; $670M IPO + $75M concurrent Regeneron private placement = $745M total IPO event. $305M Series F closed January 2026 led by RA Capital, Fidelity, Janus Henderson. Regeneron collaboration (AHCs): up to $2.3B in biobucks. FDA Orphan Drug + Fast Track Designation for zolucatetide in desmoid tumors. 150+ patients dosed in Phase 1/2. A Phase 3 registrational trial of zolucatetide in desmoid tumors is planned to start in 1H 2027, with ~$150M of IPO proceeds earmarked for it. Headquarters: Cambridge, MA.
+Originally FogPharma, co-founded 2015 by Gregory Verdine (Harvard chemistry professor). Rebranded Parabilis Medicines in 2024. CEO: Mathai Mammen, M.D., Ph.D. (ex-J&J EVP Pharmaceuticals R&D). Verdine is vice chairman. NASDAQ ticker: PBLS. Market cap $3.7B on day 1 of trading (June 10, 2026). Total private capital ~$811.8M before IPO; the IPO priced at a $670M base and closed at $770.5M after the full underwriters' option was exercised, plus a $75M concurrent Regeneron private placement, for ~$845M raised in the IPO event. Cumulative capital to date ~$1.66B. $305M Series F closed January 2026 led by RA Capital, Fidelity, Janus Henderson. Regeneron collaboration (AHCs): up to $2.3B in biobucks. FDA Orphan Drug + Fast Track Designation for zolucatetide in desmoid tumors. 150+ patients dosed in Phase 1/2. A Phase 3 registrational trial of zolucatetide in desmoid tumors is planned to start in 1H 2027, with ~$150M of IPO proceeds earmarked for it. Headquarters: Cambridge, MA.
 
 ## News signals
 
-- 2026-06: Priced an upsized IPO on June 9 at $20.00/share (above the marketed range), selling 33.5 million shares for $670M gross proceeds, a record for a venture-backed biotech. A concurrent $75M private placement to new partner Regeneron brought the total IPO event to $745M. Stock (NASDAQ: PBLS) opened at $33.35 on June 10, up ~67% from the IPO price. (source: https://www.biopharmadive.com/news/parabilis-biotech-ipo-price-helicon-peptides-cancer-verdine/822397/)
+- 2026-06: Priced an upsized IPO on June 9 at $20.00/share (above the marketed range), selling 33.5 million shares for $670M gross at pricing, a record for a venture-backed biotech; the full greenshoe was then exercised, bringing IPO proceeds to $770.5M. A concurrent $75M private placement to new partner Regeneron brought the total IPO event to ~$845M. Stock (NASDAQ: PBLS) opened at $33.35 on June 10, up ~67% from the IPO price. (source: https://www.biopharmadive.com/news/parabilis-biotech-ipo-price-helicon-peptides-cancer-verdine/822397/)

@@ -5,7 +5,7 @@ website: generatebiomedicines.com
 founded: 2018
 area: generative biology
 funding_stage: public
-total_funding_usd_m: 1500
+total_funding_usd_m: 1100
 public: true
 business_model: hybrid
 buyer:
@@ -89,7 +89,7 @@ Advanced generative design of biologics, but gaps remain around developability, 
 
 ## Notes
 
-Founded 2018 as a Flagship Pioneering company (same incubator as Moderna). Public as of Feb 2026 (IPO). Business model is hybrid: generates internal pipeline (like a biotech) and operates platform technology. The Generate Platform is proprietary and not licensed externally. Reported Q1 2026 financial results May 2026.
+Founded 2018 as a Flagship Pioneering company (same incubator as Moderna). Public as of Feb 2026 (IPO). Business model is hybrid: generates internal pipeline (like a biotech) and operates platform technology. The Generate Platform is proprietary and not licensed externally. Reported Q1 2026 financial results May 2026. Total equity capital to date ~$1.1B (~$700M private VC across Series A through C, plus the $400M February 2026 IPO); higher figures cited in some sources fold in Amgen and Novartis collaboration payments.
 
 ## News signals
 

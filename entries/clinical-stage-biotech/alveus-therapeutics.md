@@ -70,7 +70,7 @@ The global obesity drug market is projected to exceed $100B by the mid-2030s. Al
 
 ## Validated by
 
-$160M initial Series A closed January 8, 2026; oversubscribed second closing added $37M in February 2026, bringing total to $197M. Investors include New Rhein Healthcare Investors (founding investor), Kurma Partners, Jeito Capital. ALV-100 in Phase 2 at launch. Team ex-Novo Nordisk and Eli Lilly (Jacob Jeppesen and Brian Bloomquist, >30 years combined obesity drug experience).
+$160M initial Series A closed January 8, 2026; oversubscribed second closing added $37M in February 2026, bringing total to $197M. The first close was led by New Rhein Healthcare Investors, Andera Partners, and Omega Funds, with participation from Sanofi Capital, Kurma Partners, and Avego BioScience Capital; the second close added Jeito Capital and Novo Holdings. ALV-100 in Phase 2 at launch. Team ex-Novo Nordisk and Eli Lilly (Jacob Jeppesen and Brian Bloomquist, >30 years combined obesity drug experience).
 
 ## Competes with
 

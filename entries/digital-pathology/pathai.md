@@ -4,7 +4,7 @@ name: PathAI
 website: pathai.com
 founded: 2016
 area: ai pathology
-funding_stage: acquired
+funding_stage: series-c
 total_funding_usd_m: 255
 public: false
 business_model: hybrid

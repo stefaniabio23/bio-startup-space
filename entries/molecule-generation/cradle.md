@@ -87,4 +87,4 @@ Dependent on customers having existing experimental data to train on; does not g
 
 ## Notes
 
-Amsterdam-headquartered. One of the clearest examples of the "bring your own data" protein ML model, complementary to companies like EvolutionaryScale that provide pre-trained foundation models. The customer data flywheel is the key moat argument.
+Amsterdam-headquartered (Cradle Bio B.V.), with a second main office in Zurich and smaller teams in the US. One of the clearest examples of the "bring your own data" protein ML model, complementary to companies like EvolutionaryScale that provide pre-trained foundation models. The customer data flywheel is the key moat argument.

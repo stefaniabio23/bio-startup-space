@@ -5,7 +5,7 @@ website: insilico.com
 founded: 2014
 area: ai drug design
 funding_stage: public
-total_funding_usd_m: 693
+total_funding_usd_m: 800
 public: true
 business_model: hybrid
 buyer:
@@ -93,7 +93,7 @@ inClinico predicts trial outcomes from metadata, does not use latent biological 
 
 ## Notes
 
-Most directly adjacent to EF thesis via inClinico. IQVIA/HINT commercialisation status needs investigation before treating this angle as open. Listed on HKEX on December 30, 2025 (HKD 2.277B / ~$292M raised), the largest Hong Kong biotech IPO of 2025 and the first AI-driven biotech to list on the Main Board under Chapter 8.05 rules. Earlier reporting that cited a 2023 HKEX listing was incorrect; the actual listing was December 2025. Headquartered in Cambridge MA with offices in Hong Kong, Shanghai, Abu Dhabi. CEO: Alex Zhavoronkov. Total funding ~$693M (~$400M private pre-IPO estimate plus ~$292M IPO proceeds); some sources put cumulative capital above $1B.
+Most directly adjacent to EF thesis via inClinico. IQVIA/HINT commercialisation status needs investigation before treating this angle as open. Listed on HKEX on December 30, 2025 (HKD 2.277B / ~$292M raised), the largest Hong Kong biotech IPO of 2025 and the first AI-driven biotech to list on the Main Board under Chapter 8.05 rules. Earlier reporting that cited a 2023 HKEX listing was incorrect; the actual listing was December 2025. Headquartered in Cambridge MA with offices in Hong Kong, Shanghai, Abu Dhabi. CEO: Alex Zhavoronkov. Total funding ~$800M (over $500M private VC, including a ~$110M 2025 round, plus ~$292M IPO proceeds); some sources put cumulative capital above $1B.
 
 ## News signals
 
