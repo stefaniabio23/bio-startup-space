@@ -5,12 +5,12 @@ website: generatebiomedicines.com
 founded: 2018
 area: generative biology
 funding_stage: public
-total_funding_usd_m: 1100
+total_funding_usd_m: 1500
 public: true
 business_model: hybrid
 buyer:
-  - pharma
-  - biotech
+ - pharma
+ - biotech
 buyer_urgency: high
 buyer_wtp: high
 sales_cycle: long
@@ -18,28 +18,28 @@ regulatory_burden: heavy
 tam_usd_m: 318470
 data_centrality: core-moat
 data_ownership:
-  - proprietary
-  - generated-in-house
+ - proprietary
+ - generated-in-house
 moat:
-  - data
-  - model
-  - wet-lab
-  - clinical-evidence
-  - IP
+ - data
+ - model
+ - wet-lab
+ - clinical-evidence
+ - IP
 primary_value_chain_layer: discovery
 input:
-  - protein sequence and function specifications
-  - structural constraints and target binding requirements
-  - large-scale protein sequence databases
+ - protein sequence and function specifications
+ - structural constraints and target binding requirements
+ - large-scale protein sequence databases
 transformation_type: generate
 output:
-  - novel protein therapeutic sequences and structures
-  - drug candidates across antibodies, enzymes, peptides, and receptors
+ - novel protein therapeutic sequences and structures
+ - drug candidates across antibodies, enzymes, peptides, and receptors
 barrier_to_entry: very-high
 barrier_to_entry_logic: Closed-loop experimental flywheel (42K+ proteins tested in-house) requires frontier ML and wet-lab infrastructure operating in parallel at scale, backed by Flagship Pioneering and IPO capital.
 hardness: moonshot
-hardness_reason: Proving de novo protein therapeutics clear Phase 3 with competitive efficacy and safety against established biologics — GB-0895 is the live test.
-last_verified: "2026-06-21"
+hardness_reason: Proving de novo protein therapeutics clear Phase 3 with competitive efficacy and safety against established biologics, GB-0895 is the live test.
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -90,3 +90,8 @@ Advanced generative design of biologics, but gaps remain around developability, 
 ## Notes
 
 Founded 2018 as a Flagship Pioneering company (same incubator as Moderna). Public as of Feb 2026 (IPO). Business model is hybrid: generates internal pipeline (like a biotech) and operates platform technology. The Generate Platform is proprietary and not licensed externally. Reported Q1 2026 financial results May 2026.
+
+## News signals
+
+- 2026-02: Priced IPO at $16.00/share, sold 25M shares for $400M gross ($369.3M net), trading on Nasdaq as GENB from Feb 27. (source: https://www.biopharmadive.com/news/generate-biomedicines-ipo-price-biotech-ai-flagship-startup/813130/)
+- 2026-05: Reported Q1 2026 results; cash and marketable securities of $516.6M as of Mar 31, 2026, runway into 1H 2028. GB-0895 anti-TSLP in Phase 3 (SOLAIRIA-1/-2) for severe asthma and Phase 1b for COPD. (source: https://www.prnewswire.com/news-releases/generate-biomedicines-inc-reports-first-quarter-2026-financial-results-and-provides-business-update-302765449.html)

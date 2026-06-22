@@ -41,7 +41,7 @@ barrier_to_entry: medium
 barrier_to_entry_logic: Network of 2,000+ trained advocates takes time and capital to build, but the core matching model has no deep technical moat and could be replicated by a well-funded entrant or large insurer.
 hardness: hard
 hardness_reason: Proving measurable, durable outcome improvement attributable to advocacy at population scale to justify payer and employer reimbursement.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -92,3 +92,7 @@ The human advocate model creates a direct labor cost that scales linearly with p
 ## Notes
 
 Co-founded by Jeremy Gurewitz (CEO) and Sara Sargent (CPO). Based in California. IVP led the Series C; Menlo Ventures led Series B. The company is explicitly framing advocacy as a "standard of care" rather than a premium service, which is a category-creation positioning strategy. The expansion into commercial insurance was announced alongside the Series C and is a meaningful revenue diversification from the Medicare-only origin.
+
+## News signals
+
+- 2026-02: Raised $130M Series C led by IVP at a valuation over $1B, bringing total funding to $204M. Co-investors: Menlo Ventures, SignalFire, Torch Capital, Inspired Capital, RiverPark Ventures. 2,000+ advocates, 20,000+ patients served monthly. Funds expand the Medicare/Medicare Advantage advocate network and payer/provider partnerships. (source: https://www.businesswire.com/news/home/20260205824369/en/Solace-Raises-$130-Million-Series-C-to-Make-Healthcare-Advocacy-a-Standard-of-Care-in-the-U.S., https://www.fiercehealthcare.com/digital-health/solace-health-raises-130m-series-c)

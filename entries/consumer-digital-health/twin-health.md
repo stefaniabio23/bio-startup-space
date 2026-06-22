@@ -17,7 +17,7 @@ buyer_wtp: high
 sales_cycle: medium
 regulatory_burden: medium
 tam_usd_m: 9500
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 data_centrality: core-moat
 data_ownership:
   - proprietary
@@ -69,7 +69,7 @@ Metabolic disease (obesity, prediabetes, T2D) is the highest-cost chronic diseas
 
 ## Validated by
 
-Multiple peer-reviewed publications: Cleveland Clinic-led randomised study in NEJM Catalyst (NCT05181449); one-year outcomes in Nature Scientific Reports (2024); hypertension study in JACC: Advances (2024). Reported 2025 group outcomes: 71% of members lowered A1C below 6.5% without glucose-lowering medications, 27 lb average weight loss, 85% GLP-1 elimination rate, 46% insulin elimination rate.
+Multiple peer-reviewed publications: Cleveland Clinic-led randomised study in NEJM Catalyst (NCT05181449); one-year outcomes in Nature Scientific Reports (2024); hypertension study in JACC: Advances (2024). Reported 2025 group outcomes: 71% of members lowered A1C below 6.5% without glucose-lowering medications, 27 lb average weight loss, 85% GLP-1 elimination rate, 46% insulin elimination rate. $53M Series E (August 2025, led by Maj Invest) at a $950M valuation brought total funding to ~$272M.
 
 ## Competes with
 
@@ -91,3 +91,7 @@ Advanced enough technically; harder problems are behaviour change, trust, adhere
 ## Notes
 
 Outcomes-based pricing ("all-fees-at-risk") is a meaningful structural differentiator: it aligns incentives with payers and shifts the risk of non-performance to Twin Health, which requires high confidence in the clinical model and creates a data flywheel from enrolled members.
+
+## News signals
+
+- 2025-08: Raised $53M Series E led by Maj Invest at a $950M valuation, bringing total funding to ~$272M. Existing investors Iconiq and Temasek participated. Funds expand reach among health plans and Fortune 500 employer clients. (source: https://fortune.com/2025/08/21/exclusive-twin-health-metabolic-health-startup-raises-53-million-series-e-at-950-million-valuation/, https://www.prnewswire.com/news-releases/twin-health-announces-53m-investment-as-ai-digital-twin-unlocks-sustainable-diabetes-and-obesity-outcomes-while-reducing-medications-302535848.html)

@@ -9,37 +9,37 @@ total_funding_usd_m: 30
 public: false
 business_model: saas
 buyer:
-  - pharma
-  - biotech
-  - investor
+ - pharma
+ - biotech
+ - investor
 buyer_urgency: high
 buyer_wtp: high
 sales_cycle: long
 regulatory_burden: heavy
 tam_usd_m: 66300
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 data_centrality: core-moat
 data_ownership:
-  - licensed
-  - public
+ - licensed
+ - public
 moat:
-  - data
-  - model
-  - IP
+ - data
+ - model
+ - IP
 input:
-  - real-world patient records (350M lives, 10K+ data points/patient, 10-year longitudinal)
-  - biomedical knowledge graph (5M+ datapoints, 30+ sources)
-  - clinical trial results database (180K trials)
-  - drug database (100K drugs)
-  - investigational drug target and structure data
+ - real-world patient records (350M lives, 10K+ data points/patient, 10-year longitudinal)
+ - biomedical knowledge graph (5M+ datapoints, 30+ sources)
+ - clinical trial results database (180K trials)
+ - drug database (100K drugs)
+ - investigational drug target and structure data
 transformation_type: predict
 output:
-  - virtual trial results (KM curves, PFS/OS endpoints) mirroring real trial report format
-  - protocol optimization recommendations
-  - indication selection guidance
-  - enrollment predictions
-  - market forecasting
-  - probability of success scores
+ - virtual trial results (KM curves, PFS/OS endpoints) mirroring real trial report format
+ - protocol optimization recommendations
+ - indication selection guidance
+ - enrollment predictions
+ - market forecasting
+ - probability of success scores
 barrier_to_entry: very-high
 barrier_to_entry_logic: 350M patient records, 5M-datapoint knowledge graph, and 180K trial database took years to license and assemble; Sanofi Ventures backing provides pharma credibility.
 hardness: very-hard
@@ -89,8 +89,13 @@ CROs (ICON, Covance, PRA), EDC platforms (Medidata), statistical analysis vendor
 
 ## Gaps
 
-Appears to model primarily PFS and standard efficacy endpoints; safety simulation is not described on the website. Does not use wearable or biomarker signals as inputs — relies on historical RWD, not latent biological state. Commercial model (4-fold: clinical dev, BD, portfolio strategy, competitive positioning) is the closest reference point to EF thesis.
+Appears to model primarily PFS and standard efficacy endpoints; safety simulation is not described on the website. Does not use wearable or biomarker signals as inputs, relies on historical RWD, not latent biological state. Commercial model (4-fold: clinical dev, BD, portfolio strategy, competitive positioning) is the closest reference point to EF thesis.
 
 ## Notes
 
-Most direct commercial reference point for EF thesis. Offices in Worcester MA and Tel Aviv. Partners include Sanofi Ventures among supporters shown on homepage (logos not all labeled by name).
+Most direct commercial reference point for EF thesis. Offices in Worcester MA and Tel Aviv. Partners include Sanofi Ventures among supporters shown on homepage (logos not all labeled by name). Still Series A; total funding ~$30M.
+
+## News signals
+
+- 2025-10: Secured a strategic investment from Sanofi Ventures, bringing total funds raised to ~$30M. (source: https://www.businesswire.com/news/home/20251001876047/en/QuantHealth-Secures-Strategic-Investment-from-Sanofi-Ventures-to-Accelerate-AI-Driven-Clinical-Trials)
+- 2025-07: Reported simulating 350+ clinical trials at 90% accuracy, delivering $31.4M in savings for a top-10 pharma company. (source: https://www.businesswire.com/news/home/20250722764714/en/QuantHealth-Successfully-Simulates-350-Clinical-Trials-with-90-Accuracy-Delivering-$31.4M-in-Savings-for-a-Top-10-Pharma-Company)

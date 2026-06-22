@@ -41,7 +41,7 @@ barrier_to_entry: medium
 barrier_to_entry_logic: Building a W-2 network of 3,000+ registered dietitians credentialed with commercial, Medicare, and Medicaid payers across all 50 states took significant capital and time; insurance billing infrastructure for dietitian services is complex and historically under-built.
 hardness: moderate
 hardness_reason: Demonstrating durable clinical outcomes (A1C reduction, weight, comorbidity management) from nutrition-only and nutrition-plus-GLP-1 care across a diverse, high-chronic-disease population at scale.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -92,3 +92,7 @@ The jump from nutrition counseling to GLP-1 prescribing is a meaningful scope ex
 ## Notes
 
 Nourish's GLP-1 expansion is strategically timed: the GLP-1 market has focused heavily on prescribing access but less on the behavioral and nutritional wraparound that improves long-term outcomes and addresses the medication discontinuation problem. If Nourish can demonstrate that dietitian support improves GLP-1 adherence and outcomes, it has a strong story for payers managing GLP-1 drug spend. The dual-agent AI architecture (patient-facing and clinician-facing) mirrors the approach taken by Twin Health and other metabolic platforms and suggests the technology thesis is moving toward continuous engagement between appointments rather than the session itself.
+
+## News signals
+
+- 2026-05: Raised $100M Series C led by Menlo Ventures, valuing the company at $1.75B and bringing total funding to $215M. Other participants: Thrive Capital, Index Ventures, J.P. Morgan Growth Equity Partners, Maverick Ventures, Y Combinator, BoxGroup, Atomico. Plans to expand the care model with physicians. (source: https://www.axios.com/pro/health-tech-deals/2026/05/19/nourish-100m-metabolic-care-virtual-nutrition, https://www.fiercehealthcare.com/finance/nourish-raises-100m-plans-expand-care-model-physicians)

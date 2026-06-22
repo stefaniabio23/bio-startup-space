@@ -16,7 +16,7 @@ buyer_wtp: high
 sales_cycle: long
 regulatory_burden: heavy
 tam_usd_m: 200000
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 data_centrality: core-moat
 data_ownership:
   - proprietary
@@ -92,3 +92,8 @@ Brings advanced ML to disease modelling; still faces translation from cellular s
 ## Notes
 
 Founded by Daphne Koller (co-founder of Coursera, former Stanford AI professor, former Chief Computing Officer at Caltech), whose brand and network are part of the moat. Series C ($400M, 2024) total now $643M. The TherML platform and CombinAbleAI acquisition signal a shift from pure target discovery toward modality-agnostic drug design across the full discovery-to-development arc.
+
+## News signals
+
+- 2025-12: Published peer-reviewed validation of the POSH platform in Nature Communications; reports recovering 2.5x more functional gene relationships than conventional expert-designed analysis. (source: https://www.insitro.com/news/insitro-validates-ai-enabled-posh-platform-in-nature-communications-bridging-critical-gap-in-drug-discovery/)
+- 2026-02: Appointed Joe Hand as Chief People Officer. (source: https://tracxn.com/d/companies/insitro/__odGYTUCwnx0afpj8iTT4rl2HmWecGxDNRpU_q1qy7AU)

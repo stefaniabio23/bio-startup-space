@@ -40,7 +40,7 @@ barrier_to_entry: very-high
 barrier_to_entry_logic: DeepMind lineage, AlphaFold IP, $2.7B capital, and an exclusive frontier AI-biology talent pool mean no startup can assemble comparable infrastructure.
 hardness: moonshot
 hardness_reason: Generalising biomolecular prediction across all target classes, modalities, and binding contexts without overfitting to known chemistry.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -90,4 +90,9 @@ Brings frontier AI to molecular design, but the non-technical gap is clinical tr
 
 ## Notes
 
-Founded by Demis Hassabis as a sister company to DeepMind within Alphabet. Scientific advisory board includes Jennifer Doudna, Paul Nurse, Venki Ramakrishnan. Internal pipeline focused on oncology and immunology, not yet disclosed. $600M additional external round announced March 2025 on top of the Feb 2025 Series B.
+Founded by Demis Hassabis as a sister company to DeepMind within Alphabet. Scientific advisory board includes Jennifer Doudna, Paul Nurse, Venki Ramakrishnan. Internal pipeline focused on oncology and immunology, not yet disclosed. $600M additional external round announced March 2025 on top of the Feb 2025 Series B. Total capital raised is approximately $2.6B. Hassabis's earlier target of AI-designed drugs in the clinic by end of 2025 slipped; the company now guides to entering the clinic by end of 2026.
+
+## News signals
+
+- 2026-05: $2.1B Series B led by Thrive Capital (with Alphabet, GV, MGX, Temasek, CapitalG, UK Sovereign AI Fund) confirmed, bringing total capital to ~$2.6B. (source: https://www.prnewswire.com/news-releases/isomorphic-labs-secures-2-1-billion-funding-to-scale-its-ai-drug-design-engine-302769674.html)
+- 2026-05: Clinical timeline pushed back; first trials now expected by end of 2026, a slip from the prior end-of-2025 target. (source: https://finance.yahoo.com/news/google-backed-ai-drug-discovery-195423147.html)

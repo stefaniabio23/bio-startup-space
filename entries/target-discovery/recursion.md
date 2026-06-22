@@ -9,36 +9,36 @@ total_funding_usd_m: 950.7
 public: true
 business_model: hybrid
 buyer:
-  - pharma
-  - biotech
+ - pharma
+ - biotech
 buyer_urgency: high
 buyer_wtp: high
 sales_cycle: long
 regulatory_burden: heavy
 tam_usd_m: 200000
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 data_centrality: core-moat
 data_ownership:
-  - proprietary
-  - generated-in-house
+ - proprietary
+ - generated-in-house
 moat:
-  - data
-  - wet-lab
-  - model
-  - capital
-  - IP
+ - data
+ - wet-lab
+ - model
+ - capital
+ - IP
 input:
-  - high-content microscopy images of perturbed cells
-  - transcriptomic profiles (gene expression after perturbation)
-  - proteomic data
-  - ADME chemical property data
-  - de-identified patient data
+ - high-content microscopy images of perturbed cells
+ - transcriptomic profiles (gene expression after perturbation)
+ - proteomic data
+ - ADME chemical property data
+ - de-identified patient data
 transformation_type: predict
 output:
-  - drug target identifications
-  - lead small molecule candidates
-  - phenomaps (biological maps of perturbation space)
-  - clinical program nominations
+ - drug target identifications
+ - lead small molecule candidates
+ - phenomaps (biological maps of perturbation space)
+ - clinical program nominations
 barrier_to_entry: very-high
 barrier_to_entry_logic: $950M+ deployed to build 2.2M samples/week robotics, 36 petabytes of proprietary data, and BioHive-2 supercomputer; this cannot be replicated without equivalent capital and time.
 hardness: moonshot
@@ -88,8 +88,14 @@ NVIDIA (compute infrastructure, BioHive-2), genomic biobank providers, clinical 
 
 ## Gaps
 
-Advanced technical stack; clinical translation remains the bottleneck — large-scale perturbation response does not automatically translate to clinical programs.
+Advanced technical stack; clinical translation remains the bottleneck, large-scale perturbation response does not automatically translate to clinical programs.
 
 ## Notes
 
 Recursion acquired Exscientia in 2024, adding generative chemistry and AI-designed small molecule capability to the phenomics platform. Valence Labs is the research and foundation-model arm (not a separate company) publishing open-science AI tools (TxPert, GFlowNets, ET-Flow) to build scientific credibility and attract ML talent. The combined entity is the most vertically integrated AI drug discovery company that is publicly traded, making it a useful public market benchmark for the sector.
+
+## News signals
+
+- 2026-05: Q1 2026 results reported revenue of $6.5M; cash runway guided into early 2028 with 2026 operational cash burn under $390M. (source: https://www.sec.gov/Archives/edgar/data/0001601830/000160183026000077/exhibit991-q0126.htm)
+- 2026-05: REC-4881 (FAP) showed Phase 2 efficacy signals; FDA engagement initiated to define a potential registrational pathway, with an update expected in 2H26. (source: https://www.investing.com/news/company-news/recursion-q1-2026-slides-ai-pipeline-advances-amid-revenue-challenges-93CH-4681698)
+- 2026-05: First patient dosed in Phase 1 for REC-4539 (LSD1 inhibitor) in solid tumors and AML. (source: https://www.investing.com/news/company-news/recursion-q1-2026-slides-ai-pipeline-advances-amid-revenue-challenges-93CH-4681698)

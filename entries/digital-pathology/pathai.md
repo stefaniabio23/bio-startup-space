@@ -4,13 +4,13 @@ name: PathAI
 website: pathai.com
 founded: 2016
 area: ai pathology
-funding_stage: series-c
+funding_stage: acquired
 total_funding_usd_m: 255
 public: false
 business_model: hybrid
 buyer:
-  - pharma
-  - provider
+ - pharma
+ - provider
 buyer_urgency: high
 buyer_wtp: high
 sales_cycle: long
@@ -18,30 +18,30 @@ regulatory_burden: heavy
 tam_usd_m: 15000
 data_centrality: core-moat
 data_ownership:
-  - partner-supplied
-  - licensed
-  - proprietary
+ - partner-supplied
+ - licensed
+ - proprietary
 moat:
-  - data
-  - model
-  - distribution
-  - clinical-evidence
+ - data
+ - model
+ - distribution
+ - clinical-evidence
 primary_value_chain_layer: patient-stratification
 input:
-  - whole-slide pathology images (H&E and IHC stained)
-  - clinical outcome annotations
-  - biomarker labels from pharma partners
+ - whole-slide pathology images (H&E and IHC stained)
+ - clinical outcome annotations
+ - biomarker labels from pharma partners
 transformation_type: predict
 output:
-  - biomarker predictions from pathology slides
-  - patient stratification for clinical trials
-  - AI-assisted pathology workflow tools
-  - companion diagnostic development
+ - biomarker predictions from pathology slides
+ - patient stratification for clinical trials
+ - AI-assisted pathology workflow tools
+ - companion diagnostic development
 barrier_to_entry: very-high
-barrier_to_entry_logic: Trained on millions of annotated pathology slides with AstraZeneca and BMS partner labels — dataset size and annotation quality cannot be quickly replicated; pharma distribution lock-in deepens with each partnership.
+barrier_to_entry_logic: Trained on millions of annotated pathology slides with AstraZeneca and BMS partner labels, dataset size and annotation quality cannot be quickly replicated; pharma distribution lock-in deepens with each partnership.
 hardness: very-hard
 hardness_reason: Getting FDA clearance for AI-assisted pathology biomarkers that can replace or augment pathologist judgement as primary endpoints in regulatory submissions.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -58,7 +58,7 @@ Manual pathologist review, semi-quantitative IHC scoring (e.g. PD-L1 TPS/CPS), c
 
 ## Entry wedge
 
-Pharma partnerships for clinical trial biomarker development — PathAI entered by solving the reproducibility problem in pathology-based endpoint assessment for clinical trials, where inter-pathologist variability is a known regulatory risk.
+Pharma partnerships for clinical trial biomarker development, PathAI entered by solving the reproducibility problem in pathology-based endpoint assessment for clinical trials, where inter-pathologist variability is a known regulatory risk.
 
 ## Method
 
@@ -70,7 +70,7 @@ Digital pathology market estimated at $15B+ growing rapidly as companion diagnos
 
 ## Validated by
 
-$255M raised including Series C (2021). Partnerships with AstraZeneca (oncology biomarkers), Bristol-Myers Squibb, Quest Diagnostics. FDA 510(k) submissions for pathology AI tools. Over 15 biopharma partnerships.
+$255M raised including Series C (2021). Partnerships with AstraZeneca (oncology biomarkers), Bristol-Myers Squibb, Quest Diagnostics. AISight Dx received FDA clearance for primary diagnosis (2025, with a Predetermined Change Control Plan). Over 15 biopharma partnerships. In May 2026 Roche agreed to acquire PathAI for up to $1.05B ($750M upfront plus up to $300M in milestones).
 
 ## Competes with
 
@@ -87,8 +87,14 @@ Whole-slide scanner vendors (Leica, Aperio, Hamamatsu), LIMS platforms, companio
 
 ## Gaps
 
-Slide-based only — does not incorporate liquid biopsy, genomics, or wearable signals for multimodal patient profiling. Regulatory pathway for AI-as-primary-endpoint is still evolving.
+Slide-based only, does not incorporate liquid biopsy, genomics, or wearable signals for multimodal patient profiling. Regulatory pathway for AI-as-primary-endpoint is still evolving.
 
 ## Notes
 
-HQ: Boston. CEO Andy Beck (co-founder, Harvard MD/PhD). One of the most established AI pathology platforms in pharma partnerships. The AstraZeneca partnership is a reference case for AI-driven companion diagnostic development.
+HQ: Boston. CEO Andy Beck (co-founder, Harvard MD/PhD). One of the most established AI pathology platforms in pharma partnerships. The AstraZeneca partnership is a reference case for AI-driven companion diagnostic development. PathAI is being acquired by Roche (definitive agreement signed May 2026), which folds the AISight platform and biomarker algorithms into Roche Diagnostics.
+
+## News signals
+
+- 2025: AISight Dx received FDA clearance for primary diagnosis, including a Predetermined Change Control Plan for future enhancements. (source: https://www.pathai.com/about-us)
+- 2025-07: Announced a multi-year partnership with Northwestern Medicine to deploy AISight and co-develop AI diagnostics. (source: https://www.pathai.com/about-us)
+- 2026-05: Roche entered a definitive agreement to acquire PathAI for up to $1.05B ($750M upfront plus up to $300M in milestones); close expected in 2H 2026 pending regulatory approval. (source: https://www.roche.com/media/releases/med-cor-2026-05-07)

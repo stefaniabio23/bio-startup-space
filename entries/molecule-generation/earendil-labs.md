@@ -9,8 +9,8 @@ total_funding_usd_m: 787
 public: false
 business_model: hybrid
 buyer:
-  - pharma
-  - biotech
+ - pharma
+ - biotech
 buyer_urgency: high
 buyer_wtp: high
 sales_cycle: long
@@ -18,33 +18,33 @@ regulatory_burden: heavy
 tam_usd_m: 40000
 data_centrality: core-moat
 data_ownership:
-  - proprietary
-  - generated-in-house
-  - partner-supplied
+ - proprietary
+ - generated-in-house
+ - partner-supplied
 moat:
-  - model
-  - IP
-  - clinical-evidence
-  - wet-lab
-  - data
+ - model
+ - IP
+ - clinical-evidence
+ - wet-lab
+ - data
 primary_value_chain_layer: discovery
 input:
-  - protein sequences
-  - antibody-antigen interaction data
-  - structural biology data
-  - immune library screening outputs
-  - single B cell screening data
+ - protein sequences
+ - antibody-antigen interaction data
+ - structural biology data
+ - immune library screening outputs
+ - single B cell screening data
 transformation_type: generate
 output:
-  - de novo antibody sequences with optimized biophysical properties
-  - bispecific and multispecific antibody candidates
-  - ADC, TCE, and fusion protein designs
-  - partnered programs (Sanofi licensing deals)
+ - de novo antibody sequences with optimized biophysical properties
+ - bispecific and multispecific antibody candidates
+ - ADC, TCE, and fusion protein designs
+ - partnered programs (Sanofi licensing deals)
 barrier_to_entry: high
 barrier_to_entry_logic: Integrated AI+wet-lab closed loop generates proprietary training data with each iteration; early Sanofi deals create milestone-funded pipeline depth that pure-software competitors cannot match, and the founder (Jian Peng, ex-UIUC professor) brings a rare combination of foundational AI and structural biology credibility.
 hardness: very-hard
-hardness_reason: Demonstrating that AI-designed antibodies translate to clinical efficacy at a rate materially better than conventional discovery — the field has not yet produced an AI-native approved antibody.
-last_verified: "2026-06-21"
+hardness_reason: Demonstrating that AI-designed antibodies translate to clinical efficacy at a rate materially better than conventional discovery, the field has not yet produced an AI-native approved antibody.
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -61,11 +61,11 @@ CRO-based antibody discovery (Abzena, WuXi Biologics), in-house hybridoma platfo
 
 ## Entry wedge
 
-Foundational Protein AI Platform covering sequence, structure, and interaction modeling — combined with a high-throughput biology lab for closed-loop validation. First external signal: April 2025 worldwide exclusive license agreement with Sanofi covering HXN-1002 (TL1A/a4b7 bsAb) and HXN-1003 (TL1A/IL23p19 bsAb) for IBD; $125M upfront + up to $1.72B milestones. January 2026 broader Sanofi collaboration: $160M upfront + up to $2.56B milestones.
+Foundational Protein AI Platform covering sequence, structure, and interaction modeling, combined with a high-throughput biology lab for closed-loop validation. First external signal: April 2025 worldwide exclusive license agreement with Sanofi covering HXN-1002 (TL1A/a4b7 bsAb) and HXN-1003 (TL1A/IL23p19 bsAb) for IBD; $125M upfront + up to $1.72B milestones. January 2026 broader Sanofi collaboration: $160M upfront + up to $2.56B milestones.
 
 ## Method
 
-Three-layer platform: (1) Foundational Protein AI — property prediction across biophysics, immunogenicity, half-life, and binding affinity; (2) Structure Modeling — CDR prediction, mutational modeling, de novo library design; (3) High-Throughput Biology — human naive and immune libraries, AI-designed library screening, AI-guided optimization with closed-loop retraining. Ambrosia-equivalent design cycle produces candidates that feed directly into experimental validation.
+Three-layer platform: (1) Foundational Protein AI, property prediction across biophysics, immunogenicity, half-life, and binding affinity; (2) Structure Modeling, CDR prediction, mutational modeling, de novo library design; (3) High-Throughput Biology, human naive and immune libraries, AI-designed library screening, AI-guided optimization with closed-loop retraining. Ambrosia-equivalent design cycle produces candidates that feed directly into experimental validation.
 
 ## TAM logic
 
@@ -94,4 +94,9 @@ No approved drug. All programs in discovery or early clinical stage. Platform co
 
 ## Notes
 
-Founded by Jian Peng (ex-UIUC professor, ISCB Overton Prize, RECOMB 2021 Program Chair) and Dr. Zhenping Zhu (ex-VP Global Head Protein Science Novartis, discoverer of cetuximab, ramucirumab, necitumumab). Company appears to be China-originated or China-connected based on investor base (DST Global, INCE Capital, Miracle Capital) and program naming (HXN prefix). $787M financing includes strategic investment from Pfizer (via Hillhouse Biotech Development Fund) and Sanofi, both of whom are also licensing programs — a dual financial-and-commercial relationship.
+Founded by Jian Peng (ex-UIUC professor, ISCB Overton Prize, RECOMB 2021 Program Chair) and Dr. Zhenping Zhu (ex-VP Global Head Protein Science Novartis, discoverer of cetuximab, ramucirumab, necitumumab). Company appears to be China-originated or China-connected based on investor base (DST Global, INCE Capital, Miracle Capital) and program naming (HXN prefix). $787M financing includes strategic investment from Pfizer (via Hillhouse Biotech Development Fund) and Sanofi, both of whom are also licensing programs, a dual financial-and-commercial relationship.
+
+## News signals
+
+- 2026-01: Strategic collaboration with Sanofi for bispecific antibodies in autoimmune disease, $160M upfront/near-term and up to $2.56B in total milestones plus tiered royalties. (source: https://www.prnewswire.com/news-releases/earendil-labs-announces-strategic-collaboration-with-sanofi-to-discover-bispecific-antibodies-for-autoimmune-diseases-302652305.html)
+- 2026-03: Announced $787M in total financing from Dimension Capital, DST Global, INCE Capital, Luminous Ventures, Miracle Capital, Sanofi, and the Hillhouse/Pfizer Biotech Development Fund. (source: https://www.prnewswire.com/news-releases/earendil-labs-announces-787-million-in-financing-to-scale-ai-driven-biologics-discovery-and-development-302719748.html)

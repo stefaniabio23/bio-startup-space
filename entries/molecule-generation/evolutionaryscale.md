@@ -4,13 +4,13 @@ name: EvolutionaryScale
 website: evolutionaryscale.ai
 founded: 2023
 area: protein foundation models
-funding_stage: series-a
+funding_stage: acquired
 total_funding_usd_m: 142
 public: false
 business_model: partnerships
 buyer:
-  - pharma
-  - biotech
+ - pharma
+ - biotech
 buyer_urgency: medium
 buyer_wtp: high
 sales_cycle: long
@@ -18,29 +18,29 @@ regulatory_burden: light
 tam_usd_m: 24260
 data_centrality: core-moat
 data_ownership:
-  - public
-  - proprietary
-  - generated-in-house
+ - public
+ - proprietary
+ - generated-in-house
 moat:
-  - model
-  - founder-brand
-  - data
-  - IP
+ - model
+ - founder-brand
+ - data
+ - IP
 primary_value_chain_layer: discovery
 input:
-  - protein sequences
-  - protein structures
-  - protein function annotations
+ - protein sequences
+ - protein structures
+ - protein function annotations
 transformation_type: generate
 output:
-  - novel protein sequences conditioned on structure or function
-  - protein structure predictions
-  - protein design tooling via API
+ - novel protein sequences conditioned on structure or function
+ - protein structure predictions
+ - protein design tooling via API
 barrier_to_entry: very-high
 barrier_to_entry_logic: ESM3 required years of pretraining on 100M+ protein sequences at Meta AI scale; founders (Rives, Hayes, Lin) are among the handful who built the original ESM models at FAIR.
 hardness: very-hard
 hardness_reason: Translating protein language model embeddings into commercially valuable protein designs with confirmed wet-lab activity across diverse target classes and therapeutic modalities.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -57,7 +57,7 @@ Academic tools (RFdiffusion, ProteinMPNN), internal computational biology teams,
 
 ## Entry wedge
 
-ESM3 (2024): a multimodal protein language model conditioning jointly on sequence, structure, and function — released with a research licence and API access. The paper demonstrated generation of a novel fluorescent protein (esmGFP) with sequence identity far below any known fluorescent protein, establishing a benchmark result for the field.
+ESM3 (2024): a multimodal protein language model conditioning jointly on sequence, structure, and function, released with a research licence and API access. The paper demonstrated generation of a novel fluorescent protein (esmGFP) with sequence identity far below any known fluorescent protein, establishing a benchmark result for the field.
 
 ## Method
 
@@ -90,4 +90,8 @@ API access model means EvolutionaryScale does not own therapeutic programs; comm
 
 ## Notes
 
-Spun out of Meta AI (FAIR) by the team that built ESM1, ESM2, and ESMFold. Thomas Hayes (CEO) led ESM development at Meta. The ESM model family has been the most widely adopted protein language model in academic and industry research.
+Spun out of Meta AI (FAIR) by the team that built ESM1, ESM2, and ESMFold. Thomas Hayes (CEO) led ESM development at Meta. The ESM model family has been the most widely adopted protein language model in academic and industry research. Acquired by Chan Zuckerberg Biohub in November 2025 (terms undisclosed); the ~50-person team joined Biohub and co-founder Alex Rives became CZI/Biohub Head of Science. The acquisition removes EvolutionaryScale as an independent commercial vendor and folds its models into CZI's non-profit research mission.
+
+## News signals
+
+- 2025-11: Acquired by Chan Zuckerberg Biohub; team and ESM technology brought in-house, co-founder Alex Rives named Head of Science. Financial terms undisclosed. (source: https://www.axios.com/2025/11/06/zuckerberg-chan-biohub-ai-disease)

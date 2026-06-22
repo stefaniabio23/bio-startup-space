@@ -4,43 +4,43 @@ name: Relation Therapeutics
 website: relationrx.com
 founded: 2019
 area: target validation
-funding_stage: seed
-total_funding_usd_m: 86
+funding_stage: unknown
+total_funding_usd_m: 116
 public: false
 business_model: partnerships
 buyer:
-  - pharma
-  - biotech
+ - pharma
+ - biotech
 buyer_urgency: high
 buyer_wtp: high
 sales_cycle: long
 regulatory_burden: medium
 tam_usd_m: 200000
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 data_centrality: core-moat
 data_ownership:
-  - proprietary
-  - generated-in-house
-  - partner-supplied
+ - proprietary
+ - generated-in-house
+ - partner-supplied
 moat:
-  - data
-  - wet-lab
-  - IP
-  - model
+ - data
+ - wet-lab
+ - IP
+ - model
 input:
-  - "patient tissue samples (bone, immune, connective)"
-  - "single-cell transcriptomics"
-  - "spatial transcriptomics"
-  - "human genetics / GWAS data"
-  - "perturbational omics screens"
+ - "patient tissue samples (bone, immune, connective)"
+ - "single-cell transcriptomics"
+ - "spatial transcriptomics"
+ - "human genetics / GWAS data"
+ - "perturbational omics screens"
 transformation_type: predict
 output:
-  - "validated drug targets"
-  - "patient subgroup signatures"
-  - "novel therapeutic programs"
-  - "disease atlases (e.g. Osteomics bone atlas)"
+ - "validated drug targets"
+ - "patient subgroup signatures"
+ - "novel therapeutic programs"
+ - "disease atlases (e.g. Osteomics bone atlas)"
 barrier_to_entry: high
-barrier_to_entry_logic: Osteomics bone atlas required years of hospital access, tissue collection, and single-cell processing across UK and Australian hospitals — not replicable quickly by pharma internal teams.
+barrier_to_entry_logic: Osteomics bone atlas required years of hospital access, tissue collection, and single-cell processing across UK and Australian hospitals, not replicable quickly by pharma internal teams.
 hardness: hard
 hardness_reason: Human tissue-derived targets still fail in clinical trials at high rates; platform validation does not guarantee the drug succeeds.
 ---
@@ -59,7 +59,7 @@ Animal models, cell lines, literature review, genetic association studies, pharm
 
 ## Entry wedge
 
-Started with osteoporosis as the anchor disease, building Osteomics — the world's largest functional single-cell bone atlas — from patient-derived samples across UK and Australian hospitals. This proprietary atlas created a defensible dataset that no pharma could quickly replicate, making Relation credible as a target discovery partner before any drug entered the clinic.
+Started with osteoporosis as the anchor disease, building Osteomics, the world's largest functional single-cell bone atlas, from patient-derived samples across UK and Australian hospitals. This proprietary atlas created a defensible dataset that no pharma could quickly replicate, making Relation credible as a target discovery partner before any drug entered the clinic.
 
 ## Method
 
@@ -92,4 +92,9 @@ Does not run its own clinical programs (though Deerfield deal creates spinouts).
 
 ## Notes
 
-Rebranded website from relationtx.com to relationrx.com. HQ: Regent's Place, London. ~130 employees as of 2026. NVIDIA compute partnership for ML infrastructure. Primary disease focus: osteoporosis, immunology, metabolic disease.
+Rebranded website from relationtx.com to relationrx.com. HQ: Regent's Place, London. ~130 employees as of 2026. NVIDIA compute partnership for ML infrastructure. Primary disease focus: osteoporosis, immunology, metabolic disease. Total funding ~$116M; the rounds are not publicly labelled with a clean Series stage, so funding_stage is set to unknown.
+
+## News signals
+
+- 2025-12: Announced strategic collaboration with Novartis for atopic diseases, $55M upfront (including equity and R&D funding) plus up to $1.7B in milestones and tiered royalties. (source: https://www.globenewswire.com/news-release/2025/12/09/3202076/0/en/Relation-announces-strategic-collaboration-with-Novartis-to-advance-therapeutics-for-atopic-diseases.html)
+- 2025-12: Raised a $26M round co-led by NVentures, DCVC, and Magnetic Ventures, bringing total funding to ~$116M. (source: https://www.dcvc.com/news-insights/relation-unveils-atopic-diseases-agreement-with-novartis-55-million-up-front-and-up-to-1-7-billion-in-milestone-based-payments-dcvc-nvidia-nventures-and-magnetic-ventures-co-lead-26m-fundraise/)

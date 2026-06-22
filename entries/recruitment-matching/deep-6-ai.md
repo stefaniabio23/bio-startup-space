@@ -17,7 +17,7 @@ buyer_wtp: medium
 sales_cycle: medium
 regulatory_burden: light
 tam_usd_m: 5000
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 data_centrality: core-moat
 data_ownership:
   - customer-generated
@@ -36,7 +36,7 @@ output:
   - estimated time-to-enrollment projections
   - site feasibility scores
 barrier_to_entry: high
-barrier_to_entry_logic: Acquired by Tempus in 2023; moat now merged into Tempus's oncology data and trial infrastructure. Pre-acquisition, EHR integrations at major academic centres were the key barrier.
+barrier_to_entry_logic: Acquired by Tempus in 2025; moat now merged into Tempus's oncology data and trial infrastructure. Pre-acquisition, EHR integrations at major academic centres were the key barrier.
 hardness: hard
 hardness_reason: EHR integration at scale across diverse EMR systems (Epic, Cerner) with sufficient NLP accuracy to reduce manual chart review and pass clinical validation.
 ---
@@ -67,7 +67,7 @@ Clinical trial recruitment is estimated at $5B+ annually in spend on site activa
 
 ## Validated by
 
-Acquired by Tempus AI in 2023, signaling commercial validation. Pre-acquisition, Deep 6 AI reported deployments at major academic medical centers and health systems. Tempus integration gives access to a large multimodal oncology dataset.
+Acquired by Tempus AI in March 2025, signaling commercial validation. Pre-acquisition, Deep 6 AI reported deployments at major academic medical centers and health systems. Tempus integration gives access to a large multimodal oncology dataset.
 
 ## Competes with
 
@@ -88,4 +88,8 @@ Solves enrollment speed; does not solve biological matching beyond eligibility c
 
 ## Notes
 
-Acquired by Tempus in 2023. Now operates as part of Tempus's broader oncology data and clinical trial infrastructure. Standalone competitive position as a pure-play recruitment tool no longer exists; the moat has merged into Tempus's distribution.
+Acquired by Tempus in 2025. Now operates as part of Tempus's broader oncology data and clinical trial infrastructure. Standalone competitive position as a pure-play recruitment tool no longer exists; the moat has merged into Tempus's distribution.
+
+## News signals
+
+- 2025-03: Tempus AI (NASDAQ: TEM) announced acquisition of Deep 6 AI; terms undisclosed. Adds 750+ provider site locations and 30M+ patients to Tempus's clinical trial network. Acquisition still holds as of June 2026. (source: https://www.tempus.com/news/pr/tempus-announces-acquisition-of-deep-6-ai/)

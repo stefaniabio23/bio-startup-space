@@ -9,9 +9,9 @@ total_funding_usd_m: 197
 public: false
 business_model: own-pipeline
 buyer:
-  - pharma
-  - biotech
-  - investor
+ - pharma
+ - biotech
+ - investor
 buyer_urgency: high
 buyer_wtp: high
 sales_cycle: long
@@ -19,29 +19,29 @@ regulatory_burden: heavy
 tam_usd_m: 100000
 data_centrality: supporting-evidence
 data_ownership:
-  - proprietary
-  - licensed
-  - generated-in-house
+ - proprietary
+ - licensed
+ - generated-in-house
 moat:
-  - IP
-  - wet-lab
-  - clinical-evidence
-  - founder-brand
+ - IP
+ - wet-lab
+ - clinical-evidence
+ - founder-brand
 primary_value_chain_layer: clinical development
 input:
-  - human genetic data guiding target selection
-  - licensed fusion protein scaffold (ALV-100, GIPR antagonist / GLP-1R agonist)
-  - amylin biology from Novo Nordisk / Eli Lilly institutional expertise
+ - human genetic data guiding target selection
+ - licensed fusion protein scaffold (ALV-100, GIPR antagonist / GLP-1R agonist)
+ - amylin biology from Novo Nordisk / Eli Lilly institutional expertise
 transformation_type: generate
 output:
-  - Phase 2 clinical data for ALV-100 (GIP antagonist / GLP-1 agonist fusion protein)
-  - IND filing for ALV-200 (selective AMYR3 peptide agonist)
-  - pipeline of oral and injectable metabolic agents
+ - Phase 2 clinical data for ALV-100 (GIP antagonist / GLP-1 agonist fusion protein)
+ - IND filing for ALV-200 (selective AMYR3 peptide agonist)
+ - pipeline of oral and injectable metabolic agents
 barrier_to_entry: high
 barrier_to_entry_logic: Obesity drug development requires expensive Phase 2/3 trials with long-duration weight loss endpoints; the GLP-1/GIP space is dominated by Novo Nordisk and Lilly with approved products and deep clinical infrastructure, making differentiation essential and difficult.
 hardness: very-hard
 hardness_reason: Achieving weight loss efficacy and tolerability profiles meaningfully better than approved tirzepatide (Lilly) and semaglutide (Novo) within a crowded capital market willing to fund many competing programs simultaneously.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -74,7 +74,7 @@ $160M initial Series A closed January 8, 2026; oversubscribed second closing add
 
 ## Competes with
 
-Novo Nordisk (semaglutide, cagrilintide, amycretin). Eli Lilly (tirzepatide, retatrutide). Pfizer (MariTide/AMG133 — GIPR antagonist / GLP-1R agonist, the closest structural analog to ALV-100). Amgen (MariTide). Kailera Therapeutics (dual GLP-1/GIP agonist — different GIPR mechanism). Structure Therapeutics, Terns Pharmaceuticals (oral GLP-1). Dozens of other next-gen obesity biotechs funded 2024-2026.
+Novo Nordisk (semaglutide, cagrilintide, amycretin). Eli Lilly (tirzepatide, retatrutide). Pfizer (MariTide/AMG133, GIPR antagonist / GLP-1R agonist, the closest structural analog to ALV-100). Amgen (MariTide). Kailera Therapeutics (dual GLP-1/GIP agonist, different GIPR mechanism). Structure Therapeutics, Terns Pharmaceuticals (oral GLP-1). Dozens of other next-gen obesity biotechs funded 2024-2026.
 
 ## Complements
 

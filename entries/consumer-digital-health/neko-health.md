@@ -17,7 +17,7 @@ buyer_wtp: medium
 sales_cycle: short
 regulatory_burden: medium
 tam_usd_m: 20200
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 data_centrality: important-enabler
 data_ownership:
   - customer-generated
@@ -71,7 +71,7 @@ Neko positions against the global preventive health market, framing annual scans
 
 ## Validated by
 
-$325M Series B (led by General Catalyst and Lakestar, 2024). Operational clinics in Stockholm and London. High NPS and waitlist demand reported in press. No published clinical outcomes data on early disease detection rates at time of research.
+$260M Series B (January 2025, led by Lightspeed Venture Partners, with General Catalyst, Lakestar, Atomico, and others) at a $1.8B valuation, bringing total funding to $325M including the $65M Series A. Operational clinics in Stockholm and London, with US expansion (NYC) planned for 2026. 100,000+ on the global waitlist; 80% of members prepay for the following year. No published clinical outcomes data on early disease detection rates at time of research.
 
 ## Competes with
 
@@ -88,8 +88,12 @@ Wearable companies (Apple, Whoop, Garmin) for between-scan monitoring, GP and sp
 
 ## Gaps
 
-Neko produces a snapshot, not continuous monitoring — no longitudinal biological state inference between visits. The physician review component is a human bottleneck that limits throughput scaling. No published evidence base on sensitivity/specificity for early disease detection yet. Revenue model depends on repeat visits; retention economics unclear. Does not yet operate at scale outside Stockholm and London.
+Neko produces a snapshot rather than continuous monitoring, with no longitudinal biological state inference between visits. The physician review component is a human bottleneck that limits throughput scaling. No published evidence base on sensitivity/specificity for early disease detection yet. Revenue model depends on repeat visits; retention economics unclear. Does not yet operate at scale outside Stockholm and London.
 
 ## Notes
 
-Co-founded by Daniel Ek (Spotify) and Hjalmar Nilsonne. The founder brand is a significant distribution advantage in Europe. $325M Series B in 2024 is a large round for a consumer health services company, suggesting investors are betting on clinic network expansion rather than near-term unit economics.
+Co-founded by Daniel Ek (Spotify) and Hjalmar Nilsonne. The founder brand is a significant distribution advantage in Europe. The $260M Series B (January 2025), bringing total funding to $325M at a $1.8B valuation, is a large round for a consumer health services company, suggesting investors are betting on clinic network expansion rather than near-term unit economics.
+
+## News signals
+
+- 2025-01: Raised $260M Series B led by Lightspeed Venture Partners (with General Catalyst, Lakestar, Atomico) at a $1.8B valuation, bringing total funding to $325M. Plans US expansion. (source: https://www.nekohealth.com/se/en/neko-health-raises-260m-series-b)

@@ -9,7 +9,7 @@ total_funding_usd_m: 979
 public: false
 business_model: reimbursement
 buyer:
-  - consumer
+ - consumer
 buyer_urgency: medium
 buyer_wtp: medium
 sales_cycle: short
@@ -17,34 +17,34 @@ regulatory_burden: light
 tam_usd_m: 60000
 data_centrality: core-moat
 data_ownership:
-  - customer-generated
-  - proprietary
+ - customer-generated
+ - proprietary
 moat:
-  - data
-  - distribution
-  - founder-brand
-  - capital
+ - data
+ - distribution
+ - founder-brand
+ - capital
 primary_value_chain_layer: consumer health wearable and subscription platform
 input:
-  - continuous PPG (heart rate, SpO2)
-  - skin temperature
-  - accelerometry (activity, sleep staging)
-  - ECG (WHOOP MG model only, FDA-cleared)
-  - user-reported behaviors and symptoms
+ - continuous PPG (heart rate, SpO2)
+ - skin temperature
+ - accelerometry (activity, sleep staging)
+ - ECG (WHOOP MG model only, FDA-cleared)
+ - user-reported behaviors and symptoms
 transformation_type: monitor
 output:
-  - daily Recovery score
-  - daily Strain score
-  - sleep performance and staging analysis
-  - Healthspan / biological age estimation
-  - Blood Pressure Insights (trend, not diagnosis)
-  - Clinician-reviewed Advanced Labs blood biomarkers
-  - AFib detection reports (WHOOP MG only)
+ - daily Recovery score
+ - daily Strain score
+ - sleep performance and staging analysis
+ - Healthspan / biological age estimation
+ - Blood Pressure Insights (trend, not diagnosis)
+ - Clinician-reviewed Advanced Labs blood biomarkers
+ - AFib detection reports (WHOOP MG only)
 barrier_to_entry: high
 barrier_to_entry_logic: WHOOP has 2.5M+ members, $979M raised, 14-year proprietary dataset of continuous physiological data, a subscription flywheel, and elite athlete and celebrity brand anchors that create asymmetric distribution advantages.
 hardness: hard
 hardness_reason: Demonstrating that continuous passive monitoring meaningfully changes long-term health outcomes at population scale to justify clinical or payer uptake beyond motivated consumer enthusiasts.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -53,7 +53,7 @@ Sells a screenless wearable fitness tracker and a subscription platform that giv
 
 ## Problem
 
-People cannot tell objectively when their body is ready to train, when it needs rest, or when subclinical health signals (cardiovascular strain, sleep debt, aging pace) are accumulating — so they over-train, under-recover, and miss early warning signals.
+People cannot tell objectively when their body is ready to train, when it needs rest, or when subclinical health signals (cardiovascular strain, sleep debt, aging pace) are accumulating, so they over-train, under-recover, and miss early warning signals.
 
 ## Workaround
 
@@ -72,13 +72,13 @@ WHOOP 5.0 (launched May 2025) and WHOOP MG (medical-grade ECG model) continuousl
 - Blood Pressure Insights: trend-level cardiovascular signal (FDA warning letter received July 2025 for diagnostic framing; resolved under expanded FDA General Wellness guidance in 2026)
 - ARPA-H coalition: WHOOP joined a $34.5M ARPA-H-backed consortium to develop FDA-grade continuous monitoring protocols
 - AI Coaching: natural language daily coaching integrated into the WHOOP app
-- Membership tiers: One ($199/yr), Peak ($239/yr), Life ($359/yr) — hardware bundled in membership
+- Membership tiers: One ($199/yr), Peak ($239/yr), Life ($359/yr), hardware bundled in membership
 
 Subscription model: the device is not purchased separately; membership includes hardware and software, creating high retention and predictable recurring revenue. 2025 bookings grew 103% YoY; company ended 2025 at a $1.1B annualized run rate and cash flow positive.
 
 ## TAM logic
 
-WHOOP does not publish a formal TAM. The consumer wearable market is estimated at $60B+ globally and growing. WHOOP's expansion into Advanced Labs and clinical-adjacent features positions it to capture employer wellness, payer-directed prevention, and eventually reimbursement for continuous monitoring in chronic disease management — potentially expanding addressable market well beyond fitness enthusiasts.
+WHOOP does not publish a formal TAM. The consumer wearable market is estimated at $60B+ globally and growing. WHOOP's expansion into Advanced Labs and clinical-adjacent features positions it to capture employer wellness, payer-directed prevention, and eventually reimbursement for continuous monitoring in chronic disease management, potentially expanding addressable market well beyond fitness enthusiasts.
 
 ## Validated by
 
@@ -99,8 +99,12 @@ Advanced Labs (blood biomarker result integration), ARPA-H clinical research pro
 
 ## Gaps
 
-WHOOP produces behavioral and physiological performance signals, not diagnoses or clinical endpoints. The FDA warning letter on Blood Pressure Insights (July 2025) illustrates the regulatory friction of bridging consumer wellness and clinical claims. The platform is consumer-pull, not clinician-push — physician adoption of WHOOP data in care decisions is nascent. No FDA-cleared remote patient monitoring product means payer reimbursement is not yet accessible. The 2.5M member base is large for a consumer wearable but small relative to the chronic disease populations that would unlock institutional revenue.
+WHOOP produces behavioral and physiological performance signals, not diagnoses or clinical endpoints. The FDA warning letter on Blood Pressure Insights (July 2025) illustrates the regulatory friction of bridging consumer wellness and clinical claims. The platform is consumer-pull, not clinician-push, physician adoption of WHOOP data in care decisions is nascent. No FDA-cleared remote patient monitoring product means payer reimbursement is not yet accessible. The 2.5M member base is large for a consumer wearable but small relative to the chronic disease populations that would unlock institutional revenue.
 
 ## Notes
 
-Series G investor list (Ronaldo, LeBron, Rory McIlroy, Niall Horan, Qatar Investment Authority, Mubadala) is a deliberate global distribution strategy, not incidental celebrity. Abbott and Mayo Clinic as investors signal a possible clinical legitimacy play. CEO Will Ahmed has stated IPO is the next step post-Series G. The $10.1B valuation at 9x annualized revenue reflects high growth expectations; path to profitability at that multiple depends on subscription retention and upsell to higher-tier memberships. WHOOP competes on data depth and personalization, not device features — the screenless design is a deliberate constraint that signals "this is not a smartwatch."
+Series G investor list (Ronaldo, LeBron, Rory McIlroy, Niall Horan, Qatar Investment Authority, Mubadala) is a deliberate global distribution strategy, not incidental celebrity. Abbott and Mayo Clinic as investors signal a possible clinical legitimacy play. CEO Will Ahmed has stated IPO is the next step post-Series G. The $10.1B valuation at 9x annualized revenue reflects high growth expectations; path to profitability at that multiple depends on subscription retention and upsell to higher-tier memberships. WHOOP competes on data depth and personalization rather than device features. The screenless design is a deliberate constraint that signals "this is not a smartwatch."
+
+## News signals
+
+- 2026-03: Raised $575M Series G led by Collaborative Fund at a $10.1B valuation (roughly tripling the 2021 valuation), bringing total raised since 2012 to ~$979M. Investors include Qatar Investment Authority, Mubadala, Abbott, Mayo Clinic, and athlete-investors Cristiano Ronaldo, LeBron James, Rory McIlroy. CEO Will Ahmed said this is expected to be the last private round before an IPO. (source: https://www.businesswire.com/news/home/20260331399622/en/WHOOP-Raises-$575-Million-at-$10.1-Billion-Valuation-to-Advance-Global-Health-Platform, https://techcrunch.com/2026/03/31/whoop-valuation-10b-series-g-fundraise/)

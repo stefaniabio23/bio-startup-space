@@ -37,7 +37,7 @@ barrier_to_entry: very-high
 barrier_to_entry_logic: FDA 510(k) clearance for a novel implantable radiation device, Phase 3 RCT data showing 93% reduction in recurrence risk vs standard of care, manufacturing of cesium-131 bioabsorbable implants, and adoption in 150+ neurosurgical centers require a decade-scale capital and clinical program.
 hardness: moonshot
 hardness_reason: Running and winning a powered Phase 3 randomized controlled trial (ROADS) against stereotactic radiosurgery, which is a well-established and reimbursed standard of care, while simultaneously commercializing a novel implantable radiation product at 150+ centers.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -88,3 +88,8 @@ The current commercial footprint (150+ centers, 2,000 patients treated by mid-20
 ## Notes
 
 Founders include Peter Nakaji, Theresa Thomas, Emad Youssef, Heyoung McBride, and David Brachman (CTO). CEO Per Langoe. Based in Tempe, Arizona. The ROADS RCT result (93% reduction in 12-month recurrence risk, p < 0.001) is one of the strongest controlled evidence packages produced by a medtech startup in the brain tumor space. The Series E close at $100M in June 2026 followed the ASCO data release, suggesting investors are backing a commercialization acceleration rather than further de-risking. Viking Global Investors (a hedge fund) leading the Series E signals entry of late-stage crossover capital ahead of a possible IPO or strategic acquisition by a large radiation oncology company.
+
+## News signals
+
+- 2026-06: Completed oversubscribed $100M Series E led by Viking Global Investors, with MVM Partners, Gilde Healthcare, Evidity Health Capital, Medtech Venture Partners, FemHealth Ventures. Funds support commercial expansion and the newly initiated BRIDGES RCT in newly diagnosed glioblastoma. (source: https://www.prnewswire.com/news-releases/gt-medical-technologies-completes-oversubscribed-100-million-series-e-equity-financing-to-advance-commercial-treatment-for-patients-with-operable-brain-tumors-302794352.html)
+- 2026-06: ROADS RCT data presented in oral session at ASCO 2026 showed GammaTile reduced risk of tumor recurrence at 12 months by 93% and risk of death by 41% vs standard of care. (source: https://www.auntminnie.com/clinical-news/radiation-oncology-therapy/news/15827349/gt-medical-technologies-raises-100m-for-gammatile-radiotherapy)

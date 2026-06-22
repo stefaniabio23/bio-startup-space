@@ -41,7 +41,7 @@ barrier_to_entry: medium
 barrier_to_entry_logic: Network effects between 26,000+ therapists and 2M+ patient relationships create switching cost for both sides; insurance credentialing infrastructure and billing ops are costly to replicate, but the marketplace model itself is not technically defensible.
 hardness: moderate
 hardness_reason: Maintaining therapist quality and network density across 47 states at scale while competing on both consumer acquisition and provider recruitment simultaneously.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -92,3 +92,7 @@ The marketplace model creates limited clinical data ownership: sessions happen b
 ## Notes
 
 Grow Therapy became profitable before raising its Series D, which is unusual for a consumer health marketplace and suggests strong unit economics at the billing-capture layer. The $1B revenue figure is gross (insurance payments flowing through the platform before provider payout), not Grow's net take. The Tenor Therapy acquisition signals a move toward monetizing the provider-side workflow beyond take-rate, creating a parallel SaaS-like revenue stream. Grow's model is more defensible on the supply side (provider relationships, credentialing infrastructure) than the demand side, where patient acquisition costs are high and BetterHelp/Talkspace compete with direct marketing.
+
+## News signals
+
+- 2026-03: Raised $150M Series D at a $3B valuation, led by TCV and Growth Equity at Goldman Sachs Alternatives, with new investors BCI and Menlo Ventures. Reported ~$1B revenue, profitability, and 7M visits in 2025. (source: https://bhbusiness.com/2026/03/03/with-1b-in-revenue-grow-therapy-lands-150m-series-d/)

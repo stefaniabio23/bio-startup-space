@@ -5,39 +5,39 @@ website: unlearn.ai
 founded: 2017
 area: digital twins
 funding_stage: series-c
-total_funding_usd_m: 133
+total_funding_usd_m: 135
 public: false
 business_model: saas
 buyer:
-  - pharma
-  - biotech
-  - cro
+ - pharma
+ - biotech
+ - cro
 buyer_urgency: high
 buyer_wtp: high
 sales_cycle: long
 regulatory_burden: heavy
 tam_usd_m: 66300
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 data_centrality: core-moat
 data_ownership:
-  - licensed
-  - proprietary
-  - partner-supplied
+ - licensed
+ - proprietary
+ - partner-supplied
 moat:
-  - data
-  - model
-  - regulatory-trust
-  - IP
+ - data
+ - model
+ - regulatory-trust
+ - IP
 input:
-  - "historical clinical trial participant data (baseline + longitudinal outcome data)"
-  - "disease-specific patient registries"
-  - "individual participant baseline measurements at trial enrollment"
+ - "historical clinical trial participant data (baseline + longitudinal outcome data)"
+ - "disease-specific patient registries"
+ - "individual participant baseline measurements at trial enrollment"
 transformation_type: predict
 output:
-  - "digital twin forecasts of individual control outcomes at every trial time point"
-  - "PROCOVA-adjusted statistical analyses"
-  - "synthetic control arms for single-arm studies"
-  - "power and sample-size projections"
+ - "digital twin forecasts of individual control outcomes at every trial time point"
+ - "PROCOVA-adjusted statistical analyses"
+ - "synthetic control arms for single-arm studies"
+ - "power and sample-size projections"
 barrier_to_entry: high
 barrier_to_entry_logic: EMA CHMP qualification of PROCOVA required years of regulatory engagement and statistical validation that no new entrant can shortcut; 20+ disease-specific DTG models are a compounding data asset.
 hardness: hard
@@ -58,7 +58,7 @@ Randomised control arms, historical controls, external control arms, CRO statist
 
 ## Entry wedge
 
-PROCOVA (prognostic covariate adjustment) — historical participant data generates synthetic control trajectories.
+PROCOVA (prognostic covariate adjustment), historical participant data generates synthetic control trajectories.
 
 ## Method
 
@@ -87,8 +87,13 @@ CROs (IQVIA, Covance, PRA) for trial execution. EDC platforms (Medidata Rave, Ve
 
 ## Gaps
 
-Models counterfactual control outcomes; does not infer latent patient biological state during the trial or predict early signals of response/resistance. DTGs are disease-specific and require sufficient historical data — rare diseases or novel endpoints are not yet covered. Does not handle imaging, genomics, or wearable-stream inputs; operates on structured clinical outcome scales.
+Models counterfactual control outcomes; does not infer latent patient biological state during the trial or predict early signals of response/resistance. DTGs are disease-specific and require sufficient historical data, rare diseases or novel endpoints are not yet covered. Does not handle imaging, genomics, or wearable-stream inputs; operates on structured clinical outcome scales.
 
 ## Notes
 
-Three-product suite: Plan (trial planning and simulation), Monitor (advanced trial monitoring), Analyze (digital twins / PROCOVA). On-premises cloud deployment option available for sponsors with data sovereignty requirements. "The AI partner of choice for top pharma and biotechs" — positioned as enterprise infrastructure, not a point tool.
+Three-product suite: Plan (trial planning and simulation), Monitor (advanced trial monitoring), Analyze (digital twins / PROCOVA). On-premises cloud deployment option available for sponsors with data sovereignty requirements. Positioned as enterprise infrastructure for top pharma and biotechs rather than a point tool.
+
+## News signals
+
+- 2026: Total funding stands at ~$135M across six rounds, following the $50M Series C led by Altimeter Capital. (source: https://tracxn.com/d/companies/unlearn/__E02UGixUE2WiD185-kIF1y3aPD49i7642Gy9zf3cvyE)
+- Partnered with Trace Neuroscience to apply digital twin technology in clinical research. (source: https://www.mobihealthnews.com/news/digital-twin-company-unlearn-partners-trace-neuroscience)

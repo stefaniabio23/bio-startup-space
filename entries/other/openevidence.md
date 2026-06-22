@@ -9,8 +9,8 @@ total_funding_usd_m: 700
 public: false
 business_model: saas
 buyer:
-  - pharma
-  - provider
+ - pharma
+ - provider
 buyer_urgency: high
 buyer_wtp: high
 sales_cycle: short
@@ -18,27 +18,27 @@ regulatory_burden: light
 tam_usd_m: 15000
 data_centrality: important-enabler
 data_ownership:
-  - public
-  - licensed
+ - public
+ - licensed
 moat:
-  - distribution
-  - data
-  - founder-brand
+ - distribution
+ - data
+ - founder-brand
 primary_value_chain_layer: clinical decision support
 input:
-  - peer-reviewed medical literature (NEJM, JAMA, and others)
-  - physician natural-language queries
-  - de-identified patient case details at point of care
+ - peer-reviewed medical literature (NEJM, JAMA, and others)
+ - physician natural-language queries
+ - de-identified patient case details at point of care
 transformation_type: predict
 output:
-  - evidence-grounded answers to clinical questions (core search)
-  - AI agent-driven deep research reports (DeepConsult)
-  - cited references with follow-up suggestions
+ - evidence-grounded answers to clinical questions (core search)
+ - AI agent-driven deep research reports (DeepConsult)
+ - cited references with follow-up suggestions
 barrier_to_entry: high
 barrier_to_entry_logic: Network effects from physician adoption (over 40% of US physicians) compound with proprietary usage data and pharmaceutical advertiser relationships that competitors cannot easily replicate.
 hardness: hard
 hardness_reason: Sustaining physician trust and clinical accuracy at scale while maintaining the advertising-based model without letting pharma influence clinical answers.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -47,11 +47,11 @@ AI-powered medical search engine used by over 40% of US physicians to get eviden
 
 ## Problem
 
-Physicians lack fast, reliable access to current medical evidence during patient encounters — existing tools like UpToDate are slow, expensive, and not designed for conversational point-of-care use.
+Physicians lack fast, reliable access to current medical evidence during patient encounters, existing tools like UpToDate are slow, expensive, and not designed for conversational point-of-care use.
 
 ## Workaround
 
-UpToDate (subscription, curated summaries), PubMed (raw literature search), clinical colleagues, and Google Scholar — all require significant time and effort during a live encounter.
+UpToDate (subscription, curated summaries), PubMed (raw literature search), clinical colleagues, and Google Scholar, all require significant time and effort during a live encounter.
 
 ## Entry wedge
 
@@ -88,4 +88,8 @@ Business model concentration risk: pharma advertising accounts for essentially a
 
 ## Notes
 
-Founded by Daniel Nadler (also founder of Kensho, acquired by S&P Global for $550M) and Zachary Ziegler. HQ: Miami, FL. The advertising CPM rate of $70-$1,000+ (vs $5-15 for social media) reflects the exceptional commercial value of the physician audience at the moment of prescribing intent. The platform achieved $50M ARR without BAAs or EHR integration — an unusual path for a health tech company. Growth rate (1,803% revenue increase 2024-2025 per Sacra) is the fastest ever documented for a physician application.
+Founded by Daniel Nadler (also founder of Kensho, acquired by S&P Global for $550M) and Zachary Ziegler. HQ: Miami, FL. The advertising CPM rate of $70-$1,000+ (vs $5-15 for social media) reflects the exceptional commercial value of the physician audience at the moment of prescribing intent. The platform achieved $50M ARR without BAAs or EHR integration, an unusual path for a health tech company. Growth rate (1,803% revenue increase 2024-2025 per Sacra) is the fastest ever documented for a physician application.
+
+## News signals
+
+- 2026-01: Raised $250M Series D co-led by Thrive Capital and DST Global at a $12B valuation, doubling the October 2025 valuation. Total funding now about $700M. (source: https://techcrunch.com/2026/01/21/openevidence-hits-12b-valuation-with-new-round-led-by-thrive-dst/)

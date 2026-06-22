@@ -42,7 +42,7 @@ barrier_to_entry: high
 barrier_to_entry_logic: Credentialing 800+ full-time psychiatrists in-network with major payers across 47 states, combined with proprietary scheduling and AI documentation infrastructure, took years and significant capital to build.
 hardness: hard
 hardness_reason: Sustaining high-quality psychiatric care at scale while moving toward value-based risk contracts requires outcome data and payer alignment that is slow to accumulate.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -93,3 +93,7 @@ Full-time physician employment model creates high fixed cost structure and limit
 ## Notes
 
 The full-stack W-2 model is the key structural bet: it enables data accumulation, protocol standardization, and potential risk contracts, but requires capital intensity to staff up. The $210M Series D from Perceptive Advisors (a life sciences fund, atypical for this space) signals a thesis around monetizing the patient data and outcomes platform downstream of care delivery. Competing platforms largely rely on 1099 contractor networks, which reduces their ability to standardize care or build clinical datasets at the same depth.
+
+## News signals
+
+- 2026-02: Raised an oversubscribed $210M Series D led by Perceptive Advisors, bringing total funding to ~$452M. Participation from Sofina and prior leads Andreessen Horowitz, blisce/, and Left Lane Capital, plus a debt facility from Banc of California. 800+ full-time psychiatrists employed; operates in 47 states and Washington D.C. (source: https://www.prnewswire.com/news-releases/talkiatry-raises-oversubscribed-210m-series-d-to-expand-nations-largest-full-stack-psychiatry-provider-302685678.html, https://www.fiercehealthcare.com/health-tech/talkiatry-closes-210m-series-d-expand-telepsychiatry-services)

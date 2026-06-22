@@ -9,9 +9,9 @@ total_funding_usd_m: 1500
 public: true
 business_model: services
 buyer:
-  - provider
-  - pharma
-  - consumer
+ - provider
+ - pharma
+ - consumer
 buyer_urgency: high
 buyer_wtp: high
 sales_cycle: medium
@@ -19,29 +19,29 @@ regulatory_burden: heavy
 tam_usd_m: 45000
 data_centrality: core-moat
 data_ownership:
-  - proprietary
-  - customer-generated
+ - proprietary
+ - customer-generated
 moat:
-  - regulatory-trust
-  - clinical-evidence
-  - distribution
-  - data
-  - IP
+ - regulatory-trust
+ - clinical-evidence
+ - distribution
+ - data
+ - IP
 primary_value_chain_layer: diagnostics
 input:
-  - cell-free DNA from blood samples
-  - tissue biopsies
+ - cell-free DNA from blood samples
+ - tissue biopsies
 transformation_type: measure
 output:
-  - cancer screening results (Shield)
-  - treatment selection reports (Guardant360)
-  - minimal residual disease assessments (Guardant Reveal)
-  - therapy response monitoring
+ - cancer screening results (Shield)
+ - treatment selection reports (Guardant360)
+ - minimal residual disease assessments (Guardant Reveal)
+ - therapy response monitoring
 barrier_to_entry: very-high
-barrier_to_entry_logic: $1.5B+ deployed to build ctDNA assay technology, multiple FDA clearances, and oncology provider relationships — each FDA clearance alone requires years of clinical validation.
+barrier_to_entry_logic: $1.5B+ deployed to build ctDNA assay technology, multiple FDA clearances, and oncology provider relationships, each FDA clearance alone requires years of clinical validation.
 hardness: very-hard
 hardness_reason: Shield (colorectal cancer screening) must prove population-level sensitivity and specificity competitive with colonoscopy to achieve broad insurance coverage and change screening behaviour.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -54,7 +54,7 @@ Cancer is most treatable when caught early, but current screening methods (colon
 
 ## Workaround
 
-Colonoscopy and FIT tests for CRC screening, tissue biopsy for treatment selection, CEA and CA-19-9 blood markers for recurrence — all invasive, slow, or insensitive.
+Colonoscopy and FIT tests for CRC screening, tissue biopsy for treatment selection, CEA and CA-19-9 blood markers for recurrence, all invasive, slow, or insensitive.
 
 ## Entry wedge
 
@@ -70,7 +70,7 @@ Total liquid biopsy market estimated at $6.7B by 2029; broader cancer diagnostic
 
 ## Validated by
 
-NASDAQ: GH (public). FDA clearance for Guardant360 CDx (companion diagnostic), FDA approval for Shield (colorectal cancer screening blood test, 2024 — first blood-based CRC screening test). ECLIPSE trial: Shield 83% sensitivity for CRC, 90% specificity. Guardant Reveal for MRD monitoring in colorectal cancer.
+NASDAQ: GH (public). FDA clearance for Guardant360 CDx (companion diagnostic), FDA approval for Shield (colorectal cancer screening blood test, 2024, first blood-based CRC screening test). ECLIPSE trial: Shield 83% sensitivity for CRC, 90% specificity. Guardant Reveal for MRD monitoring in colorectal cancer.
 
 ## Competes with
 
@@ -87,8 +87,14 @@ EHR platforms for result delivery, oncology practices for test ordering, pharma 
 
 ## Gaps
 
-Screening reimbursement is the current bottleneck — Shield approval does not guarantee payer coverage or physician ordering at scale. Multi-cancer detection (vs. Grail/Galleri) is the next frontier.
+Screening reimbursement is the current bottleneck, Shield approval does not guarantee payer coverage or physician ordering at scale. Multi-cancer detection (vs. Grail/Galleri) is the next frontier.
 
 ## Notes
 
-HQ: Redwood City, CA. CEO Helmy Eltoukhy (co-founder). Shield approval (July 2024) was the first FDA approval of a blood-based colorectal cancer screening test — a significant regulatory milestone. Guardant360 is the most widely used liquid biopsy in US oncology.
+HQ: Redwood City, CA. CEO Helmy Eltoukhy (co-founder). Shield approval (July 2024) was the first FDA approval of a blood-based colorectal cancer screening test, a significant regulatory milestone. Guardant360 is the most widely used liquid biopsy in US oncology.
+
+## News signals
+
+- 2025-04: CMS granted Shield ADLT status with a $1,495 Medicare reimbursement rate, effective for the initial nine-month period from April 1, 2025. (source: https://investors.guardanthealth.com/press-releases/press-releases/2025/Guardant-Health-Receives-ADLT-Status-From-CMS-for-Shield-Blood-Test/default.aspx)
+- 2025: Shield generated $79.7M in full-year revenue from ~87,000 tests, up from ~$5M in 2024; Q4 2025 reached 38,000 tests and $35M. (source: https://www.kavout.com/market-lens/what-drove-guardant-health-s-q4-2025-performance-and-2026-outlook)
+- 2026: Shield made orderable through the Quest Diagnostics national ordering and collection network. (source: https://investors.guardanthealth.com/press-releases/press-releases/2026/Guardant-Healths-Shield-Blood-based-Screening-Test-for-Colorectal-Cancer-Now-Accessible-Through-National-Test-Ordering-and-Collection-Network-of-Quest-Diagnostics/default.aspx)

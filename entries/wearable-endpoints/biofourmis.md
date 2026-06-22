@@ -9,33 +9,33 @@ total_funding_usd_m: 465
 public: false
 business_model: hybrid
 buyer:
-  - pharma
-  - provider
-  - payer
+ - pharma
+ - provider
+ - payer
 buyer_urgency: high
 buyer_wtp: high
 sales_cycle: long
 regulatory_burden: heavy
 tam_usd_m: 20000
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 data_centrality: important-enabler
 data_ownership:
-  - customer-generated
-  - generated-in-house
+ - customer-generated
+ - generated-in-house
 moat:
-  - regulatory-trust
-  - clinical-evidence
-  - IP
+ - regulatory-trust
+ - clinical-evidence
+ - IP
 input:
-  - continuous wearable biosensor streams (PPG, ECG, accelerometry, temperature, SpO2)
-  - EHR clinical records
-  - patient-reported outcomes
+ - continuous wearable biosensor streams (PPG, ECG, accelerometry, temperature, SpO2)
+ - EHR clinical records
+ - patient-reported outcomes
 transformation_type: monitor
 output:
-  - FDA-cleared digital biomarker endpoints
-  - real-time clinical deterioration alerts
-  - personalized physiological baselines
-  - remote monitoring dashboards for clinical staff
+ - FDA-cleared digital biomarker endpoints
+ - real-time clinical deterioration alerts
+ - personalized physiological baselines
+ - remote monitoring dashboards for clinical staff
 barrier_to_entry: high
 barrier_to_entry_logic: FDA 510(k) clearance for 21 proprietary AI algorithms and 50+ health system partnerships create regulatory and distribution moat; life sciences business divested to ActiGraph (Jan 2025).
 hardness: hard
@@ -56,7 +56,7 @@ Clinic visits, patient-reported outcomes, standard vital sign monitoring, manual
 
 ## Entry wedge
 
-Biofourmis entered via remote patient monitoring (RPM) for heart failure — their first product was the Everion+ biosensor (upper arm wearable) paired with their BioVitals analytics engine generating personalized baselines and early decompensation alerts. They obtained FDA 510(k) clearance for AI-powered RPM software for heart failure monitoring. The clinical trial (life sciences) business was a parallel arm built on the same sensor + analytics infrastructure, sold as Biofourmis Connect. In January 2025, they divested the life sciences business to ActiGraph to focus on care delivery.
+Biofourmis entered via remote patient monitoring (RPM) for heart failure, their first product was the Everion+ biosensor (upper arm wearable) paired with their BioVitals analytics engine generating personalized baselines and early decompensation alerts. They obtained FDA 510(k) clearance for AI-powered RPM software for heart failure monitoring. The clinical trial (life sciences) business was a parallel arm built on the same sensor + analytics infrastructure, sold as Biofourmis Connect. In January 2025, they divested the life sciences business to ActiGraph to focus on care delivery.
 
 ## Method
 
@@ -89,4 +89,9 @@ Collects wearable signal; does not do latent biological state inference from tha
 
 ## Notes
 
-Merging with CopilotIQ (chronic care management for elderly). Potential partner: they collect; we infer. Note that the life sciences business (Biofourmis Connect) was sold to ActiGraph in January 2025 — the current company is primarily a care delivery platform, not a clinical trial endpoints vendor.
+Merging with CopilotIQ (chronic care management for elderly). Potential partner: they collect; we infer. Note that the life sciences business (Biofourmis Connect) was sold to ActiGraph in January 2025; the current company is primarily a care delivery platform rather than a clinical trial endpoints vendor.
+
+## News signals
+
+- 2024-10: Merged with CopilotIQ to form an end-to-end AI-driven in-home care platform; investors General Atlantic, Openspace Ventures, Bessemer Venture Partners backed the combined company. (source: https://copilotiq.com/copilotiq-and-biofourmis-merge-to-create-the-first-end-to-end-platform-for-ai-driven-in-home-care/)
+- 2025-01: Divested the life sciences business (Biofourmis Connect, clinical trial digital endpoints) to ActiGraph; remaining company focuses on care delivery. (source: https://biofourmis.com/news-insights/copilotiq-and-biofourmis-merge-to-create-the-first-end-to-end-platform-for-ai-driven-in-home-care)

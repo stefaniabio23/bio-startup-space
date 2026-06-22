@@ -39,7 +39,7 @@ barrier_to_entry: high
 barrier_to_entry_logic: Deep integration with health system EHR and financial workflows, credentialed clinical operations team, and CMS policy relationships built by founders (former CMMI leadership) are hard to replicate quickly.
 hardness: hard
 hardness_reason: Sustaining shared-savings performance across diverse health system partners at scale while Medicare Advantage payment policy shifts under the feet.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -90,3 +90,7 @@ The $140M raise appears to be the first publicly disclosed large institutional r
 ## Notes
 
 Rubicon Founders co-founder Abe Sutton currently leads CMMI, creating a policy adjacency that is both a moat and a potential conflict-of-interest risk. CEO Robert Bessler previously founded Sound Physicians, suggesting operational depth in physician management. Jason Howard joined as President in October 2025 with 25+ years of healthcare leadership experience. Honest appears to operate in the same market segment as Evolent Health but positions specifically for health systems rather than independent physician groups.
+
+## News signals
+
+- 2026-02: Raised $140M led by NewSpring Healthcare, with K2 HealthVentures, Rubicon Founders, Oak HC/FT, Welsh Carson, and Durable Capital participating. (source: https://www.prnewswire.com/news-releases/honest-health-raises-140-million-to-advance-value-based-care-for-health-systems-newspring-leads-investment-302698027.html)

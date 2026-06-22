@@ -9,34 +9,34 @@ total_funding_usd_m: 726.5
 public: true
 business_model: own-pipeline
 buyer:
-  - pharma
-  - biotech
-  - investor
+ - pharma
+ - biotech
+ - investor
 buyer_urgency: high
 buyer_wtp: high
 sales_cycle: long
 regulatory_burden: heavy
 tam_usd_m: 168600
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 data_centrality: supporting-evidence
 data_ownership:
-  - generated-in-house
-  - proprietary
+ - generated-in-house
+ - proprietary
 moat:
-  - IP
-  - wet-lab
-  - clinical-evidence
-  - founder-brand
+ - IP
+ - wet-lab
+ - clinical-evidence
+ - founder-brand
 input:
-  - "small molecule structural data"
-  - "protein biochemistry data"
-  - "immunobiology mechanistic data"
-  - "clinical biomarker profiles"
+ - "small molecule structural data"
+ - "protein biochemistry data"
+ - "immunobiology mechanistic data"
+ - "clinical biomarker profiles"
 transformation_type: predict
 output:
-  - "small molecule drug candidates"
-  - "protein therapeutic candidates"
-  - "clinical-stage immunology programs"
+ - "small molecule drug candidates"
+ - "protein therapeutic candidates"
+ - "clinical-stage immunology programs"
 barrier_to_entry: very-high
 barrier_to_entry_logic: Clinical-stage programs require years of biology, IP, regulatory filings, and capital that cannot be compressed regardless of AI tools.
 hardness: very-hard
@@ -61,7 +61,7 @@ Founded in 2021 with a focus on upstream innate immune signaling nodes. First pr
 
 ## Method
 
-Medicinal and computational chemistry combined with structural biology and pharmacology to identify small molecules and protein therapeutics that block upstream innate immune activation nodes — targeting the signal before pathologic inflammation initiates rather than suppressing downstream cytokines after the fact.
+Medicinal and computational chemistry combined with structural biology and pharmacology to identify small molecules and protein therapeutics that block upstream innate immune activation nodes, targeting the signal before pathologic inflammation initiates rather than suppressing downstream cytokines after the fact.
 
 ## TAM logic
 
@@ -91,3 +91,8 @@ Less obviously frontier-AI than Isomorphic/Chai/Latent; success depends on disea
 ## Notes
 
 Six pipeline programs across two modalities (small molecules and protein therapeutics). Focus on upstream innate immune responses differentiates from most current standard-of-care biologics, which suppress downstream cytokines. Founder/CEO Gary D. Glick, PhD leads experienced drug hunter team.
+
+## News signals
+
+- 2026-05: IPO on Nasdaq Capital Market (ODTX) at $18.00/share. Gross proceeds across the IPO and concurrent private placement totaled $314.8M. (source: https://www.biospace.com/press-releases/odyssey-therapeutics-reports-first-quarter-2026-financial-results-and-provides-corporate-update)
+- 2026-06: Reported positive Phase 2a proof-of-concept data for OD-001 (RIPK2 scaffolding inhibitor) in moderate-to-severe ulcerative colitis: 27% clinical remission and 61% clinical response. Cash plus IPO proceeds expected to fund operations into 2H 2028. (source: https://www.globenewswire.com/news-release/2026/06/17/3313811/0/en/odyssey-therapeutics-reports-first-quarter-2026-financial-results-and-provides-corporate-update.html)

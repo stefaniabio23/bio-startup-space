@@ -9,10 +9,10 @@ total_funding_usd_m: 2800
 public: false
 business_model: saas
 buyer:
-  - pharma
-  - provider
-  - payer
-  - biotech
+ - pharma
+ - provider
+ - payer
+ - biotech
 buyer_urgency: medium
 buyer_wtp: high
 sales_cycle: long
@@ -20,35 +20,35 @@ regulatory_burden: medium
 tam_usd_m: 80000
 data_centrality: core-moat
 data_ownership:
-  - proprietary
-  - partner-supplied
-  - licensed
+ - proprietary
+ - partner-supplied
+ - licensed
 moat:
-  - data
-  - distribution
-  - capital
-  - regulatory-trust
+ - data
+ - distribution
+ - capital
+ - regulatory-trust
 primary_value_chain_layer: health data harmonization and precision health AI
 input:
-  - multimodal EHR data from health system partners
-  - claims and insurance data
-  - wearable and device data streams
-  - genomic and omics data
-  - clinical trial protocol documents and study data
+ - multimodal EHR data from health system partners
+ - claims and insurance data
+ - wearable and device data streams
+ - genomic and omics data
+ - clinical trial protocol documents and study data
 transformation_type: predict
 output:
-  - harmonized FHIR-native AI-ready health datasets (Refinery)
-  - shared AI-ready dataset and model marketplace (Exchange)
-  - collaborative research environment for AI analytics (Workbench)
-  - precision health AI models for disease prediction and care management
-  - clinical trial operations intelligence (Viewpoint/Verily Intelligence)
-  - "Lightpath Metabolic: AI-guided metabolic care (diabetes, obesity)"
-  - "Verily Me: consumer-facing precision health app"
+ - harmonized FHIR-native AI-ready health datasets (Refinery)
+ - shared AI-ready dataset and model marketplace (Exchange)
+ - collaborative research environment for AI analytics (Workbench)
+ - precision health AI models for disease prediction and care management
+ - clinical trial operations intelligence (Viewpoint/Verily Intelligence)
+ - "Lightpath Metabolic: AI-guided metabolic care (diabetes, obesity)"
+ - "Verily Me: consumer-facing precision health app"
 barrier_to_entry: high
 barrier_to_entry_logic: Alphabet pedigree, $2.8B raised, FHIR-native data infrastructure integrated with major health systems, NIH All of Us partnership, and 10+ years of multimodal health data accumulation create a platform moat that requires both capital and institutional trust to replicate.
 hardness: very-hard
 hardness_reason: Converting multimodal health data harmonization into durable clinical AI models that consistently improve patient outcomes and justify enterprise SaaS pricing across health systems, pharma, and payers simultaneously.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -57,7 +57,7 @@ Builds an AI-native data platform that harmonizes multimodal health data and act
 
 ## Problem
 
-Health data is siloed, heterogeneous, and inconsistently structured across EHRs, claims, devices, and research databases — making it impossible for health systems, pharma companies, and researchers to build AI models that generalize and improve patient outcomes at scale.
+Health data is siloed, heterogeneous, and inconsistently structured across EHRs, claims, devices, and research databases, making it impossible for health systems, pharma companies, and researchers to build AI models that generalize and improve patient outcomes at scale.
 
 ## Workaround
 
@@ -97,7 +97,7 @@ Medidata (IQVIA) and Veeva Systems (clinical trial data management), IQVIA (real
 
 ## Complements
 
-Samsung, Garmin, WHOOP (wearable data streams that feed into Pre as inputs), EHR vendors (Epic, Cerner — source systems for Refinery ingestion), CROs (Covance, ICON — use Viewpoint tools for trial operations), pharma sponsors running real-world studies on the Pre platform.
+Samsung, Garmin, WHOOP (wearable data streams that feed into Pre as inputs), EHR vendors (Epic, Cerner, source systems for Refinery ingestion), CROs (Covance, ICON, use Viewpoint tools for trial operations), pharma sponsors running real-world studies on the Pre platform.
 
 ## Value chain position
 
@@ -110,4 +110,8 @@ Verily has been operating for 11 years and has not yet achieved the market posit
 
 ## Notes
 
-The $300M Series D in March 2026 included UCHealth and the University of Colorado Anschutz Medical Campus as investors — health system investors are also customers, a common enterprise SaaS flywheel strategy. Series X Capital as lead investor is notable: Series X specifically invests in health system-adjacent companies, suggesting Verily is now being positioned as a health system infrastructure play more than a pharma technology company. The Salesforce Agentforce and Nvidia partnerships signal an agentic AI layer being built on top of the Pre data platform, which would be a meaningful differentiation if it ships. Verily's failure to achieve profitability or a clear market leadership position after $2.8B raised is the central strategic question.
+The $300M Series D in March 2026 included UCHealth and the University of Colorado Anschutz Medical Campus as investors, health system investors are also customers, a common enterprise SaaS flywheel strategy. Series X Capital as lead investor is notable: Series X specifically invests in health system-adjacent companies, suggesting Verily is now being positioned as a health system infrastructure play more than a pharma technology company. The Salesforce Agentforce and Nvidia partnerships signal an agentic AI layer being built on top of the Pre data platform, which would be a meaningful differentiation if it ships. Verily's failure to achieve profitability or a clear market leadership position after $2.8B raised is the central strategic question.
+
+## News signals
+
+- 2026-03: Raised $300M Series D led by Series X Capital, with Alphabet, UCHealth, University of Colorado Anschutz participating. Converted from LLC to a corporation renamed Verily Health Inc.; Alphabet now a significant minority investor without a controlling stake. (source: https://verily.com/perspectives/verily-secures-300-million-investment-to-advance-its-precision-health-ai-strategy)

@@ -9,8 +9,8 @@ total_funding_usd_m: 625
 public: false
 business_model: own-pipeline
 buyer:
-  - provider
-  - payer
+ - provider
+ - payer
 buyer_urgency: high
 buyer_wtp: high
 sales_cycle: long
@@ -18,27 +18,27 @@ regulatory_burden: heavy
 tam_usd_m: 8000
 data_centrality: supporting-evidence
 data_ownership:
-  - proprietary
-  - generated-in-house
+ - proprietary
+ - generated-in-house
 moat:
-  - wet-lab
-  - clinical-evidence
-  - IP
-  - regulatory-trust
+ - wet-lab
+ - clinical-evidence
+ - IP
+ - regulatory-trust
 primary_value_chain_layer: cell therapy manufacturing and clinical
 input:
-  - matched allogeneic donor cells (related or unrelated)
-  - high-resolution cell sorting technology
-  - hematopoietic stem cells, regulatory T-cells, conventional T-cells
+ - matched allogeneic donor cells (related or unrelated)
+ - high-resolution cell sorting technology
+ - hematopoietic stem cells, regulatory T-cells, conventional T-cells
 transformation_type: generate
 output:
-  - "Orca-T: precision-sorted allogeneic T-cell immunotherapy for hematologic malignancies"
-  - "Orca-Q: investigational cell therapy for expanded conditioning settings"
+ - "Orca-T: precision-sorted allogeneic T-cell immunotherapy for hematologic malignancies"
+ - "Orca-Q: investigational cell therapy for expanded conditioning settings"
 barrier_to_entry: nearly-impossible
-barrier_to_entry_logic: Phase 3 clinical data, BLA filed under Priority Review, proprietary cell sorting manufacturing platform, and $625M deployed — replicating this regulatory and manufacturing position from scratch would take 10+ years.
+barrier_to_entry_logic: Phase 3 clinical data, BLA filed under Priority Review, proprietary cell sorting manufacturing platform, and $625M deployed, replicating this regulatory and manufacturing position from scratch would take 10+ years.
 hardness: moonshot
 hardness_reason: Achieving commercial launch of a first-in-class precision allogeneic cell therapy while demonstrating durable superiority over conventional HSCT across a heterogeneous patient population.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -47,11 +47,11 @@ Late-stage biotech developing precision-sorted allogeneic cell therapy (Orca-T) 
 
 ## Problem
 
-Conventional allogeneic hematopoietic stem cell transplant (HSCT) carries severe risks of graft-versus-host disease (GvHD) — a life-threatening immune complication where donor immune cells attack the patient. GvHD drives high morbidity and mortality post-transplant for patients with leukemias, lymphomas, and myelodysplastic syndromes.
+Conventional allogeneic hematopoietic stem cell transplant (HSCT) carries severe risks of graft-versus-host disease (GvHD), a life-threatening immune complication where donor immune cells attack the patient. GvHD drives high morbidity and mortality post-transplant for patients with leukemias, lymphomas, and myelodysplastic syndromes.
 
 ## Workaround
 
-Standard HSCT uses unselected donor cells with aggressive immunosuppression to limit GvHD — a blunt approach that suppresses the beneficial graft-versus-leukemia effect alongside the harmful GvHD response.
+Standard HSCT uses unselected donor cells with aggressive immunosuppression to limit GvHD, a blunt approach that suppresses the beneficial graft-versus-leukemia effect alongside the harmful GvHD response.
 
 ## Entry wedge
 
@@ -84,8 +84,12 @@ Bone marrow transplant centers and transplant physicians (existing infrastructur
 
 ## Gaps
 
-FDA BLA review extension (CMC data request) introduces uncertainty around approval timing and commercial launch readiness. Manufacturing scalability — precision cell sorting is inherently complex and hard to run at commercial volumes. Reimbursement path for a new cell therapy category requires payer engagement even after approval. East Coast manufacturing capacity is being built but not yet proven at scale.
+FDA BLA review extension (CMC data request) introduces uncertainty around approval timing and commercial launch readiness. Manufacturing scalability, precision cell sorting is inherently complex and hard to run at commercial volumes. Reimbursement path for a new cell therapy category requires payer engagement even after approval. East Coast manufacturing capacity is being built but not yet proven at scale.
 
 ## Notes
 
-CEO: Nathaniel Fernhoff (co-founder, appointed May 2025). HQ: Menlo Park, CA. Manufacturing in Sacramento, CA (expanding to East Coast). Orca-T is composed of three precisely sorted fractions: Tregs (~10x enriched vs conventional HSCT), HSCs, and conventional T-cells — the Treg fraction is the key mechanistic differentiator. If approved, Orca-T would be the first precision-sorted allogeneic cell therapy to reach the US market.
+CEO: Nathaniel Fernhoff (co-founder, appointed May 2025). HQ: Menlo Park, CA. Manufacturing in Sacramento, CA (expanding to East Coast). Orca-T is composed of three precisely sorted fractions: Tregs (~10x enriched vs conventional HSCT), HSCs, and conventional T-cells, the Treg fraction is the key mechanistic differentiator. If approved, Orca-T would be the first precision-sorted allogeneic cell therapy to reach the US market.
+
+## News signals
+
+- 2026-06: FDA extended its review of the Orca-T BLA, setting a new PDUFA target action date of July 6, 2026 (from April 6, 2026). The extension followed Orca Bio's submission of updated CMC information in response to FDA requests; no additional clinical data were requested. (source: https://orcabio.com/orca-bio-announces-fda-review-extension-of-bla-for-orca-t-for-the-treatment-of-hematologic-malignancies/)

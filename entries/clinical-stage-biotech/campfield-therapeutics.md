@@ -9,9 +9,9 @@ total_funding_usd_m: 180
 public: false
 business_model: own-pipeline
 buyer:
-  - pharma
-  - biotech
-  - investor
+ - pharma
+ - biotech
+ - investor
 buyer_urgency: medium
 buyer_wtp: high
 sales_cycle: long
@@ -19,27 +19,27 @@ regulatory_burden: heavy
 tam_usd_m: 12720
 data_centrality: supporting-evidence
 data_ownership:
-  - licensed
-  - partner-supplied
+ - licensed
+ - partner-supplied
 moat:
-  - IP
-  - clinical-evidence
-  - capital
-  - founder-brand
+ - IP
+ - clinical-evidence
+ - capital
+ - founder-brand
 primary_value_chain_layer: clinical development
 input:
-  - in-licensed prifemilast (HPP737) from Newsoara Biopharma
-  - existing clinical dataset (700+ patients dosed, 250+ at 52 weeks)
+ - in-licensed prifemilast (HPP737) from Newsoara Biopharma
+ - existing clinical dataset (700+ patients dosed, 250+ at 52 weeks)
 transformation_type: generate
 output:
-  - global Phase 2b trial in moderate-to-severe ulcerative colitis
-  - global Phase 2 trial in Crohn's disease
-  - regulatory submissions and eventual NDA/BLA filing
+ - global Phase 2b trial in moderate-to-severe ulcerative colitis
+ - global Phase 2 trial in Crohn's disease
+ - regulatory submissions and eventual NDA/BLA filing
 barrier_to_entry: high
 barrier_to_entry_logic: IBD drug development requires large, expensive Phase 2/3 trials with endoscopic endpoints; dominant competitors (AbbVie, J&J, Takeda, Pfizer) have entrenched relationships and biologic market share that new oral entrants must overcome.
 hardness: hard
 hardness_reason: Demonstrating clinically meaningful, endoscopy-confirmed remission in IBD with an oral small molecule against a biologics-dominated standard of care while avoiding PDE4D-related side effects (nausea, CNS) at doses required for efficacy.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -85,7 +85,7 @@ Newsoara Biopharma (originator, retains rights in certain territories). Diagnost
 
 ## Gaps
 
-Prifemilast's PDE4B selectivity is a mechanistic claim that will be tested in Phase 2 — if tolerability issues persist at efficacious doses, the differentiation rationale collapses. IBD is extremely competitive: over 120 active US clinical trials. Small molecule oral efficacy in Crohn's (harder than UC) remains an unmet bar. Oral agents with best-in-class ambitions must still demonstrate endoscopic response rates matching biologics.
+Prifemilast's PDE4B selectivity is a mechanistic claim that will be tested in Phase 2, if tolerability issues persist at efficacious doses, the differentiation rationale collapses. IBD is extremely competitive: over 120 active US clinical trials. Small molecule oral efficacy in Crohn's (harder than UC) remains an unmet bar. Oral agents with best-in-class ambitions must still demonstrate endoscopic response rates matching biologics.
 
 ## Notes
 

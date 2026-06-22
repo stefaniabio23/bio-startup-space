@@ -40,7 +40,7 @@ barrier_to_entry: high
 barrier_to_entry_logic: Open-source Chai-1 built rapid pharma adoption before monetisation; Lilly and Pfizer deals within 18 months of founding create distribution lock-in that is hard to displace.
 hardness: very-hard
 hardness_reason: Scaling from zero-shot antibody design to full therapeutic programs requires wet-lab, manufacturability, and clinical validation infrastructure the current team does not yet own.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -91,3 +91,7 @@ Advanced design and developability work but still upstream of tissue delivery, d
 ## Notes
 
 Team backgrounds primarily from OpenAI, Meta FAIR, Google X, and Stripe (not traditional biotech). Founded 2024 with seed funding (Sep 2024) then Series A $70M (Aug 2025) then Series B $130M at $1.3B valuation (Dec 2025). OpenAI is an investor. Total ~$225M raised across seed + A + B. Access to Chai-2 gated under Responsible Deployment policy. Chai-1 remains open-source. The Lilly deal (Jan 2026) and Pfizer license (Jun 2026) establish it as software/API vendor to large pharma within ~18 months of founding.
+
+## News signals
+
+- 2025-12: Raised $130M Series B at $1.3B valuation, led by General Catalyst and Oak HC/FT, bringing total funding to ~$225M. (source: https://techcrunch.com/2025/12/15/openai-backed-biotech-firm-chai-discovery-raises-130m-series-b-at-1-3b-valuation/)

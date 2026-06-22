@@ -42,7 +42,7 @@ barrier_to_entry: medium
 barrier_to_entry_logic: Employer contract pipeline requires established credibility and actuarial outcome data; the 90%+ adherence claim, if validated, creates a meaningful differentiation story, but the GLP-1 management space is crowded and entry barriers are primarily sales and outcomes-trust rather than technology.
 hardness: moderate
 hardness_reason: Sustaining adherence at industry-leading rates across diverse employer populations at scale, while managing GLP-1 supply constraints and side effects, is the core operational challenge.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -93,3 +93,7 @@ The adherence claim (90%+) is a central marketing assertion but no peer-reviewed
 ## Notes
 
 eMed's origin in COVID at-home testing is an unusual founder story for a GLP-1 platform. The infrastructure built for supervised at-home diagnostics (lab integration, telehealth credentialing, employer distribution) transferred directly to the GLP-1 use case. The AON lead investment is strategic: Aon is a major employee benefits broker, giving eMed instant distribution into Aon's corporate client network. Tom Brady as Chief Wellness Officer and Linda Yaccarino as CEO are consumer brand plays more than operational hires, suggesting the strategy leans heavily on employer marketing and media reach.
+
+## News signals
+
+- 2026-03: Raised $200M Series A at a $2B+ valuation, led by Aon, with Tom Brady, Linda Yaccarino, Jeff Aronin, Antonio Gracias, Joe Lonsdale, and Tom Ricketts among named investors. (source: https://www.prnewswire.com/news-releases/emed-raises-200-million-at-2-billion-plus-valuation-302725381.html)

@@ -5,7 +5,7 @@ website: garnerhealth.com
 founded: 2019
 area: provider quality analytics and benefits navigation
 funding_stage: series-d-plus
-total_funding_usd_m: 200
+total_funding_usd_m: 300
 public: false
 business_model: saas
 buyer:
@@ -41,7 +41,7 @@ barrier_to_entry: high
 barrier_to_entry_logic: 60B+ claims database, 550+ proprietary clinical metrics refined over five years, and an employer channel with $100M+ ARR and 2.5M+ members create a compounding data and distribution advantage.
 hardness: hard
 hardness_reason: Continuously proving that provider quality rankings translate to actual cost and outcome improvements at scale, as health plan networks change and provider attribution grows more complex.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -91,4 +91,9 @@ Provider quality rankings are based on claims, not direct clinical outcome measu
 
 ## Notes
 
-Nick Reber (CEO) previously built provider analytics at Oscar Health. Optum Ventures as a strategic investor is notable given UnitedHealth's position as a major claims data owner and potential competitor. The $1.35B valuation at Series D signals investor confidence in the $100M+ ARR trajectory but also raises the stakes for the next growth phase. Broker-led channel growth drove a ~40% ARR increase in 2025, suggesting the go-to-market is distribution-heavy rather than product-led.
+Nick Reber (CEO) previously built provider analytics at Oscar Health. Optum Ventures as a strategic investor is notable given UnitedHealth's position as a major claims data owner and potential competitor. The $1.35B valuation at Series D signals investor confidence in the $100M+ ARR trajectory but also raises the stakes for the next growth phase. Broker-led channel growth drove a ~40% ARR increase in 2025, suggesting the go-to-market is distribution-heavy rather than product-led. The valuation roughly doubled from $1.35B (Series D, Feb 2026) to $2.74B (Series E, May 2026) in three months, with ARR reported near $200M at the Series E.
+
+## News signals
+
+- 2026-02: Raised $118M Series D at a $1.35B valuation, led by Kleiner Perkins with Redpoint, Maverick, Kaiser Permanente Ventures, and Mercy. (source: https://www.prnewswire.com/news-releases/garner-health-raises-118-million-to-close-the-healthcare-quality-and-cost-gap-reaches-1-35-billion-valuation-302680953.html)
+- 2026-05: Raised $100M Series E at a $2.74B valuation, led by Index Ventures, with ARR reported around $200M and nearly 800 customers. (source: https://www.prnewswire.com/news-releases/garner-health-closes-100-million-series-e-at-a-2-74b-valuation-to-continue-addressing-the-healthcare-quality-and-cost-gap-302783840.html)

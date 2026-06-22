@@ -5,12 +5,12 @@ website: newlimit.com
 founded: 2021
 area: epigenetic reprogramming for longevity
 funding_stage: series-c
-total_funding_usd_m: 610
+total_funding_usd_m: 682
 public: false
 business_model: own-pipeline
 buyer:
-  - pharma
-  - investor
+ - pharma
+ - investor
 buyer_urgency: low
 buyer_wtp: high
 sales_cycle: long
@@ -18,31 +18,31 @@ regulatory_burden: heavy
 tam_usd_m: 50000
 data_centrality: core-moat
 data_ownership:
-  - proprietary
-  - generated-in-house
+ - proprietary
+ - generated-in-house
 moat:
-  - model
-  - data
-  - wet-lab
-  - founder-brand
-  - IP
+ - model
+ - data
+ - wet-lab
+ - founder-brand
+ - IP
 primary_value_chain_layer: discovery
 input:
-  - single-cell epigenomic profiles (ATAC-seq, ChIP-seq) from young and old cells
-  - transcription factor combinations (payloads)
-  - functional genomics screens (RESTORE-seq platform)
-  - foundation models of protein and DNA sequences
-  - scientific literature
+ - single-cell epigenomic profiles (ATAC-seq, ChIP-seq) from young and old cells
+ - transcription factor combinations (payloads)
+ - functional genomics screens (RESTORE-seq platform)
+ - foundation models of protein and DNA sequences
+ - scientific literature
 transformation_type: predict
 output:
-  - transcription factor payload combinations that reprogram old cells to a youthful epigenetic state
-  - preclinical programs in metabolism (hepatocytes), vasculature (endothelial cells), and immunology (T cells)
-  - candidate epigenetic reprogramming medicines for liver disease, kidney disease, and inflammatory diseases of aging
+ - transcription factor payload combinations that reprogram old cells to a youthful epigenetic state
+ - preclinical programs in metabolism (hepatocytes), vasculature (endothelial cells), and immunology (T cells)
+ - candidate epigenetic reprogramming medicines for liver disease, kidney disease, and inflammatory diseases of aging
 barrier_to_entry: very-high
-barrier_to_entry_logic: RESTORE-seq platform tests thousands of TF payload combinations in parallel — a proprietary experimental system that competitors would take years to replicate; the data flywheel compounds as Ambrosia AI retrain on each screen, and co-founders Brian Armstrong and Blake Byers provide capital access that few longevity startups can match.
+barrier_to_entry_logic: RESTORE-seq platform tests thousands of TF payload combinations in parallel, a proprietary experimental system that competitors would take years to replicate; the data flywheel compounds as Ambrosia AI retrain on each screen, and co-founders Brian Armstrong and Blake Byers provide capital access that few longevity startups can match.
 hardness: moonshot
 hardness_reason: No reprogramming medicine has ever entered human trials; demonstrating that partial epigenetic reprogramming in vivo is safe (does not cause dedifferentiation or tumorigenesis), durable, and produces a clinically meaningful health outcome in any human indication.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -51,7 +51,7 @@ NewLimit is inventing medicines that reverse epigenetic aging in specific cell t
 
 ## Problem
 
-Aging is the primary driver of most chronic disease. At the cellular level, aging manifests as progressive degradation of epigenetic marks — the regulatory signals that tell each cell which genes to use. Old cells with degraded epigenetic marks are less functional, less resilient, and more susceptible to disease. This process was once considered irreversible, but partial epigenetic reprogramming (using Yamanaka-factor subsets) has been shown to restore youthful function in model systems, suggesting a therapeutic intervention point that precedes disease onset.
+Aging is the primary driver of most chronic disease. At the cellular level, aging manifests as progressive degradation of epigenetic marks, the regulatory signals that tell each cell which genes to use. Old cells with degraded epigenetic marks are less functional, less resilient, and more susceptible to disease. This process was once considered irreversible, but partial epigenetic reprogramming (using Yamanaka-factor subsets) has been shown to restore youthful function in model systems, suggesting a therapeutic intervention point that precedes disease onset.
 
 ## Workaround
 
@@ -88,8 +88,12 @@ AAV and mRNA delivery platforms for eventual TF payload delivery in vivo (NewLim
 
 ## Gaps
 
-No clinical programs. No IND filed. The Metabolism, Vascular, and Immunology programs are in preclinical discovery stage — timeline to first-in-human is multi-year. The fundamental safety question (partial reprogramming without tumorigenesis or loss of cell identity) has not been answered at therapeutic doses in humans. Delivery of TF payloads in vivo at scale is an unsolved problem (AAV capsid selection, tissue targeting, dosing). The regulatory path for an anti-aging medicine is undefined.
+No clinical programs. No IND filed. The Metabolism, Vascular, and Immunology programs are in preclinical discovery stage, timeline to first-in-human is multi-year. The fundamental safety question (partial reprogramming without tumorigenesis or loss of cell identity) has not been answered at therapeutic doses in humans. Delivery of TF payloads in vivo at scale is an unsolved problem (AAV capsid selection, tissue targeting, dosing). The regulatory path for an anti-aging medicine is undefined.
 
 ## Notes
 
-Co-founded 2021 by Jacob Kimmel (CEO, ex-Principal Investigator at Calico in epigenetic reprogramming), Brian Armstrong (co-founder and CEO of Coinbase, board member), and Blake Byers (scientist and startup investor, ex-General Partner at GV). Armstrong and Byers committed $110M in personal capital over company lifetime, plus institutional rounds. Lilly Ventures participation in Series C is strategically notable — one of the few pharma venture arms investing in longevity, suggesting potential future partnership interest. San Francisco, CA.
+Co-founded 2021 by Jacob Kimmel (CEO, ex-Principal Investigator at Calico in epigenetic reprogramming), Brian Armstrong (co-founder and CEO of Coinbase, board member), and Blake Byers (scientist and startup investor, ex-General Partner at GV). Armstrong and Byers committed $110M in personal capital over company lifetime, plus institutional rounds. Lilly Ventures participation in Series C is strategically notable, one of the few pharma venture arms investing in longevity, suggesting potential future partnership interest. San Francisco, CA.
+
+## News signals
+
+- 2026-06: Raised $435M Series C led by Founders Fund at a $3.1B valuation (about 3x in one year). New investors include Thrive Capital, Greenoaks, Quiet Capital; returning investors Kleiner Perkins, Abstract, Nat Friedman/Daniel Gross, Valor Equity Partners, Eli Lilly Ventures. Total funding now about $682M. Company says it will bring its first aging reprogramming medicine to human trials next year, citing a prototype that reverses cell age in old human liver cells. (source: https://blog.newlimit.com/p/newlimit-raises-435m-led-by-founders)

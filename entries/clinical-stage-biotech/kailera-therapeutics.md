@@ -5,13 +5,13 @@ website: kailera.com
 founded: 2024
 area: obesity and metabolic disease therapeutics (GLP-1/GIP)
 funding_stage: public
-total_funding_usd_m: 1625
+total_funding_usd_m: 1718.8
 public: true
 business_model: own-pipeline
 buyer:
-  - pharma
-  - investor
-  - payer
+ - pharma
+ - investor
+ - payer
 buyer_urgency: high
 buyer_wtp: high
 sales_cycle: long
@@ -19,30 +19,30 @@ regulatory_burden: heavy
 tam_usd_m: 100000
 data_centrality: supporting-evidence
 data_ownership:
-  - licensed
-  - partner-supplied
-  - proprietary
+ - licensed
+ - partner-supplied
+ - proprietary
 moat:
-  - clinical-evidence
-  - capital
-  - IP
-  - distribution
+ - clinical-evidence
+ - capital
+ - IP
+ - distribution
 primary_value_chain_layer: clinical-development
 input:
-  - licensed GLP-1-based drug candidates from Jiangsu Hengrui Pharmaceuticals
-  - Phase 2/3 clinical data from Hengrui's China trials
-  - patient-level clinical trial datasets
+ - licensed GLP-1-based drug candidates from Jiangsu Hengrui Pharmaceuticals
+ - Phase 2/3 clinical data from Hengrui's China trials
+ - patient-level clinical trial datasets
 transformation_type: predict
 output:
-  - "ribupatide (KAI-9531): weekly injectable GLP-1/GIP dual agonist, Phase 3"
-  - "oral ribupatide tablet formulation: Phase 2"
-  - "KAI-7535: once-daily oral small molecule GLP-1 agonist, Phase 2"
-  - "KAI-4729: weekly injectable GLP-1/GIP/glucagon tri-agonist, Phase 2"
+ - "ribupatide (KAI-9531): weekly injectable GLP-1/GIP dual agonist, Phase 3"
+ - "oral ribupatide tablet formulation: Phase 2"
+ - "KAI-7535: once-daily oral small molecule GLP-1 agonist, Phase 2"
+ - "KAI-4729: weekly injectable GLP-1/GIP/glucagon tri-agonist, Phase 2"
 barrier_to_entry: high
 barrier_to_entry_logic: GLP-1 market requires massive Phase 3 investment to compete; Hengrui partnership gives Kailera access to deep China clinical datasets that accelerate global program design; $1.6B+ capital positions it to run parallel Phase 3 programs without near-term dilution pressure.
 hardness: very-hard
 hardness_reason: Demonstrating superior weight loss, tolerability, or convenience vs. semaglutide (Ozempic/Wegovy) and tirzepatide (Mounjaro/Zepbound) in head-to-head or competitor-contextualized Phase 3 readouts, against Novo Nordisk and Eli Lilly with decades of GLP-1 expertise and massive manufacturing scale.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -71,11 +71,11 @@ The global obesity drug market is projected to exceed $100B annually by 2030, dr
 
 ## Validated by
 
-Founded 2024 (launched October 2024) with $400M Series A (Atlas Venture, Bain Capital Life Sciences, RTW Investments; Hengrui received ~19.9% equity). October 2025: $600M Series B (led by Bain Capital Private Equity). April 2026: $625M IPO (NASDAQ: KLRA) — reported as the largest biotech IPO on record at launch, eclipsing Moderna's $600M 2018 debut. June 2026: ribupatide Phase 2 data presented at ADA 2026 (Hengrui and Kailera joint presentation). Q1 2026 financial results confirm all four programs in active clinical progression.
+Founded 2024 (launched October 2024) with $400M Series A (Atlas Venture, Bain Capital Life Sciences, RTW Investments; Hengrui received ~19.9% equity). October 2025: $600M Series B (led by Bain Capital Private Equity). April 2026: IPO priced at $16.00/share and closed with full overallotment for $718.8M gross proceeds (NASDAQ: KLRA), one of the largest biotech IPOs on record. June 2026: ribupatide Phase 2 data presented at ADA 2026 (Hengrui and Kailera joint presentation). Q1 2026 financial results confirm all four programs in active clinical progression; the global KaiNETIC Phase 3 program for injectable ribupatide is underway.
 
 ## Competes with
 
-Novo Nordisk (semaglutide — Ozempic, Wegovy, oral semaglutide Rybelsus), Eli Lilly (tirzepatide — Mounjaro, Zepbound; retatrutide in pipeline), AstraZeneca (cotadutide), Pfizer (oral GLP-1 small molecules), Structure Therapeutics (oral GPCR agonist), Altimmune (pemvidutide), Carmot Therapeutics (acquired by Roche), Viking Therapeutics (VK2735).
+Novo Nordisk (semaglutide, Ozempic, Wegovy, oral semaglutide Rybelsus), Eli Lilly (tirzepatide, Mounjaro, Zepbound; retatrutide in pipeline), AstraZeneca (cotadutide), Pfizer (oral GLP-1 small molecules), Structure Therapeutics (oral GPCR agonist), Altimmune (pemvidutide), Carmot Therapeutics (acquired by Roche), Viking Therapeutics (VK2735).
 
 ## Complements
 
@@ -88,8 +88,14 @@ Hengrui Pharmaceuticals (source of assets and China clinical data), CROs for glo
 
 ## Gaps
 
-No proprietary discovery engine — fully dependent on Hengrui licensing. If Hengrui programs fail in global trials, there is no backup pipeline with independent IP. Competitive window is narrowing fast: Novo and Lilly are advancing next-generation assets (once-monthly, oral, and CNS-targeted formulations). Kailera's differentiation case (superior weight loss, better tolerability) must be proven in large global trials.
+No proprietary discovery engine, fully dependent on Hengrui licensing. If Hengrui programs fail in global trials, there is no backup pipeline with independent IP. Competitive window is narrowing fast: Novo and Lilly are advancing next-generation assets (once-monthly, oral, and CNS-targeted formulations). Kailera's differentiation case (superior weight loss, better tolerability) must be proven in large global trials.
 
 ## Notes
 
-CEO: Ron Renaud (ex-Cerevel Therapeutics CEO acquired by AbbVie 2024, ex-Translate Bio CEO/Chairman acquired by Sanofi 2021). Board Chair: John F. Milligan, Ph.D. (ex-Gilead Sciences CEO). CMO: Scott Wasserman, M.D. (ex-Amgen VP, led Repatha development). Cambridge, MA. Ticker: KLRA. Hengrui connection gives unusually deep Phase 2 data foundation for a company less than 2 years old at IPO. The $1.6B+ capitalization at IPO is one of the best-funded obesity-pure-play biotechs outside of Novo and Lilly. The tri-agonist KAI-4729 (GLP-1/GIP/glucagon) is the highest-upside differentiation bet if weight loss data beats tirzepatide benchmarks.
+CEO: Ron Renaud (ex-Cerevel Therapeutics CEO acquired by AbbVie 2024, ex-Translate Bio CEO/Chairman acquired by Sanofi 2021). Board Chair: John F. Milligan, Ph.D. (ex-Gilead Sciences CEO). CMO: Scott Wasserman, M.D. (ex-Amgen VP, led Repatha development). Cambridge, MA. Ticker: KLRA. Hengrui connection gives unusually deep Phase 2 data foundation for a company less than 2 years old at IPO. The ~$1.7B capitalization across two private rounds plus the IPO is one of the best-funded obesity-pure-play biotechs outside of Novo and Lilly. The tri-agonist KAI-4729 (GLP-1/GIP/glucagon) is the highest-upside differentiation bet if weight loss data beats tirzepatide benchmarks.
+
+## News signals
+
+- 2025-10: Closed $600M Series B led by Bain Capital Private Equity, with CPP Investments, QIA, Royalty Pharma, T. Rowe Price and others; existing investors Atlas, Bain Capital Life Sciences, RTW and Sirona participated. (source: https://www.baincapital.com/news/kailera-therapeutics-announces-600-million-series-b-financing-further-advance-pipeline-next)
+- 2026-04: Priced IPO at $16.00/share and closed on April 20 with the underwriters' overallotment exercised in full, for $718.8M gross proceeds (NASDAQ: KLRA). Cash including IPO proceeds is expected to fund operations into mid-2028. (source: https://www.stocktitan.net/news/KLRA/kailera-announces-closing-of-initial-public-offering-and-full-hz2ir5x6y0of.html)
+- 2026-Q1: Initiated five late-stage global obesity trials including the ribupatide injection KaiNETIC Phase 3 program (KaiNETIC-1/2/3); reported positive topline data from three Hengrui China trials. (source: https://www.sec.gov/Archives/edgar/data/0002096997/000119312526239362/ck0002096997-ex99_1.htm)

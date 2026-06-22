@@ -42,7 +42,7 @@ barrier_to_entry: medium
 barrier_to_entry_logic: Payer credentialing across all 50 states, a trained clinician network specialized in menopause, and employer partnerships with Fortune 100 companies took years to build; replication is costly but not impossible for a well-funded entrant.
 hardness: moderate
 hardness_reason: Building durable payer contracts and employer benefit deals while maintaining clinical quality in a condition where treatment guidelines are contested and patient expectations are high.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -93,3 +93,7 @@ Midi's clinical focus is tightly defined (perimenopause and menopause); expansio
 ## Notes
 
 The Joanna Strober founder story is central to Midi's brand: she built the company after her own menopause experience highlighted the care gap. The Fortune 2026 profile describes Midi's ambition to become "the biggest consumer brand in women's health," signaling a long-term consumer brand play beyond clinical care. McKesson Ventures as a Series D investor is notable: McKesson is the largest pharmaceutical distributor in the US, which could facilitate pharmacy and medication access partnerships. The comparison set in femtech tends to cluster around fertility and maternal health; Midi's focus on midlife women is a less crowded niche with strong insurance tailwinds.
+
+## News signals
+
+- 2026-02: Raised $100M Series D at a $1B+ valuation, led by Goodwater Capital with Foresite Capital and Serena Ventures joining. Reported insurance coverage reaching 45M+ women, 500 providers across 50 states, and 230,000+ patients. (source: https://www.businesswire.com/news/home/20260203432254/en/Midi-Health-Surpasses-$1B-Valuation-Igniting-a-New-Era-for-Womens-Health)

@@ -9,34 +9,34 @@ total_funding_usd_m: 65.3
 public: false
 business_model: partnerships
 buyer:
-  - pharma
-  - biotech
+ - pharma
+ - biotech
 buyer_urgency: medium
 buyer_wtp: high
 sales_cycle: long
 regulatory_burden: medium
 tam_usd_m: 119030
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 data_centrality: core-moat
 data_ownership:
-  - partner-supplied
-  - licensed
-  - proprietary
+ - partner-supplied
+ - licensed
+ - proprietary
 moat:
-  - model
-  - IP
-  - data
-  - founder-brand
+ - model
+ - IP
+ - data
+ - founder-brand
 input:
-  - "multi-omic patient data (transcriptomics, proteomics, genomics, single-cell)"
-  - "clinical phenotype metadata"
-  - "human disease cohort data"
+ - "multi-omic patient data (transcriptomics, proteomics, genomics, single-cell)"
+ - "clinical phenotype metadata"
+ - "human disease cohort data"
 transformation_type: predict
 output:
-  - "Gemini Digital Twins (causal disease models)"
-  - "validated drug targets"
-  - "responder patient subgroup predictions"
-  - "causal disease circuitry maps"
+ - "Gemini Digital Twins (causal disease models)"
+ - "validated drug targets"
+ - "responder patient subgroup predictions"
+ - "causal disease circuitry maps"
 barrier_to_entry: high
 barrier_to_entry_logic: 20+ years of causal AI methodology (GNS Healthcare lineage) and pharma relationship-building creates a knowledge and credibility moat that cannot be replicated quickly.
 hardness: moonshot
@@ -57,7 +57,7 @@ Bioinformatics pipelines, GWAS, pathway analysis, expert biology review, retrosp
 
 ## Entry wedge
 
-Founded in 2000 (originally as Gene Logic's computational platform, later as an independent entity). Entry into pharma partnerships came via Gemini Digital Twins — causal graphical models built from patient multi-omics that predicted clinical outcomes and target effects before trials. Neurology was the initial focus area for published validation work.
+Founded in 2000 (originally as Gene Logic's computational platform, later as an independent entity). Entry into pharma partnerships came via Gemini Digital Twins, causal graphical models built from patient multi-omics that predicted clinical outcomes and target effects before trials. Neurology was the initial focus area for published validation work.
 
 ## Method
 
@@ -86,8 +86,8 @@ Multi-omics data generators (10x Genomics, Illumina, Olink proteomics). Clinical
 
 ## Gaps
 
-Does not generate wet-lab experimental data internally — depends on partner data. Does not run clinical trials or validate targets in vivo. Limited public press releases suggest low deal velocity relative to competitors. No disclosed product revenue or FDA/EMA regulatory qualification of their output.
+Does not generate wet-lab experimental data internally, depends on partner data. Does not run clinical trials or validate targets in vivo. Limited public press releases suggest low deal velocity relative to competitors. No disclosed product revenue or FDA/EMA regulatory qualification of their output.
 
 ## Notes
 
-Closest intellectual cousin to EF clinical inference thesis — same inference-over-observation framing, different data modality (omics vs. longitudinal biomarkers/wearables). CEO Colin Hill is a long-tenured computational biology founder (20+ years). Website note: entry file lists website as aitia.ai but the correct company URL is aitia.com. aitia.ai is an unrelated Hungarian telecom company.
+Closest intellectual cousin to EF clinical inference thesis, same inference-over-observation framing, different data modality (omics vs. longitudinal biomarkers/wearables). CEO Colin Hill is a long-tenured computational biology founder (20+ years). Website note: entry file lists website as aitia.ai but the correct company URL is aitia.com. aitia.ai is an unrelated Hungarian telecom company.

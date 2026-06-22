@@ -16,7 +16,7 @@ buyer_wtp: medium
 sales_cycle: medium
 regulatory_burden: heavy
 tam_usd_m: 29580
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 data_centrality: supporting-evidence
 data_ownership:
   - customer-generated
@@ -52,11 +52,11 @@ MRI, CT, DEXA, conventional ultrasound, concierge screening clinics, executive h
 
 ## Entry wedge
 
-Not found. Midjourney Medical appears to be an extremely early-stage or announced-but-not-yet-launched entity as of June 2026. The parent company (Midjourney, the AI image generation company) announced a medical imaging initiative, but no public product launch, clinical deployment, or independent website was verifiable. The 60-second ultrasonic CT technology referenced in the entry appears to be aspirational hardware under development.
+Midjourney Medical is a new division of Midjourney, the AI image generation company led by David Holz. In June 2026 Midjourney announced the division, an "ultrasonic CT" full-body scanner, and the Midjourney Spa. The scanner is a first-generation prototype with no FDA clearance; the company plans to begin with body-composition maps (which do not require clearance) and layer on FDA approvals incrementally. The first Spa, a 25,000-square-foot San Francisco location, is expected to open by the end of 2027.
 
 ## Method
 
-Not found. The stated method is ultrasonic CT — an ultrasound-based approach to full-body imaging that avoids ionizing radiation from conventional CT. No technical papers or clinical validation data were publicly available at time of research.
+The stated method is ultrasonic CT, an ultrasound-based approach to full-body imaging that avoids ionizing radiation from conventional CT. A person is lowered on a platform into a shallow pool ringed with ultrasonic sensors that fire sound waves through the body from every angle. The prototype uses 40 Butterfly Ultrasound-on-Chip modules under a co-development and exclusive licensing agreement with Butterfly Network signed in November 2025, worth up to $74M over five years. CEO David Holz stated the system does not yet use AI. No technical papers or clinical validation data were publicly available at time of research.
 
 ## TAM logic
 
@@ -64,7 +64,7 @@ Not found. No public market sizing statement from the company was verifiable. Th
 
 ## Validated by
 
-Not found. No clinical validation, regulatory clearance, or commercial deployment verified.
+No clinical validation, regulatory clearance, or commercial deployment yet. Midjourney is self-funded with no outside investors, describing itself as a community-backed research lab; the medical division is funded from the AI image business rather than an external round. A working prototype and a signed San Francisco lease are confirmed; the Butterfly Network licensing deal validates the hardware supply path.
 
 ## Competes with
 
@@ -81,8 +81,12 @@ Concierge health platforms, wearable companies (Apple Health, Garmin), GP referr
 
 ## Gaps
 
-No verified product exists yet. Hardware development for novel imaging modalities (ultrasonic CT) requires extensive FDA clearance (510k or De Novo) before consumer use. Radiation-free full-body imaging at 60 seconds would be a significant technical achievement; no independent technical validation was found. This entry should be treated as a monitor until product existence is confirmed.
+A prototype exists but no commercial product is available. Hardware for novel imaging modalities (ultrasonic CT) requires FDA clearance (510k or De Novo) before diagnostic consumer use; Midjourney plans to sidestep this initially by offering only body-composition maps. Radiation-free full-body imaging at 60 seconds would be a significant technical achievement; no independent technical validation was found, and the company says no AI is used in the current system. The first location is not expected until late 2027, so commercial proof is years out.
 
 ## Notes
 
-Very limited public information. The Midjourney AI image company (midjourney.com) does not currently operate a medical division as a publicly confirmed product. If this entity refers to a different company operating under a similar name, independent sourcing is needed. Treat all fields other than the pre-existing ones as provisional until website becomes live and verifiable.
+Confirmed in June 2026 as a division of the Midjourney AI image company (midjourney.com/medical), led by David Holz. The medical pivot is unusual for an AI image lab; it is self-funded from the image-generation business rather than a dedicated raise. The Butterfly Network licensing deal supplies the ultrasound hardware. Treat as a monitor: a prototype and a signed SF lease exist, but there is no clearance, no commercial deployment, and the first location is targeted for late 2027.
+
+## News signals
+
+- 2026-06: Announced Midjourney Medical, a 60-second "ultrasonic CT" full-body scanner and the Midjourney Spa, built on a co-development and licensing deal with Butterfly Network worth up to $74M over five years. First San Francisco location targeted for end of 2027; no FDA clearance, self-funded. (source: https://www.pymnts.com/news/artificial-intelligence/2026/midjourney-enters-medical-imaging-with-60-second-full-body-scan/)

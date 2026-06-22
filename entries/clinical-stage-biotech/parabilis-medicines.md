@@ -9,8 +9,8 @@ total_funding_usd_m: 1482
 public: true
 business_model: own-pipeline
 buyer:
-  - pharma
-  - investor
+ - pharma
+ - investor
 buyer_urgency: medium
 buyer_wtp: high
 sales_cycle: long
@@ -18,29 +18,29 @@ regulatory_burden: heavy
 tam_usd_m: 250000
 data_centrality: supporting-evidence
 data_ownership:
-  - proprietary
-  - generated-in-house
+ - proprietary
+ - generated-in-house
 moat:
-  - IP
-  - wet-lab
-  - clinical-evidence
-  - capital
+ - IP
+ - wet-lab
+ - clinical-evidence
+ - capital
 primary_value_chain_layer: discovery
 input:
-  - validated intracellular targets with PPI or protein-DNA interaction mechanism
-  - AI/physics-based computational design tools
-  - non-canonical amino acid library (1000+ amino acids)
-  - real-world data for precision medicine patient stratification
+ - validated intracellular targets with PPI or protein-DNA interaction mechanism
+ - AI/physics-based computational design tools
+ - non-canonical amino acid library (1000+ amino acids)
+ - real-world data for precision medicine patient stratification
 transformation_type: generate
 output:
-  - Helicon peptide therapeutics (cell-permeable, helical, high-specificity)
-  - zolucatetide (b-catenin:TCF inhibitor) in Phase 1/2
-  - degrader programs (b-catenin, ERG, androgen receptor) in discovery
+ - Helicon peptide therapeutics (cell-permeable, helical, high-specificity)
+ - zolucatetide (b-catenin:TCF inhibitor) in Phase 1/2
+ - degrader programs (b-catenin, ERG, androgen receptor) in discovery
 barrier_to_entry: very-high
 barrier_to_entry_logic: Helicons are a proprietary modality combining the intracellular access of small molecules with the target selectivity of antibodies; the non-canonical amino acid library (1000+) creates a combinatorial moat that took a decade to build, and first-in-class clinical data on zolucatetide in a historically undruggable target raises the validation bar for competitors.
 hardness: moonshot
-hardness_reason: Translating cell-permeable alpha-helical peptides from preclinical efficacy to clinical proof-of-concept — the Wnt/b-catenin pathway has been a graveyard for oncology drugs for 30 years, and oral/systemic delivery of complex peptides faces steep PK/ADME challenges.
-last_verified: "2026-06-21"
+hardness_reason: Translating cell-permeable alpha-helical peptides from preclinical efficacy to clinical proof-of-concept, the Wnt/b-catenin pathway has been a graveyard for oncology drugs for 30 years, and oral/systemic delivery of complex peptides faces steep PK/ADME challenges.
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -49,7 +49,7 @@ Parabilis Medicines pioneered the Helicon platform, a class of stabilized alpha-
 
 ## Problem
 
-An estimated 80% of biologically validated disease targets are intracellular proteins with flat interaction surfaces — inaccessible to antibodies (which cannot cross cell membranes) and unable to be bound by small molecules (which lack the interaction surface area). This leaves millions of patients without targeted therapies for diseases driven by transcription factor interactions, protein-protein interactions, and DNA-binding proteins inside cells.
+An estimated 80% of biologically validated disease targets are intracellular proteins with flat interaction surfaces, inaccessible to antibodies (which cannot cross cell membranes) and unable to be bound by small molecules (which lack the interaction surface area). This leaves millions of patients without targeted therapies for diseases driven by transcription factor interactions, protein-protein interactions, and DNA-binding proteins inside cells.
 
 ## Workaround
 
@@ -57,7 +57,7 @@ Chemotherapy and non-targeted systemic therapies for cancers with Wnt/b-catenin 
 
 ## Entry wedge
 
-Zolucatetide (formerly FOG-001): first-in-class, first-ever direct inhibitor of the b-catenin:TCF protein-protein interaction — the key downstream node in the Wnt signaling pathway. Currently in Phase 1/2 trials in patients with desmoid tumors (rare solid tumor with near-universal Wnt pathway dependence), FAP, and Wnt-driven gastrointestinal cancers.
+Zolucatetide (formerly FOG-001): first-in-class, first-ever direct inhibitor of the b-catenin:TCF protein-protein interaction, the key downstream node in the Wnt signaling pathway. Currently in Phase 1/2 trials in patients with desmoid tumors (rare solid tumor with near-universal Wnt pathway dependence), FAP, and Wnt-driven gastrointestinal cancers.
 
 ## Method
 
@@ -69,7 +69,7 @@ Wnt/b-catenin pathway mutations implicated in millions of cancer cases globally 
 
 ## Validated by
 
-Founded as FOG Pharma 2015, rebranded Parabilis 2024. $800M+ raised in private financing over 9 rounds (through Series F, January 2026, $305M). $2.3B research collaboration with Regeneron. IPO June 2026 (record-breaking $670M biotech IPO + $75M Regeneron concurrent private placement). Zolucatetide in Phase 1/2 clinical trial — first clinical data from an intracellular PPI inhibitor targeting b-catenin:TCF. Mathai Mammen (former EVP Global Head R&D, J&J) as CEO.
+Founded as FOG Pharma 2015, rebranded Parabilis 2024. $800M+ raised in private financing over 9 rounds (through Series F, January 2026, $305M). $2.3B research collaboration with Regeneron. IPO June 2026 (record-breaking $670M biotech IPO + $75M Regeneron concurrent private placement). Zolucatetide in Phase 1/2 clinical trial, first clinical data from an intracellular PPI inhibitor targeting b-catenin:TCF. Mathai Mammen (former EVP Global Head R&D, J&J) as CEO.
 
 ## Competes with
 
@@ -86,8 +86,12 @@ CROs and academic cancer centers for Phase 1/2 execution, Regeneron as platform 
 
 ## Gaps
 
-No approved product. Zolucatetide is first-in-class with no prior clinical validation of b-catenin:TCF inhibition in humans — both a moat and a risk. Oral/systemic PK of Helicons in patients is not yet fully characterized across indications. Platform has not yet yielded a second clinical candidate beyond zolucatetide.
+No approved product. Zolucatetide is first-in-class with no prior clinical validation of b-catenin:TCF inhibition in humans, both a moat and a risk. Oral/systemic PK of Helicons in patients is not yet fully characterized across indications. Platform has not yet yielded a second clinical candidate beyond zolucatetide.
 
 ## Notes
 
-Originally FogPharma, co-founded 2015 by Gregory Verdine (Harvard chemistry professor). Rebranded Parabilis Medicines in 2024. CEO: Mathai Mammen, M.D., Ph.D. (ex-J&J EVP Pharmaceuticals R&D). Verdine is vice chairman. NASDAQ ticker: PBLS. Market cap $3.7B on day 1 of trading (June 10, 2026). Total private capital ~$811.8M before IPO; $670M IPO + $75M concurrent Regeneron private placement = $745M total IPO event. $305M Series F closed January 2026 led by RA Capital, Fidelity, Janus Henderson. Regeneron collaboration (AHCs): up to $2.3B in biobucks. FDA Orphan Drug + Fast Track Designation for zolucatetide in desmoid tumors. 150+ patients dosed in Phase 1/2. Headquarters: Cambridge, MA.
+Originally FogPharma, co-founded 2015 by Gregory Verdine (Harvard chemistry professor). Rebranded Parabilis Medicines in 2024. CEO: Mathai Mammen, M.D., Ph.D. (ex-J&J EVP Pharmaceuticals R&D). Verdine is vice chairman. NASDAQ ticker: PBLS. Market cap $3.7B on day 1 of trading (June 10, 2026). Total private capital ~$811.8M before IPO; $670M IPO + $75M concurrent Regeneron private placement = $745M total IPO event. $305M Series F closed January 2026 led by RA Capital, Fidelity, Janus Henderson. Regeneron collaboration (AHCs): up to $2.3B in biobucks. FDA Orphan Drug + Fast Track Designation for zolucatetide in desmoid tumors. 150+ patients dosed in Phase 1/2. A Phase 3 registrational trial of zolucatetide in desmoid tumors is planned to start in 1H 2027, with ~$150M of IPO proceeds earmarked for it. Headquarters: Cambridge, MA.
+
+## News signals
+
+- 2026-06: Priced an upsized IPO on June 9 at $20.00/share (above the marketed range), selling 33.5 million shares for $670M gross proceeds, a record for a venture-backed biotech. A concurrent $75M private placement to new partner Regeneron brought the total IPO event to $745M. Stock (NASDAQ: PBLS) opened at $33.35 on June 10, up ~67% from the IPO price. (source: https://www.biopharmadive.com/news/parabilis-biotech-ipo-price-helicon-peptides-cancer-verdine/822397/)

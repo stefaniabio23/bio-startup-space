@@ -9,9 +9,9 @@ total_funding_usd_m: 198
 public: false
 business_model: own-pipeline
 buyer:
-  - provider
-  - payer
-  - consumer
+ - provider
+ - payer
+ - consumer
 buyer_urgency: high
 buyer_wtp: high
 sales_cycle: long
@@ -19,29 +19,29 @@ regulatory_burden: heavy
 tam_usd_m: 25000
 data_centrality: supporting-evidence
 data_ownership:
-  - proprietary
-  - generated-in-house
+ - proprietary
+ - generated-in-house
 moat:
-  - clinical-evidence
-  - IP
-  - regulatory-trust
-  - wet-lab
+ - clinical-evidence
+ - IP
+ - regulatory-trust
+ - wet-lab
 primary_value_chain_layer: neurostimulation device development and clinical validation
 input:
-  - patient sensory systems (visual and auditory pathways)
-  - 40 Hz light and sound stimulation (gamma frequency)
-  - one-hour daily at-home sessions
+ - patient sensory systems (visual and auditory pathways)
+ - 40 Hz light and sound stimulation (gamma frequency)
+ - one-hour daily at-home sessions
 transformation_type: monitor
 output:
-  - evoked gamma oscillations in brain neural networks
-  - slowed cognitive and functional decline (clinical endpoint)
-  - reduced whole brain atrophy (MRI-measured)
-  - physician-prescribed at-home therapeutic device (Spectris)
+ - evoked gamma oscillations in brain neural networks
+ - slowed cognitive and functional decline (clinical endpoint)
+ - reduced whole brain atrophy (MRI-measured)
+ - physician-prescribed at-home therapeutic device (Spectris)
 barrier_to_entry: very-high
-barrier_to_entry_logic: FDA Breakthrough Device Designation, Phase 3 HOPE trial enrolled, proprietary 40 Hz multi-sensory stimulation device, and MIT-origin IP on gamma entrainment — replicating the clinical program would take 8-10 years.
+barrier_to_entry_logic: FDA Breakthrough Device Designation, Phase 3 HOPE trial enrolled, proprietary 40 Hz multi-sensory stimulation device, and MIT-origin IP on gamma entrainment, replicating the clinical program would take 8-10 years.
 hardness: moonshot
-hardness_reason: Demonstrating in a 670-patient double-blind RCT that a sensory stimulation device meaningfully slows Alzheimer's progression — a disease that has defeated hundreds of drug candidates.
-last_verified: "2026-06-21"
+hardness_reason: Demonstrating in a 670-patient double-blind RCT that a sensory stimulation device meaningfully slows Alzheimer's progression, a disease that has defeated hundreds of drug candidates.
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -54,11 +54,11 @@ Alzheimer's disease has no approved therapy that durably slows cognitive decline
 
 ## Workaround
 
-Rivastigmine, donepezil, memantine (symptomatic relief only). Biogen/Eisai lecanemab (Leqembi) and Lilly donanemab (Kisunla) for eligible early AD patients — both require regular IV infusion and MRI monitoring. Caregiver support and cognitive engagement programs.
+Rivastigmine, donepezil, memantine (symptomatic relief only). Biogen/Eisai lecanemab (Leqembi) and Lilly donanemab (Kisunla) for eligible early AD patients, both require regular IV infusion and MRI monitoring. Caregiver support and cognitive engagement programs.
 
 ## Entry wedge
 
-Phase 2 OVERTURE feasibility study showing a 76% reduction in cognitive decline, 77% reduction in functional decline, and 69% reduction in whole brain atrophy at six months — results striking enough to justify a pivotal trial and attract $198M in cumulative funding.
+Phase 2 OVERTURE feasibility study showing a 76% reduction in cognitive decline, 77% reduction in functional decline, and 69% reduction in whole brain atrophy at six months, results striking enough to justify a pivotal trial and attract $198M in cumulative funding.
 
 ## Method
 
@@ -89,8 +89,13 @@ Neurologists and geriatric psychiatrists prescribing Alzheimer's therapies, memo
 
 ## Gaps
 
-The HOPE trial is the pivotal moment — if topline results are negative or weaker than Phase 2, the company's entire value is at risk. Phase 2 to Phase 3 failure rates in AD have been catastrophically high historically. FDA clearance path for a device that claims disease modification (not just symptom management) is novel and uncertain. Reimbursement by Medicare/payers for an at-home neurostimulation device is not guaranteed even with clearance. Patient compliance with one hour/day of device use is an adoption risk.
+The HOPE trial is the pivotal moment, if topline results are negative or weaker than Phase 2, the company's entire value is at risk. Phase 2 to Phase 3 failure rates in AD have been catastrophically high historically. FDA clearance path for a device that claims disease modification (not just symptom management) is novel and uncertain. Reimbursement by Medicare/payers for an at-home neurostimulation device is not guaranteed even with clearance. Patient compliance with one hour/day of device use is an adoption risk.
 
 ## Notes
 
-Founded by Emery N. Brown and others; scientific lineage directly from MIT (Li-Huei Tsai lab). HQ: Lexington, MA. The GENUS approach is based on a 2016 Nature paper from the Tsai/Boyden labs at MIT showing 40 Hz flickering light reduced amyloid in mouse models. Spectris would represent the first device-based neuroprotective therapy for Alzheimer's if cleared — a category that does not currently exist.
+Founded by Emery N. Brown and others; scientific lineage directly from MIT (Li-Huei Tsai lab). HQ: Lexington, MA. The GENUS approach is based on a 2016 Nature paper from the Tsai/Boyden labs at MIT showing 40 Hz flickering light reduced amyloid in mouse models. Spectris would represent the first device-based neuroprotective therapy for Alzheimer's if cleared, a category that does not currently exist.
+
+## News signals
+
+- 2025-07: Completed enrollment of 670 participants in the pivotal HOPE study, described as the largest medical device pivotal trial focused exclusively on Alzheimer's. Primary endpoint is a composite of MMSE and ADCS-ADL; topline results expected mid-2026. (source: https://www.businesswire.com/news/home/20250701375054/en/Cognito-Therapeutics-Completes-Enrollment-in-HOPE-Pivotal-Study-of-Spectris-AD-Therapy-for-the-Treatment-of-Patients-with-Alzheimers-Disease)
+- 2025-07: AAIC 2025 data showed Spectris neuromodulation slowed cognitive and functional decline. (source: https://www.clinicaltrialsarena.com/news/aaic25-cognito-neuromodulation-therapy-slows-decline-in-alzheimer-disease/)

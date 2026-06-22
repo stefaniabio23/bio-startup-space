@@ -9,41 +9,41 @@ total_funding_usd_m: 1420
 public: true
 business_model: hybrid
 buyer:
-  - pharma
-  - provider
-  - biotech
+ - pharma
+ - provider
+ - biotech
 buyer_urgency: high
 buyer_wtp: high
 sales_cycle: long
 regulatory_burden: heavy
 tam_usd_m: 100000
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 data_centrality: core-moat
 data_ownership:
-  - proprietary
-  - partner-supplied
-  - customer-generated
+ - proprietary
+ - partner-supplied
+ - customer-generated
 moat:
-  - data
-  - distribution
-  - clinical-evidence
-  - regulatory-trust
-  - IP
+ - data
+ - distribution
+ - clinical-evidence
+ - regulatory-trust
+ - IP
 input:
-  - tumor genomic sequencing (somatic + germline)
-  - whole transcriptome RNA sequencing
-  - liquid biopsy cfDNA
-  - EHR clinical records
-  - pathology images
-  - real-world treatment and outcomes data
+ - tumor genomic sequencing (somatic + germline)
+ - whole transcriptome RNA sequencing
+ - liquid biopsy cfDNA
+ - EHR clinical records
+ - pathology images
+ - real-world treatment and outcomes data
 transformation_type: predict
 output:
-  - genomic profiling reports for clinicians
-  - companion diagnostic assays
-  - real-world evidence datasets for pharma
-  - trial eligibility matches (TIME trial program)
-  - biomarker strategy analyses
-  - MRD monitoring
+ - genomic profiling reports for clinicians
+ - companion diagnostic assays
+ - real-world evidence datasets for pharma
+ - trial eligibility matches (TIME trial program)
+ - biomarker strategy analyses
+ - MRD monitoring
 barrier_to_entry: very-high
 barrier_to_entry_logic: $1.42B deployed to build molecular profiling at oncology centre scale with EHR integrations; 95% of top 20 pharma already customers creates switching-cost lock-in.
 hardness: very-hard
@@ -64,7 +64,7 @@ Manual chart review, CRO recruitment, independent RWE vendors, separate diagnost
 
 ## Entry wedge
 
-Eric Lefkofsky founded Tempus in 2015 after his wife was diagnosed with breast cancer — the initial motivation was the fragmentation of clinical and molecular data in cancer care. The entry wedge was clinical genomic sequencing (the xT panel, a 648-gene solid tumor sequencing test) sold to oncologists at academic medical centers. This built a proprietary database of matched molecular + clinical records at scale. They then monetized the data asset with pharma through RWE and trial recruitment products (TIME trial network). Sequencing-to-data flywheel: diagnostics volume funds data accumulation; data accumulation funds pharma licensing revenue.
+Eric Lefkofsky founded Tempus in 2015 after his wife was diagnosed with breast cancer, the initial motivation was the fragmentation of clinical and molecular data in cancer care. The entry wedge was clinical genomic sequencing (the xT panel, a 648-gene solid tumor sequencing test) sold to oncologists at academic medical centers. This built a proprietary database of matched molecular + clinical records at scale. They then monetized the data asset with pharma through RWE and trial recruitment products (TIME trial network). Sequencing-to-data flywheel: diagnostics volume funds data accumulation; data accumulation funds pharma licensing revenue.
 
 ## Method
 
@@ -98,3 +98,9 @@ Strong on diagnostics and molecular profiling at enrollment; less clear on longi
 ## Notes
 
 Hero comparison from EF previous batch (Immunara): investors excited by proprietary data partnerships.
+
+## News signals
+
+- 2026-02: Closed the Ambry Genetics acquisition (announced Nov 2024), expanding hereditary/germline testing. (source: https://www.businesswire.com/news/home/20260505411869/en/Tempus-Reports-First-Quarter-2026-Results)
+- 2026-05: Reported Q1 2026 revenue of $348.1M, up ~36% year-over-year, and raised full-year 2026 revenue guidance to roughly 25% growth with an adjusted EBITDA target of $65M. (source: https://www.businesswire.com/news/home/20260505411869/en/Tempus-Reports-First-Quarter-2026-Results)
+- 2026: Expanded the AI-enabled Next platform to six additional cancer indications, including breast, colorectal, ovarian, prostate, and urothelial. (source: https://stockanalysis.com/stocks/tem/)

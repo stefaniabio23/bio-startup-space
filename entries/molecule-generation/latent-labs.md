@@ -39,7 +39,7 @@ barrier_to_entry: high
 barrier_to_entry_logic: Ex-DeepMind founders with AlphaFold lineage and frontier protein-design model expertise that took years to develop; Jeff Dean and Dario Amodei as angel investors signals access to talent and compute networks.
 hardness: very-hard
 hardness_reason: Translating high in vitro hit rates (91-100% macrocycles) to clinical-stage programs with commercial economics and partner-funded development.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner

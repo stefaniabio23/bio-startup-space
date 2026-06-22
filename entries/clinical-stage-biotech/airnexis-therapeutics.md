@@ -9,9 +9,9 @@ total_funding_usd_m: 200
 public: false
 business_model: own-pipeline
 buyer:
-  - pharma
-  - biotech
-  - investor
+ - pharma
+ - biotech
+ - investor
 buyer_urgency: medium
 buyer_wtp: high
 sales_cycle: long
@@ -19,25 +19,25 @@ regulatory_burden: heavy
 tam_usd_m: 22900
 data_centrality: supporting-evidence
 data_ownership:
-  - licensed
-  - partner-supplied
+ - licensed
+ - partner-supplied
 moat:
-  - IP
-  - clinical-evidence
-  - capital
+ - IP
+ - clinical-evidence
+ - capital
 primary_value_chain_layer: clinical development
 input:
-  - in-licensed clinical-stage dual PDE3/4 inhibitor (AN01/HSK39004) from Haisco Pharmaceutical Group
-  - Phase 2 clinical data package from China
+ - in-licensed clinical-stage dual PDE3/4 inhibitor (AN01/HSK39004) from Haisco Pharmaceutical Group
+ - Phase 2 clinical data package from China
 transformation_type: generate
 output:
-  - Phase 2 and Phase 3 clinical trials for COPD maintenance therapy
-  - regulatory submissions in ex-China territories
+ - Phase 2 and Phase 3 clinical trials for COPD maintenance therapy
+ - regulatory submissions in ex-China territories
 barrier_to_entry: high
 barrier_to_entry_logic: Clinical-stage asset requires hundreds of millions to advance; regulatory path for COPD maintenance is well-established but expensive, and the field is dominated by large respiratory pharma incumbents.
 hardness: hard
 hardness_reason: Demonstrating a clinically meaningful benefit over existing COPD standard of care (triple inhaled therapy + existing PDE3/4 options like ensifentrine) in large, expensive Phase 3 trials.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -70,7 +70,7 @@ $200M Series A closed January 2026, oversubscribed, led by Frazier Life Sciences
 
 ## Competes with
 
-Ensifentrine (Verona Pharma/Merck, approved 2024) — the closest analog as an inhaled dual PDE3/4 inhibitor already on market. Roflumilast (AstraZeneca) — oral PDE4-only. Triple inhaled therapy (LABA/LAMA/ICS) regimens from AstraZeneca, GSK, Boehringer Ingelheim, Novartis.
+Ensifentrine (Verona Pharma/Merck, approved 2024), the closest analog as an inhaled dual PDE3/4 inhibitor already on market. Roflumilast (AstraZeneca), oral PDE4-only. Triple inhaled therapy (LABA/LAMA/ICS) regimens from AstraZeneca, GSK, Boehringer Ingelheim, Novartis.
 
 ## Complements
 
@@ -83,8 +83,8 @@ Chinese pharma partners (Haisco retains Greater China rights). Contract research
 
 ## Gaps
 
-AirNexis was founded simultaneously with the announcement — there is no track record of clinical execution. The competitive moat is thin given ensifentrine is already on market. Success depends heavily on differentiation (inhalation route, safety profile, convenience vs. ensifentrine) that Phase 2 data will need to establish. Haisco's equity stake and milestone structure creates structural overhang on a future M&A exit.
+AirNexis was founded simultaneously with the announcement, there is no track record of clinical execution. The competitive moat is thin given ensifentrine is already on market. Success depends heavily on differentiation (inhalation route, safety profile, convenience vs. ensifentrine) that Phase 2 data will need to establish. Haisco's equity stake and milestone structure creates structural overhang on a future M&A exit.
 
 ## Notes
 
-Formed January 2026. CEO: Maria Fardis, Ph.D., MBA (ex-Lassen Therapeutics, Venture Partner at Frazier). Chairman: James Li, M.D. (Frazier Life Sciences). Board includes representatives from OrbiMed, SR One, Goldman Sachs Alternatives, Longitude Capital. Company has no disclosed prior funding rounds — this is its founding capital event.
+Formed January 2026. CEO: Maria Fardis, Ph.D., MBA (ex-Lassen Therapeutics, Venture Partner at Frazier). Chairman: James Li, M.D. (Frazier Life Sciences). Board includes representatives from OrbiMed, SR One, Goldman Sachs Alternatives, Longitude Capital. Company has no disclosed prior funding rounds, this is its founding capital event.

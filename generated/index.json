@@ -18,7 +18,7 @@
     "sales_cycle": "long",
     "regulatory_burden": "heavy",
     "tam_usd_m": 50000,
-    "last_verified": "2026-06-21",
+    "last_verified": "2026-06-22",
     "data_centrality": "core-moat",
     "data_ownership": [
       "partner-supplied",
@@ -72,7 +72,7 @@
     "sales_cycle": "long",
     "regulatory_burden": "medium",
     "tam_usd_m": 119030,
-    "last_verified": "2026-06-21",
+    "last_verified": "2026-06-22",
     "data_centrality": "core-moat",
     "data_ownership": [
       "partner-supplied",
@@ -122,7 +122,7 @@
     "sales_cycle": "medium",
     "regulatory_burden": "medium",
     "tam_usd_m": 4530,
-    "last_verified": "2026-06-21",
+    "last_verified": "2026-06-22",
     "data_centrality": "core-moat",
     "data_ownership": [
       "proprietary",
@@ -152,6 +152,199 @@
     "hardness_reason": "Proving RNA-derived predictions change clinical decisions better than existing cheaper biomarkers at the point of care."
   },
   {
+    "id": "airnexis-therapeutics",
+    "name": "AirNexis Therapeutics",
+    "website": "airnexis.com",
+    "founded": 2026,
+    "area": "respiratory therapeutics (COPD)",
+    "funding_stage": "series-a",
+    "total_funding_usd_m": 200,
+    "public": false,
+    "business_model": "own-pipeline",
+    "buyer": [
+      "pharma",
+      "biotech",
+      "investor"
+    ],
+    "buyer_urgency": "medium",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "heavy",
+    "tam_usd_m": 22900,
+    "data_centrality": "supporting-evidence",
+    "data_ownership": [
+      "licensed",
+      "partner-supplied"
+    ],
+    "moat": [
+      "IP",
+      "clinical-evidence",
+      "capital"
+    ],
+    "primary_value_chain_layer": "clinical development",
+    "input": [
+      "in-licensed clinical-stage dual PDE3/4 inhibitor (AN01/HSK39004) from Haisco Pharmaceutical Group",
+      "Phase 2 clinical data package from China"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "Phase 2 and Phase 3 clinical trials for COPD maintenance therapy",
+      "regulatory submissions in ex-China territories"
+    ],
+    "barrier_to_entry": "high",
+    "barrier_to_entry_logic": "Clinical-stage asset requires hundreds of millions to advance; regulatory path for COPD maintenance is well-established but expensive, and the field is dominated by large respiratory pharma incumbents.",
+    "hardness": "hard",
+    "hardness_reason": "Demonstrating a clinically meaningful benefit over existing COPD standard of care (triple inhaled therapy + existing PDE3/4 options like ensifentrine) in large, expensive Phase 3 trials.",
+    "last_verified": "2026-06-22"
+  },
+  {
+    "id": "alveus-therapeutics",
+    "name": "Alveus Therapeutics",
+    "website": "alveustx.com",
+    "founded": 2024,
+    "area": "obesity and metabolic disease therapeutics",
+    "funding_stage": "series-a",
+    "total_funding_usd_m": 197,
+    "public": false,
+    "business_model": "own-pipeline",
+    "buyer": [
+      "pharma",
+      "biotech",
+      "investor"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "heavy",
+    "tam_usd_m": 100000,
+    "data_centrality": "supporting-evidence",
+    "data_ownership": [
+      "proprietary",
+      "licensed",
+      "generated-in-house"
+    ],
+    "moat": [
+      "IP",
+      "wet-lab",
+      "clinical-evidence",
+      "founder-brand"
+    ],
+    "primary_value_chain_layer": "clinical development",
+    "input": [
+      "human genetic data guiding target selection",
+      "licensed fusion protein scaffold (ALV-100, GIPR antagonist / GLP-1R agonist)",
+      "amylin biology from Novo Nordisk / Eli Lilly institutional expertise"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "Phase 2 clinical data for ALV-100 (GIP antagonist / GLP-1 agonist fusion protein)",
+      "IND filing for ALV-200 (selective AMYR3 peptide agonist)",
+      "pipeline of oral and injectable metabolic agents"
+    ],
+    "barrier_to_entry": "high",
+    "barrier_to_entry_logic": "Obesity drug development requires expensive Phase 2/3 trials with long-duration weight loss endpoints; the GLP-1/GIP space is dominated by Novo Nordisk and Lilly with approved products and deep clinical infrastructure, making differentiation essential and difficult.",
+    "hardness": "very-hard",
+    "hardness_reason": "Achieving weight loss efficacy and tolerability profiles meaningfully better than approved tirzepatide (Lilly) and semaglutide (Novo) within a crowded capital market willing to fund many competing programs simultaneously.",
+    "last_verified": "2026-06-22"
+  },
+  {
+    "id": "apogee-therapeutics",
+    "name": "Apogee Therapeutics",
+    "website": "apogeetherapeutics.com",
+    "founded": 2022,
+    "area": "next-generation immunology antibodies",
+    "funding_stage": "public",
+    "total_funding_usd_m": 1638,
+    "public": true,
+    "business_model": "own-pipeline",
+    "buyer": [
+      "pharma",
+      "investor"
+    ],
+    "buyer_urgency": "medium",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "heavy",
+    "tam_usd_m": 30000,
+    "data_centrality": "supporting-evidence",
+    "data_ownership": [
+      "proprietary",
+      "generated-in-house"
+    ],
+    "moat": [
+      "clinical-evidence",
+      "IP",
+      "capital",
+      "founder-brand"
+    ],
+    "primary_value_chain_layer": "clinical-development",
+    "input": [
+      "validated immunological targets (IL-13, OX40L, TSLP, IL-4Ra)",
+      "FcRn-engineering antibody design",
+      "clinical trial data from Phase 1/2 programs"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "half-life extended monoclonal antibodies dosed every 3-6 months",
+      "clinical candidates for atopic dermatitis, asthma, eosinophilic esophagitis"
+    ],
+    "barrier_to_entry": "high",
+    "barrier_to_entry_logic": "Differentiation rests on extended half-life engineering (Q3-Q6M dosing vs. Q2-Q4W for dupilumab); clinical data at Phase 2 stage is hard to replicate quickly, and NASDAQ listing provides non-dilutive capital at scale.",
+    "hardness": "very-hard",
+    "hardness_reason": "Demonstrating superior efficacy or meaningful durability advantage over dupilumab (Dupixent ~$12B/yr in sales) in head-to-head or comparator trials across multiple indications.",
+    "last_verified": "2026-06-22"
+  },
+  {
+    "id": "beeline-medicines",
+    "name": "Beeline Medicines",
+    "website": "beelinemedicines.com",
+    "founded": 2025,
+    "area": "precision immunology",
+    "funding_stage": "series-a",
+    "total_funding_usd_m": 300,
+    "public": false,
+    "business_model": "own-pipeline",
+    "buyer": [
+      "pharma",
+      "biotech",
+      "payer"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "heavy",
+    "tam_usd_m": 150000,
+    "data_centrality": "supporting-evidence",
+    "data_ownership": [
+      "generated-in-house",
+      "partner-supplied"
+    ],
+    "moat": [
+      "clinical-evidence",
+      "IP",
+      "founder-brand",
+      "capital"
+    ],
+    "primary_value_chain_layer": "late-stage precision immunology drug development",
+    "input": [
+      "in-licensed clinical and preclinical drug candidates from Bristol Myers Squibb",
+      "Phase 1b proof-of-concept clinical data (afimetoran in CLE)",
+      "Phase 2 trial enrollment and readout data",
+      "genomic and immunological patient stratification data"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "late-stage clinical trial results in autoimmune/inflammatory diseases",
+      "regulatory submissions and approved precision immunology therapies",
+      "mechanistically-guided patient selection and biomarker data"
+    ],
+    "barrier_to_entry": "very-high",
+    "barrier_to_entry_logic": "Five in-licensed BMS clinical assets, $300M Bain Capital backing, FDA Fast Track designation on lead program, and a CEO with a precedent $3.9B drug development exit (SpringWorks) combine to create a capital-and-credibility moat that takes years to replicate.",
+    "hardness": "very-hard",
+    "hardness_reason": "Demonstrating that mechanistic selectivity in TLR7/8 inhibition (afimetoran) translates into a best-in-disease efficacy and safety profile for lupus in Phase 2 and pivotal trials, where multiple prior lupus drugs have failed.",
+    "last_verified": "2026-06-22"
+  },
+  {
     "id": "bioage-labs",
     "name": "BioAge Labs",
     "website": "bioagelabs.com",
@@ -171,7 +364,7 @@
     "sales_cycle": "long",
     "regulatory_burden": "heavy",
     "tam_usd_m": 34574,
-    "last_verified": "2026-06-21",
+    "last_verified": "2026-06-22",
     "data_centrality": "core-moat",
     "data_ownership": [
       "proprietary",
@@ -195,9 +388,57 @@
       "clinical-stage therapeutics"
     ],
     "barrier_to_entry": "high",
-    "barrier_to_entry_logic": "Decades-long longitudinal aging cohorts with serial multi-omics were assembled before the company existed and cannot be quickly replicated \u2014 the data asset is the barrier.",
+    "barrier_to_entry_logic": "Decades-long longitudinal aging cohorts with serial multi-omics were assembled before the company existed and cannot be quickly replicated, the data asset is the barrier.",
     "hardness": "very-hard",
     "hardness_reason": "Proving that intervening on aging-linked molecular targets improves hard clinical endpoints in large, diverse populations without multi-decade follow-up trials."
+  },
+  {
+    "id": "campfield-therapeutics",
+    "name": "cAMPfield Therapeutics",
+    "website": "campfieldtx.com",
+    "founded": 2026,
+    "area": "oral immunology / IBD therapeutics",
+    "funding_stage": "series-a",
+    "total_funding_usd_m": 180,
+    "public": false,
+    "business_model": "own-pipeline",
+    "buyer": [
+      "pharma",
+      "biotech",
+      "investor"
+    ],
+    "buyer_urgency": "medium",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "heavy",
+    "tam_usd_m": 12720,
+    "data_centrality": "supporting-evidence",
+    "data_ownership": [
+      "licensed",
+      "partner-supplied"
+    ],
+    "moat": [
+      "IP",
+      "clinical-evidence",
+      "capital",
+      "founder-brand"
+    ],
+    "primary_value_chain_layer": "clinical development",
+    "input": [
+      "in-licensed prifemilast (HPP737) from Newsoara Biopharma",
+      "existing clinical dataset (700+ patients dosed, 250+ at 52 weeks)"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "global Phase 2b trial in moderate-to-severe ulcerative colitis",
+      "global Phase 2 trial in Crohn's disease",
+      "regulatory submissions and eventual NDA/BLA filing"
+    ],
+    "barrier_to_entry": "high",
+    "barrier_to_entry_logic": "IBD drug development requires large, expensive Phase 2/3 trials with endoscopic endpoints; dominant competitors (AbbVie, J&J, Takeda, Pfizer) have entrenched relationships and biologic market share that new oral entrants must overcome.",
+    "hardness": "hard",
+    "hardness_reason": "Demonstrating clinically meaningful, endoscopy-confirmed remission in IBD with an oral small molecule against a biologics-dominated standard of care while avoiding PDE4D-related side effects (nausea, CNS) at doses required for efficacy.",
+    "last_verified": "2026-06-22"
   },
   {
     "id": "formation-bio",
@@ -246,7 +487,109 @@
     "barrier_to_entry_logic": "AI-driven drug development platform requires years of trial execution data to calibrate; Moderna investment and top-tier backing signal access to deal flow and clinical data that competitors cannot easily source.",
     "hardness": "very-hard",
     "hardness_reason": "Acquiring undervalued clinical-stage assets at the right price and demonstrating the AI development platform materially improves development timelines or success rates above industry baseline.",
-    "last_verified": "2026-06-21"
+    "last_verified": "2026-06-22"
+  },
+  {
+    "id": "kailera-therapeutics",
+    "name": "Kailera Therapeutics",
+    "website": "kailera.com",
+    "founded": 2024,
+    "area": "obesity and metabolic disease therapeutics (GLP-1/GIP)",
+    "funding_stage": "public",
+    "total_funding_usd_m": 1718.8,
+    "public": true,
+    "business_model": "own-pipeline",
+    "buyer": [
+      "pharma",
+      "investor",
+      "payer"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "heavy",
+    "tam_usd_m": 100000,
+    "data_centrality": "supporting-evidence",
+    "data_ownership": [
+      "licensed",
+      "partner-supplied",
+      "proprietary"
+    ],
+    "moat": [
+      "clinical-evidence",
+      "capital",
+      "IP",
+      "distribution"
+    ],
+    "primary_value_chain_layer": "clinical-development",
+    "input": [
+      "licensed GLP-1-based drug candidates from Jiangsu Hengrui Pharmaceuticals",
+      "Phase 2/3 clinical data from Hengrui's China trials",
+      "patient-level clinical trial datasets"
+    ],
+    "transformation_type": "predict",
+    "output": [
+      "ribupatide (KAI-9531): weekly injectable GLP-1/GIP dual agonist, Phase 3",
+      "oral ribupatide tablet formulation: Phase 2",
+      "KAI-7535: once-daily oral small molecule GLP-1 agonist, Phase 2",
+      "KAI-4729: weekly injectable GLP-1/GIP/glucagon tri-agonist, Phase 2"
+    ],
+    "barrier_to_entry": "high",
+    "barrier_to_entry_logic": "GLP-1 market requires massive Phase 3 investment to compete; Hengrui partnership gives Kailera access to deep China clinical datasets that accelerate global program design; $1.6B+ capital positions it to run parallel Phase 3 programs without near-term dilution pressure.",
+    "hardness": "very-hard",
+    "hardness_reason": "Demonstrating superior weight loss, tolerability, or convenience vs. semaglutide (Ozempic/Wegovy) and tirzepatide (Mounjaro/Zepbound) in head-to-head or competitor-contextualized Phase 3 readouts, against Novo Nordisk and Eli Lilly with decades of GLP-1 expertise and massive manufacturing scale.",
+    "last_verified": "2026-06-22"
+  },
+  {
+    "id": "kardigan",
+    "name": "Kardigan",
+    "website": "kardigan.bio",
+    "founded": 2023,
+    "area": "cardiovascular drug development",
+    "funding_stage": "public",
+    "total_funding_usd_m": 954,
+    "public": true,
+    "business_model": "own-pipeline",
+    "buyer": [
+      "pharma",
+      "biotech",
+      "payer"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "heavy",
+    "tam_usd_m": 50000,
+    "data_centrality": "supporting-evidence",
+    "data_ownership": [
+      "generated-in-house",
+      "partner-supplied"
+    ],
+    "moat": [
+      "clinical-evidence",
+      "IP",
+      "founder-brand",
+      "capital"
+    ],
+    "primary_value_chain_layer": "late-stage cardiovascular drug development",
+    "input": [
+      "in-licensed clinical drug candidates from BMS and other partners",
+      "phase 2b/3 clinical trial data",
+      "real-world cardiac clinical intelligence data (via Prolaio acquisition)",
+      "patient registry data for cardiovascular rare diseases"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "late-stage clinical trial results for cardiovascular drugs",
+      "regulatory submissions (NDA/BLA/MAA)",
+      "approved cardiovascular therapies for unmet-need diseases",
+      "Prolaio-derived cardiac clinical intelligence platform"
+    ],
+    "barrier_to_entry": "very-high",
+    "barrier_to_entry_logic": "Running three simultaneous Phase 2b/3 trials in cardiovascular rare diseases requires $500M+ in capital, physician KOL relationships, patient registries for rare indications, and regulatory expertise that takes years to accumulate; MyoKardia alumni provide shortcut credibility.",
+    "hardness": "very-hard",
+    "hardness_reason": "Demonstrating that danicamtiv, tonlamarsen, and ataciguat each read out positive in Phase 2b/3 in genetically-defined rare cardiovascular populations where no approved therapies exist, within the capital runway raised.",
+    "last_verified": "2026-06-22"
   },
   {
     "id": "odyssey-therapeutics",
@@ -268,7 +611,7 @@
     "sales_cycle": "long",
     "regulatory_burden": "heavy",
     "tam_usd_m": 168600,
-    "last_verified": "2026-06-21",
+    "last_verified": "2026-06-22",
     "data_centrality": "supporting-evidence",
     "data_ownership": [
       "generated-in-house",
@@ -298,6 +641,352 @@
     "hardness_reason": "Upstream innate immune targeting must prove efficacy and safety without the 20-year track record of downstream cytokine suppression that incumbents have."
   },
   {
+    "id": "orca-bio",
+    "name": "Orca Bio",
+    "website": "orcabio.com",
+    "founded": 2016,
+    "area": "high-precision allogeneic cell therapy",
+    "funding_stage": "series-d-plus",
+    "total_funding_usd_m": 625,
+    "public": false,
+    "business_model": "own-pipeline",
+    "buyer": [
+      "provider",
+      "payer"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "heavy",
+    "tam_usd_m": 8000,
+    "data_centrality": "supporting-evidence",
+    "data_ownership": [
+      "proprietary",
+      "generated-in-house"
+    ],
+    "moat": [
+      "wet-lab",
+      "clinical-evidence",
+      "IP",
+      "regulatory-trust"
+    ],
+    "primary_value_chain_layer": "cell therapy manufacturing and clinical",
+    "input": [
+      "matched allogeneic donor cells (related or unrelated)",
+      "high-resolution cell sorting technology",
+      "hematopoietic stem cells, regulatory T-cells, conventional T-cells"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "Orca-T: precision-sorted allogeneic T-cell immunotherapy for hematologic malignancies",
+      "Orca-Q: investigational cell therapy for expanded conditioning settings"
+    ],
+    "barrier_to_entry": "nearly-impossible",
+    "barrier_to_entry_logic": "Phase 3 clinical data, BLA filed under Priority Review, proprietary cell sorting manufacturing platform, and $625M deployed, replicating this regulatory and manufacturing position from scratch would take 10+ years.",
+    "hardness": "moonshot",
+    "hardness_reason": "Achieving commercial launch of a first-in-class precision allogeneic cell therapy while demonstrating durable superiority over conventional HSCT across a heterogeneous patient population.",
+    "last_verified": "2026-06-22"
+  },
+  {
+    "id": "parabilis-medicines",
+    "name": "Parabilis Medicines",
+    "website": "parabilismed.com",
+    "founded": 2015,
+    "area": "oncology / undruggable target therapeutics (Helicon peptides)",
+    "funding_stage": "public",
+    "total_funding_usd_m": 1482,
+    "public": true,
+    "business_model": "own-pipeline",
+    "buyer": [
+      "pharma",
+      "investor"
+    ],
+    "buyer_urgency": "medium",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "heavy",
+    "tam_usd_m": 250000,
+    "data_centrality": "supporting-evidence",
+    "data_ownership": [
+      "proprietary",
+      "generated-in-house"
+    ],
+    "moat": [
+      "IP",
+      "wet-lab",
+      "clinical-evidence",
+      "capital"
+    ],
+    "primary_value_chain_layer": "discovery",
+    "input": [
+      "validated intracellular targets with PPI or protein-DNA interaction mechanism",
+      "AI/physics-based computational design tools",
+      "non-canonical amino acid library (1000+ amino acids)",
+      "real-world data for precision medicine patient stratification"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "Helicon peptide therapeutics (cell-permeable, helical, high-specificity)",
+      "zolucatetide (b-catenin:TCF inhibitor) in Phase 1/2",
+      "degrader programs (b-catenin, ERG, androgen receptor) in discovery"
+    ],
+    "barrier_to_entry": "very-high",
+    "barrier_to_entry_logic": "Helicons are a proprietary modality combining the intracellular access of small molecules with the target selectivity of antibodies; the non-canonical amino acid library (1000+) creates a combinatorial moat that took a decade to build, and first-in-class clinical data on zolucatetide in a historically undruggable target raises the validation bar for competitors.",
+    "hardness": "moonshot",
+    "hardness_reason": "Translating cell-permeable alpha-helical peptides from preclinical efficacy to clinical proof-of-concept, the Wnt/b-catenin pathway has been a graveyard for oncology drugs for 30 years, and oral/systemic delivery of complex peptides faces steep PK/ADME challenges.",
+    "last_verified": "2026-06-22"
+  },
+  {
+    "id": "emed",
+    "name": "eMed",
+    "website": "emed.com",
+    "founded": 2020,
+    "area": "employer GLP-1 telehealth",
+    "funding_stage": "series-a",
+    "total_funding_usd_m": 200,
+    "public": false,
+    "business_model": "hybrid",
+    "buyer": [
+      "payer",
+      "consumer",
+      "provider"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "high",
+    "sales_cycle": "medium",
+    "regulatory_burden": "light",
+    "tam_usd_m": 150000,
+    "data_centrality": "important-enabler",
+    "data_ownership": [
+      "proprietary",
+      "customer-generated"
+    ],
+    "moat": [
+      "distribution",
+      "data",
+      "model",
+      "founder-brand"
+    ],
+    "primary_value_chain_layer": "employer GLP-1 access and adherence",
+    "input": [
+      "employee health eligibility data",
+      "at-home lab screening results (blood tests)",
+      "patient medical history and risk factors",
+      "GLP-1 adherence and outcome signals"
+    ],
+    "transformation_type": "monitor",
+    "output": [
+      "GLP-1 medication prescription and home delivery",
+      "clinician-managed weight management care plan",
+      "AI-driven adherence support and side-effect management",
+      "employer population health reporting"
+    ],
+    "barrier_to_entry": "medium",
+    "barrier_to_entry_logic": "Employer contract pipeline requires established credibility and actuarial outcome data; the 90%+ adherence claim, if validated, creates a meaningful differentiation story, but the GLP-1 management space is crowded and entry barriers are primarily sales and outcomes-trust rather than technology.",
+    "hardness": "moderate",
+    "hardness_reason": "Sustaining adherence at industry-leading rates across diverse employer populations at scale, while managing GLP-1 supply constraints and side effects, is the core operational challenge.",
+    "last_verified": "2026-06-22"
+  },
+  {
+    "id": "garner-health",
+    "name": "Garner Health",
+    "website": "garnerhealth.com",
+    "founded": 2019,
+    "area": "provider quality analytics and benefits navigation",
+    "funding_stage": "series-d-plus",
+    "total_funding_usd_m": 300,
+    "public": false,
+    "business_model": "saas",
+    "buyer": [
+      "payer",
+      "provider",
+      "consumer"
+    ],
+    "buyer_urgency": "medium",
+    "buyer_wtp": "high",
+    "sales_cycle": "medium",
+    "regulatory_burden": "light",
+    "tam_usd_m": 40000,
+    "data_centrality": "core-moat",
+    "data_ownership": [
+      "licensed",
+      "proprietary"
+    ],
+    "moat": [
+      "data",
+      "model",
+      "distribution"
+    ],
+    "primary_value_chain_layer": "provider selection and benefits optimization",
+    "input": [
+      "de-identified medical claims from 320M+ U.S. patients (60B+ claims)",
+      "specialty-specific clinical outcome metrics (550+ proprietary metrics)",
+      "network and availability data for in-network providers",
+      "employer health plan design and HRA parameters"
+    ],
+    "transformation_type": "predict",
+    "output": [
+      "ranked list of top-performing providers by specialty and geography",
+      "employee-facing app with green \"Top Provider\" badge and booking support",
+      "HRA reimbursement for qualifying out-of-pocket costs when top providers are chosen",
+      "employer reporting on cost savings and engagement rates"
+    ],
+    "barrier_to_entry": "high",
+    "barrier_to_entry_logic": "60B+ claims database, 550+ proprietary clinical metrics refined over five years, and an employer channel with $100M+ ARR and 2.5M+ members create a compounding data and distribution advantage.",
+    "hardness": "hard",
+    "hardness_reason": "Continuously proving that provider quality rankings translate to actual cost and outcome improvements at scale, as health plan networks change and provider attribution grows more complex.",
+    "last_verified": "2026-06-22"
+  },
+  {
+    "id": "grow-therapy",
+    "name": "Grow Therapy",
+    "website": "growtherapy.com",
+    "founded": 2020,
+    "area": "mental health telehealth",
+    "funding_stage": "series-d-plus",
+    "total_funding_usd_m": 328,
+    "public": false,
+    "business_model": "hybrid",
+    "buyer": [
+      "consumer",
+      "provider",
+      "payer"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "medium",
+    "sales_cycle": "short",
+    "regulatory_burden": "light",
+    "tam_usd_m": 92000,
+    "data_centrality": "supporting-evidence",
+    "data_ownership": [
+      "partner-supplied",
+      "customer-generated"
+    ],
+    "moat": [
+      "distribution",
+      "data",
+      "capital"
+    ],
+    "primary_value_chain_layer": "therapist-patient marketplace",
+    "input": [
+      "patient symptom and preference intake",
+      "therapist credential and specialty data",
+      "insurance eligibility and plan data",
+      "session and outcome records"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "matched therapist recommendations",
+      "insurance-covered therapy sessions (in-person and virtual)",
+      "billing and claims management for providers",
+      "medication management (psychiatry subset)"
+    ],
+    "barrier_to_entry": "medium",
+    "barrier_to_entry_logic": "Network effects between 26,000+ therapists and 2M+ patient relationships create switching cost for both sides; insurance credentialing infrastructure and billing ops are costly to replicate, but the marketplace model itself is not technically defensible.",
+    "hardness": "moderate",
+    "hardness_reason": "Maintaining therapist quality and network density across 47 states at scale while competing on both consumer acquisition and provider recruitment simultaneously.",
+    "last_verified": "2026-06-22"
+  },
+  {
+    "id": "honest-health",
+    "name": "Honest Health",
+    "website": "honesthealth.com",
+    "founded": 2021,
+    "area": "value-based care enablement",
+    "funding_stage": "series-d-plus",
+    "total_funding_usd_m": 140,
+    "public": false,
+    "business_model": "partnerships",
+    "buyer": [
+      "provider",
+      "payer"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "medium",
+    "tam_usd_m": 50000,
+    "data_centrality": "important-enabler",
+    "data_ownership": [
+      "partner-supplied",
+      "proprietary"
+    ],
+    "moat": [
+      "founder-brand",
+      "distribution",
+      "regulatory-trust"
+    ],
+    "primary_value_chain_layer": "value-based care infrastructure",
+    "input": [
+      "patient claims and clinical data across care continuum",
+      "EHR and population health feeds from health system partners",
+      "Medicare and Medicare Advantage attribution data"
+    ],
+    "transformation_type": "predict",
+    "output": [
+      "real-time clinical insights and risk alerts for providers",
+      "population health management strategies",
+      "care coordination support across home and community settings",
+      "quality improvement and shared-savings reporting"
+    ],
+    "barrier_to_entry": "high",
+    "barrier_to_entry_logic": "Deep integration with health system EHR and financial workflows, credentialed clinical operations team, and CMS policy relationships built by founders (former CMMI leadership) are hard to replicate quickly.",
+    "hardness": "hard",
+    "hardness_reason": "Sustaining shared-savings performance across diverse health system partners at scale while Medicare Advantage payment policy shifts under the feet.",
+    "last_verified": "2026-06-22"
+  },
+  {
+    "id": "midi-health",
+    "name": "Midi Health",
+    "website": "joinmidi.com",
+    "founded": 2021,
+    "area": "women's health telehealth",
+    "funding_stage": "series-d-plus",
+    "total_funding_usd_m": 250,
+    "public": false,
+    "business_model": "reimbursement",
+    "buyer": [
+      "consumer",
+      "payer",
+      "provider"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "medium",
+    "sales_cycle": "short",
+    "regulatory_burden": "medium",
+    "tam_usd_m": 100000,
+    "data_centrality": "important-enabler",
+    "data_ownership": [
+      "proprietary",
+      "customer-generated"
+    ],
+    "moat": [
+      "distribution",
+      "clinical-evidence",
+      "founder-brand",
+      "regulatory-trust"
+    ],
+    "primary_value_chain_layer": "women's midlife clinical care delivery",
+    "input": [
+      "patient symptom and health history intake",
+      "hormonal and metabolic lab data",
+      "treatment response data from hormone therapy",
+      "insurance eligibility"
+    ],
+    "transformation_type": "monitor",
+    "output": [
+      "personalized menopause and perimenopause care plan",
+      "HRT and non-hormonal medication prescriptions",
+      "ongoing virtual clinician relationship and messaging",
+      "lifestyle coaching and supplement recommendations"
+    ],
+    "barrier_to_entry": "medium",
+    "barrier_to_entry_logic": "Payer credentialing across all 50 states, a trained clinician network specialized in menopause, and employer partnerships with Fortune 100 companies took years to build; replication is costly but not impossible for a well-funded entrant.",
+    "hardness": "moderate",
+    "hardness_reason": "Building durable payer contracts and employer benefit deals while maintaining clinical quality in a condition where treatment guidelines are contested and patient expectations are high.",
+    "last_verified": "2026-06-22"
+  },
+  {
     "id": "midjourney-medical",
     "name": "Midjourney Medical",
     "website": "midjourney.com/medical",
@@ -316,7 +1005,7 @@
     "sales_cycle": "medium",
     "regulatory_burden": "heavy",
     "tam_usd_m": 29580,
-    "last_verified": "2026-06-21",
+    "last_verified": "2026-06-22",
     "data_centrality": "supporting-evidence",
     "data_ownership": [
       "customer-generated",
@@ -342,6 +1031,58 @@
     "hardness_reason": "Building ultrasonic CT achieving MRI-equivalent diagnostic sensitivity in 60 seconds and securing FDA clearance for a modality with no established clinical validation pathway."
   },
   {
+    "id": "minimed",
+    "name": "MiniMed",
+    "website": "minimed.com",
+    "founded": 1983,
+    "area": "automated insulin delivery",
+    "funding_stage": "public",
+    "total_funding_usd_m": 560,
+    "public": true,
+    "business_model": "reimbursement",
+    "buyer": [
+      "consumer",
+      "provider",
+      "payer"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "heavy",
+    "tam_usd_m": 18000,
+    "data_centrality": "important-enabler",
+    "data_ownership": [
+      "proprietary",
+      "customer-generated"
+    ],
+    "moat": [
+      "regulatory-trust",
+      "IP",
+      "clinical-evidence",
+      "distribution",
+      "data"
+    ],
+    "primary_value_chain_layer": "automated insulin delivery system (AID)",
+    "input": [
+      "continuous glucose readings (CGM sensor)",
+      "insulin pump delivery logs",
+      "patient insulin dose history",
+      "user-reported meals and activity"
+    ],
+    "transformation_type": "monitor",
+    "output": [
+      "automated insulin dosing decisions (closed-loop algorithm)",
+      "glucose trend data and alerts",
+      "time-in-range reports for clinician review",
+      "pump and CGM integration reports"
+    ],
+    "barrier_to_entry": "very-high",
+    "barrier_to_entry_logic": "FDA-cleared hybrid closed-loop systems require years of clinical trial data; regulatory approval, physician channel relationships, and payer reimbursement codes are locked to established players.",
+    "hardness": "hard",
+    "hardness_reason": "Building a commercially viable full-stack AID system (pump + CGM + algorithm) that achieves FDA clearance for multiple indication expansions while competing with Dexcom, Insulet, and Abbott on price and form factor.",
+    "last_verified": "2026-06-22"
+  },
+  {
     "id": "neko-health",
     "name": "Neko Health",
     "website": "nekohealth.com",
@@ -361,7 +1102,7 @@
     "sales_cycle": "short",
     "regulatory_burden": "medium",
     "tam_usd_m": 20200,
-    "last_verified": "2026-06-21",
+    "last_verified": "2026-06-22",
     "data_centrality": "important-enabler",
     "data_ownership": [
       "customer-generated",
@@ -393,6 +1134,206 @@
     "hardness_reason": "Accumulating longitudinal outcome data proving preventive scanning changes health outcomes and justifying employer and payer spend at scale."
   },
   {
+    "id": "nourish",
+    "name": "Nourish",
+    "website": "usenourish.com",
+    "founded": 2021,
+    "area": "nutrition telehealth",
+    "funding_stage": "series-c",
+    "total_funding_usd_m": 215,
+    "public": false,
+    "business_model": "reimbursement",
+    "buyer": [
+      "consumer",
+      "payer",
+      "provider"
+    ],
+    "buyer_urgency": "medium",
+    "buyer_wtp": "medium",
+    "sales_cycle": "short",
+    "regulatory_burden": "light",
+    "tam_usd_m": 50000,
+    "data_centrality": "important-enabler",
+    "data_ownership": [
+      "proprietary",
+      "customer-generated"
+    ],
+    "moat": [
+      "distribution",
+      "data",
+      "capital"
+    ],
+    "primary_value_chain_layer": "nutrition care delivery",
+    "input": [
+      "patient dietary and lifestyle intake",
+      "lab results (metabolic, renal, lipid panels)",
+      "chronic condition history (diabetes, eating disorders, kidney disease, GI)",
+      "food and symptom logs from patient app"
+    ],
+    "transformation_type": "monitor",
+    "output": [
+      "personalized nutrition care plan from registered dietitian",
+      "ongoing dietitian coaching (telehealth sessions and messaging)",
+      "GLP-1 prescribing when clinically appropriate",
+      "AI health agent guidance between appointments"
+    ],
+    "barrier_to_entry": "medium",
+    "barrier_to_entry_logic": "Building a W-2 network of 3,000+ registered dietitians credentialed with commercial, Medicare, and Medicaid payers across all 50 states took significant capital and time; insurance billing infrastructure for dietitian services is complex and historically under-built.",
+    "hardness": "moderate",
+    "hardness_reason": "Demonstrating durable clinical outcomes (A1C reduction, weight, comorbidity management) from nutrition-only and nutrition-plus-GLP-1 care across a diverse, high-chronic-disease population at scale.",
+    "last_verified": "2026-06-22"
+  },
+  {
+    "id": "qualified-health",
+    "name": "Qualified Health",
+    "website": "qualifiedhealthai.com",
+    "founded": 2023,
+    "area": "enterprise AI governance platform for health systems",
+    "funding_stage": "series-b",
+    "total_funding_usd_m": 155,
+    "public": false,
+    "business_model": "saas",
+    "buyer": [
+      "provider"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "high",
+    "sales_cycle": "medium",
+    "regulatory_burden": "medium",
+    "tam_usd_m": 15000,
+    "data_centrality": "important-enabler",
+    "data_ownership": [
+      "customer-generated",
+      "partner-supplied"
+    ],
+    "moat": [
+      "distribution",
+      "regulatory-trust",
+      "founder-brand"
+    ],
+    "primary_value_chain_layer": "enterprise AI infrastructure and governance",
+    "input": [
+      "health system EHR and operational data",
+      "clinical and administrative workflow definitions",
+      "AI model outputs from multiple third-party and proprietary models",
+      "regulatory and compliance requirements per use case"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "governed AI deployment layer across clinical and administrative workflows",
+      "AI agent creation tools for automating administrative tasks",
+      "post-deployment monitoring and risk alerts",
+      "role-based access control and auditability logs",
+      "compliance and safety reporting for health system leadership"
+    ],
+    "barrier_to_entry": "medium",
+    "barrier_to_entry_logic": "First-mover distribution across health systems representing 7% of U.S. hospital revenue and a founding team with Stanford, IHI, and Elevance pedigree creates early credibility, but the platform layer is replicable by large EHR vendors or cloud providers.",
+    "hardness": "hard",
+    "hardness_reason": "Sustaining a governance and integration layer that remains vendor-neutral as health systems consolidate AI purchases with Epic, Microsoft, or Google.",
+    "last_verified": "2026-06-22"
+  },
+  {
+    "id": "solace-health",
+    "name": "Solace",
+    "website": "solace.health",
+    "founded": 2022,
+    "area": "healthcare advocacy and navigation",
+    "funding_stage": "series-c",
+    "total_funding_usd_m": 204,
+    "public": false,
+    "business_model": "hybrid",
+    "buyer": [
+      "consumer",
+      "payer",
+      "provider"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "medium",
+    "sales_cycle": "short",
+    "regulatory_burden": "light",
+    "tam_usd_m": 30000,
+    "data_centrality": "supporting-evidence",
+    "data_ownership": [
+      "customer-generated",
+      "proprietary"
+    ],
+    "moat": [
+      "distribution",
+      "data",
+      "founder-brand"
+    ],
+    "primary_value_chain_layer": "patient navigation and care coordination",
+    "input": [
+      "patient health history, diagnosis, and insurance information",
+      "provider availability and network data",
+      "insurance plan coverage rules and prior authorization requirements"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "matched patient advocate (human) for ongoing 1:1 support",
+      "appointment scheduling and specialist access",
+      "insurance prior authorization management and appeals",
+      "care visit accompaniment (phone or video)",
+      "plain-language clinical communication summaries"
+    ],
+    "barrier_to_entry": "medium",
+    "barrier_to_entry_logic": "Network of 2,000+ trained advocates takes time and capital to build, but the core matching model has no deep technical moat and could be replicated by a well-funded entrant or large insurer.",
+    "hardness": "hard",
+    "hardness_reason": "Proving measurable, durable outcome improvement attributable to advocacy at population scale to justify payer and employer reimbursement.",
+    "last_verified": "2026-06-22"
+  },
+  {
+    "id": "talkiatry",
+    "name": "Talkiatry",
+    "website": "talkiatry.com",
+    "founded": 2019,
+    "area": "mental health telehealth",
+    "funding_stage": "series-d-plus",
+    "total_funding_usd_m": 452,
+    "public": false,
+    "business_model": "reimbursement",
+    "buyer": [
+      "consumer",
+      "payer",
+      "provider"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "medium",
+    "sales_cycle": "short",
+    "regulatory_burden": "medium",
+    "tam_usd_m": 92000,
+    "data_centrality": "important-enabler",
+    "data_ownership": [
+      "proprietary",
+      "customer-generated"
+    ],
+    "moat": [
+      "distribution",
+      "capital",
+      "data",
+      "regulatory-trust"
+    ],
+    "primary_value_chain_layer": "psychiatric care delivery",
+    "input": [
+      "patient symptom and history questionnaire",
+      "insurance eligibility data",
+      "clinician-patient encounter records",
+      "medication management data"
+    ],
+    "transformation_type": "monitor",
+    "output": [
+      "psychiatric evaluation and diagnosis",
+      "medication management plans",
+      "ongoing telepsychiatry sessions",
+      "AI-assisted clinical documentation"
+    ],
+    "barrier_to_entry": "high",
+    "barrier_to_entry_logic": "Credentialing 800+ full-time psychiatrists in-network with major payers across 47 states, combined with proprietary scheduling and AI documentation infrastructure, took years and significant capital to build.",
+    "hardness": "hard",
+    "hardness_reason": "Sustaining high-quality psychiatric care at scale while moving toward value-based risk contracts requires outcome data and payer alignment that is slow to accumulate.",
+    "last_verified": "2026-06-22"
+  },
+  {
     "id": "twin-health",
     "name": "Twin Health",
     "website": "twinhealth.com",
@@ -412,7 +1353,7 @@
     "sales_cycle": "medium",
     "regulatory_burden": "medium",
     "tam_usd_m": 9500,
-    "last_verified": "2026-06-21",
+    "last_verified": "2026-06-22",
     "data_centrality": "core-moat",
     "data_ownership": [
       "proprietary",
@@ -442,13 +1383,115 @@
     "hardness_reason": "Sustaining behaviour change long enough to produce durable metabolic outcomes in a diverse, non-compliant real-world population at scale."
   },
   {
+    "id": "whoop",
+    "name": "WHOOP",
+    "website": "whoop.com",
+    "founded": 2012,
+    "area": "continuous health and performance monitoring",
+    "funding_stage": "series-d-plus",
+    "total_funding_usd_m": 979,
+    "public": false,
+    "business_model": "reimbursement",
+    "buyer": [
+      "consumer"
+    ],
+    "buyer_urgency": "medium",
+    "buyer_wtp": "medium",
+    "sales_cycle": "short",
+    "regulatory_burden": "light",
+    "tam_usd_m": 60000,
+    "data_centrality": "core-moat",
+    "data_ownership": [
+      "customer-generated",
+      "proprietary"
+    ],
+    "moat": [
+      "data",
+      "distribution",
+      "founder-brand",
+      "capital"
+    ],
+    "primary_value_chain_layer": "consumer health wearable and subscription platform",
+    "input": [
+      "continuous PPG (heart rate, SpO2)",
+      "skin temperature",
+      "accelerometry (activity, sleep staging)",
+      "ECG (WHOOP MG model only, FDA-cleared)",
+      "user-reported behaviors and symptoms"
+    ],
+    "transformation_type": "monitor",
+    "output": [
+      "daily Recovery score",
+      "daily Strain score",
+      "sleep performance and staging analysis",
+      "Healthspan / biological age estimation",
+      "Blood Pressure Insights (trend, not diagnosis)",
+      "Clinician-reviewed Advanced Labs blood biomarkers",
+      "AFib detection reports (WHOOP MG only)"
+    ],
+    "barrier_to_entry": "high",
+    "barrier_to_entry_logic": "WHOOP has 2.5M+ members, $979M raised, 14-year proprietary dataset of continuous physiological data, a subscription flywheel, and elite athlete and celebrity brand anchors that create asymmetric distribution advantages.",
+    "hardness": "hard",
+    "hardness_reason": "Demonstrating that continuous passive monitoring meaningfully changes long-term health outcomes at population scale to justify clinical or payer uptake beyond motivated consumer enthusiasts.",
+    "last_verified": "2026-06-22"
+  },
+  {
+    "id": "aidoc",
+    "name": "Aidoc",
+    "website": "aidoc.com",
+    "founded": 2016,
+    "area": "clinical AI radiology triage",
+    "funding_stage": "series-d-plus",
+    "total_funding_usd_m": 520,
+    "public": false,
+    "business_model": "saas",
+    "buyer": [
+      "provider"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "heavy",
+    "tam_usd_m": 20000,
+    "data_centrality": "core-moat",
+    "data_ownership": [
+      "customer-generated",
+      "proprietary"
+    ],
+    "moat": [
+      "regulatory-trust",
+      "distribution",
+      "data",
+      "model",
+      "IP"
+    ],
+    "primary_value_chain_layer": "radiology workflow and clinical triage",
+    "input": [
+      "CT scans (head, body, chest, abdomen, spine)",
+      "PACS-integrated imaging data",
+      "EHR/scheduling context"
+    ],
+    "transformation_type": "predict",
+    "output": [
+      "automated triage flags for acute conditions (intracranial hemorrhage, PE, aortic dissection, and 30+ others)",
+      "urgency-stratified radiology worklists",
+      "automated draft imaging reports",
+      "population-level care coordination alerts"
+    ],
+    "barrier_to_entry": "very-high",
+    "barrier_to_entry_logic": "30+ FDA clearances (most in the field), deployed across ~2,000 hospitals globally, CARE foundation model trained on 60M+ annual cases, and long enterprise health system contracts, each requiring a 12-24 month procurement and integration cycle.",
+    "hardness": "very-hard",
+    "hardness_reason": "Building a general clinical AI foundation model (CARE) that is accurate, safe, and FDA-clearable across dozens of heterogeneous imaging indications and clinical environments simultaneously.",
+    "last_verified": "2026-06-22"
+  },
+  {
     "id": "cytovale",
     "name": "Cytovale",
     "website": "cytovale.com",
     "founded": 2017,
     "area": "rapid immune diagnostics",
-    "funding_stage": "series-b",
-    "total_funding_usd_m": 56,
+    "funding_stage": "series-d-plus",
+    "total_funding_usd_m": 220,
     "public": false,
     "business_model": "services",
     "buyer": [
@@ -483,7 +1526,57 @@
     "barrier_to_entry_logic": "FDA-cleared IntelliSep required years of clinical validation across sepsis populations; biophysical WBC measurement is a novel modality requiring proprietary microfluidic hardware.",
     "hardness": "hard",
     "hardness_reason": "Achieving broad hospital reimbursement and EMR integration for a novel diagnostic modality in a cost-pressured emergency medicine environment.",
-    "last_verified": "2026-06-21"
+    "last_verified": "2026-06-22"
+  },
+  {
+    "id": "forus-health",
+    "name": "Forus Health",
+    "website": "forushealth.com",
+    "founded": 2010,
+    "area": "portable ophthalmic imaging and AI diagnostics",
+    "funding_stage": "series-b",
+    "total_funding_usd_m": 18.6,
+    "public": false,
+    "business_model": "hybrid",
+    "buyer": [
+      "provider",
+      "payer"
+    ],
+    "buyer_urgency": "medium",
+    "buyer_wtp": "medium",
+    "sales_cycle": "medium",
+    "regulatory_burden": "medium",
+    "tam_usd_m": 5000,
+    "data_centrality": "important-enabler",
+    "data_ownership": [
+      "proprietary",
+      "partner-supplied",
+      "customer-generated"
+    ],
+    "moat": [
+      "distribution",
+      "data",
+      "IP",
+      "clinical-evidence"
+    ],
+    "primary_value_chain_layer": "ophthalmic diagnostics and tele-ophthalmology",
+    "input": [
+      "retinal fundus images (non-mydriatic and mydriatic)",
+      "anterior segment images",
+      "patient demographic and clinical data"
+    ],
+    "transformation_type": "measure",
+    "output": [
+      "AI-graded retinal pathology reports (diabetic retinopathy, glaucoma, ARMD, hypertensive retinopathy)",
+      "ROP (retinopathy of prematurity) screening results",
+      "tele-ophthalmology consultation routing",
+      "cloud-based diagnostic records accessible to remote ophthalmologists"
+    ],
+    "barrier_to_entry": "high",
+    "barrier_to_entry_logic": "3,800+ device installations across 73 countries, clinical validation data across millions of patient screenings, deep partnerships with Apollo Telehealth and national health programs in India, and 15 years of proprietary retinal image datasets.",
+    "hardness": "hard",
+    "hardness_reason": "Achieving the unit economics and regulatory pathways needed to scale affordable AI-graded ophthalmology from India into high-regulatory-burden markets (US, EU) while sustaining profitability.",
+    "last_verified": "2026-06-22"
   },
   {
     "id": "freenome",
@@ -492,7 +1585,7 @@
     "founded": 2014,
     "area": "multiomics cancer detection",
     "funding_stage": "series-d-plus",
-    "total_funding_usd_m": 1100,
+    "total_funding_usd_m": 1350,
     "public": false,
     "business_model": "services",
     "buyer": [
@@ -533,8 +1626,8 @@
     "barrier_to_entry": "very-high",
     "barrier_to_entry_logic": "$1.1B raised and Genentech/Sanofi partnerships require years to build; population-scale clinical validation studies (tens of thousands of participants) cannot be shortcut.",
     "hardness": "moonshot",
-    "hardness_reason": "Multiomics early detection requires population-scale clinical studies proving sensitivity at stage I/II \u2014 the biology is hard, the regulatory bar is high, and reimbursement requires health economic proof.",
-    "last_verified": "2026-06-21"
+    "hardness_reason": "Multiomics early detection requires population-scale clinical studies proving sensitivity at stage I/II, the biology is hard, the regulatory bar is high, and reimbursement requires health economic proof.",
+    "last_verified": "2026-06-22"
   },
   {
     "id": "guardant-health",
@@ -581,10 +1674,10 @@
       "therapy response monitoring"
     ],
     "barrier_to_entry": "very-high",
-    "barrier_to_entry_logic": "$1.5B+ deployed to build ctDNA assay technology, multiple FDA clearances, and oncology provider relationships \u2014 each FDA clearance alone requires years of clinical validation.",
+    "barrier_to_entry_logic": "$1.5B+ deployed to build ctDNA assay technology, multiple FDA clearances, and oncology provider relationships, each FDA clearance alone requires years of clinical validation.",
     "hardness": "very-hard",
     "hardness_reason": "Shield (colorectal cancer screening) must prove population-level sensitivity and specificity competitive with colonoscopy to achieve broad insurance coverage and change screening behaviour.",
-    "last_verified": "2026-06-21"
+    "last_verified": "2026-06-22"
   },
   {
     "id": "paige",
@@ -592,8 +1685,8 @@
     "website": "paige.ai",
     "founded": 2018,
     "area": "digital pathology",
-    "funding_stage": "series-c",
-    "total_funding_usd_m": 125,
+    "funding_stage": "acquired",
+    "total_funding_usd_m": 220,
     "public": false,
     "business_model": "hybrid",
     "buyer": [
@@ -634,7 +1727,7 @@
     "barrier_to_entry_logic": "First FDA-cleared AI-based pathology diagnostic (prostate cancer) sets a regulatory precedent moat; Memorial Sloan Kettering founding partnership provided the annotated dataset and clinical credibility no competitor can easily replicate.",
     "hardness": "very-hard",
     "hardness_reason": "Building whole-slide foundation models that generalise across cancer types, staining protocols, and scanner vendors at clinical-grade accuracy for regulatory submissions.",
-    "last_verified": "2026-06-21"
+    "last_verified": "2026-06-22"
   },
   {
     "id": "pathai",
@@ -642,7 +1735,7 @@
     "website": "pathai.com",
     "founded": 2016,
     "area": "ai pathology",
-    "funding_stage": "series-c",
+    "funding_stage": "acquired",
     "total_funding_usd_m": 255,
     "public": false,
     "business_model": "hybrid",
@@ -681,10 +1774,10 @@
       "companion diagnostic development"
     ],
     "barrier_to_entry": "very-high",
-    "barrier_to_entry_logic": "Trained on millions of annotated pathology slides with AstraZeneca and BMS partner labels \u2014 dataset size and annotation quality cannot be quickly replicated; pharma distribution lock-in deepens with each partnership.",
+    "barrier_to_entry_logic": "Trained on millions of annotated pathology slides with AstraZeneca and BMS partner labels, dataset size and annotation quality cannot be quickly replicated; pharma distribution lock-in deepens with each partnership.",
     "hardness": "very-hard",
     "hardness_reason": "Getting FDA clearance for AI-assisted pathology biomarkers that can replace or augment pathologist judgement as primary endpoints in regulatory submissions.",
-    "last_verified": "2026-06-21"
+    "last_verified": "2026-06-22"
   },
   {
     "id": "quanthealth",
@@ -706,7 +1799,7 @@
     "sales_cycle": "long",
     "regulatory_burden": "heavy",
     "tam_usd_m": 66300,
-    "last_verified": "2026-06-21",
+    "last_verified": "2026-06-22",
     "data_centrality": "core-moat",
     "data_ownership": [
       "licensed",
@@ -745,7 +1838,7 @@
     "founded": 2017,
     "area": "digital twins",
     "funding_stage": "series-c",
-    "total_funding_usd_m": 133,
+    "total_funding_usd_m": 135,
     "public": false,
     "business_model": "saas",
     "buyer": [
@@ -758,7 +1851,7 @@
     "sales_cycle": "long",
     "regulatory_burden": "heavy",
     "tam_usd_m": 66300,
-    "last_verified": "2026-06-21",
+    "last_verified": "2026-06-22",
     "data_centrality": "core-moat",
     "data_ownership": [
       "licensed",
@@ -835,7 +1928,7 @@
     "barrier_to_entry_logic": "Open-source Chai-1 built rapid pharma adoption before monetisation; Lilly and Pfizer deals within 18 months of founding create distribution lock-in that is hard to displace.",
     "hardness": "very-hard",
     "hardness_reason": "Scaling from zero-shot antibody design to full therapeutic programs requires wet-lab, manufacturability, and clinical validation infrastructure the current team does not yet own.",
-    "last_verified": "2026-06-21"
+    "last_verified": "2026-06-22"
   },
   {
     "id": "cradle",
@@ -878,10 +1971,63 @@
       "ranked sequence libraries for experimental testing"
     ],
     "barrier_to_entry": "high",
-    "barrier_to_entry_logic": "Platform value compounds with each customer's experimental iteration \u2014 a data flywheel that makes the model more accurate for that customer over time and creates switching cost.",
+    "barrier_to_entry_logic": "Platform value compounds with each customer's experimental iteration, a data flywheel that makes the model more accurate for that customer over time and creates switching cost.",
     "hardness": "very-hard",
     "hardness_reason": "Proving the platform generalises across protein families and customer datasets well enough to replace traditional directed-evolution workflows at scale.",
-    "last_verified": "2026-06-21"
+    "last_verified": "2026-06-22"
+  },
+  {
+    "id": "earendil-labs",
+    "name": "Earendil Labs",
+    "website": "earendil.bio",
+    "founded": 2023,
+    "area": "AI antibody and bispecific design",
+    "funding_stage": "series-b",
+    "total_funding_usd_m": 787,
+    "public": false,
+    "business_model": "hybrid",
+    "buyer": [
+      "pharma",
+      "biotech"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "heavy",
+    "tam_usd_m": 40000,
+    "data_centrality": "core-moat",
+    "data_ownership": [
+      "proprietary",
+      "generated-in-house",
+      "partner-supplied"
+    ],
+    "moat": [
+      "model",
+      "IP",
+      "clinical-evidence",
+      "wet-lab",
+      "data"
+    ],
+    "primary_value_chain_layer": "discovery",
+    "input": [
+      "protein sequences",
+      "antibody-antigen interaction data",
+      "structural biology data",
+      "immune library screening outputs",
+      "single B cell screening data"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "de novo antibody sequences with optimized biophysical properties",
+      "bispecific and multispecific antibody candidates",
+      "ADC, TCE, and fusion protein designs",
+      "partnered programs (Sanofi licensing deals)"
+    ],
+    "barrier_to_entry": "high",
+    "barrier_to_entry_logic": "Integrated AI+wet-lab closed loop generates proprietary training data with each iteration; early Sanofi deals create milestone-funded pipeline depth that pure-software competitors cannot match, and the founder (Jian Peng, ex-UIUC professor) brings a rare combination of foundational AI and structural biology credibility.",
+    "hardness": "very-hard",
+    "hardness_reason": "Demonstrating that AI-designed antibodies translate to clinical efficacy at a rate materially better than conventional discovery, the field has not yet produced an AI-native approved antibody.",
+    "last_verified": "2026-06-22"
   },
   {
     "id": "evolutionaryscale",
@@ -889,7 +2035,7 @@
     "website": "evolutionaryscale.ai",
     "founded": 2023,
     "area": "protein foundation models",
-    "funding_stage": "series-a",
+    "funding_stage": "acquired",
     "total_funding_usd_m": 142,
     "public": false,
     "business_model": "partnerships",
@@ -930,7 +2076,7 @@
     "barrier_to_entry_logic": "ESM3 required years of pretraining on 100M+ protein sequences at Meta AI scale; founders (Rives, Hayes, Lin) are among the handful who built the original ESM models at FAIR.",
     "hardness": "very-hard",
     "hardness_reason": "Translating protein language model embeddings into commercially valuable protein designs with confirmed wet-lab activity across diverse target classes and therapeutic modalities.",
-    "last_verified": "2026-06-21"
+    "last_verified": "2026-06-22"
   },
   {
     "id": "generate-biomedicines",
@@ -939,7 +2085,7 @@
     "founded": 2018,
     "area": "generative biology",
     "funding_stage": "public",
-    "total_funding_usd_m": 1100,
+    "total_funding_usd_m": 1500,
     "public": true,
     "business_model": "hybrid",
     "buyer": [
@@ -977,8 +2123,8 @@
     "barrier_to_entry": "very-high",
     "barrier_to_entry_logic": "Closed-loop experimental flywheel (42K+ proteins tested in-house) requires frontier ML and wet-lab infrastructure operating in parallel at scale, backed by Flagship Pioneering and IPO capital.",
     "hardness": "moonshot",
-    "hardness_reason": "Proving de novo protein therapeutics clear Phase 3 with competitive efficacy and safety against established biologics \u2014 GB-0895 is the live test.",
-    "last_verified": "2026-06-21"
+    "hardness_reason": "Proving de novo protein therapeutics clear Phase 3 with competitive efficacy and safety against established biologics, GB-0895 is the live test.",
+    "last_verified": "2026-06-22"
   },
   {
     "id": "insilico-medicine",
@@ -987,7 +2133,7 @@
     "founded": 2014,
     "area": "ai drug design",
     "funding_stage": "public",
-    "total_funding_usd_m": 400,
+    "total_funding_usd_m": 693,
     "public": true,
     "business_model": "hybrid",
     "buyer": [
@@ -999,7 +2145,7 @@
     "sales_cycle": "long",
     "regulatory_burden": "heavy",
     "tam_usd_m": 200000,
-    "last_verified": "2026-06-21",
+    "last_verified": "2026-06-22",
     "data_centrality": "core-moat",
     "data_ownership": [
       "proprietary",
@@ -1079,7 +2225,7 @@
     "barrier_to_entry_logic": "DeepMind lineage, AlphaFold IP, $2.7B capital, and an exclusive frontier AI-biology talent pool mean no startup can assemble comparable infrastructure.",
     "hardness": "moonshot",
     "hardness_reason": "Generalising biomolecular prediction across all target classes, modalities, and binding contexts without overfitting to known chemistry.",
-    "last_verified": "2026-06-21"
+    "last_verified": "2026-06-22"
   },
   {
     "id": "latent-labs",
@@ -1127,7 +2273,7 @@
     "barrier_to_entry_logic": "Ex-DeepMind founders with AlphaFold lineage and frontier protein-design model expertise that took years to develop; Jeff Dean and Dario Amodei as angel investors signals access to talent and compute networks.",
     "hardness": "very-hard",
     "hardness_reason": "Translating high in vitro hit rates (91-100% macrocycles) to clinical-stage programs with commercial economics and partner-funded development.",
-    "last_verified": "2026-06-21"
+    "last_verified": "2026-06-22"
   },
   {
     "id": "xaira-therapeutics",
@@ -1174,8 +2320,209 @@
     "barrier_to_entry": "nearly-impossible",
     "barrier_to_entry_logic": "$1B Series A is unprecedented for a pre-product biotech; Hal Barron (ex-GSK CMO) and Marc Tessier-Lavigne bring the pharma credibility and network that cannot be replicated with capital alone.",
     "hardness": "moonshot",
-    "hardness_reason": "Demonstrating that AI-native drug discovery raises clinical success rates above the historical 10% \u2014 no company has yet proven this at meaningful scale.",
-    "last_verified": "2026-06-21"
+    "hardness_reason": "Demonstrating that AI-native drug discovery raises clinical success rates above the historical 10%, no company has yet proven this at meaningful scale.",
+    "last_verified": "2026-06-22"
+  },
+  {
+    "id": "gt-medical-technologies",
+    "name": "GT Medical Technologies",
+    "website": "gtmedtech.com",
+    "founded": 2017,
+    "area": "intraoperative brachytherapy for brain tumors",
+    "funding_stage": "series-d-plus",
+    "total_funding_usd_m": 241,
+    "public": false,
+    "business_model": "reimbursement",
+    "buyer": [
+      "provider"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "heavy",
+    "tam_usd_m": 3000,
+    "data_centrality": "not-central",
+    "data_ownership": [
+      "generated-in-house"
+    ],
+    "moat": [
+      "clinical-evidence",
+      "IP",
+      "regulatory-trust",
+      "capital"
+    ],
+    "primary_value_chain_layer": "intraoperative radiation device and single-use implant",
+    "input": [
+      "operable brain tumor (glioblastoma, brain metastases, meningioma)",
+      "surgical tumor resection procedure"
+    ],
+    "transformation_type": "measure",
+    "output": [
+      "GammaTile collagen tile implanted at tumor resection cavity",
+      "immediate, targeted cesium-131 radiation to residual cancer cells",
+      "reduced local tumor recurrence rate vs standard of care",
+      "extended progression-free and overall survival in operable brain metastases"
+    ],
+    "barrier_to_entry": "very-high",
+    "barrier_to_entry_logic": "FDA 510(k) clearance for a novel implantable radiation device, Phase 3 RCT data showing 93% reduction in recurrence risk vs standard of care, manufacturing of cesium-131 bioabsorbable implants, and adoption in 150+ neurosurgical centers require a decade-scale capital and clinical program.",
+    "hardness": "moonshot",
+    "hardness_reason": "Running and winning a powered Phase 3 randomized controlled trial (ROADS) against stereotactic radiosurgery, which is a well-established and reimbursed standard of care, while simultaneously commercializing a novel implantable radiation product at 150+ centers.",
+    "last_verified": "2026-06-22"
+  },
+  {
+    "id": "newlimit",
+    "name": "NewLimit",
+    "website": "newlimit.com",
+    "founded": 2021,
+    "area": "epigenetic reprogramming for longevity",
+    "funding_stage": "series-c",
+    "total_funding_usd_m": 682,
+    "public": false,
+    "business_model": "own-pipeline",
+    "buyer": [
+      "pharma",
+      "investor"
+    ],
+    "buyer_urgency": "low",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "heavy",
+    "tam_usd_m": 50000,
+    "data_centrality": "core-moat",
+    "data_ownership": [
+      "proprietary",
+      "generated-in-house"
+    ],
+    "moat": [
+      "model",
+      "data",
+      "wet-lab",
+      "founder-brand",
+      "IP"
+    ],
+    "primary_value_chain_layer": "discovery",
+    "input": [
+      "single-cell epigenomic profiles (ATAC-seq, ChIP-seq) from young and old cells",
+      "transcription factor combinations (payloads)",
+      "functional genomics screens (RESTORE-seq platform)",
+      "foundation models of protein and DNA sequences",
+      "scientific literature"
+    ],
+    "transformation_type": "predict",
+    "output": [
+      "transcription factor payload combinations that reprogram old cells to a youthful epigenetic state",
+      "preclinical programs in metabolism (hepatocytes), vasculature (endothelial cells), and immunology (T cells)",
+      "candidate epigenetic reprogramming medicines for liver disease, kidney disease, and inflammatory diseases of aging"
+    ],
+    "barrier_to_entry": "very-high",
+    "barrier_to_entry_logic": "RESTORE-seq platform tests thousands of TF payload combinations in parallel, a proprietary experimental system that competitors would take years to replicate; the data flywheel compounds as Ambrosia AI retrain on each screen, and co-founders Brian Armstrong and Blake Byers provide capital access that few longevity startups can match.",
+    "hardness": "moonshot",
+    "hardness_reason": "No reprogramming medicine has ever entered human trials; demonstrating that partial epigenetic reprogramming in vivo is safe (does not cause dedifferentiation or tumorigenesis), durable, and produces a clinically meaningful health outcome in any human indication.",
+    "last_verified": "2026-06-22"
+  },
+  {
+    "id": "openevidence",
+    "name": "OpenEvidence",
+    "website": "openevidence.com",
+    "founded": 2022,
+    "area": "clinical decision support AI",
+    "funding_stage": "series-d-plus",
+    "total_funding_usd_m": 700,
+    "public": false,
+    "business_model": "saas",
+    "buyer": [
+      "pharma",
+      "provider"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "high",
+    "sales_cycle": "short",
+    "regulatory_burden": "light",
+    "tam_usd_m": 15000,
+    "data_centrality": "important-enabler",
+    "data_ownership": [
+      "public",
+      "licensed"
+    ],
+    "moat": [
+      "distribution",
+      "data",
+      "founder-brand"
+    ],
+    "primary_value_chain_layer": "clinical decision support",
+    "input": [
+      "peer-reviewed medical literature (NEJM, JAMA, and others)",
+      "physician natural-language queries",
+      "de-identified patient case details at point of care"
+    ],
+    "transformation_type": "predict",
+    "output": [
+      "evidence-grounded answers to clinical questions (core search)",
+      "AI agent-driven deep research reports (DeepConsult)",
+      "cited references with follow-up suggestions"
+    ],
+    "barrier_to_entry": "high",
+    "barrier_to_entry_logic": "Network effects from physician adoption (over 40% of US physicians) compound with proprietary usage data and pharmaceutical advertiser relationships that competitors cannot easily replicate.",
+    "hardness": "hard",
+    "hardness_reason": "Sustaining physician trust and clinical accuracy at scale while maintaining the advertising-based model without letting pharma influence clinical answers.",
+    "last_verified": "2026-06-22"
+  },
+  {
+    "id": "verily",
+    "name": "Verily",
+    "website": "verily.com",
+    "founded": 2015,
+    "area": "precision health AI platform",
+    "funding_stage": "series-d-plus",
+    "total_funding_usd_m": 2800,
+    "public": false,
+    "business_model": "saas",
+    "buyer": [
+      "pharma",
+      "provider",
+      "payer",
+      "biotech"
+    ],
+    "buyer_urgency": "medium",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "medium",
+    "tam_usd_m": 80000,
+    "data_centrality": "core-moat",
+    "data_ownership": [
+      "proprietary",
+      "partner-supplied",
+      "licensed"
+    ],
+    "moat": [
+      "data",
+      "distribution",
+      "capital",
+      "regulatory-trust"
+    ],
+    "primary_value_chain_layer": "health data harmonization and precision health AI",
+    "input": [
+      "multimodal EHR data from health system partners",
+      "claims and insurance data",
+      "wearable and device data streams",
+      "genomic and omics data",
+      "clinical trial protocol documents and study data"
+    ],
+    "transformation_type": "predict",
+    "output": [
+      "harmonized FHIR-native AI-ready health datasets (Refinery)",
+      "shared AI-ready dataset and model marketplace (Exchange)",
+      "collaborative research environment for AI analytics (Workbench)",
+      "precision health AI models for disease prediction and care management",
+      "clinical trial operations intelligence (Viewpoint/Verily Intelligence)",
+      "Lightpath Metabolic: AI-guided metabolic care (diabetes, obesity)",
+      "Verily Me: consumer-facing precision health app"
+    ],
+    "barrier_to_entry": "high",
+    "barrier_to_entry_logic": "Alphabet pedigree, $2.8B raised, FHIR-native data infrastructure integrated with major health systems, NIH All of Us partnership, and 10+ years of multimodal health data accumulation create a platform moat that requires both capital and institutional trust to replicate.",
+    "hardness": "very-hard",
+    "hardness_reason": "Converting multimodal health data harmonization into durable clinical AI models that consistently improve patient outcomes and justify enterprise SaaS pricing across health systems, pharma, and payers simultaneously.",
+    "last_verified": "2026-06-22"
   },
   {
     "id": "tempus",
@@ -1197,7 +2544,7 @@
     "sales_cycle": "long",
     "regulatory_burden": "heavy",
     "tam_usd_m": 100000,
-    "last_verified": "2026-06-21",
+    "last_verified": "2026-06-22",
     "data_centrality": "core-moat",
     "data_ownership": [
       "proprietary",
@@ -1253,7 +2600,7 @@
     "sales_cycle": "medium",
     "regulatory_burden": "light",
     "tam_usd_m": 5000,
-    "last_verified": "2026-06-21",
+    "last_verified": "2026-06-22",
     "data_centrality": "core-moat",
     "data_ownership": [
       "customer-generated",
@@ -1276,7 +2623,7 @@
       "site feasibility scores"
     ],
     "barrier_to_entry": "high",
-    "barrier_to_entry_logic": "Acquired by Tempus in 2023; moat now merged into Tempus's oncology data and trial infrastructure. Pre-acquisition, EHR integrations at major academic centres were the key barrier.",
+    "barrier_to_entry_logic": "Acquired by Tempus in 2025; moat now merged into Tempus's oncology data and trial infrastructure. Pre-acquisition, EHR integrations at major academic centres were the key barrier.",
     "hardness": "hard",
     "hardness_reason": "EHR integration at scale across diverse EMR systems (Epic, Cerner) with sufficient NLP accuracy to reduce manual chart review and pass clinical validation."
   },
@@ -1286,8 +2633,8 @@
     "website": "lindushealth.com",
     "founded": 2021,
     "area": "next-gen cro",
-    "funding_stage": "series-a",
-    "total_funding_usd_m": 18,
+    "funding_stage": "series-b",
+    "total_funding_usd_m": 73,
     "public": false,
     "business_model": "services",
     "buyer": [
@@ -1325,7 +2672,7 @@
     "barrier_to_entry_logic": "EHR-powered recruitment and AI trial OS require health system integrations that take years to establish; performance-based pricing requires capital to absorb trial risk upfront.",
     "hardness": "very-hard",
     "hardness_reason": "Proving the AI trial operating system genuinely accelerates timelines and reduces cost enough to displace entrenched CROs with decades of pharma relationships and infrastructure.",
-    "last_verified": "2026-06-21"
+    "last_verified": "2026-06-22"
   },
   {
     "id": "insitro",
@@ -1346,7 +2693,7 @@
     "sales_cycle": "long",
     "regulatory_burden": "heavy",
     "tam_usd_m": 200000,
-    "last_verified": "2026-06-21",
+    "last_verified": "2026-06-22",
     "data_centrality": "core-moat",
     "data_ownership": [
       "proprietary",
@@ -1396,7 +2743,7 @@
     "sales_cycle": "long",
     "regulatory_burden": "heavy",
     "tam_usd_m": 200000,
-    "last_verified": "2026-06-21",
+    "last_verified": "2026-06-22",
     "data_centrality": "core-moat",
     "data_ownership": [
       "proprietary",
@@ -1434,8 +2781,8 @@
     "website": "relationrx.com",
     "founded": 2019,
     "area": "target validation",
-    "funding_stage": "seed",
-    "total_funding_usd_m": 86,
+    "funding_stage": "unknown",
+    "total_funding_usd_m": 116,
     "public": false,
     "business_model": "partnerships",
     "buyer": [
@@ -1447,7 +2794,7 @@
     "sales_cycle": "long",
     "regulatory_burden": "medium",
     "tam_usd_m": 200000,
-    "last_verified": "2026-06-21",
+    "last_verified": "2026-06-22",
     "data_centrality": "core-moat",
     "data_ownership": [
       "proprietary",
@@ -1475,7 +2822,7 @@
       "disease atlases (e.g. Osteomics bone atlas)"
     ],
     "barrier_to_entry": "high",
-    "barrier_to_entry_logic": "Osteomics bone atlas required years of hospital access, tissue collection, and single-cell processing across UK and Australian hospitals \u2014 not replicable quickly by pharma internal teams.",
+    "barrier_to_entry_logic": "Osteomics bone atlas required years of hospital access, tissue collection, and single-cell processing across UK and Australian hospitals, not replicable quickly by pharma internal teams.",
     "hardness": "hard",
     "hardness_reason": "Human tissue-derived targets still fail in clinical trials at high rates; platform validation does not guarantee the drug succeeds."
   },
@@ -1499,7 +2846,7 @@
     "sales_cycle": "long",
     "regulatory_burden": "heavy",
     "tam_usd_m": 20000,
-    "last_verified": "2026-06-21",
+    "last_verified": "2026-06-22",
     "data_centrality": "important-enabler",
     "data_ownership": [
       "customer-generated",
@@ -1526,5 +2873,55 @@
     "barrier_to_entry_logic": "FDA 510(k) clearance for 21 proprietary AI algorithms and 50+ health system partnerships create regulatory and distribution moat; life sciences business divested to ActiGraph (Jan 2025).",
     "hardness": "hard",
     "hardness_reason": "Proving continuous physiological monitoring reduces readmissions durably enough to justify payer reimbursement across a diverse population at scale."
+  },
+  {
+    "id": "cognito-therapeutics",
+    "name": "Cognito Therapeutics",
+    "website": "cognitotx.com",
+    "founded": 2016,
+    "area": "gamma frequency neurostimulation for Alzheimer's",
+    "funding_stage": "series-c",
+    "total_funding_usd_m": 198,
+    "public": false,
+    "business_model": "own-pipeline",
+    "buyer": [
+      "provider",
+      "payer",
+      "consumer"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "heavy",
+    "tam_usd_m": 25000,
+    "data_centrality": "supporting-evidence",
+    "data_ownership": [
+      "proprietary",
+      "generated-in-house"
+    ],
+    "moat": [
+      "clinical-evidence",
+      "IP",
+      "regulatory-trust",
+      "wet-lab"
+    ],
+    "primary_value_chain_layer": "neurostimulation device development and clinical validation",
+    "input": [
+      "patient sensory systems (visual and auditory pathways)",
+      "40 Hz light and sound stimulation (gamma frequency)",
+      "one-hour daily at-home sessions"
+    ],
+    "transformation_type": "monitor",
+    "output": [
+      "evoked gamma oscillations in brain neural networks",
+      "slowed cognitive and functional decline (clinical endpoint)",
+      "reduced whole brain atrophy (MRI-measured)",
+      "physician-prescribed at-home therapeutic device (Spectris)"
+    ],
+    "barrier_to_entry": "very-high",
+    "barrier_to_entry_logic": "FDA Breakthrough Device Designation, Phase 3 HOPE trial enrolled, proprietary 40 Hz multi-sensory stimulation device, and MIT-origin IP on gamma entrainment, replicating the clinical program would take 8-10 years.",
+    "hardness": "moonshot",
+    "hardness_reason": "Demonstrating in a 670-patient double-blind RCT that a sensory stimulation device meaningfully slows Alzheimer's progression, a disease that has defeated hundreds of drug candidates.",
+    "last_verified": "2026-06-22"
   }
 ]

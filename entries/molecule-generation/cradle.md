@@ -9,8 +9,8 @@ total_funding_usd_m: 73
 public: false
 business_model: saas
 buyer:
-  - pharma
-  - biotech
+ - pharma
+ - biotech
 buyer_urgency: medium
 buyer_wtp: high
 sales_cycle: medium
@@ -18,26 +18,26 @@ regulatory_burden: light
 tam_usd_m: 24260
 data_centrality: core-moat
 data_ownership:
-  - customer-generated
-  - proprietary
+ - customer-generated
+ - proprietary
 moat:
-  - model
-  - data
-  - IP
+ - model
+ - data
+ - IP
 primary_value_chain_layer: discovery
 input:
-  - customer experimental assay results
-  - protein sequences
-  - design specifications and constraints
+ - customer experimental assay results
+ - protein sequences
+ - design specifications and constraints
 transformation_type: generate
 output:
-  - improved protein variant candidates
-  - ranked sequence libraries for experimental testing
+ - improved protein variant candidates
+ - ranked sequence libraries for experimental testing
 barrier_to_entry: high
-barrier_to_entry_logic: Platform value compounds with each customer's experimental iteration — a data flywheel that makes the model more accurate for that customer over time and creates switching cost.
+barrier_to_entry_logic: Platform value compounds with each customer's experimental iteration, a data flywheel that makes the model more accurate for that customer over time and creates switching cost.
 hardness: very-hard
 hardness_reason: Proving the platform generalises across protein families and customer datasets well enough to replace traditional directed-evolution workflows at scale.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -58,7 +58,7 @@ SaaS platform for biotech wet-lab teams who already have experimental data but l
 
 ## Method
 
-Trains protein ML models on a customer's own assay data (sequence-function pairs), learns the fitness landscape, and generates improved variant candidates prioritised by predicted function — closing the loop between ML and wet-lab in days rather than months.
+Trains protein ML models on a customer's own assay data (sequence-function pairs), learns the fitness landscape, and generates improved variant candidates prioritised by predicted function, closing the loop between ML and wet-lab in days rather than months.
 
 ## TAM logic
 
@@ -87,4 +87,4 @@ Dependent on customers having existing experimental data to train on; does not g
 
 ## Notes
 
-Amsterdam-headquartered. One of the clearest examples of the "bring your own data" protein ML model — complementary to companies like EvolutionaryScale that provide pre-trained foundation models. The customer data flywheel is the key moat argument.
+Amsterdam-headquartered. One of the clearest examples of the "bring your own data" protein ML model, complementary to companies like EvolutionaryScale that provide pre-trained foundation models. The customer data flywheel is the key moat argument.

@@ -9,34 +9,34 @@ total_funding_usd_m: 20
 public: false
 business_model: hybrid
 buyer:
-  - pharma
-  - biotech
-  - provider
+ - pharma
+ - biotech
+ - provider
 buyer_urgency: medium
 buyer_wtp: medium
 sales_cycle: medium
 regulatory_burden: medium
 tam_usd_m: 4530
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 data_centrality: core-moat
 data_ownership:
-  - proprietary
-  - generated-in-house
+ - proprietary
+ - generated-in-house
 moat:
-  - data
-  - wet-lab
-  - IP
-  - model
+ - data
+ - wet-lab
+ - IP
+ - model
 input:
-  - whole blood RNA samples
-  - blood transcriptomic profiles
-  - exome sequencing data
+ - whole blood RNA samples
+ - blood transcriptomic profiles
+ - exome sequencing data
 transformation_type: predict
 output:
-  - disease differential diagnosis (MS vs. NMO)
-  - disease subtype classification
-  - early disease screening scores
-  - drug response predictions
+ - disease differential diagnosis (MS vs. NMO)
+ - disease subtype classification
+ - early disease screening scores
+ - drug response predictions
 barrier_to_entry: high
 barrier_to_entry_logic: Proprietary lower-cost sequencing stack (BIRT + PERD) and growing transcriptomic dataset create an early data moat, but the platform is early-stage and replication is plausible with capital.
 hardness: hard
@@ -86,7 +86,7 @@ RNA sequencing instrument providers (Illumina, Oxford Nanopore), EHR systems tha
 
 ## Gaps
 
-Clinical utility — when does RNA prediction actually change a treatment or trial decision?
+Clinical utility, when does RNA prediction actually change a treatment or trial decision?
 
 ## Notes
 

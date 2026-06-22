@@ -40,7 +40,7 @@ barrier_to_entry: medium
 barrier_to_entry_logic: First-mover distribution across health systems representing 7% of U.S. hospital revenue and a founding team with Stanford, IHI, and Elevance pedigree creates early credibility, but the platform layer is replicable by large EHR vendors or cloud providers.
 hardness: hard
 hardness_reason: Sustaining a governance and integration layer that remains vendor-neutral as health systems consolidate AI purchases with Epic, Microsoft, or Google.
-last_verified: "2026-06-21"
+last_verified: "2026-06-22"
 ---
 
 ## One-liner
@@ -91,3 +91,7 @@ The platform's vendor-neutrality claim will be tested as Epic, Microsoft, and Go
 ## Notes
 
 Public benefit corporation structure may help in health system procurement processes where mission alignment matters. CEO Justin Norden is a practicing physician and Stanford faculty member, giving the company a clinical credibility anchor. The Kedar Mate CMO role (former CEO of the Institute for Healthcare Improvement) is a significant signal for the quality and safety positioning. Anthropic's participation as an investor alongside NEA is unusual and suggests Qualified Health may become a distribution channel for Anthropic models in health systems. Note: originally filed as Qualified Health at launch in January 2025; Series B announced March 2026.
+
+## News signals
+
+- 2026-03: Raised $125M Series B led by NEA, bringing total funding to ~$155M. New investors include Transformation Capital, GreatPoint Ventures, Cathay Innovation, Anthropic, and Menlo Ventures' Anthology fund. NEA co-CEO Mohamad Makhzoumi joined the board. Platform supports 500,000+ users across health systems representing ~7% of U.S. hospital revenue. (source: https://www.prnewswire.com/news-releases/qualified-health-raises-125m-series-b-to-meet-growing-demand-for-enterprise-ai-transformation-across-health-systems-302723600.html, https://www.fiercehealthcare.com/ai-and-machine-learning/qualified-health-locks-125m-fresh-funding-scale-ai-health-systems)
