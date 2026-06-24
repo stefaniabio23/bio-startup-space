@@ -28,3 +28,6 @@ credentials*.json
 # Local-only
 .notes/
 scratch/
+
+# Agent instructions — strategy-private, kept out of the public repo
+CLAUDE.md
