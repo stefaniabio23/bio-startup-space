@@ -42,7 +42,18 @@ barrier_to_entry: high
 barrier_to_entry_logic: GLP-1 market requires massive Phase 3 investment to compete; Hengrui partnership gives Kailera access to deep China clinical datasets that accelerate global program design; $1.6B+ capital positions it to run parallel Phase 3 programs without near-term dilution pressure.
 hardness: very-hard
 hardness_reason: Demonstrating superior weight loss, tolerability, or convenience vs. semaglutide (Ozempic/Wegovy) and tirzepatide (Mounjaro/Zepbound) in head-to-head or competitor-contextualized Phase 3 readouts, against Novo Nordisk and Eli Lilly with decades of GLP-1 expertise and massive manufacturing scale.
-last_verified: "2026-06-22"
+substrate_family: E
+substrate_tags:
+- E.1
+technology_platform_ids: []
+new_capability: "Four GLP-1-based obesity drugs (injectable and oral) licensed from Hengrui, spanning dual and tri-agonist mechanisms in late trials"
+technology_readiness_level: 7
+commercialisation_status: regulatory_review
+customer:
+  - payer
+  - provider
+limiting_factor: "No proprietary discovery engine; fully dependent on Hengrui assets and must beat Novo/Lilly incumbents in large global trials"
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

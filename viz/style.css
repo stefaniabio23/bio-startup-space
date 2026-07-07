@@ -1,0 +1,67 @@
+:root {
+  --a: #4e79a7; --b: #59a14f; --c: #e15759; --d: #f28e2b; --e: #b07aa1; --f: #76b7b2; --none: #9aa0a6;
+  --bg: #0f1115; --panel: #171a21; --line: #262b34; --text: #e6e8eb; --muted: #9aa0a6;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text);
+  font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+header { display: flex; align-items: center; gap: 20px; padding: 10px 16px;
+  border-bottom: 1px solid var(--line); background: var(--panel); }
+h1 { font-size: 16px; margin: 0; font-weight: 600; letter-spacing: .3px; }
+h1 .sub { color: var(--muted); font-weight: 400; font-size: 12px; }
+.tabs { display: flex; gap: 4px; }
+.tab { background: transparent; color: var(--muted); border: 1px solid var(--line);
+  padding: 5px 12px; border-radius: 6px; cursor: pointer; }
+.tab.active { color: var(--text); background: #202531; border-color: #33404f; }
+.counts { margin-left: auto; color: var(--muted); font-size: 12px; }
+
+#controls { display: flex; flex-wrap: wrap; align-items: center; gap: 14px;
+  padding: 8px 16px; border-bottom: 1px solid var(--line); background: var(--panel); }
+#search { background: var(--bg); border: 1px solid var(--line); color: var(--text);
+  padding: 6px 10px; border-radius: 6px; min-width: 200px; }
+.filter-group { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.filter-group .lbl { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .5px; }
+.filter-group label { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; cursor: pointer; }
+#relayout { background: #202531; color: var(--text); border: 1px solid #33404f;
+  padding: 6px 12px; border-radius: 6px; cursor: pointer; }
+
+main { position: relative; height: calc(100vh - 108px); }
+section { position: absolute; inset: 0; }
+.hidden { display: none !important; }
+#graph-view { display: flex; }
+#cy { flex: 1; height: 100%; }
+#detail { width: 340px; height: 100%; overflow-y: auto; padding: 16px;
+  border-left: 1px solid var(--line); background: var(--panel); }
+#detail h2 { margin: 0 0 4px; font-size: 16px; }
+#detail .tag { display: inline-block; font-size: 11px; padding: 2px 7px; border-radius: 10px;
+  background: #202531; color: var(--muted); margin: 0 4px 6px 0; }
+#detail .row { margin: 8px 0; }
+#detail .k { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .4px; }
+#detail .v { color: var(--text); }
+#detail a { color: #6ea8fe; }
+#detail .caps { margin-top: 4px; }
+#detail .cap { border-left: 2px solid var(--line); padding: 4px 0 6px 8px; margin: 6px 0; }
+#detail .cap b { font-weight: 600; }
+#detail .cap .capsub { color: var(--muted); font-size: 12px; margin-top: 2px; }
+#detail .cap .capgap { color: #c98b8b; font-size: 11.5px; margin-top: 2px; }
+#detail .cap .capshape { color: #7f8896; font-size: 10.5px; font-style: italic; margin-top: 2px; }
+.trl { display: inline-block; font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 9px;
+  margin-right: 6px; color: #0f1115; vertical-align: middle; }
+.trl-1 { background: #e15759; } .trl-2 { background: #f28e2b; }
+.trl-3 { background: #edc948; } .trl-4 { background: #59a14f; } .trl-na { background: #9aa0a6; }
+
+#table-view { overflow: auto; padding: 12px 16px; }
+.table-filters { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 10px; }
+.table-filters select { background: var(--bg); color: var(--text); border: 1px solid var(--line);
+  border-radius: 6px; padding: 5px 8px; }
+table { border-collapse: collapse; width: 100%; font-size: 12.5px; }
+th, td { text-align: left; padding: 6px 9px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { position: sticky; top: 0; background: var(--panel); cursor: pointer; user-select: none; white-space: nowrap; }
+th:hover { color: #fff; }
+tbody tr:hover { background: #161a21; }
+.dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+
+#legend { position: fixed; right: 14px; bottom: 14px; background: var(--panel);
+  border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; font-size: 11px; }
+#legend .item { display: flex; align-items: center; gap: 6px; margin: 3px 0; }
+#legend .swatch { width: 12px; height: 12px; border-radius: 3px; }

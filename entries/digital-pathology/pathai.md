@@ -41,7 +41,20 @@ barrier_to_entry: very-high
 barrier_to_entry_logic: Trained on millions of annotated pathology slides with AstraZeneca and BMS partner labels, dataset size and annotation quality cannot be quickly replicated; pharma distribution lock-in deepens with each partnership.
 hardness: very-hard
 hardness_reason: Getting FDA clearance for AI-assisted pathology biomarkers that can replace or augment pathologist judgement as primary endpoints in regulatory submissions.
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.3
+- D.2
+technology_platform_ids:
+  - ai-medical-imaging
+new_capability: "Deep-learning pathology biomarker prediction and patient stratification from whole-slide images for pharma trials and clinical diagnosis."
+technology_readiness_level: 9
+commercialisation_status: commercial_scaled
+customer:
+  - pharma
+  - provider
+limiting_factor: "Slide-only, no multimodal integration; regulatory pathway for AI-as-primary-endpoint is still evolving."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

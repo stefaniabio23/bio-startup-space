@@ -16,7 +16,20 @@ buyer_wtp: high
 sales_cycle: long
 regulatory_burden: heavy
 tam_usd_m: 200000
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.1
+- C.3
+technology_platform_ids:
+  - protein-design-diffusion-models
+new_capability: "End-to-end generative AI (PandaOmics target ID, Chemistry42 molecule design, inClinico trial prediction) produced INS018_055, the first AI-designed drug to reach Phase 2."
+technology_readiness_level: 7
+commercialisation_status: regulatory_review
+customer:
+  - pharma
+  - biotech
+limiting_factor: "Generative design still requires extensive wet-lab validation and does not remove clinical attrition."
+last_verified: "2026-07-07"
 data_centrality: core-moat
 data_ownership:
  - proprietary

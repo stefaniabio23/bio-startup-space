@@ -40,7 +40,17 @@ barrier_to_entry: medium
 barrier_to_entry_logic: First-mover distribution across health systems representing 7% of U.S. hospital revenue and a founding team with Stanford, IHI, and Elevance pedigree creates early credibility, but the platform layer is replicable by large EHR vendors or cloud providers.
 hardness: hard
 hardness_reason: Sustaining a governance and integration layer that remains vendor-neutral as health systems consolidate AI purchases with Epic, Microsoft, or Google.
-last_verified: "2026-06-22"
+substrate_family: F
+substrate_tags:
+- F.4
+technology_platform_ids: []
+new_capability: "Healthcare-native governance layer to deploy, monitor, and audit generative AI across clinical and administrative workflows."
+technology_readiness_level: 8
+commercialisation_status: commercial_early
+customer:
+  - provider
+limiting_factor: "Vendor-neutrality is tested by Epic, Microsoft, and Google, and the governance layer is replicable by cloud providers."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

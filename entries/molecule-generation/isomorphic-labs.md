@@ -40,7 +40,20 @@ barrier_to_entry: very-high
 barrier_to_entry_logic: DeepMind lineage, AlphaFold IP, $2.7B capital, and an exclusive frontier AI-biology talent pool mean no startup can assemble comparable infrastructure.
 hardness: moonshot
 hardness_reason: Generalising biomolecular prediction across all target classes, modalities, and binding contexts without overfitting to known chemistry.
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.2
+- C.1
+technology_platform_ids:
+  - protein-design-diffusion-models
+new_capability: "IsoDDE unified drug-design engine builds on AlphaFold 3 to predict biomolecular structure and generate molecules across small molecules, antibodies, peptides, and glues."
+technology_readiness_level: 6
+commercialisation_status: pilot_deployment
+customer:
+  - pharma
+  - biotech
+limiting_factor: "No AI-designed candidate in the clinic yet; first trials slipped to end of 2026."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

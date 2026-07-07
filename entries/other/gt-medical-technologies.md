@@ -37,7 +37,17 @@ barrier_to_entry: very-high
 barrier_to_entry_logic: FDA 510(k) clearance for a novel implantable radiation device, Phase 3 RCT data showing 93% reduction in recurrence risk vs standard of care, manufacturing of cesium-131 bioabsorbable implants, and adoption in 150+ neurosurgical centers require a decade-scale capital and clinical program.
 hardness: moonshot
 hardness_reason: Running and winning a powered Phase 3 randomized controlled trial (ROADS) against stereotactic radiosurgery, which is a well-established and reimbursed standard of care, while simultaneously commercializing a novel implantable radiation product at 150+ centers.
-last_verified: "2026-06-22"
+substrate_family: D
+substrate_tags:
+- D.4
+technology_platform_ids: []
+new_capability: "Intraoperative cesium-131 bioabsorbable collagen implant delivering immediate targeted radiation to the resection cavity, cutting recurrence."
+technology_readiness_level: 9
+commercialisation_status: commercial_early
+customer:
+  - provider
+limiting_factor: "Reimbursement coverage is not universal; payer-by-payer coverage determination is the main commercial bottleneck."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

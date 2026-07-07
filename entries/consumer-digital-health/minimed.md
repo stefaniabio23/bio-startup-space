@@ -43,7 +43,20 @@ barrier_to_entry: very-high
 barrier_to_entry_logic: FDA-cleared hybrid closed-loop systems require years of clinical trial data; regulatory approval, physician channel relationships, and payer reimbursement codes are locked to established players.
 hardness: hard
 hardness_reason: Building a commercially viable full-stack AID system (pump + CGM + algorithm) that achieves FDA clearance for multiple indication expansions while competing with Dexcom, Insulet, and Abbott on price and form factor.
-last_verified: "2026-06-22"
+substrate_family: D
+substrate_tags:
+- D.1
+- D.3
+technology_platform_ids: []
+new_capability: "Full-stack automated insulin delivery pairing pump, proprietary CGM, and an adaptive closed-loop dosing algorithm."
+technology_readiness_level: 9
+commercialisation_status: commercial_scaled
+customer:
+  - consumer
+  - provider
+  - payer
+limiting_factor: "CGM sensor accuracy trails Dexcom and Abbott, and the tubeless patch pump has not yet launched."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

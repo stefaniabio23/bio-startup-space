@@ -17,7 +17,19 @@ buyer_wtp: high
 sales_cycle: long
 regulatory_burden: heavy
 tam_usd_m: 20000
-last_verified: "2026-06-22"
+substrate_family: D
+substrate_tags:
+- D.3
+- A.4
+technology_platform_ids: []
+new_capability: "FDA-cleared digital biomarker endpoints and clinical deterioration alerts from continuous multi-sensor wearable streams."
+technology_readiness_level: 9
+commercialisation_status: commercial_scaled
+customer:
+  - provider
+  - payer
+limiting_factor: "Collects signal without latent-state inference; the pharma-facing digital-endpoint business was divested to ActiGraph."
+last_verified: "2026-07-07"
 data_centrality: important-enabler
 data_ownership:
  - customer-generated

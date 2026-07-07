@@ -17,7 +17,20 @@ buyer_wtp: medium
 sales_cycle: short
 regulatory_burden: medium
 tam_usd_m: 20200
-last_verified: "2026-06-22"
+substrate_family: D
+substrate_tags:
+- D.2
+technology_platform_ids:
+  - ai-medical-imaging
+new_capability: "Multi-sensor full-body preventive scan combining imaging, blood panel, and physician review in one visit."
+technology_readiness_level: 8
+commercialisation_status: commercial_early
+customer:
+  - consumer
+  - provider
+  - employer
+limiting_factor: "No published sensitivity or specificity evidence, physician review bottleneck, and limited geographic reach."
+last_verified: "2026-07-07"
 data_centrality: important-enabler
 data_ownership:
   - customer-generated

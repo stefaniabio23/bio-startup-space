@@ -42,7 +42,19 @@ barrier_to_entry: very-high
 barrier_to_entry_logic: $1.1B raised and Genentech/Sanofi partnerships require years to build; population-scale clinical validation studies (tens of thousands of participants) cannot be shortcut.
 hardness: moonshot
 hardness_reason: Multiomics early detection requires population-scale clinical studies proving sensitivity at stage I/II, the biology is hard, the regulatory bar is high, and reimbursement requires health economic proof.
-last_verified: "2026-06-22"
+substrate_family: D
+substrate_tags:
+- D.2
+technology_platform_ids:
+  - liquid-biopsy-multiomics
+new_capability: "Multiomics blood test combining cfDNA, cfRNA, proteins and immune signals for early colorectal and multi-cancer detection."
+technology_readiness_level: 7
+commercialisation_status: regulatory_review
+customer:
+  - provider
+  - payer
+limiting_factor: "No FDA clearance yet; reimbursement pathway uncertain and Grail/Galleri is further along in multi-cancer detection."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

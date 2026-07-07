@@ -42,7 +42,18 @@ barrier_to_entry: very-high
 barrier_to_entry_logic: Running three simultaneous Phase 2b/3 trials in cardiovascular rare diseases requires $500M+ in capital, physician KOL relationships, patient registries for rare indications, and regulatory expertise that takes years to accumulate; MyoKardia alumni provide shortcut credibility.
 hardness: very-hard
 hardness_reason: Demonstrating that danicamtiv, tonlamarsen, and ataciguat each read out positive in Phase 2b/3 in genetically-defined rare cardiovascular populations where no approved therapies exist, within the capital runway raised.
-last_verified: "2026-06-22"
+substrate_family: E
+substrate_tags:
+- E.1
+technology_platform_ids: []
+new_capability: "Three late-stage drugs targeting root causes of cardiovascular diseases with no approved therapy, paired with Prolaio trial-data layer"
+technology_readiness_level: 7
+commercialisation_status: regulatory_review
+customer:
+  - payer
+  - provider
+limiting_factor: "All three assets are in-licensed with no fallback pipeline; key value-inflection readouts sit on a 2027 calendar"
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

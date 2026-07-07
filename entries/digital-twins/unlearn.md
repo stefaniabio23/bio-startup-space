@@ -17,7 +17,19 @@ buyer_wtp: high
 sales_cycle: long
 regulatory_burden: heavy
 tam_usd_m: 66300
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.3
+technology_platform_ids:
+  - biosimulation-qsp
+new_capability: "Clinical-trial digital twins forecasting individual control outcomes to shrink control arms via EMA-qualified PROCOVA adjustment."
+technology_readiness_level: 8
+commercialisation_status: commercial_early
+customer:
+  - pharma
+  - biotech
+limiting_factor: "Counterfactual control only, no in-trial latent-state inference; DTGs are disease-specific and need historical data."
+last_verified: "2026-07-07"
 data_centrality: core-moat
 data_ownership:
  - licensed

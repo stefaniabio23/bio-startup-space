@@ -37,7 +37,19 @@ barrier_to_entry: high
 barrier_to_entry_logic: Platform value compounds with each customer's experimental iteration, a data flywheel that makes the model more accurate for that customer over time and creates switching cost.
 hardness: very-hard
 hardness_reason: Proving the platform generalises across protein families and customer datasets well enough to replace traditional directed-evolution workflows at scale.
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.1
+technology_platform_ids:
+  - protein-design-diffusion-models
+new_capability: "SaaS platform that trains protein ML models on a customer's own assay data to generate improved variant candidates, closing the ML and wet-lab loop in days."
+technology_readiness_level: 5
+commercialisation_status: commercial_early
+customer:
+  - pharma
+  - biotech
+limiting_factor: "Value is bounded by the quality and quantity of customer-supplied assay data; generates no data in-house."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

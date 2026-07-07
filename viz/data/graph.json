@@ -1,0 +1,6739 @@
+{
+  "nodes": [
+    {
+      "id": "stellaromics",
+      "type": "company",
+      "label": "Stellaromics",
+      "substrate_family": "A",
+      "substrate_tags": [
+        "A.1"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-b",
+      "total_funding_usd_m": 105,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "IP",
+        "wet-lab",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "precision-nanosystems",
+      "type": "company",
+      "label": "Precision NanoSystems",
+      "substrate_family": "B",
+      "substrate_tags": [
+        "B.5"
+      ],
+      "trl": 9,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "acquired",
+      "total_funding_usd_m": 13.4,
+      "commercialisation_status": "commercial_scaled",
+      "moat": [
+        "IP",
+        "wet-lab",
+        "distribution",
+        "capital"
+      ]
+    },
+    {
+      "id": "twist-bioscience",
+      "type": "company",
+      "label": "Twist Bioscience",
+      "substrate_family": "B",
+      "substrate_tags": [
+        "B.6",
+        "A.1"
+      ],
+      "trl": 9,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "public",
+      "total_funding_usd_m": 800,
+      "commercialisation_status": "commercial_scaled",
+      "moat": [
+        "IP",
+        "wet-lab",
+        "distribution",
+        "capital"
+      ]
+    },
+    {
+      "id": "owkin",
+      "type": "company",
+      "label": "Owkin",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.3",
+        "A.1"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-c",
+      "total_funding_usd_m": 350,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "data",
+        "model",
+        "clinical-evidence",
+        "IP",
+        "distribution"
+      ]
+    },
+    {
+      "id": "aganitha-ai",
+      "type": "company",
+      "label": "Aganitha AI",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "bootstrapped",
+      "total_funding_usd_m": 0,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "model"
+      ]
+    },
+    {
+      "id": "atomic-ai",
+      "type": "company",
+      "label": "Atomic AI",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.2"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 42,
+      "commercialisation_status": "preclinical",
+      "moat": [
+        "data",
+        "model"
+      ]
+    },
+    {
+      "id": "instadeep",
+      "type": "company",
+      "label": "InstaDeep",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "acquired",
+      "total_funding_usd_m": 107,
+      "commercialisation_status": "acquired",
+      "moat": [
+        "data",
+        "model",
+        "capital",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "kerna-health",
+      "type": "company",
+      "label": "Kerna Labs",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "seed",
+      "total_funding_usd_m": 0,
+      "commercialisation_status": "research_only",
+      "moat": [
+        "model",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "mana-bio",
+      "type": "company",
+      "label": "Mana.bio",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "seed",
+      "total_funding_usd_m": 19.5,
+      "commercialisation_status": "pilot_deployment",
+      "moat": [
+        "data",
+        "model"
+      ]
+    },
+    {
+      "id": "raina-biosciences",
+      "type": "company",
+      "label": "Raina Biosciences",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "seed",
+      "total_funding_usd_m": 5.7,
+      "commercialisation_status": "research_only",
+      "moat": [
+        "model",
+        "IP"
+      ]
+    },
+    {
+      "id": "aitia",
+      "type": "company",
+      "label": "Aitia",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.3",
+        "C.2"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-d-plus",
+      "total_funding_usd_m": 66,
+      "commercialisation_status": "pilot_deployment",
+      "moat": [
+        "model",
+        "IP",
+        "data",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "biostate-ai",
+      "type": "company",
+      "label": "Biostate AI",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.3",
+        "A.1"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 20,
+      "commercialisation_status": "pilot_deployment",
+      "moat": [
+        "data",
+        "wet-lab",
+        "IP",
+        "model"
+      ]
+    },
+    {
+      "id": "airnexis-therapeutics",
+      "type": "company",
+      "label": "AirNexis Therapeutics",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.1"
+      ],
+      "trl": 6,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 200,
+      "commercialisation_status": "regulatory_review",
+      "moat": [
+        "IP",
+        "clinical-evidence",
+        "capital"
+      ]
+    },
+    {
+      "id": "alveus-therapeutics",
+      "type": "company",
+      "label": "Alveus Therapeutics",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.1"
+      ],
+      "trl": 6,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 197,
+      "commercialisation_status": "regulatory_review",
+      "moat": [
+        "IP",
+        "wet-lab",
+        "clinical-evidence",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "apogee-therapeutics",
+      "type": "company",
+      "label": "Apogee Therapeutics",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.1"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "public",
+      "total_funding_usd_m": 1638,
+      "commercialisation_status": "regulatory_review",
+      "moat": [
+        "clinical-evidence",
+        "IP",
+        "capital",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "beeline-medicines",
+      "type": "company",
+      "label": "Beeline Medicines",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.1"
+      ],
+      "trl": 6,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 300,
+      "commercialisation_status": "regulatory_review",
+      "moat": [
+        "clinical-evidence",
+        "IP",
+        "founder-brand",
+        "capital"
+      ]
+    },
+    {
+      "id": "bioage-labs",
+      "type": "company",
+      "label": "BioAge Labs",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.3",
+        "A.4"
+      ],
+      "trl": 6,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "public",
+      "total_funding_usd_m": 500,
+      "commercialisation_status": "regulatory_review",
+      "moat": [
+        "data",
+        "wet-lab",
+        "IP",
+        "clinical-evidence"
+      ]
+    },
+    {
+      "id": "campfield-therapeutics",
+      "type": "company",
+      "label": "cAMPfield Therapeutics",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.1"
+      ],
+      "trl": 6,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 180,
+      "commercialisation_status": "regulatory_review",
+      "moat": [
+        "IP",
+        "clinical-evidence",
+        "capital",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "cosyne-therapeutics",
+      "type": "company",
+      "label": "CoSyne Therapeutics",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1",
+        "C.2"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "seed",
+      "total_funding_usd_m": 8.81,
+      "commercialisation_status": "preclinical",
+      "moat": [
+        "model",
+        "wet-lab",
+        "founder-brand",
+        "IP"
+      ]
+    },
+    {
+      "id": "formation-bio",
+      "type": "company",
+      "label": "Formation Bio",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.3"
+      ],
+      "trl": 6,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-d-plus",
+      "total_funding_usd_m": 372,
+      "commercialisation_status": "regulatory_review",
+      "moat": [
+        "model",
+        "founder-brand",
+        "capital",
+        "IP"
+      ]
+    },
+    {
+      "id": "kailera-therapeutics",
+      "type": "company",
+      "label": "Kailera Therapeutics",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.1"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "public",
+      "total_funding_usd_m": 1718.8,
+      "commercialisation_status": "regulatory_review",
+      "moat": [
+        "clinical-evidence",
+        "capital",
+        "IP",
+        "distribution"
+      ]
+    },
+    {
+      "id": "kardigan",
+      "type": "company",
+      "label": "Kardigan",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.1"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "public",
+      "total_funding_usd_m": 954,
+      "commercialisation_status": "regulatory_review",
+      "moat": [
+        "clinical-evidence",
+        "IP",
+        "founder-brand",
+        "capital"
+      ]
+    },
+    {
+      "id": "odyssey-therapeutics",
+      "type": "company",
+      "label": "Odyssey Therapeutics",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.1"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "public",
+      "total_funding_usd_m": 726.5,
+      "commercialisation_status": "regulatory_review",
+      "moat": [
+        "IP",
+        "wet-lab",
+        "clinical-evidence",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "orca-bio",
+      "type": "company",
+      "label": "Orca Bio",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.2"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-d-plus",
+      "total_funding_usd_m": 625,
+      "commercialisation_status": "regulatory_review",
+      "moat": [
+        "wet-lab",
+        "clinical-evidence",
+        "IP",
+        "regulatory-trust"
+      ]
+    },
+    {
+      "id": "parabilis-medicines",
+      "type": "company",
+      "label": "Parabilis Medicines",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.1"
+      ],
+      "trl": 6,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "public",
+      "total_funding_usd_m": 1657,
+      "commercialisation_status": "regulatory_review",
+      "moat": [
+        "IP",
+        "wet-lab",
+        "clinical-evidence",
+        "capital"
+      ]
+    },
+    {
+      "id": "arisglobal",
+      "type": "company",
+      "label": "ArisGlobal",
+      "substrate_family": "B",
+      "substrate_tags": [
+        "B.4"
+      ],
+      "trl": 9,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "acquired",
+      "total_funding_usd_m": 0,
+      "commercialisation_status": "commercial_scaled",
+      "moat": [
+        "model",
+        "regulatory-trust",
+        "distribution",
+        "IP"
+      ]
+    },
+    {
+      "id": "lokavant",
+      "type": "company",
+      "label": "Lokavant",
+      "substrate_family": "B",
+      "substrate_tags": [
+        "B.4"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 37,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "data",
+        "model",
+        "distribution"
+      ]
+    },
+    {
+      "id": "yseop",
+      "type": "company",
+      "label": "Yseop",
+      "substrate_family": "B",
+      "substrate_tags": [
+        "B.4"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-b",
+      "total_funding_usd_m": 25,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "model",
+        "regulatory-trust",
+        "IP",
+        "distribution"
+      ]
+    },
+    {
+      "id": "emed",
+      "type": "company",
+      "label": "eMed",
+      "substrate_family": "F",
+      "substrate_tags": [
+        "F.1",
+        "F.5"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 200,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "distribution",
+        "data",
+        "model",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "garner-health",
+      "type": "company",
+      "label": "Garner Health",
+      "substrate_family": "F",
+      "substrate_tags": [
+        "F.4"
+      ],
+      "trl": 9,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-d-plus",
+      "total_funding_usd_m": 300,
+      "commercialisation_status": "commercial_scaled",
+      "moat": [
+        "data",
+        "model",
+        "distribution"
+      ]
+    },
+    {
+      "id": "grow-therapy",
+      "type": "company",
+      "label": "Grow Therapy",
+      "substrate_family": "F",
+      "substrate_tags": [
+        "F.1",
+        "F.4"
+      ],
+      "trl": 9,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-d-plus",
+      "total_funding_usd_m": 328,
+      "commercialisation_status": "commercial_scaled",
+      "moat": [
+        "distribution",
+        "data",
+        "capital"
+      ]
+    },
+    {
+      "id": "honest-health",
+      "type": "company",
+      "label": "Honest Health",
+      "substrate_family": "F",
+      "substrate_tags": [
+        "F.4",
+        "F.6"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-d-plus",
+      "total_funding_usd_m": 140,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "founder-brand",
+        "distribution",
+        "regulatory-trust"
+      ]
+    },
+    {
+      "id": "midi-health",
+      "type": "company",
+      "label": "Midi Health",
+      "substrate_family": "F",
+      "substrate_tags": [
+        "F.1"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-d-plus",
+      "total_funding_usd_m": 250,
+      "commercialisation_status": "commercial_scaled",
+      "moat": [
+        "distribution",
+        "clinical-evidence",
+        "founder-brand",
+        "regulatory-trust"
+      ]
+    },
+    {
+      "id": "midjourney-medical",
+      "type": "company",
+      "label": "Midjourney Medical",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2",
+        "D.1"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "bootstrapped",
+      "total_funding_usd_m": 0,
+      "commercialisation_status": "preclinical",
+      "moat": [
+        "founder-brand",
+        "IP"
+      ]
+    },
+    {
+      "id": "minimed",
+      "type": "company",
+      "label": "MiniMed",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1",
+        "D.3"
+      ],
+      "trl": 9,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "public",
+      "total_funding_usd_m": 560,
+      "commercialisation_status": "commercial_scaled",
+      "moat": [
+        "regulatory-trust",
+        "IP",
+        "clinical-evidence",
+        "distribution",
+        "data"
+      ]
+    },
+    {
+      "id": "neko-health",
+      "type": "company",
+      "label": "Neko Health",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-b",
+      "total_funding_usd_m": 325,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "founder-brand",
+        "capital",
+        "data",
+        "distribution"
+      ]
+    },
+    {
+      "id": "nourish",
+      "type": "company",
+      "label": "Nourish",
+      "substrate_family": "F",
+      "substrate_tags": [
+        "F.1"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-c",
+      "total_funding_usd_m": 215,
+      "commercialisation_status": "commercial_scaled",
+      "moat": [
+        "distribution",
+        "data",
+        "capital"
+      ]
+    },
+    {
+      "id": "qualified-health",
+      "type": "company",
+      "label": "Qualified Health",
+      "substrate_family": "F",
+      "substrate_tags": [
+        "F.4"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-b",
+      "total_funding_usd_m": 155,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "distribution",
+        "regulatory-trust",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "solace-health",
+      "type": "company",
+      "label": "Solace",
+      "substrate_family": "F",
+      "substrate_tags": [
+        "F.4",
+        "F.6"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-c",
+      "total_funding_usd_m": 204,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "distribution",
+        "data",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "talkiatry",
+      "type": "company",
+      "label": "Talkiatry",
+      "substrate_family": "F",
+      "substrate_tags": [
+        "F.1"
+      ],
+      "trl": 9,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-d-plus",
+      "total_funding_usd_m": 452,
+      "commercialisation_status": "commercial_scaled",
+      "moat": [
+        "distribution",
+        "capital",
+        "data",
+        "regulatory-trust"
+      ]
+    },
+    {
+      "id": "twin-health",
+      "type": "company",
+      "label": "Twin Health",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.3",
+        "F.2"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-d-plus",
+      "total_funding_usd_m": 272,
+      "commercialisation_status": "commercial_scaled",
+      "moat": [
+        "data",
+        "model",
+        "clinical-evidence"
+      ]
+    },
+    {
+      "id": "whoop",
+      "type": "company",
+      "label": "WHOOP",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1"
+      ],
+      "trl": 9,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-d-plus",
+      "total_funding_usd_m": 979,
+      "commercialisation_status": "commercial_scaled",
+      "moat": [
+        "data",
+        "distribution",
+        "founder-brand",
+        "capital"
+      ]
+    },
+    {
+      "id": "epicore-biosystems",
+      "type": "company",
+      "label": "Epicore Biosystems",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1",
+        "D.3"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-b",
+      "total_funding_usd_m": 32,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "IP",
+        "wet-lab",
+        "distribution"
+      ]
+    },
+    {
+      "id": "level-zero-health",
+      "type": "company",
+      "label": "Level Zero Health",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1",
+        "D.3"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "pre-seed",
+      "total_funding_usd_m": 6.9,
+      "commercialisation_status": "preclinical",
+      "moat": [
+        "wet-lab",
+        "IP",
+        "data"
+      ]
+    },
+    {
+      "id": "nutromics",
+      "type": "company",
+      "label": "Nutromics",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.3"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 40,
+      "commercialisation_status": "preclinical",
+      "moat": [
+        "wet-lab",
+        "IP",
+        "clinical-evidence"
+      ]
+    },
+    {
+      "id": "sava",
+      "type": "company",
+      "label": "Sava",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1",
+        "D.3"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 32,
+      "commercialisation_status": "preclinical",
+      "moat": [
+        "wet-lab",
+        "IP",
+        "clinical-evidence"
+      ]
+    },
+    {
+      "id": "temple",
+      "type": "company",
+      "label": "Temple",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1",
+        "D.3"
+      ],
+      "trl": 6,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "seed",
+      "total_funding_usd_m": 54,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "founder-brand",
+        "capital",
+        "IP"
+      ]
+    },
+    {
+      "id": "vivoo",
+      "type": "company",
+      "label": "Vivoo",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1",
+        "D.2"
+      ],
+      "trl": 6,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 6,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "IP",
+        "distribution",
+        "data"
+      ]
+    },
+    {
+      "id": "xsensio",
+      "type": "company",
+      "label": "Xsensio",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1",
+        "D.3"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 11.6,
+      "commercialisation_status": "pilot_deployment",
+      "moat": [
+        "IP",
+        "wet-lab",
+        "model"
+      ]
+    },
+    {
+      "id": "adaptyx-biosciences",
+      "type": "company",
+      "label": "Adaptyx Biosciences",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.3"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "seed",
+      "total_funding_usd_m": 23,
+      "commercialisation_status": "preclinical",
+      "moat": [
+        "IP",
+        "clinical-evidence",
+        "wet-lab"
+      ]
+    },
+    {
+      "id": "axbio",
+      "type": "company",
+      "label": "AxBio",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2",
+        "A.1"
+      ],
+      "trl": 6,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-b",
+      "total_funding_usd_m": 130,
+      "commercialisation_status": "pilot_deployment",
+      "moat": [
+        "IP",
+        "wet-lab",
+        "capital"
+      ]
+    },
+    {
+      "id": "biomemory",
+      "type": "company",
+      "label": "Biomemory",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 18,
+      "commercialisation_status": "pilot_deployment",
+      "moat": [
+        "IP",
+        "wet-lab"
+      ]
+    },
+    {
+      "id": "cardea-bio",
+      "type": "company",
+      "label": "Cardea Bio",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 6,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 0,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "IP",
+        "wet-lab"
+      ]
+    },
+    {
+      "id": "coordination-pharmaceuticals",
+      "type": "company",
+      "label": "Coordination Pharmaceuticals",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.4"
+      ],
+      "trl": 6,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "unknown",
+      "total_funding_usd_m": 0,
+      "commercialisation_status": "regulatory_review",
+      "moat": [
+        "IP",
+        "wet-lab",
+        "clinical-evidence"
+      ]
+    },
+    {
+      "id": "delta-diagnostics",
+      "type": "company",
+      "label": "Delta Diagnostics",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 6,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 7,
+      "commercialisation_status": "pilot_deployment",
+      "moat": [
+        "IP",
+        "wet-lab"
+      ]
+    },
+    {
+      "id": "flowbio",
+      "type": "company",
+      "label": "FLOWBIO",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1"
+      ],
+      "trl": 9,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "seed",
+      "total_funding_usd_m": 4.25,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "IP",
+        "distribution",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "genopore",
+      "type": "company",
+      "label": "Genopore",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2",
+        "A.1"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "seed",
+      "total_funding_usd_m": 0,
+      "commercialisation_status": "research_only",
+      "moat": [
+        "IP",
+        "wet-lab",
+        "model"
+      ]
+    },
+    {
+      "id": "genvida",
+      "type": "company",
+      "label": "Genvida",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2",
+        "A.1"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "unknown",
+      "total_funding_usd_m": 0,
+      "commercialisation_status": "research_only",
+      "moat": [
+        "IP",
+        "wet-lab"
+      ]
+    },
+    {
+      "id": "hyphox",
+      "type": "company",
+      "label": "HyPhoX",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "pre-seed",
+      "total_funding_usd_m": 0,
+      "commercialisation_status": "research_only",
+      "moat": [
+        "IP",
+        "wet-lab"
+      ]
+    },
+    {
+      "id": "leadoptik",
+      "type": "company",
+      "label": "LeadOptik",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2",
+        "D.3"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "seed",
+      "total_funding_usd_m": 5,
+      "commercialisation_status": "preclinical",
+      "moat": [
+        "IP",
+        "clinical-evidence"
+      ]
+    },
+    {
+      "id": "mc10",
+      "type": "company",
+      "label": "MC10 (digital biomarker business acquired by Medidata)",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.3",
+        "D.1",
+        "A.1"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "acquired",
+      "total_funding_usd_m": 100,
+      "commercialisation_status": "acquired",
+      "moat": [
+        "IP",
+        "clinical-evidence"
+      ]
+    },
+    {
+      "id": "metalenz",
+      "type": "company",
+      "label": "Metalenz",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2",
+        "D.1"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-b",
+      "total_funding_usd_m": 80,
+      "commercialisation_status": "commercial_scaled",
+      "moat": [
+        "IP",
+        "distribution",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "mip-discovery",
+      "type": "company",
+      "label": "MIP Discovery",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 6,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "seed",
+      "total_funding_usd_m": 0,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "IP",
+        "wet-lab"
+      ]
+    },
+    {
+      "id": "nvision-quantum-technologies",
+      "type": "company",
+      "label": "NVision Quantum Technologies",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 6,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 50,
+      "commercialisation_status": "pilot_deployment",
+      "moat": [
+        "IP",
+        "wet-lab",
+        "regulatory-trust"
+      ]
+    },
+    {
+      "id": "oxford-nanopore",
+      "type": "company",
+      "label": "Oxford Nanopore Technologies",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2",
+        "D.3",
+        "A.1"
+      ],
+      "trl": 9,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "public",
+      "total_funding_usd_m": 950,
+      "commercialisation_status": "commercial_scaled",
+      "moat": [
+        "IP",
+        "wet-lab",
+        "distribution",
+        "capital"
+      ]
+    },
+    {
+      "id": "photonic-inc",
+      "type": "company",
+      "label": "Photonic Inc",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-b",
+      "total_funding_usd_m": 475,
+      "commercialisation_status": "research_only",
+      "moat": [
+        "IP",
+        "capital",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "portal-biotech",
+      "type": "company",
+      "label": "Portal Biotech",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2",
+        "A.1"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 40,
+      "commercialisation_status": "pilot_deployment",
+      "moat": [
+        "IP",
+        "wet-lab",
+        "model"
+      ]
+    },
+    {
+      "id": "pumpkinseed-bio",
+      "type": "company",
+      "label": "Pumpkinseed Bio",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 20,
+      "commercialisation_status": "pilot_deployment",
+      "moat": [
+        "IP",
+        "wet-lab",
+        "data"
+      ]
+    },
+    {
+      "id": "qitan-technology",
+      "type": "company",
+      "label": "Qitan Technology",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2",
+        "D.3",
+        "A.1"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-c",
+      "total_funding_usd_m": 170,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "IP",
+        "wet-lab",
+        "distribution",
+        "capital"
+      ]
+    },
+    {
+      "id": "qt-sense",
+      "type": "company",
+      "label": "QT Sense",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "seed",
+      "total_funding_usd_m": 4.7,
+      "commercialisation_status": "pilot_deployment",
+      "moat": [
+        "IP",
+        "wet-lab"
+      ]
+    },
+    {
+      "id": "quantum-orbit-labs",
+      "type": "company",
+      "label": "Quantum Orbit Labs",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.4"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "bootstrapped",
+      "total_funding_usd_m": 0,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "IP",
+        "distribution"
+      ]
+    },
+    {
+      "id": "surfixdx",
+      "type": "company",
+      "label": "SurfixDx",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 9,
+      "commercialisation_status": "preclinical",
+      "moat": [
+        "IP",
+        "wet-lab"
+      ]
+    },
+    {
+      "id": "tarsis-technology",
+      "type": "company",
+      "label": "Tarsis Technology",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.4"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "unknown",
+      "total_funding_usd_m": 0,
+      "commercialisation_status": "research_only",
+      "moat": [
+        "IP",
+        "wet-lab"
+      ]
+    },
+    {
+      "id": "terahertz-technologies",
+      "type": "company",
+      "label": "Terahertz Technologies",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 3,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "unknown",
+      "total_funding_usd_m": 0,
+      "commercialisation_status": "research_only",
+      "moat": [
+        "IP"
+      ]
+    },
+    {
+      "id": "thznanovision",
+      "type": "company",
+      "label": "THzNanoVision",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "unknown",
+      "total_funding_usd_m": 0,
+      "commercialisation_status": "pilot_deployment",
+      "moat": [
+        "IP"
+      ]
+    },
+    {
+      "id": "tozaro",
+      "type": "company",
+      "label": "Tozaro",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "unknown",
+      "total_funding_usd_m": 0,
+      "commercialisation_status": "research_only",
+      "moat": [
+        "IP",
+        "wet-lab"
+      ]
+    },
+    {
+      "id": "unomr",
+      "type": "company",
+      "label": "UNOMR",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 3,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "pre-seed",
+      "total_funding_usd_m": 0.17,
+      "commercialisation_status": "research_only",
+      "moat": [
+        "IP",
+        "wet-lab",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "wave-photonics",
+      "type": "company",
+      "label": "Wave Photonics",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 6,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "seed",
+      "total_funding_usd_m": 7,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "IP",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "xenoma",
+      "type": "company",
+      "label": "Xenoma",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1",
+        "D.3"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "seed",
+      "total_funding_usd_m": 3.5,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "IP",
+        "wet-lab"
+      ]
+    },
+    {
+      "id": "xpanceo",
+      "type": "company",
+      "label": "XPANCEO",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 250,
+      "commercialisation_status": "research_only",
+      "moat": [
+        "IP",
+        "capital",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "aidoc",
+      "type": "company",
+      "label": "Aidoc",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.3",
+        "D.2"
+      ],
+      "trl": 9,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-d-plus",
+      "total_funding_usd_m": 520,
+      "commercialisation_status": "commercial_scaled",
+      "moat": [
+        "regulatory-trust",
+        "distribution",
+        "data",
+        "model",
+        "IP"
+      ]
+    },
+    {
+      "id": "cytovale",
+      "type": "company",
+      "label": "Cytovale",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 9,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-d-plus",
+      "total_funding_usd_m": 220,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "regulatory-trust",
+        "clinical-evidence",
+        "IP"
+      ]
+    },
+    {
+      "id": "forus-health",
+      "type": "company",
+      "label": "Forus Health",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 9,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-b",
+      "total_funding_usd_m": 18.6,
+      "commercialisation_status": "commercial_scaled",
+      "moat": [
+        "distribution",
+        "data",
+        "IP",
+        "clinical-evidence"
+      ]
+    },
+    {
+      "id": "freenome",
+      "type": "company",
+      "label": "Freenome",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-d-plus",
+      "total_funding_usd_m": 1350,
+      "commercialisation_status": "regulatory_review",
+      "moat": [
+        "data",
+        "clinical-evidence",
+        "capital",
+        "IP"
+      ]
+    },
+    {
+      "id": "guardant-health",
+      "type": "company",
+      "label": "Guardant Health",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 9,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "public",
+      "total_funding_usd_m": 1500,
+      "commercialisation_status": "commercial_scaled",
+      "moat": [
+        "regulatory-trust",
+        "clinical-evidence",
+        "distribution",
+        "data",
+        "IP"
+      ]
+    },
+    {
+      "id": "paige",
+      "type": "company",
+      "label": "Paige",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.3",
+        "D.2"
+      ],
+      "trl": 9,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "acquired",
+      "total_funding_usd_m": 220,
+      "commercialisation_status": "acquired",
+      "moat": [
+        "regulatory-trust",
+        "data",
+        "model",
+        "IP",
+        "distribution"
+      ]
+    },
+    {
+      "id": "pathai",
+      "type": "company",
+      "label": "PathAI",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.3",
+        "D.2"
+      ],
+      "trl": 9,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-c",
+      "total_funding_usd_m": 255,
+      "commercialisation_status": "commercial_scaled",
+      "moat": [
+        "data",
+        "model",
+        "distribution",
+        "clinical-evidence"
+      ]
+    },
+    {
+      "id": "certara",
+      "type": "company",
+      "label": "Certara",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.3"
+      ],
+      "trl": 9,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "public",
+      "total_funding_usd_m": 668,
+      "commercialisation_status": "commercial_scaled",
+      "moat": [
+        "model",
+        "regulatory-trust",
+        "data",
+        "IP",
+        "distribution"
+      ]
+    },
+    {
+      "id": "fireqsp",
+      "type": "company",
+      "label": "FireQSP",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.2",
+        "C.3"
+      ],
+      "trl": 6,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "pre-seed",
+      "total_funding_usd_m": 0,
+      "commercialisation_status": "pilot_deployment",
+      "moat": [
+        "model",
+        "data"
+      ]
+    },
+    {
+      "id": "quanthealth",
+      "type": "company",
+      "label": "QuantHealth",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.3"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 30,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "data",
+        "model",
+        "IP"
+      ]
+    },
+    {
+      "id": "unlearn",
+      "type": "company",
+      "label": "Unlearn",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.3"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-c",
+      "total_funding_usd_m": 135,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "data",
+        "model",
+        "regulatory-trust",
+        "IP"
+      ]
+    },
+    {
+      "id": "verisim-life",
+      "type": "company",
+      "label": "VeriSIM Life",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.3"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 21.4,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "model",
+        "data",
+        "regulatory-trust",
+        "IP"
+      ]
+    },
+    {
+      "id": "capstan-therapeutics",
+      "type": "company",
+      "label": "Capstan Therapeutics",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.3",
+        "D.4"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "acquired",
+      "total_funding_usd_m": 340,
+      "commercialisation_status": "acquired",
+      "moat": [
+        "IP",
+        "clinical-evidence",
+        "wet-lab"
+      ]
+    },
+    {
+      "id": "cortical-labs",
+      "type": "company",
+      "label": "Cortical Labs",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.6"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 11,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "wet-lab",
+        "IP",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "eligo-biosciences",
+      "type": "company",
+      "label": "Eligo Bioscience",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.4",
+        "D.4"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-b",
+      "total_funding_usd_m": 52.3,
+      "commercialisation_status": "preclinical",
+      "moat": [
+        "wet-lab",
+        "IP",
+        "clinical-evidence"
+      ]
+    },
+    {
+      "id": "hesperos",
+      "type": "company",
+      "label": "Hesperos Inc",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.6",
+        "D.2"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "unknown",
+      "total_funding_usd_m": 0,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "wet-lab",
+        "regulatory-trust",
+        "IP"
+      ]
+    },
+    {
+      "id": "locus-biosciences",
+      "type": "company",
+      "label": "Locus Biosciences",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.4",
+        "D.4"
+      ],
+      "trl": 6,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-b",
+      "total_funding_usd_m": 54,
+      "commercialisation_status": "regulatory_review",
+      "moat": [
+        "IP",
+        "clinical-evidence",
+        "wet-lab"
+      ]
+    },
+    {
+      "id": "logicink",
+      "type": "company",
+      "label": "LogicInk",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.1",
+        "D.1"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "seed",
+      "total_funding_usd_m": 1.35,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "IP"
+      ]
+    },
+    {
+      "id": "merge-labs",
+      "type": "company",
+      "label": "Merge Labs",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.3",
+        "D.4"
+      ],
+      "trl": 2,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "seed",
+      "total_funding_usd_m": 252,
+      "commercialisation_status": "research_only",
+      "moat": [
+        "founder-brand",
+        "capital"
+      ]
+    },
+    {
+      "id": "prime-medicine",
+      "type": "company",
+      "label": "Prime Medicine",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.3",
+        "D.4"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "public",
+      "total_funding_usd_m": 490,
+      "commercialisation_status": "preclinical",
+      "moat": [
+        "IP",
+        "wet-lab",
+        "clinical-evidence"
+      ]
+    },
+    {
+      "id": "science-corporation",
+      "type": "company",
+      "label": "Science Corporation",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.3",
+        "D.4"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-c",
+      "total_funding_usd_m": 490,
+      "commercialisation_status": "regulatory_review",
+      "moat": [
+        "clinical-evidence",
+        "IP",
+        "founder-brand",
+        "capital"
+      ]
+    },
+    {
+      "id": "sherlock-biosciences",
+      "type": "company",
+      "label": "Sherlock Biosciences",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.1",
+        "D.2"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "acquired",
+      "total_funding_usd_m": 111,
+      "commercialisation_status": "regulatory_review",
+      "moat": [
+        "IP",
+        "regulatory-trust",
+        "wet-lab"
+      ]
+    },
+    {
+      "id": "basecamp-research",
+      "type": "company",
+      "label": "Basecamp Research",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1",
+        "A.1"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-b",
+      "total_funding_usd_m": 85,
+      "commercialisation_status": "pilot_deployment",
+      "moat": [
+        "data",
+        "model",
+        "IP",
+        "regulatory-trust"
+      ]
+    },
+    {
+      "id": "chai-discovery",
+      "type": "company",
+      "label": "Chai Discovery",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1",
+        "C.2"
+      ],
+      "trl": 6,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-b",
+      "total_funding_usd_m": 225,
+      "commercialisation_status": "pilot_deployment",
+      "moat": [
+        "model",
+        "IP",
+        "distribution",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "cradle",
+      "type": "company",
+      "label": "Cradle",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-b",
+      "total_funding_usd_m": 73,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "model",
+        "data",
+        "IP"
+      ]
+    },
+    {
+      "id": "earendil-labs",
+      "type": "company",
+      "label": "Earendil Labs",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-b",
+      "total_funding_usd_m": 787,
+      "commercialisation_status": "regulatory_review",
+      "moat": [
+        "model",
+        "IP",
+        "clinical-evidence",
+        "wet-lab",
+        "data"
+      ]
+    },
+    {
+      "id": "evolutionaryscale",
+      "type": "company",
+      "label": "EvolutionaryScale",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "acquired",
+      "total_funding_usd_m": 142,
+      "commercialisation_status": "acquired",
+      "moat": [
+        "model",
+        "founder-brand",
+        "data",
+        "IP"
+      ]
+    },
+    {
+      "id": "generate-biomedicines",
+      "type": "company",
+      "label": "Generate Biomedicines",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "public",
+      "total_funding_usd_m": 1100,
+      "commercialisation_status": "regulatory_review",
+      "moat": [
+        "data",
+        "model",
+        "wet-lab",
+        "clinical-evidence",
+        "IP"
+      ]
+    },
+    {
+      "id": "genesis-molecular-ai",
+      "type": "company",
+      "label": "Genesis Molecular AI",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1",
+        "C.2"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-b",
+      "total_funding_usd_m": 340,
+      "commercialisation_status": "pilot_deployment",
+      "moat": [
+        "model",
+        "IP",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "iambic-therapeutics",
+      "type": "company",
+      "label": "Iambic Therapeutics",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1",
+        "C.2"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-c",
+      "total_funding_usd_m": 320,
+      "commercialisation_status": "regulatory_review",
+      "moat": [
+        "model",
+        "wet-lab",
+        "clinical-evidence",
+        "IP"
+      ]
+    },
+    {
+      "id": "insilico-medicine",
+      "type": "company",
+      "label": "Insilico Medicine",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1",
+        "C.3"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "public",
+      "total_funding_usd_m": 800,
+      "commercialisation_status": "regulatory_review",
+      "moat": [
+        "data",
+        "model",
+        "IP",
+        "clinical-evidence",
+        "wet-lab"
+      ]
+    },
+    {
+      "id": "isomorphic-labs",
+      "type": "company",
+      "label": "Isomorphic Labs",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.2",
+        "C.1"
+      ],
+      "trl": 6,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-b",
+      "total_funding_usd_m": 2700,
+      "commercialisation_status": "pilot_deployment",
+      "moat": [
+        "model",
+        "founder-brand",
+        "capital",
+        "IP"
+      ]
+    },
+    {
+      "id": "latent-labs",
+      "type": "company",
+      "label": "Latent Labs",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 50,
+      "commercialisation_status": "pilot_deployment",
+      "moat": [
+        "model",
+        "founder-brand",
+        "wet-lab"
+      ]
+    },
+    {
+      "id": "nabla-bio",
+      "type": "company",
+      "label": "Nabla Bio",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1",
+        "C.2"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 37,
+      "commercialisation_status": "pilot_deployment",
+      "moat": [
+        "model",
+        "IP",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "profluent",
+      "type": "company",
+      "label": "Profluent",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-b",
+      "total_funding_usd_m": 150,
+      "commercialisation_status": "pilot_deployment",
+      "moat": [
+        "model",
+        "data",
+        "IP",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "sandboxaq",
+      "type": "company",
+      "label": "SandboxAQ",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.2"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-d-plus",
+      "total_funding_usd_m": 950,
+      "commercialisation_status": "pilot_deployment",
+      "moat": [
+        "model",
+        "capital",
+        "founder-brand",
+        "IP"
+      ]
+    },
+    {
+      "id": "terray-therapeutics",
+      "type": "company",
+      "label": "Terray Therapeutics",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1",
+        "C.2"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-b",
+      "total_funding_usd_m": 200,
+      "commercialisation_status": "pilot_deployment",
+      "moat": [
+        "data",
+        "wet-lab",
+        "model",
+        "IP"
+      ]
+    },
+    {
+      "id": "xaira-therapeutics",
+      "type": "company",
+      "label": "Xaira Therapeutics",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1",
+        "C.3"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 1000,
+      "commercialisation_status": "preclinical",
+      "moat": [
+        "capital",
+        "founder-brand",
+        "model",
+        "wet-lab"
+      ]
+    },
+    {
+      "id": "elemind",
+      "type": "company",
+      "label": "Elemind",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "seed",
+      "total_funding_usd_m": 20,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "IP",
+        "model",
+        "clinical-evidence"
+      ]
+    },
+    {
+      "id": "gt-medical-technologies",
+      "type": "company",
+      "label": "GT Medical Technologies",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.4"
+      ],
+      "trl": 9,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-d-plus",
+      "total_funding_usd_m": 241,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "clinical-evidence",
+        "IP",
+        "regulatory-trust",
+        "capital"
+      ]
+    },
+    {
+      "id": "hypershell",
+      "type": "company",
+      "label": "Hypershell",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-b",
+      "total_funding_usd_m": 140,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "distribution",
+        "IP",
+        "model",
+        "capital"
+      ]
+    },
+    {
+      "id": "newlimit",
+      "type": "company",
+      "label": "NewLimit",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.3"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-c",
+      "total_funding_usd_m": 682,
+      "commercialisation_status": "preclinical",
+      "moat": [
+        "model",
+        "data",
+        "wet-lab",
+        "founder-brand",
+        "IP"
+      ]
+    },
+    {
+      "id": "openevidence",
+      "type": "company",
+      "label": "OpenEvidence",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.4"
+      ],
+      "trl": 9,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-d-plus",
+      "total_funding_usd_m": 700,
+      "commercialisation_status": "commercial_scaled",
+      "moat": [
+        "distribution",
+        "data",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "tacit-labs",
+      "type": "company",
+      "label": "Tacit Labs",
+      "substrate_family": "A",
+      "substrate_tags": [
+        "A.3"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "pre-seed",
+      "total_funding_usd_m": 0,
+      "commercialisation_status": "research_only",
+      "moat": [
+        "data",
+        "IP"
+      ]
+    },
+    {
+      "id": "verily",
+      "type": "company",
+      "label": "Verily",
+      "substrate_family": "A",
+      "substrate_tags": [
+        "A.2",
+        "A.1"
+      ],
+      "trl": 8,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-d-plus",
+      "total_funding_usd_m": 2800,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "data",
+        "distribution",
+        "capital",
+        "regulatory-trust"
+      ]
+    },
+    {
+      "id": "tempus",
+      "type": "company",
+      "label": "Tempus",
+      "substrate_family": "A",
+      "substrate_tags": [
+        "A.2"
+      ],
+      "trl": 9,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "public",
+      "total_funding_usd_m": 1420,
+      "commercialisation_status": "commercial_scaled",
+      "moat": [
+        "data",
+        "distribution",
+        "clinical-evidence",
+        "regulatory-trust",
+        "IP"
+      ]
+    },
+    {
+      "id": "deep-6-ai",
+      "type": "company",
+      "label": "Deep 6 AI",
+      "substrate_family": "F",
+      "substrate_tags": [
+        "F.3"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "acquired",
+      "total_funding_usd_m": 0,
+      "commercialisation_status": "acquired",
+      "moat": [
+        "data",
+        "model",
+        "distribution"
+      ]
+    },
+    {
+      "id": "inato",
+      "type": "company",
+      "label": "Inato",
+      "substrate_family": "F",
+      "substrate_tags": [
+        "F.3"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 37,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "distribution",
+        "data",
+        "model"
+      ]
+    },
+    {
+      "id": "lindus-health",
+      "type": "company",
+      "label": "Lindus Health",
+      "substrate_family": "B",
+      "substrate_tags": [
+        "B.4"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-b",
+      "total_funding_usd_m": 73,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "distribution",
+        "model",
+        "regulatory-trust"
+      ]
+    },
+    {
+      "id": "paradigm-health",
+      "type": "company",
+      "label": "Paradigm Health",
+      "substrate_family": "F",
+      "substrate_tags": [
+        "F.3",
+        "F.4"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-b",
+      "total_funding_usd_m": 281,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "distribution",
+        "data",
+        "capital",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "trial-library",
+      "type": "company",
+      "label": "Trial Library",
+      "substrate_family": "F",
+      "substrate_tags": [
+        "F.3"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-a",
+      "total_funding_usd_m": 15,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "distribution",
+        "model",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "insitro",
+      "type": "company",
+      "label": "insitro",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.3",
+        "A.1"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-c",
+      "total_funding_usd_m": 800,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "data",
+        "model",
+        "IP",
+        "founder-brand"
+      ]
+    },
+    {
+      "id": "recursion",
+      "type": "company",
+      "label": "Recursion / Valence Labs",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.2",
+        "B.1"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "public",
+      "total_funding_usd_m": 950.7,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "data",
+        "wet-lab",
+        "model",
+        "capital",
+        "IP"
+      ]
+    },
+    {
+      "id": "relation-therapeutics",
+      "type": "company",
+      "label": "Relation Therapeutics",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.2",
+        "A.1"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "seed",
+      "total_funding_usd_m": 116,
+      "commercialisation_status": "commercial_early",
+      "moat": [
+        "data",
+        "wet-lab",
+        "IP",
+        "model"
+      ]
+    },
+    {
+      "id": "biofourmis",
+      "type": "company",
+      "label": "Biofourmis",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.3",
+        "A.4"
+      ],
+      "trl": 9,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-d-plus",
+      "total_funding_usd_m": 445,
+      "commercialisation_status": "commercial_scaled",
+      "moat": [
+        "regulatory-trust",
+        "clinical-evidence",
+        "IP"
+      ]
+    },
+    {
+      "id": "cognito-therapeutics",
+      "type": "company",
+      "label": "Cognito Therapeutics",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.4",
+        "D.1"
+      ],
+      "trl": 7,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "series-c",
+      "total_funding_usd_m": 198,
+      "commercialisation_status": "regulatory_review",
+      "moat": [
+        "clinical-evidence",
+        "IP",
+        "regulatory-trust",
+        "wet-lab"
+      ]
+    },
+    {
+      "id": "ai-lnp-design",
+      "type": "primitive",
+      "label": "AI for mRNA / LNP design",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1",
+        "C.2"
+      ],
+      "trl": 5,
+      "trl_min": 4,
+      "trl_max": 5,
+      "capability_count": 3,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "pilot_deployment",
+      "moat": []
+    },
+    {
+      "id": "ai-medical-imaging",
+      "type": "primitive",
+      "label": "AI medical imaging",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.3",
+        "D.2"
+      ],
+      "trl": 8,
+      "trl_min": 8,
+      "trl_max": 9,
+      "capability_count": 2,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "commercial_scaled",
+      "moat": []
+    },
+    {
+      "id": "ai-trial-operations",
+      "type": "primitive",
+      "label": "AI for clinical trial operations",
+      "substrate_family": "B",
+      "substrate_tags": [
+        "B.4"
+      ],
+      "trl": 8,
+      "trl_min": 7,
+      "trl_max": 8,
+      "capability_count": 2,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "commercial_scaled",
+      "moat": []
+    },
+    {
+      "id": "biohybrid-microbots",
+      "type": "primitive",
+      "label": "Biohybrid xenobots / microbots",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.1"
+      ],
+      "trl": 3,
+      "trl_min": 3,
+      "trl_max": 3,
+      "capability_count": 2,
+      "momentum": {
+        "papers": 646,
+        "cagr_pct": 40.3,
+        "fwci": 8.28,
+        "industry_share_pct": 8.6,
+        "citation_mass": 1595.0,
+        "on_topic_n": 128,
+        "buildable_whitespace": "15/25",
+        "confidence": "high",
+        "status": "uncommercialized",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "research_only",
+      "moat": []
+    },
+    {
+      "id": "biology-foundation-models",
+      "type": "primitive",
+      "label": "Biology foundation models",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1",
+        "C.4"
+      ],
+      "trl": 5,
+      "trl_min": 4,
+      "trl_max": 6,
+      "capability_count": 2,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "pilot_deployment",
+      "moat": []
+    },
+    {
+      "id": "biosimulation-qsp",
+      "type": "primitive",
+      "label": "Biosimulation and quantitative systems pharmacology",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.3"
+      ],
+      "trl": 7,
+      "trl_min": 6,
+      "trl_max": 8,
+      "capability_count": 2,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "commercial_early",
+      "moat": []
+    },
+    {
+      "id": "cell-free-synthetic-biology",
+      "type": "primitive",
+      "label": "Cell-free synthetic biology",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.1",
+        "D.2"
+      ],
+      "trl": 5,
+      "trl_min": 4,
+      "trl_max": 5,
+      "capability_count": 3,
+      "momentum": {
+        "papers": 1556,
+        "cagr_pct": 14.2,
+        "fwci": 3.45,
+        "industry_share_pct": 1.9,
+        "citation_mass": 465.0,
+        "on_topic_n": 52,
+        "buildable_whitespace": "25/25",
+        "confidence": "high",
+        "status": "uncommercialized",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "pilot_deployment",
+      "moat": []
+    },
+    {
+      "id": "crispr-diagnostics",
+      "type": "primitive",
+      "label": "CRISPR diagnostics",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 7,
+      "trl_min": 5,
+      "trl_max": 7,
+      "capability_count": 3,
+      "momentum": {
+        "papers": 19439,
+        "cagr_pct": 8.9,
+        "fwci": 9.19,
+        "industry_share_pct": 3.2,
+        "citation_mass": 1957.0,
+        "on_topic_n": 189,
+        "buildable_whitespace": "20/25",
+        "confidence": "high",
+        "status": "early-startups",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "commercial_early",
+      "moat": []
+    },
+    {
+      "id": "dna-archival-storage",
+      "type": "primitive",
+      "label": "DNA archival storage",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "B.6",
+        "D.2"
+      ],
+      "trl": 6,
+      "trl_min": 3,
+      "trl_max": 6,
+      "capability_count": 2,
+      "momentum": {
+        "papers": 840,
+        "cagr_pct": 30.2,
+        "fwci": 3.23,
+        "industry_share_pct": 0.0,
+        "citation_mass": 139.0,
+        "on_topic_n": 6,
+        "buildable_whitespace": "20/25",
+        "confidence": "low",
+        "status": "uncommercialized",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "pilot_deployment",
+      "moat": []
+    },
+    {
+      "id": "electrochemical-aptamer-biosensing",
+      "type": "primitive",
+      "label": "Electrochemical Aptamer-Based Biosensing",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1",
+        "D.3"
+      ],
+      "trl": 5,
+      "trl_min": 4,
+      "trl_max": 6,
+      "capability_count": 3,
+      "momentum": {
+        "papers": 620,
+        "cagr_pct": 46.3,
+        "fwci": 4.8,
+        "industry_share_pct": 2.9,
+        "citation_mass": 687.0,
+        "on_topic_n": 35,
+        "buildable_whitespace": "20/25",
+        "confidence": "medium",
+        "status": "early-startups",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "pilot_deployment",
+      "moat": []
+    },
+    {
+      "id": "engineered-cell-therapy",
+      "type": "primitive",
+      "label": "Engineered Cell Therapy",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.2"
+      ],
+      "trl": 5,
+      "trl_min": 3,
+      "trl_max": 5,
+      "capability_count": 2,
+      "momentum": {
+        "papers": 6083,
+        "cagr_pct": 15.6,
+        "fwci": 3.72,
+        "industry_share_pct": 14.6,
+        "citation_mass": 411.0,
+        "on_topic_n": 48,
+        "buildable_whitespace": "16/25",
+        "confidence": "high",
+        "status": "early-startups",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "regulatory_review",
+      "moat": []
+    },
+    {
+      "id": "engineered-living-materials",
+      "type": "primitive",
+      "label": "Engineered Living Materials",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.1"
+      ],
+      "trl": 3,
+      "trl_min": 3,
+      "trl_max": 3,
+      "capability_count": 2,
+      "momentum": {
+        "papers": 3807,
+        "cagr_pct": 19.3,
+        "fwci": 5.84,
+        "industry_share_pct": 2.5,
+        "citation_mass": 893.0,
+        "on_topic_n": 40,
+        "buildable_whitespace": "25/25",
+        "confidence": "high",
+        "status": "uncommercialized",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "research_only",
+      "moat": []
+    },
+    {
+      "id": "extracellular-vesicles",
+      "type": "primitive",
+      "label": "Extracellular Vesicles",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.5"
+      ],
+      "trl": 5,
+      "trl_min": 5,
+      "trl_max": 6,
+      "capability_count": 2,
+      "momentum": {
+        "papers": 3201,
+        "cagr_pct": 57.2,
+        "fwci": 13.4,
+        "industry_share_pct": 8.6,
+        "citation_mass": 5198.0,
+        "on_topic_n": 185,
+        "buildable_whitespace": "15/25",
+        "confidence": "high",
+        "status": "early-startups",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "pilot_deployment",
+      "moat": []
+    },
+    {
+      "id": "flexible-epidermal-electronics",
+      "type": "primitive",
+      "label": "Flexible epidermal electronics",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1",
+        "D.3"
+      ],
+      "trl": 8,
+      "trl_min": 5,
+      "trl_max": 8,
+      "capability_count": 3,
+      "momentum": {
+        "papers": 10249,
+        "cagr_pct": 17.4,
+        "fwci": 9.83,
+        "industry_share_pct": 6.4,
+        "citation_mass": 2546.0,
+        "on_topic_n": 110,
+        "buildable_whitespace": "8/25",
+        "confidence": "high",
+        "status": "commercialized",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "commercial_early",
+      "moat": []
+    },
+    {
+      "id": "liquid-biopsy-multiomics",
+      "type": "primitive",
+      "label": "Liquid biopsy multiomics",
+      "substrate_family": "A",
+      "substrate_tags": [
+        "A.1",
+        "D.2"
+      ],
+      "trl": 8,
+      "trl_min": 6,
+      "trl_max": 8,
+      "capability_count": 2,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "commercial_scaled",
+      "moat": []
+    },
+    {
+      "id": "mechanophores",
+      "type": "primitive",
+      "label": "Mechanophores / mechanochromic polymers",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.3"
+      ],
+      "trl": 3,
+      "trl_min": 2,
+      "trl_max": 3,
+      "capability_count": 2,
+      "momentum": {
+        "papers": 2834,
+        "cagr_pct": 18.4,
+        "fwci": 8.67,
+        "industry_share_pct": 0.0,
+        "citation_mass": 795.0,
+        "on_topic_n": 41,
+        "buildable_whitespace": "20/25",
+        "confidence": "high",
+        "status": "uncommercialized",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "research_only",
+      "moat": []
+    },
+    {
+      "id": "metamaterials-metasurfaces",
+      "type": "primitive",
+      "label": "Metamaterials and metasurfaces",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 3,
+      "trl_min": 4,
+      "trl_max": 4,
+      "capability_count": 2,
+      "momentum": {
+        "papers": 41315,
+        "cagr_pct": 20.5,
+        "fwci": 15.04,
+        "industry_share_pct": 4.1,
+        "citation_mass": 2346.0,
+        "on_topic_n": 193,
+        "buildable_whitespace": "12/25",
+        "confidence": "high",
+        "status": "early-startups",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "commercial_scaled",
+      "moat": []
+    },
+    {
+      "id": "microfluidic-lnp-manufacturing",
+      "type": "primitive",
+      "label": "Microfluidic LNP manufacturing",
+      "substrate_family": "B",
+      "substrate_tags": [
+        "B.5"
+      ],
+      "trl": 9,
+      "trl_min": 8,
+      "trl_max": 9,
+      "capability_count": 2,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "commercial_scaled",
+      "moat": []
+    },
+    {
+      "id": "microneedle-isf-sensing",
+      "type": "primitive",
+      "label": "Microneedle Interstitial Fluid Sensing",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.3"
+      ],
+      "trl": 4,
+      "trl_min": 4,
+      "trl_max": 4,
+      "capability_count": 2,
+      "momentum": {
+        "papers": 460,
+        "cagr_pct": 52.0,
+        "fwci": 4.82,
+        "industry_share_pct": 4.3,
+        "citation_mass": 651.0,
+        "on_topic_n": 47,
+        "buildable_whitespace": "20/25",
+        "confidence": "high",
+        "status": "uncommercialized",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "pilot_deployment",
+      "moat": []
+    },
+    {
+      "id": "mof-hydrogels",
+      "type": "primitive",
+      "label": "MOF Hydrogels and Nanoscale Metal-Organic Frameworks",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2",
+        "D.4"
+      ],
+      "trl": 3,
+      "trl_min": 3,
+      "trl_max": 5,
+      "capability_count": 3,
+      "momentum": {
+        "papers": 93418,
+        "cagr_pct": 24.9,
+        "fwci": 7.68,
+        "industry_share_pct": 2.6,
+        "citation_mass": 1200.0,
+        "on_topic_n": 117,
+        "buildable_whitespace": "20/25",
+        "confidence": "high",
+        "status": "early-startups",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "preclinical",
+      "moat": []
+    },
+    {
+      "id": "molecular-recording",
+      "type": "primitive",
+      "label": "Molecular recording",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.3",
+        "E.1"
+      ],
+      "trl": 3,
+      "trl_min": 2,
+      "trl_max": 3,
+      "capability_count": 2,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "research_only",
+      "moat": []
+    },
+    {
+      "id": "molecularly-imprinted-polymers",
+      "type": "primitive",
+      "label": "Molecularly Imprinted Polymers",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 5,
+      "trl_min": 3,
+      "trl_max": 4,
+      "capability_count": 2,
+      "momentum": {
+        "papers": 10941,
+        "cagr_pct": 17.1,
+        "fwci": 3.66,
+        "industry_share_pct": 2.0,
+        "citation_mass": 510.0,
+        "on_topic_n": 150,
+        "buildable_whitespace": "25/25",
+        "confidence": "high",
+        "status": "uncommercialized",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "commercial_early",
+      "moat": []
+    },
+    {
+      "id": "mrna-lnp-delivery",
+      "type": "primitive",
+      "label": "mRNA / LNP delivery",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.4",
+        "E.3"
+      ],
+      "trl": 8,
+      "trl_min": 6,
+      "trl_max": 9,
+      "capability_count": 3,
+      "momentum": {
+        "papers": 2424,
+        "cagr_pct": 83.4,
+        "fwci": 12.51,
+        "industry_share_pct": 12.2,
+        "citation_mass": 2393.0,
+        "on_topic_n": 181,
+        "buildable_whitespace": "10/25",
+        "confidence": "high",
+        "status": "commercialized",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "commercial_scaled",
+      "moat": []
+    },
+    {
+      "id": "multimodal-clinical-data-platform",
+      "type": "primitive",
+      "label": "Multimodal clinical data platform",
+      "substrate_family": "A",
+      "substrate_tags": [
+        "A.2"
+      ],
+      "trl": 8,
+      "trl_min": 6,
+      "trl_max": 8,
+      "capability_count": 2,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "commercial_scaled",
+      "moat": []
+    },
+    {
+      "id": "mxene-2d-materials",
+      "type": "primitive",
+      "label": "MXenes and 2D Materials",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1",
+        "D.2"
+      ],
+      "trl": 3,
+      "trl_min": 3,
+      "trl_max": 4,
+      "capability_count": 3,
+      "momentum": {
+        "papers": 3464,
+        "cagr_pct": 14.5,
+        "fwci": 9.62,
+        "industry_share_pct": 3.4,
+        "citation_mass": 3153.0,
+        "on_topic_n": 179,
+        "buildable_whitespace": "20/25",
+        "confidence": "high",
+        "status": "early-startups",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "preclinical",
+      "moat": []
+    },
+    {
+      "id": "nanopore-sensing",
+      "type": "primitive",
+      "label": "Nanopore sensing",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 3,
+      "trl_min": 4,
+      "trl_max": 9,
+      "capability_count": 4,
+      "momentum": {
+        "papers": 14207,
+        "cagr_pct": 32.9,
+        "fwci": 4.98,
+        "industry_share_pct": 2.9,
+        "citation_mass": 1572.0,
+        "on_topic_n": 170,
+        "buildable_whitespace": "15/25",
+        "confidence": "high",
+        "status": "early-startups",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "commercial_scaled",
+      "moat": []
+    },
+    {
+      "id": "neuromorphic-memristive-materials",
+      "type": "primitive",
+      "label": "Neuromorphic / memristive materials",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1",
+        "D.2"
+      ],
+      "trl": 4,
+      "trl_min": 3,
+      "trl_max": 4,
+      "capability_count": 3,
+      "momentum": {
+        "papers": 29420,
+        "cagr_pct": 19.7,
+        "fwci": 9.22,
+        "industry_share_pct": 6.1,
+        "citation_mass": 2495.0,
+        "on_topic_n": 181,
+        "buildable_whitespace": "16/25",
+        "confidence": "high",
+        "status": "early-startups",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "preclinical",
+      "moat": []
+    },
+    {
+      "id": "nv-diamond-quantum-sensing",
+      "type": "primitive",
+      "label": "NV-diamond quantum sensing",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2",
+        "D.3"
+      ],
+      "trl": 4,
+      "trl_min": 5,
+      "trl_max": 6,
+      "capability_count": 2,
+      "momentum": {
+        "papers": 565,
+        "cagr_pct": 17.8,
+        "fwci": 2.81,
+        "industry_share_pct": 2.1,
+        "citation_mass": 762.0,
+        "on_topic_n": 140,
+        "buildable_whitespace": "16/25",
+        "confidence": "high",
+        "status": "early-startups",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "pilot_deployment",
+      "moat": []
+    },
+    {
+      "id": "optogenetics-sonogenetics",
+      "type": "primitive",
+      "label": "Optogenetics / sonogenetics",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.3",
+        "D.4"
+      ],
+      "trl": 4,
+      "trl_min": 3,
+      "trl_max": 6,
+      "capability_count": 2,
+      "momentum": {
+        "papers": 21093,
+        "cagr_pct": 16.8,
+        "fwci": 4.66,
+        "industry_share_pct": 0.0,
+        "citation_mass": 690.0,
+        "on_topic_n": 29,
+        "buildable_whitespace": "20/25",
+        "confidence": "medium",
+        "status": "uncommercialized",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "preclinical",
+      "moat": []
+    },
+    {
+      "id": "organ-on-chip",
+      "type": "primitive",
+      "label": "Microfluidics / organ-on-chip / microphysiological systems (MPS)",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.6"
+      ],
+      "trl": 7,
+      "trl_min": 6,
+      "trl_max": 7,
+      "capability_count": 3,
+      "momentum": {
+        "papers": 8786,
+        "cagr_pct": 29.7,
+        "fwci": 5.53,
+        "industry_share_pct": 6.6,
+        "citation_mass": 1797.0,
+        "on_topic_n": 106,
+        "buildable_whitespace": "12/25",
+        "confidence": "high",
+        "status": "early-startups",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "commercial_early",
+      "moat": []
+    },
+    {
+      "id": "phage-therapy",
+      "type": "primitive",
+      "label": "Bacteriophage / phage therapy",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.4"
+      ],
+      "trl": 6,
+      "trl_min": 5,
+      "trl_max": 6,
+      "capability_count": 3,
+      "momentum": {
+        "papers": 39572,
+        "cagr_pct": 16.6,
+        "fwci": 7.47,
+        "industry_share_pct": 1.6,
+        "citation_mass": 677.0,
+        "on_topic_n": 125,
+        "buildable_whitespace": "16/25",
+        "confidence": "high",
+        "status": "early-startups",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "regulatory_review",
+      "moat": []
+    },
+    {
+      "id": "photonic-integrated-biosensing",
+      "type": "primitive",
+      "label": "Photonic integrated biosensing",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 5,
+      "trl_min": 7,
+      "trl_max": 7,
+      "capability_count": 2,
+      "momentum": {
+        "papers": 555,
+        "cagr_pct": 18.0,
+        "fwci": 5.14,
+        "industry_share_pct": 2.7,
+        "citation_mass": 1616.0,
+        "on_topic_n": 74,
+        "buildable_whitespace": "16/25",
+        "confidence": "high",
+        "status": "early-startups",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "pilot_deployment",
+      "moat": []
+    },
+    {
+      "id": "prime-base-editing",
+      "type": "primitive",
+      "label": "Prime and base editing",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.3"
+      ],
+      "trl": 6,
+      "trl_min": 6,
+      "trl_max": 7,
+      "capability_count": 2,
+      "momentum": {
+        "papers": 8341,
+        "cagr_pct": 47.3,
+        "fwci": 10.85,
+        "industry_share_pct": 8.2,
+        "citation_mass": 1647.0,
+        "on_topic_n": 110,
+        "buildable_whitespace": "12/25",
+        "confidence": "high",
+        "status": "early-startups",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "regulatory_review",
+      "moat": []
+    },
+    {
+      "id": "protein-design-diffusion-models",
+      "type": "primitive",
+      "label": "Protein design / diffusion models",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1",
+        "C.2"
+      ],
+      "trl": 5,
+      "trl_min": 3,
+      "trl_max": 6,
+      "capability_count": 3,
+      "momentum": {
+        "papers": 5016,
+        "cagr_pct": 115.9,
+        "fwci": 23.44,
+        "industry_share_pct": 9.7,
+        "citation_mass": 2750.0,
+        "on_topic_n": 31,
+        "buildable_whitespace": "20/25",
+        "confidence": "medium",
+        "status": "early-startups",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "preclinical",
+      "moat": []
+    },
+    {
+      "id": "quantum-dot-sensing",
+      "type": "primitive",
+      "label": "Quantum dot sensing",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2",
+        "D.4"
+      ],
+      "trl": 4,
+      "trl_min": 4,
+      "trl_max": 5,
+      "capability_count": 3,
+      "momentum": {
+        "papers": 581,
+        "cagr_pct": 29.7,
+        "fwci": 7.17,
+        "industry_share_pct": 5.4,
+        "citation_mass": 1791.0,
+        "on_topic_n": 185,
+        "buildable_whitespace": "16/25",
+        "confidence": "high",
+        "status": "uncommercialized",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "preclinical",
+      "moat": []
+    },
+    {
+      "id": "raman-metasurface-sensing",
+      "type": "primitive",
+      "label": "Raman metasurface sensing",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 3,
+      "trl_min": 3,
+      "trl_max": 3,
+      "capability_count": 2,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "research_only",
+      "moat": []
+    },
+    {
+      "id": "self-healing-polymers",
+      "type": "primitive",
+      "label": "Self-healing polymers / elastomers",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1",
+        "D.4"
+      ],
+      "trl": 4,
+      "trl_min": 3,
+      "trl_max": 4,
+      "capability_count": 2,
+      "momentum": {
+        "papers": 3287,
+        "cagr_pct": 21.7,
+        "fwci": 10.14,
+        "industry_share_pct": 1.6,
+        "citation_mass": 2310.0,
+        "on_topic_n": 123,
+        "buildable_whitespace": "12/25",
+        "confidence": "high",
+        "status": "early-startups",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "research_only",
+      "moat": []
+    },
+    {
+      "id": "spatial-omics",
+      "type": "primitive",
+      "label": "Spatial omics",
+      "substrate_family": "A",
+      "substrate_tags": [
+        "A.1",
+        "D.2"
+      ],
+      "trl": 8,
+      "trl_min": 5,
+      "trl_max": 9,
+      "capability_count": 3,
+      "momentum": {
+        "papers": 17194,
+        "cagr_pct": 107.1,
+        "fwci": 20.54,
+        "industry_share_pct": 8.1,
+        "citation_mass": 4458.0,
+        "on_topic_n": 111,
+        "buildable_whitespace": "8/25",
+        "confidence": "high",
+        "status": "commercialized",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "commercial_scaled",
+      "moat": []
+    },
+    {
+      "id": "terahertz-metasurfaces",
+      "type": "primitive",
+      "label": "Terahertz metasurfaces",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 2,
+      "trl_min": 3,
+      "trl_max": 4,
+      "capability_count": 2,
+      "momentum": {
+        "papers": 6542,
+        "cagr_pct": 9.9,
+        "fwci": 6.17,
+        "industry_share_pct": 4.2,
+        "citation_mass": 1557.0,
+        "on_topic_n": 191,
+        "buildable_whitespace": "12/25",
+        "confidence": "high",
+        "status": "uncommercialized",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "research_only",
+      "moat": []
+    },
+    {
+      "id": "topological-photonics",
+      "type": "primitive",
+      "label": "Topological photonics",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 2,
+      "trl_min": 2,
+      "trl_max": 3,
+      "capability_count": 2,
+      "momentum": {
+        "papers": 2723,
+        "cagr_pct": 12.3,
+        "fwci": 8.29,
+        "industry_share_pct": 0.0,
+        "citation_mass": 902.0,
+        "on_topic_n": 77,
+        "buildable_whitespace": "12/25",
+        "confidence": "high",
+        "status": "uncommercialized",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "research_only",
+      "moat": []
+    },
+    {
+      "id": "triboelectric-nanogenerators",
+      "type": "primitive",
+      "label": "Triboelectric Nanogenerators",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1"
+      ],
+      "trl": 3,
+      "trl_min": 3,
+      "trl_max": 5,
+      "capability_count": 3,
+      "momentum": {
+        "papers": 13137,
+        "cagr_pct": 27.7,
+        "fwci": 11.09,
+        "industry_share_pct": 24.2,
+        "citation_mass": 2739.0,
+        "on_topic_n": 182,
+        "buildable_whitespace": "16/25",
+        "confidence": "high",
+        "status": "uncommercialized",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "research_only",
+      "moat": []
+    },
+    {
+      "id": "wearable-biochemical-sensors",
+      "type": "primitive",
+      "label": "Wearable Biochemical Sensors",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1",
+        "D.3"
+      ],
+      "trl": 5,
+      "trl_min": 4,
+      "trl_max": 6,
+      "capability_count": 2,
+      "momentum": {
+        "papers": 1350,
+        "cagr_pct": 36.1,
+        "fwci": 6.41,
+        "industry_share_pct": 0.0,
+        "citation_mass": 412.0,
+        "on_topic_n": 22,
+        "buildable_whitespace": "15/25",
+        "confidence": "medium",
+        "status": "early-startups",
+        "as_of": "2026-07"
+      },
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "commercial_early",
+      "moat": []
+    },
+    {
+      "id": "wetware-biocomputing",
+      "type": "primitive",
+      "label": "Wetware biocomputing / neuromorphic bio-computing",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.6"
+      ],
+      "trl": 4,
+      "trl_min": 4,
+      "trl_max": 5,
+      "capability_count": 2,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "commercial_early",
+      "moat": []
+    },
+    {
+      "id": "idea-ai-microfluidic-control",
+      "type": "idea",
+      "label": "ai microfluidic control",
+      "substrate_family": "B",
+      "substrate_tags": [
+        "B.5",
+        "D.2"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "idea-codon-optimisation-llm",
+      "type": "idea",
+      "label": "codon optimisation llm",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1",
+        "C.2"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "idea-event-driven-biochemical-patch",
+      "type": "idea",
+      "label": "event driven biochemical patch",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1",
+        "D.3"
+      ],
+      "trl": 3,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "idea-lnp-digital-twin",
+      "type": "idea",
+      "label": "lnp digital twin",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.2",
+        "C.1",
+        "B.5"
+      ],
+      "trl": 3,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "idea-lnp-formulation-design",
+      "type": "idea",
+      "label": "lnp formulation design",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1",
+        "C.2",
+        "B.5"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "idea-microneedle-qdot-delivery-tracker",
+      "type": "idea",
+      "label": "microneedle qdot delivery tracker",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2",
+        "D.3"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "idea-mof-mxene-invisible-analytes",
+      "type": "idea",
+      "label": "mof mxene invisible analytes",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1",
+        "D.2",
+        "A.1"
+      ],
+      "trl": 3,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "idea-molecular-recorder-inflammation",
+      "type": "idea",
+      "label": "molecular recorder inflammation",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2",
+        "A.1"
+      ],
+      "trl": 2,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "idea-mxene-bioprinting",
+      "type": "idea",
+      "label": "mxene bioprinting",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.4",
+        "D.3"
+      ],
+      "trl": 3,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "idea-mxene-mediator-free-biosensing",
+      "type": "idea",
+      "label": "mxene mediator free biosensing",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2",
+        "D.1"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "idea-mxene-photothermal-therapy",
+      "type": "idea",
+      "label": "mxene photothermal therapy",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.4"
+      ],
+      "trl": 3,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "idea-printable-mxene-tattoo",
+      "type": "idea",
+      "label": "printable mxene tattoo",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1",
+        "D.2"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "idea-qdot-cgm-hormone",
+      "type": "idea",
+      "label": "qdot cgm hormone",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.3",
+        "D.1",
+        "D.2"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "idea-reconfigurable-topological-biosensor",
+      "type": "idea",
+      "label": "reconfigurable topological biosensor",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 2,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "idea-refrigeration-free-diagnostic-strip",
+      "type": "idea",
+      "label": "refrigeration free diagnostic strip",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": 5,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "idea-self-powered-isf-microneedle-patch",
+      "type": "idea",
+      "label": "self powered isf microneedle patch",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.3",
+        "D.2"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "idea-sort-code-cracker",
+      "type": "idea",
+      "label": "sort code cracker",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1",
+        "C.2",
+        "B.5"
+      ],
+      "trl": 3,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "idea-spatial-omics-companion-dx",
+      "type": "idea",
+      "label": "spatial omics companion dx",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2",
+        "A.1"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "idea-teng-aptamer-transducer",
+      "type": "idea",
+      "label": "teng aptamer transducer",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1",
+        "D.2"
+      ],
+      "trl": 3,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "idea-teng-cardiorespiratory-patch",
+      "type": "idea",
+      "label": "teng cardiorespiratory patch",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1",
+        "D.3"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "idea-teng-mof-preconcentrator",
+      "type": "idea",
+      "label": "teng mof preconcentrator",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1",
+        "D.2"
+      ],
+      "trl": 3,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "idea-teng-smart-garment",
+      "type": "idea",
+      "label": "teng smart garment",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1"
+      ],
+      "trl": 4,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "idea-thz-metasurface-bmi",
+      "type": "idea",
+      "label": "thz metasurface bmi",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.4",
+        "D.3"
+      ],
+      "trl": 2,
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "stellaromics",
+      "target": "spatial-omics",
+      "relation": "uses"
+    },
+    {
+      "source": "precision-nanosystems",
+      "target": "microfluidic-lnp-manufacturing",
+      "relation": "uses"
+    },
+    {
+      "source": "precision-nanosystems",
+      "target": "aganitha-ai",
+      "relation": "complements"
+    },
+    {
+      "source": "precision-nanosystems",
+      "target": "kerna-health",
+      "relation": "complements"
+    },
+    {
+      "source": "precision-nanosystems",
+      "target": "mana-bio",
+      "relation": "complements"
+    },
+    {
+      "source": "twist-bioscience",
+      "target": "dna-archival-storage",
+      "relation": "uses"
+    },
+    {
+      "source": "owkin",
+      "target": "multimodal-clinical-data-platform",
+      "relation": "uses"
+    },
+    {
+      "source": "owkin",
+      "target": "paige",
+      "relation": "competes"
+    },
+    {
+      "source": "owkin",
+      "target": "pathai",
+      "relation": "competes"
+    },
+    {
+      "source": "owkin",
+      "target": "tempus",
+      "relation": "competes"
+    },
+    {
+      "source": "owkin",
+      "target": "insitro",
+      "relation": "competes"
+    },
+    {
+      "source": "aganitha-ai",
+      "target": "ai-lnp-design",
+      "relation": "uses"
+    },
+    {
+      "source": "aganitha-ai",
+      "target": "precision-nanosystems",
+      "relation": "complements"
+    },
+    {
+      "source": "aganitha-ai",
+      "target": "atomic-ai",
+      "relation": "competes"
+    },
+    {
+      "source": "aganitha-ai",
+      "target": "instadeep",
+      "relation": "competes"
+    },
+    {
+      "source": "aganitha-ai",
+      "target": "mana-bio",
+      "relation": "competes"
+    },
+    {
+      "source": "atomic-ai",
+      "target": "ai-lnp-design",
+      "relation": "uses"
+    },
+    {
+      "source": "atomic-ai",
+      "target": "aganitha-ai",
+      "relation": "competes"
+    },
+    {
+      "source": "atomic-ai",
+      "target": "instadeep",
+      "relation": "competes"
+    },
+    {
+      "source": "atomic-ai",
+      "target": "kerna-health",
+      "relation": "complements"
+    },
+    {
+      "source": "atomic-ai",
+      "target": "mana-bio",
+      "relation": "competes"
+    },
+    {
+      "source": "atomic-ai",
+      "target": "raina-biosciences",
+      "relation": "complements"
+    },
+    {
+      "source": "instadeep",
+      "target": "ai-lnp-design",
+      "relation": "uses"
+    },
+    {
+      "source": "instadeep",
+      "target": "aganitha-ai",
+      "relation": "complements"
+    },
+    {
+      "source": "instadeep",
+      "target": "kerna-health",
+      "relation": "complements"
+    },
+    {
+      "source": "instadeep",
+      "target": "mana-bio",
+      "relation": "complements"
+    },
+    {
+      "source": "instadeep",
+      "target": "isomorphic-labs",
+      "relation": "competes"
+    },
+    {
+      "source": "kerna-health",
+      "target": "ai-lnp-design",
+      "relation": "uses"
+    },
+    {
+      "source": "kerna-health",
+      "target": "precision-nanosystems",
+      "relation": "complements"
+    },
+    {
+      "source": "kerna-health",
+      "target": "aganitha-ai",
+      "relation": "complements"
+    },
+    {
+      "source": "kerna-health",
+      "target": "atomic-ai",
+      "relation": "competes"
+    },
+    {
+      "source": "kerna-health",
+      "target": "instadeep",
+      "relation": "competes"
+    },
+    {
+      "source": "kerna-health",
+      "target": "mana-bio",
+      "relation": "complements"
+    },
+    {
+      "source": "kerna-health",
+      "target": "raina-biosciences",
+      "relation": "competes"
+    },
+    {
+      "source": "mana-bio",
+      "target": "ai-lnp-design",
+      "relation": "uses"
+    },
+    {
+      "source": "mana-bio",
+      "target": "precision-nanosystems",
+      "relation": "complements"
+    },
+    {
+      "source": "mana-bio",
+      "target": "aganitha-ai",
+      "relation": "competes"
+    },
+    {
+      "source": "mana-bio",
+      "target": "atomic-ai",
+      "relation": "competes"
+    },
+    {
+      "source": "mana-bio",
+      "target": "instadeep",
+      "relation": "competes"
+    },
+    {
+      "source": "mana-bio",
+      "target": "kerna-health",
+      "relation": "complements"
+    },
+    {
+      "source": "mana-bio",
+      "target": "raina-biosciences",
+      "relation": "complements"
+    },
+    {
+      "source": "raina-biosciences",
+      "target": "ai-lnp-design",
+      "relation": "uses"
+    },
+    {
+      "source": "raina-biosciences",
+      "target": "precision-nanosystems",
+      "relation": "complements"
+    },
+    {
+      "source": "raina-biosciences",
+      "target": "aganitha-ai",
+      "relation": "complements"
+    },
+    {
+      "source": "raina-biosciences",
+      "target": "atomic-ai",
+      "relation": "competes"
+    },
+    {
+      "source": "raina-biosciences",
+      "target": "instadeep",
+      "relation": "competes"
+    },
+    {
+      "source": "raina-biosciences",
+      "target": "kerna-health",
+      "relation": "competes"
+    },
+    {
+      "source": "raina-biosciences",
+      "target": "mana-bio",
+      "relation": "complements"
+    },
+    {
+      "source": "aitia",
+      "target": "biosimulation-qsp",
+      "relation": "uses"
+    },
+    {
+      "source": "aitia",
+      "target": "owkin",
+      "relation": "competes"
+    },
+    {
+      "source": "biostate-ai",
+      "target": "tempus",
+      "relation": "competes"
+    },
+    {
+      "source": "alveus-therapeutics",
+      "target": "kailera-therapeutics",
+      "relation": "competes"
+    },
+    {
+      "source": "campfield-therapeutics",
+      "target": "inato",
+      "relation": "complements"
+    },
+    {
+      "source": "cosyne-therapeutics",
+      "target": "insilico-medicine",
+      "relation": "competes"
+    },
+    {
+      "source": "cosyne-therapeutics",
+      "target": "isomorphic-labs",
+      "relation": "competes"
+    },
+    {
+      "source": "formation-bio",
+      "target": "insilico-medicine",
+      "relation": "competes"
+    },
+    {
+      "source": "odyssey-therapeutics",
+      "target": "tempus",
+      "relation": "complements"
+    },
+    {
+      "source": "arisglobal",
+      "target": "ai-trial-operations",
+      "relation": "uses"
+    },
+    {
+      "source": "arisglobal",
+      "target": "yseop",
+      "relation": "competes"
+    },
+    {
+      "source": "lokavant",
+      "target": "ai-trial-operations",
+      "relation": "uses"
+    },
+    {
+      "source": "yseop",
+      "target": "ai-trial-operations",
+      "relation": "uses"
+    },
+    {
+      "source": "yseop",
+      "target": "arisglobal",
+      "relation": "competes"
+    },
+    {
+      "source": "yseop",
+      "target": "certara",
+      "relation": "competes"
+    },
+    {
+      "source": "grow-therapy",
+      "target": "talkiatry",
+      "relation": "competes"
+    },
+    {
+      "source": "midjourney-medical",
+      "target": "ai-medical-imaging",
+      "relation": "uses"
+    },
+    {
+      "source": "midjourney-medical",
+      "target": "neko-health",
+      "relation": "competes"
+    },
+    {
+      "source": "neko-health",
+      "target": "ai-medical-imaging",
+      "relation": "uses"
+    },
+    {
+      "source": "neko-health",
+      "target": "midjourney-medical",
+      "relation": "competes"
+    },
+    {
+      "source": "neko-health",
+      "target": "whoop",
+      "relation": "complements"
+    },
+    {
+      "source": "nourish",
+      "target": "emed",
+      "relation": "competes"
+    },
+    {
+      "source": "nourish",
+      "target": "twin-health",
+      "relation": "competes"
+    },
+    {
+      "source": "epicore-biosystems",
+      "target": "flexible-epidermal-electronics",
+      "relation": "uses"
+    },
+    {
+      "source": "epicore-biosystems",
+      "target": "nutromics",
+      "relation": "competes"
+    },
+    {
+      "source": "epicore-biosystems",
+      "target": "xsensio",
+      "relation": "competes"
+    },
+    {
+      "source": "level-zero-health",
+      "target": "electrochemical-aptamer-biosensing",
+      "relation": "uses"
+    },
+    {
+      "source": "nutromics",
+      "target": "microneedle-isf-sensing",
+      "relation": "uses"
+    },
+    {
+      "source": "nutromics",
+      "target": "electrochemical-aptamer-biosensing",
+      "relation": "uses"
+    },
+    {
+      "source": "nutromics",
+      "target": "level-zero-health",
+      "relation": "competes"
+    },
+    {
+      "source": "nutromics",
+      "target": "sava",
+      "relation": "competes"
+    },
+    {
+      "source": "nutromics",
+      "target": "xsensio",
+      "relation": "competes"
+    },
+    {
+      "source": "sava",
+      "target": "microneedle-isf-sensing",
+      "relation": "uses"
+    },
+    {
+      "source": "sava",
+      "target": "level-zero-health",
+      "relation": "competes"
+    },
+    {
+      "source": "sava",
+      "target": "nutromics",
+      "relation": "competes"
+    },
+    {
+      "source": "sava",
+      "target": "xsensio",
+      "relation": "competes"
+    },
+    {
+      "source": "temple",
+      "target": "whoop",
+      "relation": "competes"
+    },
+    {
+      "source": "xsensio",
+      "target": "electrochemical-aptamer-biosensing",
+      "relation": "uses"
+    },
+    {
+      "source": "xsensio",
+      "target": "flexible-epidermal-electronics",
+      "relation": "uses"
+    },
+    {
+      "source": "xsensio",
+      "target": "epicore-biosystems",
+      "relation": "competes"
+    },
+    {
+      "source": "xsensio",
+      "target": "level-zero-health",
+      "relation": "competes"
+    },
+    {
+      "source": "xsensio",
+      "target": "nutromics",
+      "relation": "competes"
+    },
+    {
+      "source": "adaptyx-biosciences",
+      "target": "electrochemical-aptamer-biosensing",
+      "relation": "uses"
+    },
+    {
+      "source": "adaptyx-biosciences",
+      "target": "microneedle-isf-sensing",
+      "relation": "uses"
+    },
+    {
+      "source": "adaptyx-biosciences",
+      "target": "nutromics",
+      "relation": "competes"
+    },
+    {
+      "source": "axbio",
+      "target": "nanopore-sensing",
+      "relation": "uses"
+    },
+    {
+      "source": "axbio",
+      "target": "genvida",
+      "relation": "competes"
+    },
+    {
+      "source": "axbio",
+      "target": "qitan-technology",
+      "relation": "competes"
+    },
+    {
+      "source": "biomemory",
+      "target": "dna-archival-storage",
+      "relation": "uses"
+    },
+    {
+      "source": "cardea-bio",
+      "target": "crispr-diagnostics",
+      "relation": "uses"
+    },
+    {
+      "source": "cardea-bio",
+      "target": "sherlock-biosciences",
+      "relation": "competes"
+    },
+    {
+      "source": "coordination-pharmaceuticals",
+      "target": "mof-hydrogels",
+      "relation": "uses"
+    },
+    {
+      "source": "delta-diagnostics",
+      "target": "photonic-integrated-biosensing",
+      "relation": "uses"
+    },
+    {
+      "source": "delta-diagnostics",
+      "target": "hyphox",
+      "relation": "competes"
+    },
+    {
+      "source": "delta-diagnostics",
+      "target": "surfixdx",
+      "relation": "competes"
+    },
+    {
+      "source": "flowbio",
+      "target": "electrochemical-aptamer-biosensing",
+      "relation": "uses"
+    },
+    {
+      "source": "flowbio",
+      "target": "flexible-epidermal-electronics",
+      "relation": "uses"
+    },
+    {
+      "source": "flowbio",
+      "target": "epicore-biosystems",
+      "relation": "competes"
+    },
+    {
+      "source": "genopore",
+      "target": "nanopore-sensing",
+      "relation": "uses"
+    },
+    {
+      "source": "genopore",
+      "target": "portal-biotech",
+      "relation": "competes"
+    },
+    {
+      "source": "genopore",
+      "target": "unomr",
+      "relation": "competes"
+    },
+    {
+      "source": "genvida",
+      "target": "nanopore-sensing",
+      "relation": "uses"
+    },
+    {
+      "source": "genvida",
+      "target": "axbio",
+      "relation": "competes"
+    },
+    {
+      "source": "genvida",
+      "target": "qitan-technology",
+      "relation": "competes"
+    },
+    {
+      "source": "hyphox",
+      "target": "photonic-integrated-biosensing",
+      "relation": "uses"
+    },
+    {
+      "source": "hyphox",
+      "target": "delta-diagnostics",
+      "relation": "competes"
+    },
+    {
+      "source": "hyphox",
+      "target": "surfixdx",
+      "relation": "competes"
+    },
+    {
+      "source": "leadoptik",
+      "target": "metamaterials-metasurfaces",
+      "relation": "uses"
+    },
+    {
+      "source": "mc10",
+      "target": "flexible-epidermal-electronics",
+      "relation": "uses"
+    },
+    {
+      "source": "mc10",
+      "target": "biofourmis",
+      "relation": "competes"
+    },
+    {
+      "source": "metalenz",
+      "target": "metamaterials-metasurfaces",
+      "relation": "uses"
+    },
+    {
+      "source": "mip-discovery",
+      "target": "molecularly-imprinted-polymers",
+      "relation": "uses"
+    },
+    {
+      "source": "mip-discovery",
+      "target": "tozaro",
+      "relation": "competes"
+    },
+    {
+      "source": "nvision-quantum-technologies",
+      "target": "nv-diamond-quantum-sensing",
+      "relation": "uses"
+    },
+    {
+      "source": "oxford-nanopore",
+      "target": "nanopore-sensing",
+      "relation": "uses"
+    },
+    {
+      "source": "oxford-nanopore",
+      "target": "axbio",
+      "relation": "competes"
+    },
+    {
+      "source": "oxford-nanopore",
+      "target": "genopore",
+      "relation": "complements"
+    },
+    {
+      "source": "oxford-nanopore",
+      "target": "genvida",
+      "relation": "competes"
+    },
+    {
+      "source": "oxford-nanopore",
+      "target": "qitan-technology",
+      "relation": "competes"
+    },
+    {
+      "source": "photonic-inc",
+      "target": "topological-photonics",
+      "relation": "uses"
+    },
+    {
+      "source": "portal-biotech",
+      "target": "nanopore-sensing",
+      "relation": "uses"
+    },
+    {
+      "source": "portal-biotech",
+      "target": "genopore",
+      "relation": "competes"
+    },
+    {
+      "source": "portal-biotech",
+      "target": "unomr",
+      "relation": "competes"
+    },
+    {
+      "source": "pumpkinseed-bio",
+      "target": "raman-metasurface-sensing",
+      "relation": "uses"
+    },
+    {
+      "source": "qitan-technology",
+      "target": "nanopore-sensing",
+      "relation": "uses"
+    },
+    {
+      "source": "qitan-technology",
+      "target": "axbio",
+      "relation": "competes"
+    },
+    {
+      "source": "qitan-technology",
+      "target": "genvida",
+      "relation": "competes"
+    },
+    {
+      "source": "qt-sense",
+      "target": "nv-diamond-quantum-sensing",
+      "relation": "uses"
+    },
+    {
+      "source": "quantum-orbit-labs",
+      "target": "quantum-dot-sensing",
+      "relation": "uses"
+    },
+    {
+      "source": "surfixdx",
+      "target": "photonic-integrated-biosensing",
+      "relation": "uses"
+    },
+    {
+      "source": "surfixdx",
+      "target": "delta-diagnostics",
+      "relation": "competes"
+    },
+    {
+      "source": "surfixdx",
+      "target": "hyphox",
+      "relation": "competes"
+    },
+    {
+      "source": "tarsis-technology",
+      "target": "mof-hydrogels",
+      "relation": "uses"
+    },
+    {
+      "source": "tarsis-technology",
+      "target": "coordination-pharmaceuticals",
+      "relation": "competes"
+    },
+    {
+      "source": "terahertz-technologies",
+      "target": "terahertz-metasurfaces",
+      "relation": "uses"
+    },
+    {
+      "source": "terahertz-technologies",
+      "target": "thznanovision",
+      "relation": "competes"
+    },
+    {
+      "source": "thznanovision",
+      "target": "terahertz-metasurfaces",
+      "relation": "uses"
+    },
+    {
+      "source": "thznanovision",
+      "target": "terahertz-technologies",
+      "relation": "competes"
+    },
+    {
+      "source": "tozaro",
+      "target": "molecularly-imprinted-polymers",
+      "relation": "uses"
+    },
+    {
+      "source": "tozaro",
+      "target": "mip-discovery",
+      "relation": "competes"
+    },
+    {
+      "source": "unomr",
+      "target": "nanopore-sensing",
+      "relation": "uses"
+    },
+    {
+      "source": "unomr",
+      "target": "genopore",
+      "relation": "competes"
+    },
+    {
+      "source": "unomr",
+      "target": "portal-biotech",
+      "relation": "competes"
+    },
+    {
+      "source": "wave-photonics",
+      "target": "topological-photonics",
+      "relation": "uses"
+    },
+    {
+      "source": "xenoma",
+      "target": "flexible-epidermal-electronics",
+      "relation": "uses"
+    },
+    {
+      "source": "xenoma",
+      "target": "whoop",
+      "relation": "competes"
+    },
+    {
+      "source": "xpanceo",
+      "target": "mxene-2d-materials",
+      "relation": "uses"
+    },
+    {
+      "source": "xpanceo",
+      "target": "verily",
+      "relation": "competes"
+    },
+    {
+      "source": "aidoc",
+      "target": "ai-medical-imaging",
+      "relation": "uses"
+    },
+    {
+      "source": "forus-health",
+      "target": "ai-medical-imaging",
+      "relation": "uses"
+    },
+    {
+      "source": "freenome",
+      "target": "liquid-biopsy-multiomics",
+      "relation": "uses"
+    },
+    {
+      "source": "freenome",
+      "target": "guardant-health",
+      "relation": "competes"
+    },
+    {
+      "source": "freenome",
+      "target": "tempus",
+      "relation": "competes"
+    },
+    {
+      "source": "guardant-health",
+      "target": "liquid-biopsy-multiomics",
+      "relation": "uses"
+    },
+    {
+      "source": "guardant-health",
+      "target": "tempus",
+      "relation": "competes"
+    },
+    {
+      "source": "paige",
+      "target": "ai-medical-imaging",
+      "relation": "uses"
+    },
+    {
+      "source": "paige",
+      "target": "pathai",
+      "relation": "competes"
+    },
+    {
+      "source": "paige",
+      "target": "pathai",
+      "relation": "complements"
+    },
+    {
+      "source": "pathai",
+      "target": "ai-medical-imaging",
+      "relation": "uses"
+    },
+    {
+      "source": "pathai",
+      "target": "paige",
+      "relation": "competes"
+    },
+    {
+      "source": "certara",
+      "target": "biosimulation-qsp",
+      "relation": "uses"
+    },
+    {
+      "source": "certara",
+      "target": "fireqsp",
+      "relation": "competes"
+    },
+    {
+      "source": "certara",
+      "target": "verisim-life",
+      "relation": "competes"
+    },
+    {
+      "source": "fireqsp",
+      "target": "biosimulation-qsp",
+      "relation": "uses"
+    },
+    {
+      "source": "fireqsp",
+      "target": "certara",
+      "relation": "competes"
+    },
+    {
+      "source": "fireqsp",
+      "target": "certara",
+      "relation": "complements"
+    },
+    {
+      "source": "quanthealth",
+      "target": "biosimulation-qsp",
+      "relation": "uses"
+    },
+    {
+      "source": "quanthealth",
+      "target": "unlearn",
+      "relation": "competes"
+    },
+    {
+      "source": "unlearn",
+      "target": "biosimulation-qsp",
+      "relation": "uses"
+    },
+    {
+      "source": "unlearn",
+      "target": "quanthealth",
+      "relation": "competes"
+    },
+    {
+      "source": "verisim-life",
+      "target": "biosimulation-qsp",
+      "relation": "uses"
+    },
+    {
+      "source": "verisim-life",
+      "target": "certara",
+      "relation": "competes"
+    },
+    {
+      "source": "capstan-therapeutics",
+      "target": "mrna-lnp-delivery",
+      "relation": "uses"
+    },
+    {
+      "source": "cortical-labs",
+      "target": "wetware-biocomputing",
+      "relation": "uses"
+    },
+    {
+      "source": "eligo-biosciences",
+      "target": "phage-therapy",
+      "relation": "uses"
+    },
+    {
+      "source": "eligo-biosciences",
+      "target": "locus-biosciences",
+      "relation": "competes"
+    },
+    {
+      "source": "hesperos",
+      "target": "organ-on-chip",
+      "relation": "uses"
+    },
+    {
+      "source": "locus-biosciences",
+      "target": "phage-therapy",
+      "relation": "uses"
+    },
+    {
+      "source": "locus-biosciences",
+      "target": "eligo-biosciences",
+      "relation": "competes"
+    },
+    {
+      "source": "logicink",
+      "target": "cell-free-synthetic-biology",
+      "relation": "uses"
+    },
+    {
+      "source": "merge-labs",
+      "target": "optogenetics-sonogenetics",
+      "relation": "uses"
+    },
+    {
+      "source": "prime-medicine",
+      "target": "prime-base-editing",
+      "relation": "uses"
+    },
+    {
+      "source": "science-corporation",
+      "target": "optogenetics-sonogenetics",
+      "relation": "uses"
+    },
+    {
+      "source": "sherlock-biosciences",
+      "target": "crispr-diagnostics",
+      "relation": "uses"
+    },
+    {
+      "source": "sherlock-biosciences",
+      "target": "cell-free-synthetic-biology",
+      "relation": "uses"
+    },
+    {
+      "source": "basecamp-research",
+      "target": "protein-design-diffusion-models",
+      "relation": "uses"
+    },
+    {
+      "source": "basecamp-research",
+      "target": "evolutionaryscale",
+      "relation": "competes"
+    },
+    {
+      "source": "basecamp-research",
+      "target": "generate-biomedicines",
+      "relation": "competes"
+    },
+    {
+      "source": "basecamp-research",
+      "target": "profluent",
+      "relation": "competes"
+    },
+    {
+      "source": "chai-discovery",
+      "target": "protein-design-diffusion-models",
+      "relation": "uses"
+    },
+    {
+      "source": "chai-discovery",
+      "target": "isomorphic-labs",
+      "relation": "competes"
+    },
+    {
+      "source": "chai-discovery",
+      "target": "latent-labs",
+      "relation": "competes"
+    },
+    {
+      "source": "chai-discovery",
+      "target": "latent-labs",
+      "relation": "complements"
+    },
+    {
+      "source": "cradle",
+      "target": "protein-design-diffusion-models",
+      "relation": "uses"
+    },
+    {
+      "source": "cradle",
+      "target": "chai-discovery",
+      "relation": "competes"
+    },
+    {
+      "source": "cradle",
+      "target": "evolutionaryscale",
+      "relation": "complements"
+    },
+    {
+      "source": "cradle",
+      "target": "latent-labs",
+      "relation": "competes"
+    },
+    {
+      "source": "earendil-labs",
+      "target": "protein-design-diffusion-models",
+      "relation": "uses"
+    },
+    {
+      "source": "earendil-labs",
+      "target": "isomorphic-labs",
+      "relation": "competes"
+    },
+    {
+      "source": "earendil-labs",
+      "target": "xaira-therapeutics",
+      "relation": "competes"
+    },
+    {
+      "source": "evolutionaryscale",
+      "target": "protein-design-diffusion-models",
+      "relation": "uses"
+    },
+    {
+      "source": "evolutionaryscale",
+      "target": "chai-discovery",
+      "relation": "competes"
+    },
+    {
+      "source": "evolutionaryscale",
+      "target": "cradle",
+      "relation": "complements"
+    },
+    {
+      "source": "evolutionaryscale",
+      "target": "isomorphic-labs",
+      "relation": "competes"
+    },
+    {
+      "source": "evolutionaryscale",
+      "target": "latent-labs",
+      "relation": "competes"
+    },
+    {
+      "source": "evolutionaryscale",
+      "target": "latent-labs",
+      "relation": "complements"
+    },
+    {
+      "source": "generate-biomedicines",
+      "target": "protein-design-diffusion-models",
+      "relation": "uses"
+    },
+    {
+      "source": "generate-biomedicines",
+      "target": "twist-bioscience",
+      "relation": "competes"
+    },
+    {
+      "source": "generate-biomedicines",
+      "target": "chai-discovery",
+      "relation": "competes"
+    },
+    {
+      "source": "generate-biomedicines",
+      "target": "isomorphic-labs",
+      "relation": "competes"
+    },
+    {
+      "source": "generate-biomedicines",
+      "target": "latent-labs",
+      "relation": "competes"
+    },
+    {
+      "source": "genesis-molecular-ai",
+      "target": "protein-design-diffusion-models",
+      "relation": "uses"
+    },
+    {
+      "source": "genesis-molecular-ai",
+      "target": "iambic-therapeutics",
+      "relation": "competes"
+    },
+    {
+      "source": "genesis-molecular-ai",
+      "target": "insilico-medicine",
+      "relation": "competes"
+    },
+    {
+      "source": "genesis-molecular-ai",
+      "target": "isomorphic-labs",
+      "relation": "competes"
+    },
+    {
+      "source": "genesis-molecular-ai",
+      "target": "terray-therapeutics",
+      "relation": "competes"
+    },
+    {
+      "source": "iambic-therapeutics",
+      "target": "protein-design-diffusion-models",
+      "relation": "uses"
+    },
+    {
+      "source": "iambic-therapeutics",
+      "target": "genesis-molecular-ai",
+      "relation": "competes"
+    },
+    {
+      "source": "iambic-therapeutics",
+      "target": "insilico-medicine",
+      "relation": "competes"
+    },
+    {
+      "source": "iambic-therapeutics",
+      "target": "isomorphic-labs",
+      "relation": "competes"
+    },
+    {
+      "source": "iambic-therapeutics",
+      "target": "terray-therapeutics",
+      "relation": "competes"
+    },
+    {
+      "source": "insilico-medicine",
+      "target": "protein-design-diffusion-models",
+      "relation": "uses"
+    },
+    {
+      "source": "insilico-medicine",
+      "target": "tempus",
+      "relation": "complements"
+    },
+    {
+      "source": "isomorphic-labs",
+      "target": "protein-design-diffusion-models",
+      "relation": "uses"
+    },
+    {
+      "source": "isomorphic-labs",
+      "target": "chai-discovery",
+      "relation": "competes"
+    },
+    {
+      "source": "isomorphic-labs",
+      "target": "insilico-medicine",
+      "relation": "competes"
+    },
+    {
+      "source": "isomorphic-labs",
+      "target": "latent-labs",
+      "relation": "competes"
+    },
+    {
+      "source": "latent-labs",
+      "target": "protein-design-diffusion-models",
+      "relation": "uses"
+    },
+    {
+      "source": "latent-labs",
+      "target": "chai-discovery",
+      "relation": "competes"
+    },
+    {
+      "source": "latent-labs",
+      "target": "generate-biomedicines",
+      "relation": "competes"
+    },
+    {
+      "source": "latent-labs",
+      "target": "isomorphic-labs",
+      "relation": "competes"
+    },
+    {
+      "source": "nabla-bio",
+      "target": "protein-design-diffusion-models",
+      "relation": "uses"
+    },
+    {
+      "source": "nabla-bio",
+      "target": "chai-discovery",
+      "relation": "competes"
+    },
+    {
+      "source": "nabla-bio",
+      "target": "evolutionaryscale",
+      "relation": "competes"
+    },
+    {
+      "source": "nabla-bio",
+      "target": "generate-biomedicines",
+      "relation": "competes"
+    },
+    {
+      "source": "nabla-bio",
+      "target": "latent-labs",
+      "relation": "competes"
+    },
+    {
+      "source": "profluent",
+      "target": "protein-design-diffusion-models",
+      "relation": "uses"
+    },
+    {
+      "source": "profluent",
+      "target": "basecamp-research",
+      "relation": "competes"
+    },
+    {
+      "source": "profluent",
+      "target": "evolutionaryscale",
+      "relation": "competes"
+    },
+    {
+      "source": "profluent",
+      "target": "generate-biomedicines",
+      "relation": "competes"
+    },
+    {
+      "source": "sandboxaq",
+      "target": "protein-design-diffusion-models",
+      "relation": "uses"
+    },
+    {
+      "source": "sandboxaq",
+      "target": "genesis-molecular-ai",
+      "relation": "competes"
+    },
+    {
+      "source": "sandboxaq",
+      "target": "iambic-therapeutics",
+      "relation": "competes"
+    },
+    {
+      "source": "sandboxaq",
+      "target": "isomorphic-labs",
+      "relation": "competes"
+    },
+    {
+      "source": "terray-therapeutics",
+      "target": "protein-design-diffusion-models",
+      "relation": "uses"
+    },
+    {
+      "source": "terray-therapeutics",
+      "target": "genesis-molecular-ai",
+      "relation": "competes"
+    },
+    {
+      "source": "terray-therapeutics",
+      "target": "iambic-therapeutics",
+      "relation": "competes"
+    },
+    {
+      "source": "terray-therapeutics",
+      "target": "insilico-medicine",
+      "relation": "competes"
+    },
+    {
+      "source": "xaira-therapeutics",
+      "target": "protein-design-diffusion-models",
+      "relation": "uses"
+    },
+    {
+      "source": "xaira-therapeutics",
+      "target": "generate-biomedicines",
+      "relation": "competes"
+    },
+    {
+      "source": "xaira-therapeutics",
+      "target": "insilico-medicine",
+      "relation": "competes"
+    },
+    {
+      "source": "xaira-therapeutics",
+      "target": "isomorphic-labs",
+      "relation": "competes"
+    },
+    {
+      "source": "xaira-therapeutics",
+      "target": "insitro",
+      "relation": "competes"
+    },
+    {
+      "source": "elemind",
+      "target": "whoop",
+      "relation": "competes"
+    },
+    {
+      "source": "verily",
+      "target": "multimodal-clinical-data-platform",
+      "relation": "uses"
+    },
+    {
+      "source": "verily",
+      "target": "whoop",
+      "relation": "complements"
+    },
+    {
+      "source": "verily",
+      "target": "tempus",
+      "relation": "competes"
+    },
+    {
+      "source": "tempus",
+      "target": "multimodal-clinical-data-platform",
+      "relation": "uses"
+    },
+    {
+      "source": "tempus",
+      "target": "deep-6-ai",
+      "relation": "competes"
+    },
+    {
+      "source": "deep-6-ai",
+      "target": "ai-trial-operations",
+      "relation": "uses"
+    },
+    {
+      "source": "inato",
+      "target": "ai-trial-operations",
+      "relation": "uses"
+    },
+    {
+      "source": "inato",
+      "target": "formation-bio",
+      "relation": "competes"
+    },
+    {
+      "source": "inato",
+      "target": "paradigm-health",
+      "relation": "competes"
+    },
+    {
+      "source": "lindus-health",
+      "target": "ai-trial-operations",
+      "relation": "uses"
+    },
+    {
+      "source": "paradigm-health",
+      "target": "ai-trial-operations",
+      "relation": "uses"
+    },
+    {
+      "source": "paradigm-health",
+      "target": "formation-bio",
+      "relation": "competes"
+    },
+    {
+      "source": "paradigm-health",
+      "target": "tempus",
+      "relation": "competes"
+    },
+    {
+      "source": "paradigm-health",
+      "target": "deep-6-ai",
+      "relation": "competes"
+    },
+    {
+      "source": "trial-library",
+      "target": "ai-trial-operations",
+      "relation": "uses"
+    },
+    {
+      "source": "trial-library",
+      "target": "tempus",
+      "relation": "competes"
+    },
+    {
+      "source": "trial-library",
+      "target": "deep-6-ai",
+      "relation": "competes"
+    },
+    {
+      "source": "trial-library",
+      "target": "paradigm-health",
+      "relation": "competes"
+    },
+    {
+      "source": "insitro",
+      "target": "biology-foundation-models",
+      "relation": "uses"
+    },
+    {
+      "source": "insitro",
+      "target": "insilico-medicine",
+      "relation": "competes"
+    },
+    {
+      "source": "recursion",
+      "target": "biology-foundation-models",
+      "relation": "uses"
+    },
+    {
+      "source": "recursion",
+      "target": "insilico-medicine",
+      "relation": "competes"
+    },
+    {
+      "source": "recursion",
+      "target": "insitro",
+      "relation": "competes"
+    },
+    {
+      "source": "relation-therapeutics",
+      "target": "biology-foundation-models",
+      "relation": "uses"
+    },
+    {
+      "source": "relation-therapeutics",
+      "target": "insitro",
+      "relation": "competes"
+    },
+    {
+      "source": "ai-lnp-design",
+      "target": "mrna-lnp-delivery",
+      "relation": "related"
+    },
+    {
+      "source": "ai-lnp-design",
+      "target": "microfluidic-lnp-manufacturing",
+      "relation": "related"
+    },
+    {
+      "source": "ai-lnp-design",
+      "target": "protein-design-diffusion-models",
+      "relation": "related"
+    },
+    {
+      "source": "ai-lnp-design",
+      "target": "biology-foundation-models",
+      "relation": "related"
+    },
+    {
+      "source": "ai-medical-imaging",
+      "target": "multimodal-clinical-data-platform",
+      "relation": "related"
+    },
+    {
+      "source": "ai-medical-imaging",
+      "target": "spatial-omics",
+      "relation": "related"
+    },
+    {
+      "source": "ai-medical-imaging",
+      "target": "liquid-biopsy-multiomics",
+      "relation": "related"
+    },
+    {
+      "source": "ai-trial-operations",
+      "target": "multimodal-clinical-data-platform",
+      "relation": "related"
+    },
+    {
+      "source": "ai-trial-operations",
+      "target": "biosimulation-qsp",
+      "relation": "related"
+    },
+    {
+      "source": "biohybrid-microbots",
+      "target": "organ-on-chip",
+      "relation": "related"
+    },
+    {
+      "source": "biohybrid-microbots",
+      "target": "optogenetics-sonogenetics",
+      "relation": "related"
+    },
+    {
+      "source": "biology-foundation-models",
+      "target": "protein-design-diffusion-models",
+      "relation": "related"
+    },
+    {
+      "source": "biology-foundation-models",
+      "target": "spatial-omics",
+      "relation": "related"
+    },
+    {
+      "source": "biology-foundation-models",
+      "target": "multimodal-clinical-data-platform",
+      "relation": "related"
+    },
+    {
+      "source": "biosimulation-qsp",
+      "target": "multimodal-clinical-data-platform",
+      "relation": "related"
+    },
+    {
+      "source": "biosimulation-qsp",
+      "target": "biology-foundation-models",
+      "relation": "related"
+    },
+    {
+      "source": "biosimulation-qsp",
+      "target": "organ-on-chip",
+      "relation": "related"
+    },
+    {
+      "source": "cell-free-synthetic-biology",
+      "target": "crispr-diagnostics",
+      "relation": "related"
+    },
+    {
+      "source": "crispr-diagnostics",
+      "target": "nanopore-sensing",
+      "relation": "related"
+    },
+    {
+      "source": "crispr-diagnostics",
+      "target": "prime-base-editing",
+      "relation": "related"
+    },
+    {
+      "source": "dna-archival-storage",
+      "target": "molecular-recording",
+      "relation": "related"
+    },
+    {
+      "source": "electrochemical-aptamer-biosensing",
+      "target": "microneedle-isf-sensing",
+      "relation": "related"
+    },
+    {
+      "source": "electrochemical-aptamer-biosensing",
+      "target": "flexible-epidermal-electronics",
+      "relation": "related"
+    },
+    {
+      "source": "electrochemical-aptamer-biosensing",
+      "target": "molecularly-imprinted-polymers",
+      "relation": "related"
+    },
+    {
+      "source": "electrochemical-aptamer-biosensing",
+      "target": "triboelectric-nanogenerators",
+      "relation": "related"
+    },
+    {
+      "source": "engineered-cell-therapy",
+      "target": "optogenetics-sonogenetics",
+      "relation": "related"
+    },
+    {
+      "source": "engineered-cell-therapy",
+      "target": "mrna-lnp-delivery",
+      "relation": "related"
+    },
+    {
+      "source": "engineered-cell-therapy",
+      "target": "prime-base-editing",
+      "relation": "related"
+    },
+    {
+      "source": "engineered-living-materials",
+      "target": "cell-free-synthetic-biology",
+      "relation": "related"
+    },
+    {
+      "source": "engineered-living-materials",
+      "target": "self-healing-polymers",
+      "relation": "related"
+    },
+    {
+      "source": "engineered-living-materials",
+      "target": "biohybrid-microbots",
+      "relation": "related"
+    },
+    {
+      "source": "extracellular-vesicles",
+      "target": "mrna-lnp-delivery",
+      "relation": "related"
+    },
+    {
+      "source": "extracellular-vesicles",
+      "target": "liquid-biopsy-multiomics",
+      "relation": "related"
+    },
+    {
+      "source": "extracellular-vesicles",
+      "target": "nanopore-sensing",
+      "relation": "related"
+    },
+    {
+      "source": "flexible-epidermal-electronics",
+      "target": "triboelectric-nanogenerators",
+      "relation": "related"
+    },
+    {
+      "source": "flexible-epidermal-electronics",
+      "target": "mxene-2d-materials",
+      "relation": "related"
+    },
+    {
+      "source": "flexible-epidermal-electronics",
+      "target": "self-healing-polymers",
+      "relation": "related"
+    },
+    {
+      "source": "flexible-epidermal-electronics",
+      "target": "neuromorphic-memristive-materials",
+      "relation": "related"
+    },
+    {
+      "source": "liquid-biopsy-multiomics",
+      "target": "nanopore-sensing",
+      "relation": "related"
+    },
+    {
+      "source": "liquid-biopsy-multiomics",
+      "target": "spatial-omics",
+      "relation": "related"
+    },
+    {
+      "source": "liquid-biopsy-multiomics",
+      "target": "multimodal-clinical-data-platform",
+      "relation": "related"
+    },
+    {
+      "source": "mechanophores",
+      "target": "self-healing-polymers",
+      "relation": "related"
+    },
+    {
+      "source": "mechanophores",
+      "target": "flexible-epidermal-electronics",
+      "relation": "related"
+    },
+    {
+      "source": "metamaterials-metasurfaces",
+      "target": "terahertz-metasurfaces",
+      "relation": "related"
+    },
+    {
+      "source": "metamaterials-metasurfaces",
+      "target": "raman-metasurface-sensing",
+      "relation": "related"
+    },
+    {
+      "source": "metamaterials-metasurfaces",
+      "target": "photonic-integrated-biosensing",
+      "relation": "related"
+    },
+    {
+      "source": "metamaterials-metasurfaces",
+      "target": "topological-photonics",
+      "relation": "related"
+    },
+    {
+      "source": "microfluidic-lnp-manufacturing",
+      "target": "mrna-lnp-delivery",
+      "relation": "related"
+    },
+    {
+      "source": "microfluidic-lnp-manufacturing",
+      "target": "organ-on-chip",
+      "relation": "related"
+    },
+    {
+      "source": "microneedle-isf-sensing",
+      "target": "flexible-epidermal-electronics",
+      "relation": "related"
+    },
+    {
+      "source": "mof-hydrogels",
+      "target": "molecularly-imprinted-polymers",
+      "relation": "related"
+    },
+    {
+      "source": "mof-hydrogels",
+      "target": "mxene-2d-materials",
+      "relation": "related"
+    },
+    {
+      "source": "molecular-recording",
+      "target": "prime-base-editing",
+      "relation": "related"
+    },
+    {
+      "source": "molecular-recording",
+      "target": "spatial-omics",
+      "relation": "related"
+    },
+    {
+      "source": "mrna-lnp-delivery",
+      "target": "prime-base-editing",
+      "relation": "related"
+    },
+    {
+      "source": "multimodal-clinical-data-platform",
+      "target": "spatial-omics",
+      "relation": "related"
+    },
+    {
+      "source": "mxene-2d-materials",
+      "target": "triboelectric-nanogenerators",
+      "relation": "related"
+    },
+    {
+      "source": "mxene-2d-materials",
+      "target": "self-healing-polymers",
+      "relation": "related"
+    },
+    {
+      "source": "nanopore-sensing",
+      "target": "spatial-omics",
+      "relation": "related"
+    },
+    {
+      "source": "nanopore-sensing",
+      "target": "raman-metasurface-sensing",
+      "relation": "related"
+    },
+    {
+      "source": "neuromorphic-memristive-materials",
+      "target": "wetware-biocomputing",
+      "relation": "related"
+    },
+    {
+      "source": "nv-diamond-quantum-sensing",
+      "target": "quantum-dot-sensing",
+      "relation": "related"
+    },
+    {
+      "source": "organ-on-chip",
+      "target": "spatial-omics",
+      "relation": "related"
+    },
+    {
+      "source": "phage-therapy",
+      "target": "crispr-diagnostics",
+      "relation": "related"
+    },
+    {
+      "source": "phage-therapy",
+      "target": "prime-base-editing",
+      "relation": "related"
+    },
+    {
+      "source": "photonic-integrated-biosensing",
+      "target": "raman-metasurface-sensing",
+      "relation": "related"
+    },
+    {
+      "source": "photonic-integrated-biosensing",
+      "target": "terahertz-metasurfaces",
+      "relation": "related"
+    },
+    {
+      "source": "quantum-dot-sensing",
+      "target": "photonic-integrated-biosensing",
+      "relation": "related"
+    },
+    {
+      "source": "raman-metasurface-sensing",
+      "target": "terahertz-metasurfaces",
+      "relation": "related"
+    },
+    {
+      "source": "topological-photonics",
+      "target": "photonic-integrated-biosensing",
+      "relation": "related"
+    },
+    {
+      "source": "wearable-biochemical-sensors",
+      "target": "electrochemical-aptamer-biosensing",
+      "relation": "related"
+    },
+    {
+      "source": "wearable-biochemical-sensors",
+      "target": "microneedle-isf-sensing",
+      "relation": "related"
+    },
+    {
+      "source": "wearable-biochemical-sensors",
+      "target": "flexible-epidermal-electronics",
+      "relation": "related"
+    },
+    {
+      "source": "wearable-biochemical-sensors",
+      "target": "mxene-2d-materials",
+      "relation": "related"
+    },
+    {
+      "source": "wetware-biocomputing",
+      "target": "organ-on-chip",
+      "relation": "related"
+    },
+    {
+      "source": "idea-ai-microfluidic-control",
+      "target": "microfluidic-lnp-manufacturing",
+      "relation": "references"
+    },
+    {
+      "source": "idea-ai-microfluidic-control",
+      "target": "organ-on-chip",
+      "relation": "references"
+    },
+    {
+      "source": "idea-codon-optimisation-llm",
+      "target": "ai-lnp-design",
+      "relation": "references"
+    },
+    {
+      "source": "idea-codon-optimisation-llm",
+      "target": "protein-design-diffusion-models",
+      "relation": "references"
+    },
+    {
+      "source": "idea-codon-optimisation-llm",
+      "target": "raina-biosciences",
+      "relation": "closest"
+    },
+    {
+      "source": "idea-codon-optimisation-llm",
+      "target": "atomic-ai",
+      "relation": "closest"
+    },
+    {
+      "source": "idea-event-driven-biochemical-patch",
+      "target": "triboelectric-nanogenerators",
+      "relation": "references"
+    },
+    {
+      "source": "idea-event-driven-biochemical-patch",
+      "target": "electrochemical-aptamer-biosensing",
+      "relation": "references"
+    },
+    {
+      "source": "idea-lnp-digital-twin",
+      "target": "ai-lnp-design",
+      "relation": "references"
+    },
+    {
+      "source": "idea-lnp-digital-twin",
+      "target": "microfluidic-lnp-manufacturing",
+      "relation": "references"
+    },
+    {
+      "source": "idea-lnp-digital-twin",
+      "target": "mana-bio",
+      "relation": "closest"
+    },
+    {
+      "source": "idea-lnp-formulation-design",
+      "target": "ai-lnp-design",
+      "relation": "references"
+    },
+    {
+      "source": "idea-lnp-formulation-design",
+      "target": "mana-bio",
+      "relation": "closest"
+    },
+    {
+      "source": "idea-lnp-formulation-design",
+      "target": "aganitha-ai",
+      "relation": "closest"
+    },
+    {
+      "source": "idea-microneedle-qdot-delivery-tracker",
+      "target": "quantum-dot-sensing",
+      "relation": "references"
+    },
+    {
+      "source": "idea-microneedle-qdot-delivery-tracker",
+      "target": "microneedle-isf-sensing",
+      "relation": "references"
+    },
+    {
+      "source": "idea-mof-mxene-invisible-analytes",
+      "target": "mof-hydrogels",
+      "relation": "references"
+    },
+    {
+      "source": "idea-mof-mxene-invisible-analytes",
+      "target": "mxene-2d-materials",
+      "relation": "references"
+    },
+    {
+      "source": "idea-mof-mxene-invisible-analytes",
+      "target": "epicore-biosystems",
+      "relation": "closest"
+    },
+    {
+      "source": "idea-mof-mxene-invisible-analytes",
+      "target": "nutromics",
+      "relation": "closest"
+    },
+    {
+      "source": "idea-mof-mxene-invisible-analytes",
+      "target": "xsensio",
+      "relation": "closest"
+    },
+    {
+      "source": "idea-molecular-recorder-inflammation",
+      "target": "molecular-recording",
+      "relation": "references"
+    },
+    {
+      "source": "idea-mxene-bioprinting",
+      "target": "mxene-2d-materials",
+      "relation": "references"
+    },
+    {
+      "source": "idea-mxene-bioprinting",
+      "target": "self-healing-polymers",
+      "relation": "references"
+    },
+    {
+      "source": "idea-mxene-mediator-free-biosensing",
+      "target": "mxene-2d-materials",
+      "relation": "references"
+    },
+    {
+      "source": "idea-mxene-photothermal-therapy",
+      "target": "mxene-2d-materials",
+      "relation": "references"
+    },
+    {
+      "source": "idea-mxene-photothermal-therapy",
+      "target": "coordination-pharmaceuticals",
+      "relation": "closest"
+    },
+    {
+      "source": "idea-printable-mxene-tattoo",
+      "target": "mxene-2d-materials",
+      "relation": "references"
+    },
+    {
+      "source": "idea-qdot-cgm-hormone",
+      "target": "quantum-dot-sensing",
+      "relation": "references"
+    },
+    {
+      "source": "idea-qdot-cgm-hormone",
+      "target": "nutromics",
+      "relation": "closest"
+    },
+    {
+      "source": "idea-reconfigurable-topological-biosensor",
+      "target": "topological-photonics",
+      "relation": "references"
+    },
+    {
+      "source": "idea-refrigeration-free-diagnostic-strip",
+      "target": "cell-free-synthetic-biology",
+      "relation": "references"
+    },
+    {
+      "source": "idea-self-powered-isf-microneedle-patch",
+      "target": "triboelectric-nanogenerators",
+      "relation": "references"
+    },
+    {
+      "source": "idea-self-powered-isf-microneedle-patch",
+      "target": "microneedle-isf-sensing",
+      "relation": "references"
+    },
+    {
+      "source": "idea-self-powered-isf-microneedle-patch",
+      "target": "electrochemical-aptamer-biosensing",
+      "relation": "references"
+    },
+    {
+      "source": "idea-sort-code-cracker",
+      "target": "ai-lnp-design",
+      "relation": "references"
+    },
+    {
+      "source": "idea-sort-code-cracker",
+      "target": "mana-bio",
+      "relation": "closest"
+    },
+    {
+      "source": "idea-spatial-omics-companion-dx",
+      "target": "spatial-omics",
+      "relation": "references"
+    },
+    {
+      "source": "idea-spatial-omics-companion-dx",
+      "target": "stellaromics",
+      "relation": "closest"
+    },
+    {
+      "source": "idea-spatial-omics-companion-dx",
+      "target": "owkin",
+      "relation": "closest"
+    },
+    {
+      "source": "idea-teng-aptamer-transducer",
+      "target": "triboelectric-nanogenerators",
+      "relation": "references"
+    },
+    {
+      "source": "idea-teng-aptamer-transducer",
+      "target": "electrochemical-aptamer-biosensing",
+      "relation": "references"
+    },
+    {
+      "source": "idea-teng-cardiorespiratory-patch",
+      "target": "triboelectric-nanogenerators",
+      "relation": "references"
+    },
+    {
+      "source": "idea-teng-mof-preconcentrator",
+      "target": "triboelectric-nanogenerators",
+      "relation": "references"
+    },
+    {
+      "source": "idea-teng-mof-preconcentrator",
+      "target": "mof-hydrogels",
+      "relation": "references"
+    },
+    {
+      "source": "idea-teng-mof-preconcentrator",
+      "target": "mxene-2d-materials",
+      "relation": "references"
+    },
+    {
+      "source": "idea-teng-smart-garment",
+      "target": "triboelectric-nanogenerators",
+      "relation": "references"
+    },
+    {
+      "source": "idea-thz-metasurface-bmi",
+      "target": "terahertz-metasurfaces",
+      "relation": "references"
+    },
+    {
+      "source": "idea-thz-metasurface-bmi",
+      "target": "metamaterials-metasurfaces",
+      "relation": "references"
+    }
+  ]
+}

@@ -42,7 +42,19 @@ barrier_to_entry: medium
 barrier_to_entry_logic: Employer contract pipeline requires established credibility and actuarial outcome data; the 90%+ adherence claim, if validated, creates a meaningful differentiation story, but the GLP-1 management space is crowded and entry barriers are primarily sales and outcomes-trust rather than technology.
 hardness: moderate
 hardness_reason: Sustaining adherence at industry-leading rates across diverse employer populations at scale, while managing GLP-1 supply constraints and side effects, is the core operational challenge.
-last_verified: "2026-06-22"
+substrate_family: F
+substrate_tags:
+- F.1
+- F.5
+technology_platform_ids: []
+new_capability: "Agentic-AI adherence monitoring that intervenes at GLP-1 churn moments to sustain member adherence above industry norms."
+technology_readiness_level: 8
+commercialisation_status: commercial_early
+customer:
+  - employer
+  - consumer
+limiting_factor: "Adherence claims are not peer-reviewed; capitated pricing depends on actuarially verifiable outcomes."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

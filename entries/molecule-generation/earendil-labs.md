@@ -44,7 +44,19 @@ barrier_to_entry: high
 barrier_to_entry_logic: Integrated AI+wet-lab closed loop generates proprietary training data with each iteration; early Sanofi deals create milestone-funded pipeline depth that pure-software competitors cannot match, and the founder (Jian Peng, ex-UIUC professor) brings a rare combination of foundational AI and structural biology credibility.
 hardness: very-hard
 hardness_reason: Demonstrating that AI-designed antibodies translate to clinical efficacy at a rate materially better than conventional discovery, the field has not yet produced an AI-native approved antibody.
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.1
+technology_platform_ids:
+  - protein-design-diffusion-models
+new_capability: "Closed-loop protein AI plus wet-lab designs bispecific and multispecific antibodies, feeding an owned clinical-stage immunology and oncology pipeline."
+technology_readiness_level: 7
+commercialisation_status: regulatory_review
+customer:
+  - pharma
+  - biotech
+limiting_factor: "No approved drug; clinical efficacy of AI-designed antibodies is still unproven in humans."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

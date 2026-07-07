@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>tech-bio-map</title>
+<link rel="stylesheet" href="style.css" />
+<script src="https://cdn.jsdelivr.net/npm/cytoscape@3.30.2/dist/cytoscape.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/layout-base@2.0.1/layout-base.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/cose-base@2.2.0/cose-base.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/cytoscape-fcose@2.2.0/cytoscape-fcose.js"></script>
+</head>
+<body>
+<header>
+  <h1>tech-bio-map <span class="sub">v2</span></h1>
+  <nav class="tabs">
+    <button id="tab-graph" class="tab active">Graph</button>
+    <button id="tab-table" class="tab">Table</button>
+  </nav>
+  <div class="counts" id="counts"></div>
+</header>
+
+<div id="controls">
+  <input type="search" id="search" placeholder="Search name..." />
+  <div class="filter-group" id="type-filters">
+    <span class="lbl">Type</span>
+    <label><input type="checkbox" value="primitive" checked /> Primitive</label>
+    <label><input type="checkbox" value="company" checked /> Company</label>
+    <label><input type="checkbox" value="idea" checked /> Idea</label>
+  </div>
+  <div class="filter-group" id="substrate-filters">
+    <span class="lbl">Substrate</span>
+  </div>
+  <div class="filter-group" id="relation-filters">
+    <span class="lbl">Edges</span>
+    <label><input type="checkbox" value="uses" checked /> uses</label>
+    <label><input type="checkbox" value="references" checked /> references</label>
+    <label><input type="checkbox" value="closest" checked /> closest</label>
+    <label><input type="checkbox" value="competes" /> competes</label>
+    <label><input type="checkbox" value="complements" /> complements</label>
+  </div>
+  <button id="relayout">Re-layout</button>
+</div>
+
+<main>
+  <section id="graph-view">
+    <div id="cy"></div>
+    <aside id="detail" class="hidden"></aside>
+  </section>
+  <section id="table-view" class="hidden">
+    <div class="table-filters" id="table-filters"></div>
+    <div id="table-wrap"></div>
+  </section>
+</main>
+
+<div id="legend"></div>
+<script src="app.js"></script>
+</body>
+</html>

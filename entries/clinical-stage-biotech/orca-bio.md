@@ -38,7 +38,18 @@ barrier_to_entry: nearly-impossible
 barrier_to_entry_logic: Phase 3 clinical data, BLA filed under Priority Review, proprietary cell sorting manufacturing platform, and $625M deployed, replicating this regulatory and manufacturing position from scratch would take 10+ years.
 hardness: moonshot
 hardness_reason: Achieving commercial launch of a first-in-class precision allogeneic cell therapy while demonstrating durable superiority over conventional HSCT across a heterogeneous patient population.
-last_verified: "2026-06-22"
+substrate_family: E
+substrate_tags:
+- E.2
+technology_platform_ids: []
+new_capability: "Precision FACS-sorted allogeneic cell therapy (Orca-T) that preserves graft-versus-leukemia while suppressing GvHD versus standard HSCT"
+technology_readiness_level: 8
+commercialisation_status: regulatory_review
+customer:
+  - provider
+  - payer
+limiting_factor: "Precision cell sorting is hard to run at commercial volumes; new-category reimbursement requires payer engagement post-approval"
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

@@ -16,7 +16,20 @@ buyer_wtp: high
 sales_cycle: long
 regulatory_burden: medium
 tam_usd_m: 119030
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.3
+- C.2
+technology_platform_ids:
+  - biosimulation-qsp
+new_capability: "Causal disease digital twins inferred from multi-omic patient data, predicting drug targets and responder subgroups before trials"
+technology_readiness_level: 5
+commercialisation_status: pilot_deployment
+customer:
+  - pharma
+  - biotech
+limiting_factor: "Depends on partner data, does not validate targets in vivo, and outputs lack FDA/EMA qualification; low disclosed deal velocity"
+last_verified: "2026-07-07"
 data_centrality: core-moat
 data_ownership:
  - partner-supplied

@@ -40,7 +40,19 @@ barrier_to_entry: very-high
 barrier_to_entry_logic: 30+ FDA clearances (most in the field), deployed across ~2,000 hospitals globally, CARE foundation model trained on 60M+ annual cases, and long enterprise health system contracts, each requiring a 12-24 month procurement and integration cycle.
 hardness: very-hard
 hardness_reason: Building a general clinical AI foundation model (CARE) that is accurate, safe, and FDA-clearable across dozens of heterogeneous imaging indications and clinical environments simultaneously.
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.3
+- D.2
+technology_platform_ids:
+  - ai-medical-imaging
+new_capability: "Background clinical-AI foundation model that auto-triages 30+ acute imaging findings in real time inside hospital PACS workflows."
+technology_readiness_level: 9
+commercialisation_status: commercial_scaled
+customer:
+  - provider
+limiting_factor: "Reimbursement for AI triage is unsettled; sold as a platform subscription with no established payer pass-through."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

@@ -39,7 +39,20 @@ barrier_to_entry: nearly-impossible
 barrier_to_entry_logic: $1B Series A is unprecedented for a pre-product biotech; Hal Barron (ex-GSK CMO) and Marc Tessier-Lavigne bring the pharma credibility and network that cannot be replicated with capital alone.
 hardness: moonshot
 hardness_reason: Demonstrating that AI-native drug discovery raises clinical success rates above the historical 10%, no company has yet proven this at meaningful scale.
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.1
+- C.3
+technology_platform_ids:
+  - protein-design-diffusion-models
+new_capability: "Fully integrated AI-native engine combining generative ML, in-house data generation, and X-Cell virtual-cell modeling to design drugs across modalities from target to clinic."
+technology_readiness_level: 5
+commercialisation_status: preclinical
+customer:
+  - pharma
+  - biotech
+limiting_factor: "Pre-clinical with no clinical validation of the AI-native approach; large capital base pressures execution."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

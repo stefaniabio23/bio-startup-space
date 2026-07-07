@@ -41,7 +41,19 @@ barrier_to_entry: very-high
 barrier_to_entry_logic: $1.5B+ deployed to build ctDNA assay technology, multiple FDA clearances, and oncology provider relationships, each FDA clearance alone requires years of clinical validation.
 hardness: very-hard
 hardness_reason: Shield (colorectal cancer screening) must prove population-level sensitivity and specificity competitive with colonoscopy to achieve broad insurance coverage and change screening behaviour.
-last_verified: "2026-06-22"
+substrate_family: D
+substrate_tags:
+- D.2
+technology_platform_ids:
+  - liquid-biopsy-multiomics
+new_capability: "Blood-based ctDNA assays spanning early cancer screening, treatment selection, and minimal residual disease monitoring."
+technology_readiness_level: 9
+commercialisation_status: commercial_scaled
+customer:
+  - provider
+  - payer
+limiting_factor: "Screening reimbursement and payer coverage for Shield are the bottleneck to at-scale physician ordering."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

@@ -17,7 +17,19 @@ buyer_wtp: high
 sales_cycle: long
 regulatory_burden: heavy
 tam_usd_m: 66300
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.3
+technology_platform_ids:
+  - biosimulation-qsp
+new_capability: "Virtual clinical trials simulating patient response and KM/PFS endpoints from a biomedical knowledge graph plus 350M-patient RWD."
+technology_readiness_level: 7
+commercialisation_status: commercial_early
+customer:
+  - pharma
+  - biotech
+limiting_factor: "Models mainly efficacy/PFS with no safety simulation, and relies on historical RWD rather than latent biological state."
+last_verified: "2026-07-07"
 data_centrality: core-moat
 data_ownership:
  - licensed

@@ -17,7 +17,20 @@ buyer_wtp: medium
 sales_cycle: medium
 regulatory_burden: light
 tam_usd_m: 5000
-last_verified: "2026-06-22"
+substrate_family: F
+substrate_tags:
+- F.3
+technology_platform_ids:
+  - ai-trial-operations
+new_capability: "NLP over structured and unstructured EHR notes to surface trial-eligible patients faster than manual chart review."
+technology_readiness_level: 7
+commercialisation_status: acquired
+customer:
+  - pharma
+  - biotech
+  - cro
+limiting_factor: "Solves eligibility matching only; standalone position dissolved into Tempus's oncology data and trial infrastructure."
+last_verified: "2026-07-07"
 data_centrality: core-moat
 data_ownership:
   - customer-generated

@@ -38,7 +38,18 @@ barrier_to_entry: high
 barrier_to_entry_logic: Differentiation rests on extended half-life engineering (Q3-Q6M dosing vs. Q2-Q4W for dupilumab); clinical data at Phase 2 stage is hard to replicate quickly, and NASDAQ listing provides non-dilutive capital at scale.
 hardness: very-hard
 hardness_reason: Demonstrating superior efficacy or meaningful durability advantage over dupilumab (Dupixent ~$12B/yr in sales) in head-to-head or comparator trials across multiple indications.
-last_verified: "2026-06-22"
+substrate_family: E
+substrate_tags:
+- E.1
+technology_platform_ids: []
+new_capability: "Half-life-extended monoclonal antibodies against validated I&I targets enabling quarterly-to-biannual dosing versus biweekly standard"
+technology_readiness_level: 7
+commercialisation_status: regulatory_review
+customer:
+  - payer
+  - provider
+limiting_factor: "No approved product; head-to-head superiority over dupilumab not yet shown, and convenience must drive switching from established therapy"
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

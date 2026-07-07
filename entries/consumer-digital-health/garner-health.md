@@ -41,7 +41,18 @@ barrier_to_entry: high
 barrier_to_entry_logic: 60B+ claims database, 550+ proprietary clinical metrics refined over five years, and an employer channel with $100M+ ARR and 2.5M+ members create a compounding data and distribution advantage.
 hardness: hard
 hardness_reason: Continuously proving that provider quality rankings translate to actual cost and outcome improvements at scale, as health plan networks change and provider attribution grows more complex.
-last_verified: "2026-06-22"
+substrate_family: F
+substrate_tags:
+- F.4
+technology_platform_ids: []
+new_capability: "Ranks providers on clinical quality from a 60B-claim database and financially steers employees to top performers."
+technology_readiness_level: 9
+commercialisation_status: commercial_scaled
+customer:
+  - employer
+  - payer
+limiting_factor: "Quality rankings are claims-based with attribution uncertainty; HRA model needs employer benefit redesign."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

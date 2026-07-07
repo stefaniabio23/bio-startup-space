@@ -1,0 +1,92 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+title: Idea
+description: >
+  A founder-search idea. Every idea links to one or more technical primitives
+  (technology_platform_ids -> primitive ids) and optionally to the closest
+  existing companies. Decision-oriented: forces a 3-month MVP and route-fit
+  scoring. Controlled fields are additionally checked against taxonomy.yaml.
+type: object
+
+required:
+  - id
+  - idea
+  - technology_platform_ids
+  - last_verified
+
+properties:
+  id:
+    type: string
+    pattern: "^idea-[a-z0-9-]+$"
+    description: "idea-<slug>, equals filename stem"
+  idea:
+    type: string
+    description: One line, the idea
+  technology_platform_ids:
+    type: array
+    minItems: 1
+    items:
+      type: string
+      pattern: "^[a-z0-9-]+$"
+    description: primitive ids this idea is built on (must resolve to primitives/)
+  substrate_tags:
+    type: array
+    items:
+      type: string
+  new_capability:
+    type: string
+  target_user:
+    type: string
+  buyer:
+    type: array
+    items:
+      type: string
+  first_use_case:
+    type: string
+  business_model:
+    type: array
+    items:
+      type: string
+  technology_readiness_level:
+    type: integer
+    minimum: 1
+    maximum: 9
+  translational_gap:
+    type: string
+  why_now:
+    type: string
+  prior_work:
+    type: array
+    items:
+      type: string
+  closest_companies:
+    type: array
+    items:
+      type: string
+  differentiation:
+    type: string
+  unfair_advantage_needed:
+    type: string
+  validation_plan:
+    type: string
+  three_month_mvp:
+    type: string
+    description: What can be validated in 3 months without building the full tech
+  technical_risk:
+    type: string
+  regulatory_risk:
+    type: string
+  commercial_risk:
+    type: string
+  founder_fit:
+    type: string
+  cambridge_route_fit:
+    type: string
+  ef_route_fit:
+    type: string
+  overall_score:
+    type: number
+  notes:
+    type: string
+  last_verified:
+    type: string
+    pattern: "^\\d{4}-\\d{2}-\\d{2}$"

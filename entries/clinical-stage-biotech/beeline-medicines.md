@@ -41,7 +41,18 @@ barrier_to_entry: very-high
 barrier_to_entry_logic: Five in-licensed BMS clinical assets, $300M Bain Capital backing, FDA Fast Track designation on lead program, and a CEO with a precedent $3.9B drug development exit (SpringWorks) combine to create a capital-and-credibility moat that takes years to replicate.
 hardness: very-hard
 hardness_reason: Demonstrating that mechanistic selectivity in TLR7/8 inhibition (afimetoran) translates into a best-in-disease efficacy and safety profile for lupus in Phase 2 and pivotal trials, where multiple prior lupus drugs have failed.
-last_verified: "2026-06-22"
+substrate_family: E
+substrate_tags:
+- E.1
+technology_platform_ids: []
+new_capability: "Portfolio of five mechanistically selective immunology drugs (lead: oral TLR7/8 inhibitor afimetoran for lupus) in-licensed from BMS"
+technology_readiness_level: 6
+commercialisation_status: regulatory_review
+customer:
+  - payer
+  - provider
+limiting_factor: "No internal discovery; lupus is historically the hardest clinical indication and afimetoran's Phase 2 readout is far from certain"
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

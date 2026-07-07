@@ -38,7 +38,17 @@ barrier_to_entry: high
 barrier_to_entry_logic: Network effects from physician adoption (over 40% of US physicians) compound with proprietary usage data and pharmaceutical advertiser relationships that competitors cannot easily replicate.
 hardness: hard
 hardness_reason: Sustaining physician trust and clinical accuracy at scale while maintaining the advertising-based model without letting pharma influence clinical answers.
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.4
+technology_platform_ids: []
+new_capability: "Retrieval-augmented generation over peer-reviewed medical literature giving physicians cited, evidence-grounded answers at the point of care."
+technology_readiness_level: 9
+commercialisation_status: commercial_scaled
+customer:
+  - provider
+limiting_factor: "Pharma-advertising revenue concentration; no BAA or EHR integration means no access to patient-level longitudinal data."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

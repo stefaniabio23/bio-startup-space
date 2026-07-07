@@ -16,7 +16,21 @@ buyer_wtp: high
 sales_cycle: long
 regulatory_burden: medium
 tam_usd_m: 200000
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.2
+- A.1
+technology_platform_ids:
+  - biology-foundation-models
+new_capability: "Lab-in-the-Loop using patient tissue single-cell and spatial transcriptomics plus perturbation and ML to validate human-relevant targets."
+technology_readiness_level: 7
+commercialisation_status: commercial_early
+customer:
+  - pharma
+  - biotech
+  - cro
+limiting_factor: "Validation stops at the target level; clinical target engagement and efficacy require pharma-partner execution."
+last_verified: "2026-07-07"
 data_centrality: core-moat
 data_ownership:
  - proprietary

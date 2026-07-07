@@ -1,0 +1,151 @@
+taxonomy,code,label
+substrate_family,A,Data substrate
+substrate_family,B,Automation / execution substrate
+substrate_family,C,Model substrate
+substrate_family,D,Deeptech / physics / materials substrate
+substrate_family,E,Biological substrate
+substrate_family,F,Clinical / regulatory / distribution substrate
+substrate_tags,A.1,High-fidelity biological data
+substrate_tags,A.2,"Patient, EHR, and claims data"
+substrate_tags,A.3,Clinical trial or proprietary drug data
+substrate_tags,A.4,Longitudinal real-world biomarker data
+substrate_tags,A.5,Biobank-linked molecular and outcome data
+substrate_tags,A.6,Population-scale genetic data
+substrate_tags,B.1,Wet-lab automation
+substrate_tags,B.2,High-throughput screening
+substrate_tags,B.3,Biofoundry
+substrate_tags,B.4,Clinical trial operations
+substrate_tags,B.5,Therapy manufacturing
+substrate_tags,B.6,DNA and RNA synthesis
+substrate_tags,B.7,GMP and quality automation
+substrate_tags,C.1,Generative biology
+substrate_tags,C.2,Molecular interaction
+substrate_tags,C.3,Disease state
+substrate_tags,C.4,World model
+substrate_tags,D.1,Consumer facing (wearables etc.)
+substrate_tags,D.2,Diagnostic
+substrate_tags,D.3,Clinical monitoring
+substrate_tags,D.4,Therapeutic
+substrate_tags,E.1,Synthetic bio
+substrate_tags,E.2,Ex-vivo engineered cells
+substrate_tags,E.3,In-vivo engineered cells
+substrate_tags,E.4,Engineered microbes
+substrate_tags,E.5,Exosomes and extracellular vesicles / viral vectors
+substrate_tags,E.6,Organoids and tissue models
+substrate_tags,F.1,Telehealth
+substrate_tags,F.2,Remote patient monitoring
+substrate_tags,F.3,Decentralised trials
+substrate_tags,F.4,Provider network
+substrate_tags,F.5,Pharmacy distribution
+substrate_tags,F.6,Specialty care pathway
+business_model,saas,
+business_model,data_licensing,
+business_model,api_model_as_a_service,
+business_model,fee_for_service_research,
+business_model,platform_partnership,
+business_model,owned_pipeline,
+business_model,platform_to_pipeline_hybrid,
+business_model,diagnostic_per_test,
+business_model,device_consumables,
+business_model,monitoring_subscription,
+business_model,consumer_subscription,
+business_model,care_delivery,
+business_model,pharmacy_prescribing_access,
+business_model,manufacturing_cdmo,
+business_model,research_tools,
+business_model,ip_licensing,
+business_model,outcome_based_value_based_care,
+business_model,marketplace_network,
+business_model,regulatory_evidence_generation,
+business_model,newco_asset_creation,
+business_model,partnerships,
+business_model,own-pipeline,
+business_model,services,
+business_model,reimbursement,
+business_model,hybrid,
+buyer,pharma,
+buyer,biotech,
+buyer,provider,
+buyer,payer,
+buyer,consumer,
+buyer,academic_lab,
+buyer,cro,
+buyer,cdmo,
+buyer,employer,
+buyer,investor,
+customer,pharma,
+customer,biotech,
+customer,provider,
+customer,payer,
+customer,consumer,
+customer,academic_lab,
+customer,cro,
+customer,cdmo,
+customer,employer,
+technology_readiness_level,1,Basic principles observed and reported
+technology_readiness_level,2,Technology concept or application formulated
+technology_readiness_level,3,Analytical and experimental proof of concept
+technology_readiness_level,4,Component validation in a laboratory environment
+technology_readiness_level,5,Breadboard validation in a relevant environment
+technology_readiness_level,6,System or subsystem prototype demonstration in a relevant environment
+technology_readiness_level,7,Prototype demonstration in an operational environment
+technology_readiness_level,8,"Actual technology completed, tested, and qualified"
+technology_readiness_level,9,Actual system proven through successful operations (on-market)
+commercialisation_status,research_only,
+commercialisation_status,preclinical,
+commercialisation_status,pilot_deployment,
+commercialisation_status,regulatory_review,
+commercialisation_status,commercial_early,
+commercialisation_status,commercial_scaled,
+commercialisation_status,acquired,
+commercialisation_status,defunct,
+evidence_level,theoretical,
+evidence_level,in_vitro,
+evidence_level,in_vivo_animal,
+evidence_level,human_pilot,
+evidence_level,clinical_validated,
+evidence_level,regulatory_cleared,
+evidence_level,real_world_proven,
+regulatory_burden,none,
+regulatory_burden,light,
+regulatory_burden,medium,
+regulatory_burden,heavy,
+regulatory_complexity,low,
+regulatory_complexity,medium,
+regulatory_complexity,high,
+regulatory_complexity,very-high,
+moat,data,
+moat,model,
+moat,wet-lab,
+moat,clinical-evidence,
+moat,IP,
+moat,distribution,
+moat,regulatory-trust,
+moat,founder-brand,
+moat,capital,
+data_ownership,proprietary,
+data_ownership,public,
+data_ownership,licensed,
+data_ownership,partner-supplied,
+data_ownership,generated-in-house,
+data_ownership,customer-generated,
+defensibility,low,
+defensibility,medium,
+defensibility,high,
+defensibility,very-high,
+capex_intensity,low,
+capex_intensity,medium,
+capex_intensity,high,
+capex_intensity,very-high,
+risk_level,low,
+risk_level,medium,
+risk_level,high,
+risk_level,very-high,
+route_fit,strong,
+route_fit,plausible,
+route_fit,weak,
+route_fit,none,
+venture_shape,1-3,"research programme, grant, academic spinout, IP formation"
+venture_shape,4-5,"translational startup, prototype, lab validation, first clinical collaborator"
+venture_shape,6-7,"seed-stage commercialisation, regulatory strategy, pilots"
+venture_shape,8-9,"product differentiation, distribution, data moat, cost advantage"

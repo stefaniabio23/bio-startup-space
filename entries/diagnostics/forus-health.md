@@ -41,7 +41,19 @@ barrier_to_entry: high
 barrier_to_entry_logic: 3,800+ device installations across 73 countries, clinical validation data across millions of patient screenings, deep partnerships with Apollo Telehealth and national health programs in India, and 15 years of proprietary retinal image datasets.
 hardness: hard
 hardness_reason: Achieving the unit economics and regulatory pathways needed to scale affordable AI-graded ophthalmology from India into high-regulatory-burden markets (US, EU) while sustaining profitability.
-last_verified: "2026-06-22"
+substrate_family: D
+substrate_tags:
+- D.2
+technology_platform_ids:
+  - ai-medical-imaging
+new_capability: "Affordable non-mydriatic retinal imaging with onboard AI grading for multi-condition eye-disease screening by non-specialists."
+technology_readiness_level: 9
+commercialisation_status: commercial_scaled
+customer:
+  - provider
+  - payer
+limiting_factor: "Low revenue per procedure and no US AI clearance limit reach into the highest-WTP markets."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

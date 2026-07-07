@@ -16,7 +16,21 @@ buyer_wtp: high
 sales_cycle: long
 regulatory_burden: heavy
 tam_usd_m: 200000
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.2
+- B.1
+technology_platform_ids:
+  - biology-foundation-models
+new_capability: "Industrialized perturbation biology (2.2M samples/week imaging plus ML foundation models) mapping perturbation-response space to find drugs."
+technology_readiness_level: 7
+commercialisation_status: commercial_early
+customer:
+  - pharma
+  - biotech
+  - cro
+limiting_factor: "No approved drug; industrialized perturbation scale has not yet proven it raises clinical success above the 10% baseline."
+last_verified: "2026-07-07"
 data_centrality: core-moat
 data_ownership:
  - proprietary

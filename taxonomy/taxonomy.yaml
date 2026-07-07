@@ -1,0 +1,218 @@
+# Controlled taxonomies, the single source of truth for all closed vocabularies.
+# The validator (scripts/validate_entries.py) loads this file and checks that
+# every controlled field on every entry uses a value listed here.
+# The generator (scripts/generate.py) flattens this into generated/taxonomies.csv.
+#
+# Rule: never invent a controlled value inline. Add it here first, then use it.
+# kebab-case / dotted codes only. No em dashes.
+
+version: "2.0"
+last_updated: "2026-07-06"
+
+# ── SUBSTRATE FAMILY (primary axis) ───────────────────────────────
+substrate_family:
+  A: Data substrate
+  B: Automation / execution substrate
+  C: Model substrate
+  D: Deeptech / physics / materials substrate
+  E: Biological substrate
+  F: Clinical / regulatory / distribution substrate
+
+# ── SUBSTRATE TAGS (sub-axis of substrate_family) ─────────────────
+substrate_tags:
+  # A. Data
+  A.1: High-fidelity biological data
+  A.2: Patient, EHR, and claims data
+  A.3: Clinical trial or proprietary drug data
+  A.4: Longitudinal real-world biomarker data
+  A.5: Biobank-linked molecular and outcome data
+  A.6: Population-scale genetic data
+  # B. Automation / execution
+  B.1: Wet-lab automation
+  B.2: High-throughput screening
+  B.3: Biofoundry
+  B.4: Clinical trial operations
+  B.5: Therapy manufacturing
+  B.6: DNA and RNA synthesis
+  B.7: GMP and quality automation
+  # C. Model
+  C.1: Generative biology
+  C.2: Molecular interaction
+  C.3: Disease state
+  C.4: World model
+  # D. Deeptech / physics / materials
+  D.1: Consumer facing (wearables etc.)
+  D.2: Diagnostic
+  D.3: Clinical monitoring
+  D.4: Therapeutic
+  # E. Biological
+  E.1: Synthetic bio
+  E.2: Ex-vivo engineered cells
+  E.3: In-vivo engineered cells
+  E.4: Engineered microbes
+  E.5: Exosomes and extracellular vesicles / viral vectors
+  E.6: Organoids and tissue models
+  # F. Clinical / regulatory / distribution
+  F.1: Telehealth
+  F.2: Remote patient monitoring
+  F.3: Decentralised trials
+  F.4: Provider network
+  F.5: Pharmacy distribution
+  F.6: Specialty care pathway
+
+# ── BUSINESS MODEL (expanded from v1's 6) ─────────────────────────
+business_model:
+  - saas
+  - data_licensing
+  - api_model_as_a_service
+  - fee_for_service_research
+  - platform_partnership
+  - owned_pipeline
+  - platform_to_pipeline_hybrid
+  - diagnostic_per_test
+  - device_consumables
+  - monitoring_subscription
+  - consumer_subscription
+  - care_delivery
+  - pharmacy_prescribing_access
+  - manufacturing_cdmo
+  - research_tools
+  - ip_licensing
+  - outcome_based_value_based_care
+  - marketplace_network
+  - regulatory_evidence_generation
+  - newco_asset_creation
+  # v1 legacy aliases (kept so un-migrated 86 entries stay valid)
+  - partnerships
+  - own-pipeline
+  - services
+  - reimbursement
+  - hybrid
+
+# ── BUYER / CUSTOMER (who pays) ───────────────────────────────────
+buyer:
+  - pharma
+  - biotech
+  - provider
+  - payer
+  - consumer
+  - academic_lab
+  - cro
+  - cdmo
+  - employer
+  - investor        # v1 legacy
+
+customer:
+  - pharma
+  - biotech
+  - provider
+  - payer
+  - consumer
+  - academic_lab
+  - cro
+  - cdmo
+  - employer
+
+# ── TECHNOLOGY READINESS LEVEL ────────────────────────────────────
+technology_readiness_level:
+  1: Basic principles observed and reported
+  2: Technology concept or application formulated
+  3: Analytical and experimental proof of concept
+  4: Component validation in a laboratory environment
+  5: Breadboard validation in a relevant environment
+  6: System or subsystem prototype demonstration in a relevant environment
+  7: Prototype demonstration in an operational environment
+  8: Actual technology completed, tested, and qualified
+  9: Actual system proven through successful operations (on-market)
+
+# ── COMMERCIALISATION STATUS ──────────────────────────────────────
+commercialisation_status:
+  - research_only
+  - preclinical
+  - pilot_deployment
+  - regulatory_review
+  - commercial_early
+  - commercial_scaled
+  - acquired
+  - defunct
+
+# ── EVIDENCE LEVEL ────────────────────────────────────────────────
+evidence_level:
+  - theoretical
+  - in_vitro
+  - in_vivo_animal
+  - human_pilot
+  - clinical_validated
+  - regulatory_cleared
+  - real_world_proven
+
+# ── REGULATORY BURDEN ─────────────────────────────────────────────
+regulatory_burden:
+  - none
+  - light
+  - medium
+  - heavy
+
+# ── REGULATORY COMPLEXITY (primitive-level) ───────────────────────
+regulatory_complexity:
+  - low
+  - medium
+  - high
+  - very-high
+
+# ── MOAT ──────────────────────────────────────────────────────────
+moat:
+  - data
+  - model
+  - wet-lab
+  - clinical-evidence
+  - IP
+  - distribution
+  - regulatory-trust
+  - founder-brand
+  - capital
+
+# ── DATA OWNERSHIP ────────────────────────────────────────────────
+data_ownership:
+  - proprietary
+  - public
+  - licensed
+  - partner-supplied
+  - generated-in-house
+  - customer-generated
+
+# ── DEFENSIBILITY ─────────────────────────────────────────────────
+defensibility:
+  - low
+  - medium
+  - high
+  - very-high
+
+# ── CAPEX INTENSITY ───────────────────────────────────────────────
+capex_intensity:
+  - low
+  - medium
+  - high
+  - very-high
+
+# ── RISK LEVEL (ideas) ────────────────────────────────────────────
+risk_level:
+  - low
+  - medium
+  - high
+  - very-high
+
+# ── ROUTE FIT (ideas, founder-search scoring) ─────────────────────
+route_fit:
+  - strong
+  - plausible
+  - weak
+  - none
+
+# ── VENTURE SHAPE BY TRL BAND (derived from TRL, not an entry field) ──
+# generate.py maps each capability's TRL to the right venture shape.
+venture_shape:
+  "1-3": research programme, grant, academic spinout, IP formation
+  "4-5": translational startup, prototype, lab validation, first clinical collaborator
+  "6-7": seed-stage commercialisation, regulatory strategy, pilots
+  "8-9": product differentiation, distribution, data moat, cost advantage

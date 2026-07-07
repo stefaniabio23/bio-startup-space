@@ -41,7 +41,19 @@ barrier_to_entry: very-high
 barrier_to_entry_logic: FDA Breakthrough Device Designation, Phase 3 HOPE trial enrolled, proprietary 40 Hz multi-sensory stimulation device, and MIT-origin IP on gamma entrainment, replicating the clinical program would take 8-10 years.
 hardness: moonshot
 hardness_reason: Demonstrating in a 670-patient double-blind RCT that a sensory stimulation device meaningfully slows Alzheimer's progression, a disease that has defeated hundreds of drug candidates.
-last_verified: "2026-06-22"
+substrate_family: D
+substrate_tags:
+- D.4
+- D.1
+technology_platform_ids: []
+new_capability: "Physician-prescribed at-home 40 Hz light-and-sound sensory stimulation that evokes gamma oscillations to slow Alzheimer's decline."
+technology_readiness_level: 7
+commercialisation_status: regulatory_review
+customer:
+  - provider
+  - payer
+limiting_factor: "The HOPE pivotal readout is a binary risk; AD Phase 2 to 3 failure rates are high and reimbursement is unproven."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

@@ -17,7 +17,20 @@ buyer_wtp: medium
 sales_cycle: medium
 regulatory_burden: medium
 tam_usd_m: 4530
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.3
+- A.1
+technology_platform_ids: []
+new_capability: "Low-input RNA-seq plus AI that turns a single blood draw into disease diagnosis, subtyping, and drug-response prediction"
+technology_readiness_level: 5
+commercialisation_status: pilot_deployment
+customer:
+  - pharma
+  - biotech
+  - provider
+limiting_factor: "Clinical utility unproven; must show RNA predictions change a treatment or trial decision better than cheaper existing biomarkers"
+last_verified: "2026-07-07"
 data_centrality: core-moat
 data_ownership:
  - proprietary

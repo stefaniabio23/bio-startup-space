@@ -41,7 +41,20 @@ barrier_to_entry: medium
 barrier_to_entry_logic: Network of 2,000+ trained advocates takes time and capital to build, but the core matching model has no deep technical moat and could be replicated by a well-funded entrant or large insurer.
 hardness: hard
 hardness_reason: Proving measurable, durable outcome improvement attributable to advocacy at population scale to justify payer and employer reimbursement.
-last_verified: "2026-06-22"
+substrate_family: F
+substrate_tags:
+- F.4
+- F.6
+technology_platform_ids: []
+new_capability: "Matches patients with reimbursable human advocates who manage insurance, scheduling, appeals, and appointment accompaniment."
+technology_readiness_level: 8
+commercialisation_status: commercial_early
+customer:
+  - consumer
+  - payer
+  - provider
+limiting_factor: "Human-advocate cost scales linearly and outcome claims lack peer-reviewed methodology."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

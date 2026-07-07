@@ -17,7 +17,18 @@ buyer_wtp: high
 sales_cycle: long
 regulatory_burden: heavy
 tam_usd_m: 168600
-last_verified: "2026-06-22"
+substrate_family: E
+substrate_tags:
+- E.1
+technology_platform_ids: []
+new_capability: "Small molecules and proteins that block upstream innate-immune nodes (lead: oral RIPK2 inhibitor OD-001) before inflammation initiates"
+technology_readiness_level: 7
+commercialisation_status: regulatory_review
+customer:
+  - payer
+  - provider
+limiting_factor: "No approved product; upstream innate targeting lacks the 20-year track record of downstream cytokine suppression by incumbents"
+last_verified: "2026-07-07"
 data_centrality: supporting-evidence
 data_ownership:
  - generated-in-house

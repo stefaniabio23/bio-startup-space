@@ -16,7 +16,20 @@ buyer_wtp: medium
 sales_cycle: medium
 regulatory_burden: heavy
 tam_usd_m: 29580
-last_verified: "2026-06-22"
+substrate_family: D
+substrate_tags:
+- D.2
+- D.1
+technology_platform_ids:
+  - ai-medical-imaging
+new_capability: "60-second radiation-free full-body ultrasonic CT imaging built on Butterfly ultrasound-on-chip modules."
+technology_readiness_level: 4
+commercialisation_status: preclinical
+customer:
+  - consumer
+  - provider
+limiting_factor: "No FDA clearance, no clinical validation, and first location not targeted until late 2027."
+last_verified: "2026-07-07"
 data_centrality: supporting-evidence
 data_ownership:
   - customer-generated

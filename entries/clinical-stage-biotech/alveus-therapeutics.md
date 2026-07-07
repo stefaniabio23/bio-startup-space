@@ -41,7 +41,18 @@ barrier_to_entry: high
 barrier_to_entry_logic: Obesity drug development requires expensive Phase 2/3 trials with long-duration weight loss endpoints; the GLP-1/GIP space is dominated by Novo Nordisk and Lilly with approved products and deep clinical infrastructure, making differentiation essential and difficult.
 hardness: very-hard
 hardness_reason: Achieving weight loss efficacy and tolerability profiles meaningfully better than approved tirzepatide (Lilly) and semaglutide (Novo) within a crowded capital market willing to fund many competing programs simultaneously.
-last_verified: "2026-06-22"
+substrate_family: E
+substrate_tags:
+- E.1
+technology_platform_ids: []
+new_capability: "GIPR-antagonist / GLP-1R-agonist fusion protein plus a selective AMYR3 amylin agonist for weight loss with preserved lean mass"
+technology_readiness_level: 6
+commercialisation_status: regulatory_review
+customer:
+  - payer
+  - provider
+limiting_factor: "Occupies the same mechanistic niche as Pfizer's more-advanced MariTide; Phase 2 must prove differentiated efficacy or tolerability"
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

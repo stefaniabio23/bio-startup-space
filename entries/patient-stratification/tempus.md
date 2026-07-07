@@ -17,7 +17,20 @@ buyer_wtp: high
 sales_cycle: long
 regulatory_burden: heavy
 tam_usd_m: 100000
-last_verified: "2026-06-22"
+substrate_family: A
+substrate_tags:
+- A.2
+technology_platform_ids:
+  - multimodal-clinical-data-platform
+new_capability: "Multimodal molecular + clinical data platform linking tumor sequencing, EHR and outcomes into RWE and trial matching for pharma."
+technology_readiness_level: 9
+commercialisation_status: commercial_scaled
+customer:
+  - pharma
+  - provider
+  - biotech
+limiting_factor: "Converting diagnostics volume into recurring high-margin RWE while pharma may build internal capabilities; non-oncology expansion is early."
+last_verified: "2026-07-07"
 data_centrality: core-moat
 data_ownership:
  - proprietary

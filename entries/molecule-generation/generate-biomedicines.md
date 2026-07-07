@@ -39,7 +39,19 @@ barrier_to_entry: very-high
 barrier_to_entry_logic: Closed-loop experimental flywheel (42K+ proteins tested in-house) requires frontier ML and wet-lab infrastructure operating in parallel at scale, backed by Flagship Pioneering and IPO capital.
 hardness: moonshot
 hardness_reason: Proving de novo protein therapeutics clear Phase 3 with competitive efficacy and safety against established biologics, GB-0895 is the live test.
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.1
+technology_platform_ids:
+  - protein-design-diffusion-models
+new_capability: "Chroma diffusion model designs novel protein therapeutics in a closed loop, producing GB-0895, an AI-engineered anti-TSLP antibody now in Phase 3 for severe asthma."
+technology_readiness_level: 7
+commercialisation_status: regulatory_review
+customer:
+  - pharma
+  - biotech
+limiting_factor: "De novo protein therapeutics have not yet cleared Phase 3 against established biologics."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

@@ -39,7 +39,19 @@ barrier_to_entry: high
 barrier_to_entry_logic: Ex-DeepMind founders with AlphaFold lineage and frontier protein-design model expertise that took years to develop; Jeff Dean and Dario Amodei as angel investors signals access to talent and compute networks.
 hardness: very-hard
 hardness_reason: Translating high in vitro hit rates (91-100% macrocycles) to clinical-stage programs with commercial economics and partner-funded development.
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.1
+technology_platform_ids:
+  - protein-design-diffusion-models
+new_capability: "All-atom generative models (Latent-X) design de novo protein binders with 91-100% macrocycle hit rates, producing picomolar binders in seconds via a no-code platform."
+technology_readiness_level: 5
+commercialisation_status: pilot_deployment
+customer:
+  - pharma
+  - biotech
+limiting_factor: "High in vitro hit rates are not yet translated to clinical-stage programs or partner economics."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

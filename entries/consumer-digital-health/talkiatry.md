@@ -42,7 +42,19 @@ barrier_to_entry: high
 barrier_to_entry_logic: Credentialing 800+ full-time psychiatrists in-network with major payers across 47 states, combined with proprietary scheduling and AI documentation infrastructure, took years and significant capital to build.
 hardness: hard
 hardness_reason: Sustaining high-quality psychiatric care at scale while moving toward value-based risk contracts requires outcome data and payer alignment that is slow to accumulate.
-last_verified: "2026-06-22"
+substrate_family: F
+substrate_tags:
+- F.1
+technology_platform_ids: []
+new_capability: "Full-stack W-2 psychiatrist group delivering in-network telepsychiatry and medication management across 47 states."
+technology_readiness_level: 9
+commercialisation_status: commercial_scaled
+customer:
+  - consumer
+  - payer
+  - provider
+limiting_factor: "High fixed-cost employment model and clinical differentiation from primary-care psychiatry is unpublished."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

@@ -44,7 +44,17 @@ barrier_to_entry: high
 barrier_to_entry_logic: WHOOP has 2.5M+ members, $979M raised, 14-year proprietary dataset of continuous physiological data, a subscription flywheel, and elite athlete and celebrity brand anchors that create asymmetric distribution advantages.
 hardness: hard
 hardness_reason: Demonstrating that continuous passive monitoring meaningfully changes long-term health outcomes at population scale to justify clinical or payer uptake beyond motivated consumer enthusiasts.
-last_verified: "2026-06-22"
+substrate_family: D
+substrate_tags:
+- D.1
+technology_platform_ids: []
+new_capability: "Screenless wearable and subscription platform delivering continuous recovery, strain, sleep, and emerging health biomarkers."
+technology_readiness_level: 9
+commercialisation_status: commercial_scaled
+customer:
+  - consumer
+limiting_factor: "Produces consumer-pull signals not diagnoses, and no FDA-cleared RPM means payer reimbursement is unavailable."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

@@ -42,7 +42,19 @@ barrier_to_entry: medium
 barrier_to_entry_logic: Payer credentialing across all 50 states, a trained clinician network specialized in menopause, and employer partnerships with Fortune 100 companies took years to build; replication is costly but not impossible for a well-funded entrant.
 hardness: moderate
 hardness_reason: Building durable payer contracts and employer benefit deals while maintaining clinical quality in a condition where treatment guidelines are contested and patient expectations are high.
-last_verified: "2026-06-22"
+substrate_family: F
+substrate_tags:
+- F.1
+technology_platform_ids: []
+new_capability: "Insurance-covered virtual menopause and perimenopause care with specialist HRT prescribing across all 50 states."
+technology_readiness_level: 8
+commercialisation_status: commercial_scaled
+customer:
+  - consumer
+  - payer
+  - employer
+limiting_factor: "HRT safety-signal risk and outcomes versus standard care are not yet published."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

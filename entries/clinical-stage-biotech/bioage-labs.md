@@ -17,7 +17,20 @@ buyer_wtp: high
 sales_cycle: long
 regulatory_burden: heavy
 tam_usd_m: 34574
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.3
+- A.4
+technology_platform_ids: []
+new_capability: "Longitudinal human aging cohorts plus ML to find age-linked cardiometabolic targets, feeding an in-house small-molecule pipeline"
+technology_readiness_level: 6
+commercialisation_status: regulatory_review
+customer:
+  - pharma
+  - payer
+  - provider
+limiting_factor: "No marketed product; proving that intervening on aging pathways improves hard clinical endpoints remains the unsolved problem"
+last_verified: "2026-07-07"
 data_centrality: core-moat
 data_ownership:
  - proprietary

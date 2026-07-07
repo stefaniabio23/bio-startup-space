@@ -37,7 +37,18 @@ barrier_to_entry: high
 barrier_to_entry_logic: Clinical-stage asset requires hundreds of millions to advance; regulatory path for COPD maintenance is well-established but expensive, and the field is dominated by large respiratory pharma incumbents.
 hardness: hard
 hardness_reason: Demonstrating a clinically meaningful benefit over existing COPD standard of care (triple inhaled therapy + existing PDE3/4 options like ensifentrine) in large, expensive Phase 3 trials.
-last_verified: "2026-06-22"
+substrate_family: E
+substrate_tags:
+- E.1
+technology_platform_ids: []
+new_capability: "Inhaled dual PDE3/4 inhibitor for COPD combining bronchodilation and anti-inflammatory action in one maintenance agent"
+technology_readiness_level: 6
+commercialisation_status: regulatory_review
+customer:
+  - payer
+  - provider
+limiting_factor: "Thin moat versus already-approved ensifentrine; must prove differentiation on route, safety, or convenience in Phase 2/3"
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

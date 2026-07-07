@@ -41,7 +41,20 @@ barrier_to_entry: very-high
 barrier_to_entry_logic: First FDA-cleared AI-based pathology diagnostic (prostate cancer) sets a regulatory precedent moat; Memorial Sloan Kettering founding partnership provided the annotated dataset and clinical credibility no competitor can easily replicate.
 hardness: very-hard
 hardness_reason: Building whole-slide foundation models that generalise across cancer types, staining protocols, and scanner vendors at clinical-grade accuracy for regulatory submissions.
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.3
+- D.2
+technology_platform_ids:
+  - ai-medical-imaging
+new_capability: "Whole-slide pathology foundation models delivering the first FDA-cleared AI cancer diagnostic and slide-level embeddings for pharma."
+technology_readiness_level: 9
+commercialisation_status: acquired
+customer:
+  - pharma
+  - provider
+limiting_factor: "Slide-only, no molecular or liquid-biopsy multimodality; clinical-lab reimbursement pathway is slow."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

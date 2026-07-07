@@ -35,7 +35,18 @@ barrier_to_entry: high
 barrier_to_entry_logic: FDA-cleared IntelliSep required years of clinical validation across sepsis populations; biophysical WBC measurement is a novel modality requiring proprietary microfluidic hardware.
 hardness: hard
 hardness_reason: Achieving broad hospital reimbursement and EMR integration for a novel diagnostic modality in a cost-pressured emergency medicine environment.
-last_verified: "2026-06-22"
+substrate_family: D
+substrate_tags:
+- D.2
+technology_platform_ids: []
+new_capability: "Sepsis risk stratification in about 8 minutes from white-blood-cell biophysical deformability, distinct from protein or gene-expression assays."
+technology_readiness_level: 9
+commercialisation_status: commercial_early
+customer:
+  - provider
+  - payer
+limiting_factor: "Novel modality needs clinician behaviour change plus a new CPT reimbursement pathway to scale adoption."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

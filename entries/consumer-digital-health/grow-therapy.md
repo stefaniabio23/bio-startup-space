@@ -41,7 +41,20 @@ barrier_to_entry: medium
 barrier_to_entry_logic: Network effects between 26,000+ therapists and 2M+ patient relationships create switching cost for both sides; insurance credentialing infrastructure and billing ops are costly to replicate, but the marketplace model itself is not technically defensible.
 hardness: moderate
 hardness_reason: Maintaining therapist quality and network density across 47 states at scale while competing on both consumer acquisition and provider recruitment simultaneously.
-last_verified: "2026-06-22"
+substrate_family: F
+substrate_tags:
+- F.1
+- F.4
+technology_platform_ids: []
+new_capability: "Two-sided marketplace that credentials therapists and handles insurance billing so patients find in-network care fast."
+technology_readiness_level: 9
+commercialisation_status: commercial_scaled
+customer:
+  - consumer
+  - provider
+  - payer
+limiting_factor: "1099 contractor network limits clinical standardization and outcomes data is fragmented."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

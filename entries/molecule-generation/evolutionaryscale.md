@@ -40,7 +40,19 @@ barrier_to_entry: very-high
 barrier_to_entry_logic: ESM3 required years of pretraining on 100M+ protein sequences at Meta AI scale; founders (Rives, Hayes, Lin) are among the handful who built the original ESM models at FAIR.
 hardness: very-hard
 hardness_reason: Translating protein language model embeddings into commercially valuable protein designs with confirmed wet-lab activity across diverse target classes and therapeutic modalities.
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.1
+technology_platform_ids:
+  - protein-design-diffusion-models
+new_capability: "ESM3 multimodal protein language model generates novel sequences conditioned jointly on structure and function, shown by the de novo fluorescent protein esmGFP."
+technology_readiness_level: 5
+commercialisation_status: acquired
+customer:
+  - pharma
+  - biotech
+limiting_factor: "API-only model with no owned therapeutic programs, now folded into CZI's non-profit research mission."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

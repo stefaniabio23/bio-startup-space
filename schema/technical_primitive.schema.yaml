@@ -1,0 +1,145 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+title: TechnicalPrimitive
+description: >
+  A technical primitive is the underlying scientific or engineering unlock that
+  companies and ideas are built on. This is the spine of the map: companies and
+  ideas reference primitives by their `id` (kebab slug) via technology_platform_ids.
+  Controlled-vocabulary fields (substrate_tags, commercialisation_status,
+  evidence_level, regulatory_complexity, capex_intensity, defensibility) are
+  additionally checked against taxonomy/taxonomy.yaml by the validator.
+type: object
+
+required:
+  - id
+  - name
+  - substrate_family
+  - technology_readiness_level
+  - last_verified
+
+properties:
+  id:
+    type: string
+    pattern: "^[a-z0-9-]+$"
+    description: kebab slug, equals filename stem, used as the join key
+  name:
+    type: string
+  aliases:
+    type: array
+    items:
+      type: string
+    description: Other names this primitive appears under in the research
+  substrate_family:
+    type: string
+    enum: [A, B, C, D, E, F]
+  substrate_tags:
+    type: array
+    items:
+      type: string
+  enabled_by:
+    type: string
+    description: The scientific or technical unlock that makes it newly possible
+  mechanism:
+    type: string
+    description: One line, how it works
+  new_capability:
+    type: string
+    description: One line, the lead capability (headline). Full set in `capabilities`.
+  what_it_could_unlock:
+    type: string
+  capabilities:
+    type: array
+    description: >
+      A primitive bundles several applications, each at its own TRL. One item per
+      application. `technology_readiness_level` at the top level is the lead one.
+    items:
+      type: object
+      required:
+        - capability
+        - technology_readiness_level
+      properties:
+        capability:
+          type: string
+          description: One line, what this application newly enables
+        what_it_could_unlock:
+          type: string
+        mechanism:
+          type: string
+        technology_readiness_level:
+          type: integer
+          minimum: 1
+          maximum: 9
+        translational_gap:
+          type: string
+        closest_companies:
+          type: array
+          items:
+            type: string
+        notes:
+          type: string
+  use_cases:
+    type: array
+    items:
+      type: string
+  technology_readiness_level:
+    type: integer
+    minimum: 1
+    maximum: 9
+  evidence_level:
+    type: string
+  translational_gap:
+    type: string
+    description: What blocks it from translating to product
+  what_needs_to_happen:
+    type: string
+    description: The unlock that would move it forward
+  closest_companies:
+    type: array
+    items:
+      type: string
+  related_primitives:
+    type: array
+    items:
+      type: string
+      pattern: "^[a-z0-9-]+$"
+    description: other primitive ids this one is adjacent to (builds the spine web)
+  closest_labs:
+    type: array
+    items:
+      type: string
+  commercialisation_status:
+    type: string
+  regulatory_complexity:
+    type: string
+  capex_intensity:
+    type: string
+  defensibility:
+    type: string
+  notes:
+    type: string
+  momentum:
+    type: object
+    description: bibliometric momentum snapshot from the primitives study (optional)
+    properties:
+      papers:
+        type: integer
+      cagr_pct:
+        type: number
+      fwci:
+        type: number
+      industry_share_pct:
+        type: number
+      citation_mass:
+        type: number
+      on_topic_n:
+        type: integer
+      buildable_whitespace:
+        type: string
+      confidence:
+        type: string
+      status:
+        type: string
+      as_of:
+        type: string
+  last_verified:
+    type: string
+    pattern: "^\\d{4}-\\d{2}-\\d{2}$"

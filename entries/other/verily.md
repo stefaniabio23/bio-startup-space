@@ -48,7 +48,21 @@ barrier_to_entry: high
 barrier_to_entry_logic: Alphabet pedigree, $2.8B raised, FHIR-native data infrastructure integrated with major health systems, NIH All of Us partnership, and 10+ years of multimodal health data accumulation create a platform moat that requires both capital and institutional trust to replicate.
 hardness: very-hard
 hardness_reason: Converting multimodal health data harmonization into durable clinical AI models that consistently improve patient outcomes and justify enterprise SaaS pricing across health systems, pharma, and payers simultaneously.
-last_verified: "2026-06-22"
+substrate_family: A
+substrate_tags:
+- A.2
+- A.1
+technology_platform_ids:
+  - multimodal-clinical-data-platform
+new_capability: "FHIR-native harmonization of multimodal health data into AI-ready datasets for precision health research, trials, and care."
+technology_readiness_level: 8
+commercialisation_status: commercial_early
+customer:
+  - pharma
+  - provider
+  - payer
+limiting_factor: "Has not achieved market leadership after $2.8B raised; competing against entrenched incumbents (IQVIA, Medidata, Tempus)."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

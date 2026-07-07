@@ -40,7 +40,19 @@ barrier_to_entry: very-high
 barrier_to_entry_logic: Helicons are a proprietary modality combining the intracellular access of small molecules with the target selectivity of antibodies; the non-canonical amino acid library (1000+) creates a combinatorial moat that took a decade to build, and first-in-class clinical data on zolucatetide in a historically undruggable target raises the validation bar for competitors.
 hardness: moonshot
 hardness_reason: Translating cell-permeable alpha-helical peptides from preclinical efficacy to clinical proof-of-concept, the Wnt/b-catenin pathway has been a graveyard for oncology drugs for 30 years, and oral/systemic delivery of complex peptides faces steep PK/ADME challenges.
-last_verified: "2026-06-22"
+substrate_family: E
+substrate_tags:
+- E.1
+technology_platform_ids: []
+new_capability: "Helicon stabilized alpha-helical peptides that enter cells and bind flat intracellular surfaces, drugging historically undruggable targets"
+technology_readiness_level: 6
+commercialisation_status: regulatory_review
+customer:
+  - pharma
+  - payer
+  - provider
+limiting_factor: "No approved product; oral/systemic peptide PK is not fully characterised and the platform has one clinical candidate so far"
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

@@ -17,7 +17,20 @@ buyer_wtp: high
 sales_cycle: medium
 regulatory_burden: medium
 tam_usd_m: 9500
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.3
+- F.2
+technology_platform_ids: []
+new_capability: "Metabolic digital twin from CGM, wearable, and lab data that guides daily care and medication reduction."
+technology_readiness_level: 8
+commercialisation_status: commercial_scaled
+customer:
+  - payer
+  - provider
+  - consumer
+limiting_factor: "Durable behaviour change and payer/employer distribution, not the model, are the bottleneck."
+last_verified: "2026-07-07"
 data_centrality: core-moat
 data_ownership:
   - proprietary

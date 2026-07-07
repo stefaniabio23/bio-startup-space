@@ -40,10 +40,38 @@ properties:
   # ── BUSINESS ──────────────────────────────────────────────
   business_model:
     type: string
-    enum: [partnerships, own-pipeline, saas, services, reimbursement, hybrid]
+    description: >
+      v2 expanded set plus v1 legacy aliases. Full controlled list in
+      taxonomy/taxonomy.yaml; the validator enforces membership there too.
+    enum:
+      - saas
+      - data_licensing
+      - api_model_as_a_service
+      - fee_for_service_research
+      - platform_partnership
+      - owned_pipeline
+      - platform_to_pipeline_hybrid
+      - diagnostic_per_test
+      - device_consumables
+      - monitoring_subscription
+      - consumer_subscription
+      - care_delivery
+      - pharmacy_prescribing_access
+      - manufacturing_cdmo
+      - research_tools
+      - ip_licensing
+      - outcome_based_value_based_care
+      - marketplace_network
+      - regulatory_evidence_generation
+      - newco_asset_creation
+      - partnerships
+      - own-pipeline
+      - services
+      - reimbursement
+      - hybrid
   buyer:
     type: array
-    description: "pharma | biotech | payer | provider | consumer | cro | investor"
+    description: "who pays; see taxonomy/taxonomy.yaml buyer set"
     items:
       type: string
   buyer_urgency:
@@ -105,7 +133,42 @@ properties:
     enum: [moderate, hard, very-hard, moonshot]
   hardness_reason:
     type: string
-    description: One line — the single hardest problem to solve
+    description: One line, the single hardest problem to solve
+
+  # ── V2 SUBSTRATE + PRIMITIVE LINK (optional; v1 entries omit) ──
+  substrate_family:
+    type: string
+    enum: [A, B, C, D, E, F]
+  substrate_tags:
+    type: array
+    items:
+      type: string
+    description: dotted codes from taxonomy/taxonomy.yaml (e.g. D.1, D.3)
+  technology_platform_ids:
+    type: array
+    items:
+      type: string
+      pattern: "^[a-z0-9-]+$"
+    description: primitive ids this company is built on (must resolve to primitives/)
+  technology_platform_name:
+    type: string
+  new_capability:
+    type: string
+    description: One line (<=180 chars), what the company newly enables
+  technology_readiness_level:
+    type: integer
+    minimum: 1
+    maximum: 9
+  limiting_factor:
+    type: string
+    description: If commercial then N/A; else one line on what must happen
+  commercialisation_status:
+    type: string
+  customer:
+    type: array
+    items:
+      type: string
+    description: who pays; see taxonomy/taxonomy.yaml customer set
 
   # ── META ──────────────────────────────────────────────────
   last_verified:

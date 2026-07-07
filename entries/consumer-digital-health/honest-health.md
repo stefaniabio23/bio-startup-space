@@ -39,7 +39,19 @@ barrier_to_entry: high
 barrier_to_entry_logic: Deep integration with health system EHR and financial workflows, credentialed clinical operations team, and CMS policy relationships built by founders (former CMMI leadership) are hard to replicate quickly.
 hardness: hard
 hardness_reason: Sustaining shared-savings performance across diverse health system partners at scale while Medicare Advantage payment policy shifts under the feet.
-last_verified: "2026-06-22"
+substrate_family: F
+substrate_tags:
+- F.4
+- F.6
+technology_platform_ids: []
+new_capability: "Embeds predictive risk stratification and clinical operations inside health systems to run shared-risk value-based contracts."
+technology_readiness_level: 8
+commercialisation_status: commercial_early
+customer:
+  - provider
+  - payer
+limiting_factor: "Revenue depends on shared savings, exposed to Medicare Advantage rate pressure and CMS policy shifts."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

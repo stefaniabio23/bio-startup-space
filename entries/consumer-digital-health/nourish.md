@@ -41,7 +41,19 @@ barrier_to_entry: medium
 barrier_to_entry_logic: Building a W-2 network of 3,000+ registered dietitians credentialed with commercial, Medicare, and Medicaid payers across all 50 states took significant capital and time; insurance billing infrastructure for dietitian services is complex and historically under-built.
 hardness: moderate
 hardness_reason: Demonstrating durable clinical outcomes (A1C reduction, weight, comorbidity management) from nutrition-only and nutrition-plus-GLP-1 care across a diverse, high-chronic-disease population at scale.
-last_verified: "2026-06-22"
+substrate_family: F
+substrate_tags:
+- F.1
+technology_platform_ids: []
+new_capability: "Insurance-covered registered-dietitian care at scale with dual-agent AI coaching and GLP-1 prescribing."
+technology_readiness_level: 8
+commercialisation_status: commercial_scaled
+customer:
+  - consumer
+  - payer
+  - provider
+limiting_factor: "Low dietitian reimbursement compresses margin and outcome data is not yet independently published at scale."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

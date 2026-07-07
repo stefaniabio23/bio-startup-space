@@ -6,8 +6,8 @@ The Sheet is a downstream render target. GitHub is canonical.
 Each run clears and rewrites the Companies tab.
 
 Required env vars:
-  GOOGLE_SERVICE_ACCOUNT_JSON  — full JSON of a service account with editor access
-  GOOGLE_SHEET_ID              — the spreadsheet ID
+  GOOGLE_SERVICE_ACCOUNT_JSON , full JSON of a service account with editor access
+  GOOGLE_SHEET_ID             , the spreadsheet ID
 
 Run:
   export GOOGLE_SERVICE_ACCOUNT_JSON="$(cat ~/.config/bio-startup-space-sa.json)"
@@ -34,6 +34,9 @@ except ImportError:
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 TABS = [
     ("Companies", "companies.csv"),
+    ("Primitives", "primitives.csv"),
+    ("Ideas", "ideas.csv"),
+    ("Taxonomies", "taxonomies.csv"),
 ]
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 GENERATED_DIR = PROJECT_ROOT / "generated"

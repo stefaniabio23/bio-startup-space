@@ -39,7 +39,18 @@ barrier_to_entry: high
 barrier_to_entry_logic: IBD drug development requires large, expensive Phase 2/3 trials with endoscopic endpoints; dominant competitors (AbbVie, J&J, Takeda, Pfizer) have entrenched relationships and biologic market share that new oral entrants must overcome.
 hardness: hard
 hardness_reason: Demonstrating clinically meaningful, endoscopy-confirmed remission in IBD with an oral small molecule against a biologics-dominated standard of care while avoiding PDE4D-related side effects (nausea, CNS) at doses required for efficacy.
-last_verified: "2026-06-22"
+substrate_family: E
+substrate_tags:
+- E.1
+technology_platform_ids: []
+new_capability: "Once-daily oral PDE4B-selective inhibitor for IBD, aiming for biologic-level remission without PDE4D-driven nausea and CNS effects"
+technology_readiness_level: 6
+commercialisation_status: regulatory_review
+customer:
+  - payer
+  - provider
+limiting_factor: "PDE4B-selectivity thesis untested at efficacious doses; Crohn's efficacy and biologic-matching endoscopic remission are high bars"
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

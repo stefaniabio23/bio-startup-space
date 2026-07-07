@@ -38,7 +38,19 @@ barrier_to_entry: high
 barrier_to_entry_logic: EHR-powered recruitment and AI trial OS require health system integrations that take years to establish; performance-based pricing requires capital to absorb trial risk upfront.
 hardness: very-hard
 hardness_reason: Proving the AI trial operating system genuinely accelerates timelines and reduces cost enough to displace entrenched CROs with decades of pharma relationships and infrastructure.
-last_verified: "2026-06-22"
+substrate_family: B
+substrate_tags:
+- B.4
+technology_platform_ids:
+  - ai-trial-operations
+new_capability: "AI-assisted trial operating system with EHR-powered recruitment and performance-based pricing that ties fees to milestone delivery."
+technology_readiness_level: 7
+commercialisation_status: commercial_early
+customer:
+  - pharma
+  - biotech
+limiting_factor: "Limited Phase 3 pivotal track record versus entrenched CROs; performance-based model needs capital to absorb trial risk."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

@@ -40,7 +40,19 @@ barrier_to_entry: high
 barrier_to_entry_logic: AI-driven drug development platform requires years of trial execution data to calibrate; Moderna investment and top-tier backing signal access to deal flow and clinical data that competitors cannot easily source.
 hardness: very-hard
 hardness_reason: Acquiring undervalued clinical-stage assets at the right price and demonstrating the AI development platform materially improves development timelines or success rates above industry baseline.
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.3
+technology_platform_ids: []
+new_capability: "AI-native development platform that acquires clinical-stage assets and compresses trial design, recruitment, and execution timelines"
+technology_readiness_level: 6
+commercialisation_status: regulatory_review
+customer:
+  - pharma
+  - payer
+  - provider
+limiting_factor: "No approved drugs; value hinges on sourcing undervalued assets at the right price and proving the platform beats industry baseline"
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

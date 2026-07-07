@@ -42,7 +42,17 @@ barrier_to_entry: very-high
 barrier_to_entry_logic: RESTORE-seq platform tests thousands of TF payload combinations in parallel, a proprietary experimental system that competitors would take years to replicate; the data flywheel compounds as Ambrosia AI retrain on each screen, and co-founders Brian Armstrong and Blake Byers provide capital access that few longevity startups can match.
 hardness: moonshot
 hardness_reason: No reprogramming medicine has ever entered human trials; demonstrating that partial epigenetic reprogramming in vivo is safe (does not cause dedifferentiation or tumorigenesis), durable, and produces a clinically meaningful health outcome in any human indication.
-last_verified: "2026-06-22"
+substrate_family: E
+substrate_tags:
+- E.3
+technology_platform_ids: []
+new_capability: "Identifies transcription-factor combinations that reprogram old cells to a youthful epigenetic state via the RESTORE-seq screening platform."
+technology_readiness_level: 4
+commercialisation_status: preclinical
+customer:
+  - pharma
+limiting_factor: "No IND filed; in-vivo TF delivery and reprogramming safety (tumorigenesis, loss of cell identity) unproven at therapeutic doses."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner

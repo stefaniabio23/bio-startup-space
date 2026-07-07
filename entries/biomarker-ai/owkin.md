@@ -16,7 +16,20 @@ buyer_wtp: high
 sales_cycle: long
 regulatory_burden: heavy
 tam_usd_m: 50000
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.3
+- A.1
+technology_platform_ids:
+  - multimodal-clinical-data-platform
+new_capability: "Federated multimodal AI across 100+ hospitals that trains on oncology cohorts (pathology, omics, EHR) without centralising patient data"
+technology_readiness_level: 8
+commercialisation_status: commercial_early
+customer:
+  - pharma
+  - biotech
+limiting_factor: "Federated access is a data moat, not an algorithmic one; K Pro AI Scientist traction at the new autonomous layer is unproven"
+last_verified: "2026-07-07"
 data_centrality: core-moat
 data_ownership:
  - partner-supplied

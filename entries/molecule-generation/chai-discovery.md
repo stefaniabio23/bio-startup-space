@@ -40,7 +40,20 @@ barrier_to_entry: high
 barrier_to_entry_logic: Open-source Chai-1 built rapid pharma adoption before monetisation; Lilly and Pfizer deals within 18 months of founding create distribution lock-in that is hard to displace.
 hardness: very-hard
 hardness_reason: Scaling from zero-shot antibody design to full therapeutic programs requires wet-lab, manufacturability, and clinical validation infrastructure the current team does not yet own.
-last_verified: "2026-06-22"
+substrate_family: C
+substrate_tags:
+- C.1
+- C.2
+technology_platform_ids:
+  - protein-design-diffusion-models
+new_capability: "Zero-shot de novo antibody design (Chai-2) reaching double-digit experimental hit rates, with full-atom structure prediction across all molecule classes."
+technology_readiness_level: 6
+commercialisation_status: pilot_deployment
+customer:
+  - pharma
+  - biotech
+limiting_factor: "Upstream of developability, dosing, and clinical proof; owns no therapeutic program."
+last_verified: "2026-07-07"
 ---
 
 ## One-liner
