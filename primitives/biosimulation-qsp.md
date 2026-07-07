@@ -56,12 +56,12 @@ defensibility: high
 notes: "Certara Simcyp PBPK is the mature, regulator-accepted end (TRL 8); Unlearn digital twins and QuantHealth or VeriSIM in-silico trials sit earlier and lean on ML. FDA model-informed drug development guidance is the main tailwind."
 scan:
   bucket: commercialising-now
-  paper_cagr_pct: 22.0
-  mean_fwci: 2.15
-  industry_share: 0.5
-  patent_total: 151
-  patent_cagr_pct: 30.3
-  company_share: 0.87
+  paper_cagr_pct: 23.0
+  mean_fwci: 2.4
+  industry_share: 0.333
+  patent_total: 349
+  patent_cagr_pct: 28.8
+  company_share: 0.64
   as_of: '2026-07-07'
 last_verified: "2026-07-07"
 ---

@@ -67,13 +67,13 @@ capex_intensity: medium
 defensibility: medium
 notes: Mana.bio runs a Learn-Design-Make-Generate loop, reporting >45,000 experimental data points across 4,300+ formulations and evolutionary lipid design; published AI-designed LNPs for pulmonary gene therapy (Nat Biotechnol 2024). InstaDeep acquired by BioNTech. Value depends on proprietary screening data, hence medium defensibility.
 scan:
-  bucket: emerging
-  paper_cagr_pct: null
-  mean_fwci: 15.77
-  industry_share: 0.0
-  patent_total: null
-  patent_cagr_pct: null
-  company_share: null
+  bucket: commercialising-now
+  paper_cagr_pct: 42.3
+  mean_fwci: 9.12
+  industry_share: 0.088
+  patent_total: 4149
+  patent_cagr_pct: 57.4
+  company_share: 0.125
   as_of: '2026-07-07'
 last_verified: "2026-07-06"
 ---

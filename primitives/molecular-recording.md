@@ -56,12 +56,12 @@ defensibility: high
 notes: "Split out from the old bundled dna-data-storage primitive as its own research primitive: writing biological events, not digital data, into a genome. Frontier is essentially all academic (Shendure DNA Typewriter and ENGRAM, Lu SCRIBE, peCHYRON). Deliberately does NOT list Prime Medicine as a closest company: Prime Medicine does therapeutic gene correction (see prime-base-editing), a different primitive, even though it shares the prime-editing write chemistry. TRL 3 with in-vivo animal evidence for lineage recording; neural and transcriptome recording is earlier at TRL 2. Tags span E.3 (in-vivo cells) and E.1 (synthetic bio) for the engineered recording circuits."
 scan:
   bucket: hot-but-under-patented
-  paper_cagr_pct: 49.1
-  mean_fwci: 3.26
+  paper_cagr_pct: 37.9
+  mean_fwci: 4.41
   industry_share: 0.333
-  patent_total: null
-  patent_cagr_pct: null
-  company_share: null
+  patent_total: 59
+  patent_cagr_pct: 4.9
+  company_share: 0.261
   as_of: '2026-07-07'
 last_verified: "2026-07-07"
 ---

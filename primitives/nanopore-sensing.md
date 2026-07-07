@@ -85,13 +85,13 @@ momentum:
   status: early-startups
   as_of: 2026-07
 scan:
-  bucket: hot-but-under-patented
-  paper_cagr_pct: 32.8
-  mean_fwci: 4.51
-  industry_share: 0.021
-  patent_total: null
-  patent_cagr_pct: null
-  company_share: null
+  bucket: over-patented-crowded
+  paper_cagr_pct: 31.4
+  mean_fwci: 4.66
+  industry_share: 0.034
+  patent_total: 8004
+  patent_cagr_pct: 9.7
+  company_share: 0.545
   as_of: '2026-07-07'
 last_verified: "2026-07-06"
 ---

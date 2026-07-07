@@ -59,9 +59,9 @@ scan:
   paper_cagr_pct: 58.1
   mean_fwci: 3.02
   industry_share: 1.0
-  patent_total: null
+  patent_total: 29
   patent_cagr_pct: null
-  company_share: null
+  company_share: 0.731
   as_of: '2026-07-07'
 last_verified: "2026-07-07"
 ---

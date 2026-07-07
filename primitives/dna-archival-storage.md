@@ -69,12 +69,12 @@ momentum:
   as_of: 2026-07
 scan:
   bucket: commercialising-now
-  paper_cagr_pct: 27.4
-  mean_fwci: 4.56
-  industry_share: 0.024
-  patent_total: 353
-  patent_cagr_pct: 19.5
-  company_share: 0.556
+  paper_cagr_pct: 29.8
+  mean_fwci: 3.86
+  industry_share: 0.031
+  patent_total: 383
+  patent_cagr_pct: 17.2
+  company_share: 0.444
   as_of: '2026-07-07'
 last_verified: "2026-07-07"
 ---

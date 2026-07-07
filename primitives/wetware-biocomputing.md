@@ -54,13 +54,13 @@ capex_intensity: high
 defensibility: high
 notes: Cortical Labs launched the CL1 in March 2025, described as the first commercially available biological computer (about $35,000, neurons kept alive up to ~6 months), and offers a Cortical Cloud Wetware-as-a-Service with a Python SDK. FinalSpark runs a remote Neuroplatform of brain organoids with lifetimes exceeding 100 days. Early-stage products sold mainly to researchers.
 scan:
-  bucket: hot-but-under-patented
-  paper_cagr_pct: 17.8
-  mean_fwci: null
-  industry_share: null
-  patent_total: null
-  patent_cagr_pct: null
-  company_share: null
+  bucket: over-patented-crowded
+  paper_cagr_pct: 19.2
+  mean_fwci: 8.19
+  industry_share: 0.0
+  patent_total: 4025
+  patent_cagr_pct: -12.9
+  company_share: 0.556
   as_of: '2026-07-07'
 last_verified: "2026-07-06"
 ---

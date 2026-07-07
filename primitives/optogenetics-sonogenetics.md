@@ -66,13 +66,13 @@ momentum:
   status: uncommercialized
   as_of: 2026-07
 scan:
-  bucket: emerging
+  bucket: patented-not-company-led
   paper_cagr_pct: 13.5
-  mean_fwci: 2.2
+  mean_fwci: 2.29
   industry_share: 0.0
-  patent_total: null
-  patent_cagr_pct: null
-  company_share: null
+  patent_total: 1938
+  patent_cagr_pct: 7.2
+  company_share: 0.082
   as_of: '2026-07-07'
 last_verified: "2026-07-06"
 ---

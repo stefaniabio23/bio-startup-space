@@ -76,11 +76,11 @@ momentum:
 scan:
   bucket: patented-not-company-led
   paper_cagr_pct: 20.0
-  mean_fwci: 7.43
-  industry_share: 0.031
+  mean_fwci: 7.12
+  industry_share: 0.036
   patent_total: 1035
   patent_cagr_pct: 16.9
-  company_share: 0.219
+  company_share: 0.158
   as_of: '2026-07-07'
 last_verified: "2026-07-06"
 ---
