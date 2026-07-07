@@ -23,15 +23,6 @@ const nhgDisplay = localFont({
     { path: './fonts/nhg-display-bold.woff2', weight: '700', style: 'normal' },
   ],
 })
-const jbMono = localFont({
-  variable: '--font-mono-jb',
-  display: 'swap',
-  src: [
-    { path: './fonts/jbmono-400.woff2', weight: '400', style: 'normal' },
-    { path: './fonts/jbmono-700.woff2', weight: '700', style: 'normal' },
-  ],
-})
-
 export const metadata: Metadata = {
   title: 'tech-bio-map · techbio primitive & venture explorer',
   description:
@@ -56,7 +47,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${nhgText.variable} ${nhgDisplay.variable} ${jbMono.variable}`}
+      className={`${nhgText.variable} ${nhgDisplay.variable}`}
     >
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeInit }} />

@@ -45,7 +45,7 @@
   --radius-4xl: 0px;
   --font-sans: var(--font-nhg), 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --font-display: var(--font-nhg-display), var(--font-nhg), 'Helvetica Neue', sans-serif;
-  --font-mono: var(--font-mono-jb), ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-mono: var(--font-nhg), 'Helvetica Neue', Helvetica, Arial, sans-serif; /* all-Neue-Haas: no monospace */
 }
 
 /* ==========================================================================
