@@ -55,6 +55,15 @@ regulatory_complexity: low
 capex_intensity: high
 defensibility: high
 notes: "Distinct from protein-design-diffusion-models: this is the general pretrained substrate (sequence and cell state), while diffusion models are the generative design layer that often sits on top of it."
+scan:
+  bucket: patented-not-company-led
+  paper_cagr_pct: 202.2
+  mean_fwci: 13.23
+  industry_share: 0.029
+  patent_total: 338
+  patent_cagr_pct: 349.8
+  company_share: 0.097
+  as_of: '2026-07-07'
 last_verified: "2026-07-07"
 ---
 

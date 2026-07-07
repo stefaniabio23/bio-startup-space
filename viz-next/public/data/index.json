@@ -9713,6 +9713,16 @@
     "capex_intensity": "medium",
     "defensibility": "medium",
     "notes": "Mana.bio runs a Learn-Design-Make-Generate loop, reporting >45,000 experimental data points across 4,300+ formulations and evolutionary lipid design; published AI-designed LNPs for pulmonary gene therapy (Nat Biotechnol 2024). InstaDeep acquired by BioNTech. Value depends on proprietary screening data, hence medium defensibility.",
+    "scan": {
+      "bucket": "emerging",
+      "paper_cagr_pct": null,
+      "mean_fwci": 15.77,
+      "industry_share": 0.0,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-06",
     "type": "primitive"
   },
@@ -9790,6 +9800,16 @@
     "capex_intensity": "medium",
     "defensibility": "medium",
     "notes": "TRL 8 overall. Many single-task detectors are FDA-cleared and marketed (TRL 9); multi-condition imaging foundation models (Aidoc CARE, 11 newly cleared indications, Jan 2026) and digital pathology (Paige acquired by Tempus Aug 2025; PathAI AISight Dx cleared Jun 2025) are newer. Full-body preventive scan players (Neko) sit earlier on evidence.",
+    "scan": {
+      "bucket": "commercialising-now",
+      "paper_cagr_pct": 55.0,
+      "mean_fwci": 36.07,
+      "industry_share": 0.073,
+      "patent_total": 371,
+      "patent_cagr_pct": 29.5,
+      "company_share": 0.118,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-07",
     "type": "primitive"
   },
@@ -9861,6 +9881,16 @@
     "capex_intensity": "low",
     "defensibility": "medium",
     "notes": "Deep 6 AI and Inato lead matching and site marketplaces; Lindus Health (raised $55M Series B, Jan 2025) runs an AI-native CRO model; ArisGlobal and Yseop focus on safety and regulatory document automation. Value is real but gated by EHR access and workflow adoption.",
+    "scan": {
+      "bucket": "emerging",
+      "paper_cagr_pct": null,
+      "mean_fwci": 9.15,
+      "industry_share": 0.069,
+      "patent_total": 1,
+      "patent_cagr_pct": null,
+      "company_share": 1.0,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-07",
     "type": "primitive"
   },
@@ -9939,6 +9969,16 @@
       "status": "uncommercialized",
       "as_of": "2026-07"
     },
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 30.8,
+      "mean_fwci": 0.0,
+      "industry_share": 0.0,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-06",
     "type": "primitive"
   },
@@ -10012,6 +10052,16 @@
     "capex_intensity": "high",
     "defensibility": "high",
     "notes": "Distinct from protein-design-diffusion-models: this is the general pretrained substrate (sequence and cell state), while diffusion models are the generative design layer that often sits on top of it.",
+    "scan": {
+      "bucket": "patented-not-company-led",
+      "paper_cagr_pct": 202.2,
+      "mean_fwci": 13.23,
+      "industry_share": 0.029,
+      "patent_total": 338,
+      "patent_cagr_pct": 349.8,
+      "company_share": 0.097,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-07",
     "type": "primitive"
   },
@@ -10083,6 +10133,16 @@
     "capex_intensity": "medium",
     "defensibility": "high",
     "notes": "Certara Simcyp PBPK is the mature, regulator-accepted end (TRL 8); Unlearn digital twins and QuantHealth or VeriSIM in-silico trials sit earlier and lean on ML. FDA model-informed drug development guidance is the main tailwind.",
+    "scan": {
+      "bucket": "commercialising-now",
+      "paper_cagr_pct": 22.0,
+      "mean_fwci": 2.15,
+      "industry_share": 0.5,
+      "patent_total": 151,
+      "patent_cagr_pct": 30.3,
+      "company_share": 0.87,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-07",
     "type": "primitive"
   },
@@ -10171,6 +10231,16 @@
       "confidence": "high",
       "status": "uncommercialized",
       "as_of": "2026-07"
+    },
+    "scan": {
+      "bucket": "emerging",
+      "paper_cagr_pct": 9.7,
+      "mean_fwci": 5.15,
+      "industry_share": 0.0,
+      "patent_total": 119,
+      "patent_cagr_pct": -16.3,
+      "company_share": 0.207,
+      "as_of": "2026-07-07"
     },
     "last_verified": "2026-07-06",
     "type": "primitive"
@@ -10264,6 +10334,16 @@
       "status": "early-startups",
       "as_of": "2026-07"
     },
+    "scan": {
+      "bucket": "patented-not-company-led",
+      "paper_cagr_pct": 23.9,
+      "mean_fwci": 9.94,
+      "industry_share": 0.033,
+      "patent_total": 233,
+      "patent_cagr_pct": 20.8,
+      "company_share": 0.053,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-06",
     "type": "primitive"
   },
@@ -10349,6 +10429,16 @@
       "confidence": "low",
       "status": "uncommercialized",
       "as_of": "2026-07"
+    },
+    "scan": {
+      "bucket": "commercialising-now",
+      "paper_cagr_pct": 27.4,
+      "mean_fwci": 4.56,
+      "industry_share": 0.024,
+      "patent_total": 353,
+      "patent_cagr_pct": 19.5,
+      "company_share": 0.556,
+      "as_of": "2026-07-07"
     },
     "last_verified": "2026-07-07",
     "type": "primitive"
@@ -10443,6 +10533,16 @@
       "status": "early-startups",
       "as_of": "2026-07"
     },
+    "scan": {
+      "bucket": "patented-not-company-led",
+      "paper_cagr_pct": 20.0,
+      "mean_fwci": 7.43,
+      "industry_share": 0.031,
+      "patent_total": 1035,
+      "patent_cagr_pct": 16.9,
+      "company_share": 0.219,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-06",
     "type": "primitive"
   },
@@ -10531,6 +10631,16 @@
       "status": "early-startups",
       "as_of": "2026-07"
     },
+    "scan": {
+      "bucket": "commercialising-now",
+      "paper_cagr_pct": 26.6,
+      "mean_fwci": 9.46,
+      "industry_share": 0.087,
+      "patent_total": 1078,
+      "patent_cagr_pct": 18.6,
+      "company_share": 0.312,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-07",
     "type": "primitive"
   },
@@ -10617,6 +10727,16 @@
       "confidence": "high",
       "status": "uncommercialized",
       "as_of": "2026-07"
+    },
+    "scan": {
+      "bucket": "over-patented-crowded",
+      "paper_cagr_pct": 13.8,
+      "mean_fwci": 4.25,
+      "industry_share": 0.024,
+      "patent_total": 2329,
+      "patent_cagr_pct": -12.2,
+      "company_share": 0.444,
+      "as_of": "2026-07-07"
     },
     "last_verified": "2026-07-07",
     "type": "primitive"
@@ -10707,6 +10827,16 @@
       "confidence": "high",
       "status": "early-startups",
       "as_of": "2026-07"
+    },
+    "scan": {
+      "bucket": "over-patented-crowded",
+      "paper_cagr_pct": 21.2,
+      "mean_fwci": 25.33,
+      "industry_share": 0.069,
+      "patent_total": 24660,
+      "patent_cagr_pct": 16.7,
+      "company_share": 0.429,
+      "as_of": "2026-07-07"
     },
     "last_verified": "2026-07-07",
     "type": "primitive"
@@ -10804,6 +10934,16 @@
       "status": "commercialized",
       "as_of": "2026-07"
     },
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 23.4,
+      "mean_fwci": 10.44,
+      "industry_share": 0.077,
+      "patent_total": 63,
+      "patent_cagr_pct": 4.0,
+      "company_share": 0.188,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-06",
     "type": "primitive"
   },
@@ -10882,6 +11022,16 @@
     "capex_intensity": "high",
     "defensibility": "high",
     "notes": "TRL 8 overall. Therapy-selection ctDNA genotyping and MRD monitoring are marketed and increasingly reimbursed (Guardant, Natera); multi-cancer early detection screening is later-stage (Grail Galleri PATHFINDER 2 at ASCO 2026, over 35,000 participants; Freenome and Guardant blood-based CRC tests added to ACS guidelines). Lower-confidence layer is asymptomatic screening evidence.",
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 53.5,
+      "mean_fwci": 13.5,
+      "industry_share": 0.052,
+      "patent_total": 118,
+      "patent_cagr_pct": 85.4,
+      "company_share": 0.533,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-07",
     "type": "primitive"
   },
@@ -10958,6 +11108,16 @@
       "confidence": "high",
       "status": "uncommercialized",
       "as_of": "2026-07"
+    },
+    "scan": {
+      "bucket": "emerging",
+      "paper_cagr_pct": 14.0,
+      "mean_fwci": 1.82,
+      "industry_share": 0.0,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
     },
     "last_verified": "2026-07-06",
     "type": "primitive"
@@ -11039,6 +11199,16 @@
       "status": "early-startups",
       "as_of": "2026-07"
     },
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 21.3,
+      "mean_fwci": 7.82,
+      "industry_share": 0.044,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-06",
     "type": "primitive"
   },
@@ -11107,6 +11277,16 @@
     "capex_intensity": "high",
     "defensibility": "medium",
     "notes": "Precision NanoSystems (now Cytiva) NanoAssemblr with NxGen microfluidics spans 0.5L to 400L batches with automated priming, calibration, and electronic batch records; the physics behind approved COVID-19 vaccine LNPs. Defensibility medium: mixer IP plus workflow, but multiple credible vendors.",
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 30.1,
+      "mean_fwci": 7.2,
+      "industry_share": 0.0,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-06",
     "type": "primitive"
   },
@@ -11186,6 +11366,16 @@
       "confidence": "high",
       "status": "uncommercialized",
       "as_of": "2026-07"
+    },
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 45.4,
+      "mean_fwci": 6.81,
+      "industry_share": 0.048,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
     },
     "last_verified": "2026-07-06",
     "type": "primitive"
@@ -11275,6 +11465,16 @@
       "status": "early-startups",
       "as_of": "2026-07"
     },
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 24.5,
+      "mean_fwci": 4.34,
+      "industry_share": 0.021,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-06",
     "type": "primitive"
   },
@@ -11347,6 +11547,16 @@
     "capex_intensity": "medium",
     "defensibility": "high",
     "notes": "Split out from the old bundled dna-data-storage primitive as its own research primitive: writing biological events, not digital data, into a genome. Frontier is essentially all academic (Shendure DNA Typewriter and ENGRAM, Lu SCRIBE, peCHYRON). Deliberately does NOT list Prime Medicine as a closest company: Prime Medicine does therapeutic gene correction (see prime-base-editing), a different primitive, even though it shares the prime-editing write chemistry. TRL 3 with in-vivo animal evidence for lineage recording; neural and transcriptome recording is earlier at TRL 2. Tags span E.3 (in-vivo cells) and E.1 (synthetic bio) for the engineered recording circuits.",
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 49.1,
+      "mean_fwci": 3.26,
+      "industry_share": 0.333,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-07",
     "type": "primitive"
   },
@@ -11426,6 +11636,16 @@
       "confidence": "high",
       "status": "uncommercialized",
       "as_of": "2026-07"
+    },
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 15.6,
+      "mean_fwci": 6.32,
+      "industry_share": 0.015,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
     },
     "last_verified": "2026-07-06",
     "type": "primitive"
@@ -11517,6 +11737,16 @@
       "status": "commercialized",
       "as_of": "2026-07"
     },
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 61.3,
+      "mean_fwci": 22.04,
+      "industry_share": 0.107,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-06",
     "type": "primitive"
   },
@@ -11588,6 +11818,16 @@
     "capex_intensity": "high",
     "defensibility": "high",
     "notes": "Flatiron (oncology RWD) and Tempus (clinico-genomic) are the scaled players; Owkin adds federated multimodal learning across hospitals. The scarce asset is linked, curated multimodal data, not single-modality volume.",
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 58.1,
+      "mean_fwci": 3.02,
+      "industry_share": 1.0,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-07",
     "type": "primitive"
   },
@@ -11674,6 +11914,16 @@
       "confidence": "high",
       "status": "early-startups",
       "as_of": "2026-07"
+    },
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 41.3,
+      "mean_fwci": 6.74,
+      "industry_share": 0.026,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
     },
     "last_verified": "2026-07-06",
     "type": "primitive"
@@ -11782,6 +12032,16 @@
       "status": "early-startups",
       "as_of": "2026-07"
     },
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 32.8,
+      "mean_fwci": 4.51,
+      "industry_share": 0.021,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-06",
     "type": "primitive"
   },
@@ -11869,6 +12129,16 @@
       "confidence": "high",
       "status": "early-startups",
       "as_of": "2026-07"
+    },
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 19.1,
+      "mean_fwci": 5.22,
+      "industry_share": 0.071,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
     },
     "last_verified": "2026-07-06",
     "type": "primitive"
@@ -11958,6 +12228,16 @@
       "status": "early-startups",
       "as_of": "2026-07"
     },
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 34.0,
+      "mean_fwci": 3.88,
+      "industry_share": 0.04,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-06",
     "type": "primitive"
   },
@@ -12041,6 +12321,16 @@
       "confidence": "medium",
       "status": "uncommercialized",
       "as_of": "2026-07"
+    },
+    "scan": {
+      "bucket": "emerging",
+      "paper_cagr_pct": 13.5,
+      "mean_fwci": 2.2,
+      "industry_share": 0.0,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
     },
     "last_verified": "2026-07-06",
     "type": "primitive"
@@ -12135,6 +12425,16 @@
       "status": "early-startups",
       "as_of": "2026-07"
     },
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 22.5,
+      "mean_fwci": 4.46,
+      "industry_share": 0.069,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-06",
     "type": "primitive"
   },
@@ -12228,6 +12528,16 @@
       "status": "early-startups",
       "as_of": "2026-07"
     },
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 36.9,
+      "mean_fwci": 9.38,
+      "industry_share": 0.054,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-06",
     "type": "primitive"
   },
@@ -12309,6 +12619,16 @@
       "confidence": "high",
       "status": "early-startups",
       "as_of": "2026-07"
+    },
+    "scan": {
+      "bucket": "emerging",
+      "paper_cagr_pct": 9.9,
+      "mean_fwci": 4.03,
+      "industry_share": 1.0,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
     },
     "last_verified": "2026-07-06",
     "type": "primitive"
@@ -12396,6 +12716,16 @@
       "status": "early-startups",
       "as_of": "2026-07"
     },
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 39.8,
+      "mean_fwci": 12.33,
+      "industry_share": 0.051,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-07",
     "type": "primitive"
   },
@@ -12482,6 +12812,16 @@
       "status": "early-startups",
       "as_of": "2026-07"
     },
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 27.0,
+      "mean_fwci": 18.47,
+      "industry_share": 0.1,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-06",
     "type": "primitive"
   },
@@ -12564,6 +12904,16 @@
       "status": "uncommercialized",
       "as_of": "2026-07"
     },
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 32.6,
+      "mean_fwci": 4.6,
+      "industry_share": 0.13,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-06",
     "type": "primitive"
   },
@@ -12632,6 +12982,16 @@
     "capex_intensity": "high",
     "defensibility": "high",
     "notes": "Distinct from terahertz-metasurfaces: same idea of engineered metasurface light control, but a different physical mechanism (Raman scattering on silicon nanophotonics, not terahertz absorption). Created to give Pumpkinseed Bio a correct join key instead of borrowing the terahertz primitive.",
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 81.7,
+      "mean_fwci": 5.0,
+      "industry_share": 0.08,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-06",
     "type": "primitive"
   },
@@ -12711,6 +13071,16 @@
       "confidence": "high",
       "status": "early-startups",
       "as_of": "2026-07"
+    },
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 42.1,
+      "mean_fwci": 4.03,
+      "industry_share": 0.0,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
     },
     "last_verified": "2026-07-06",
     "type": "primitive"
@@ -12802,6 +13172,16 @@
       "status": "commercialized",
       "as_of": "2026-07"
     },
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 89.9,
+      "mean_fwci": 19.01,
+      "industry_share": 0.067,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-06",
     "type": "primitive"
   },
@@ -12878,6 +13258,16 @@
       "status": "uncommercialized",
       "as_of": "2026-07"
     },
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 39.2,
+      "mean_fwci": null,
+      "industry_share": null,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-06",
     "type": "primitive"
   },
@@ -12951,6 +13341,16 @@
       "confidence": "high",
       "status": "uncommercialized",
       "as_of": "2026-07"
+    },
+    "scan": {
+      "bucket": "emerging",
+      "paper_cagr_pct": 11.9,
+      "mean_fwci": 2.13,
+      "industry_share": 0.2,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
     },
     "last_verified": "2026-07-06",
     "type": "primitive"
@@ -13032,6 +13432,16 @@
       "confidence": "high",
       "status": "uncommercialized",
       "as_of": "2026-07"
+    },
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 24.4,
+      "mean_fwci": 11.52,
+      "industry_share": 0.222,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
     },
     "last_verified": "2026-07-06",
     "type": "primitive"
@@ -13124,6 +13534,16 @@
       "status": "early-startups",
       "as_of": "2026-07"
     },
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 29.6,
+      "mean_fwci": 11.35,
+      "industry_share": 0.032,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-07",
     "type": "primitive"
   },
@@ -13194,6 +13614,16 @@
     "capex_intensity": "high",
     "defensibility": "high",
     "notes": "Cortical Labs launched the CL1 in March 2025, described as the first commercially available biological computer (about $35,000, neurons kept alive up to ~6 months), and offers a Cortical Cloud Wetware-as-a-Service with a Python SDK. FinalSpark runs a remote Neuroplatform of brain organoids with lifetimes exceeding 100 days. Early-stage products sold mainly to researchers.",
+    "scan": {
+      "bucket": "hot-but-under-patented",
+      "paper_cagr_pct": 17.8,
+      "mean_fwci": null,
+      "industry_share": null,
+      "patent_total": null,
+      "patent_cagr_pct": null,
+      "company_share": null,
+      "as_of": "2026-07-07"
+    },
     "last_verified": "2026-07-06",
     "type": "primitive"
   },

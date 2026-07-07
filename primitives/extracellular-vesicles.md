@@ -71,6 +71,15 @@ momentum:
   confidence: high
   status: early-startups
   as_of: 2026-07
+scan:
+  bucket: over-patented-crowded
+  paper_cagr_pct: 21.2
+  mean_fwci: 25.33
+  industry_share: 0.069
+  patent_total: 24660
+  patent_cagr_pct: 16.7
+  company_share: 0.429
+  as_of: '2026-07-07'
 last_verified: "2026-07-07"
 ---
 

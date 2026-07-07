@@ -60,6 +60,15 @@ regulatory_complexity: high
 capex_intensity: high
 defensibility: high
 notes: "TRL 8 overall. Therapy-selection ctDNA genotyping and MRD monitoring are marketed and increasingly reimbursed (Guardant, Natera); multi-cancer early detection screening is later-stage (Grail Galleri PATHFINDER 2 at ASCO 2026, over 35,000 participants; Freenome and Guardant blood-based CRC tests added to ACS guidelines). Lower-confidence layer is asymptomatic screening evidence."
+scan:
+  bucket: hot-but-under-patented
+  paper_cagr_pct: 53.5
+  mean_fwci: 13.5
+  industry_share: 0.052
+  patent_total: 118
+  patent_cagr_pct: 85.4
+  company_share: 0.533
+  as_of: '2026-07-07'
 last_verified: "2026-07-07"
 ---
 

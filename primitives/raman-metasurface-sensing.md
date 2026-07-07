@@ -51,6 +51,15 @@ regulatory_complexity: high
 capex_intensity: high
 defensibility: high
 notes: "Distinct from terahertz-metasurfaces: same idea of engineered metasurface light control, but a different physical mechanism (Raman scattering on silicon nanophotonics, not terahertz absorption). Created to give Pumpkinseed Bio a correct join key instead of borrowing the terahertz primitive."
+scan:
+  bucket: hot-but-under-patented
+  paper_cagr_pct: 81.7
+  mean_fwci: 5.0
+  industry_share: 0.08
+  patent_total: null
+  patent_cagr_pct: null
+  company_share: null
+  as_of: '2026-07-07'
 last_verified: "2026-07-06"
 ---
 

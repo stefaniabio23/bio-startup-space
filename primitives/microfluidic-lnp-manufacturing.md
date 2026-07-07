@@ -51,6 +51,15 @@ regulatory_complexity: medium
 capex_intensity: high
 defensibility: medium
 notes: "Precision NanoSystems (now Cytiva) NanoAssemblr with NxGen microfluidics spans 0.5L to 400L batches with automated priming, calibration, and electronic batch records; the physics behind approved COVID-19 vaccine LNPs. Defensibility medium: mixer IP plus workflow, but multiple credible vendors."
+scan:
+  bucket: hot-but-under-patented
+  paper_cagr_pct: 30.1
+  mean_fwci: 7.2
+  industry_share: 0.0
+  patent_total: null
+  patent_cagr_pct: null
+  company_share: null
+  as_of: '2026-07-07'
 last_verified: "2026-07-06"
 ---
 

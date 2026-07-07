@@ -59,6 +59,15 @@ regulatory_complexity: high
 capex_intensity: medium
 defensibility: medium
 notes: "TRL 8 overall. Many single-task detectors are FDA-cleared and marketed (TRL 9); multi-condition imaging foundation models (Aidoc CARE, 11 newly cleared indications, Jan 2026) and digital pathology (Paige acquired by Tempus Aug 2025; PathAI AISight Dx cleared Jun 2025) are newer. Full-body preventive scan players (Neko) sit earlier on evidence."
+scan:
+  bucket: commercialising-now
+  paper_cagr_pct: 55.0
+  mean_fwci: 36.07
+  industry_share: 0.073
+  patent_total: 371
+  patent_cagr_pct: 29.5
+  company_share: 0.118
+  as_of: '2026-07-07'
 last_verified: "2026-07-07"
 ---
 

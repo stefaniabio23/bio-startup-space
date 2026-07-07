@@ -54,6 +54,15 @@ regulatory_complexity: medium
 capex_intensity: low
 defensibility: medium
 notes: "Deep 6 AI and Inato lead matching and site marketplaces; Lindus Health (raised $55M Series B, Jan 2025) runs an AI-native CRO model; ArisGlobal and Yseop focus on safety and regulatory document automation. Value is real but gated by EHR access and workflow adoption."
+scan:
+  bucket: emerging
+  paper_cagr_pct: null
+  mean_fwci: 9.15
+  industry_share: 0.069
+  patent_total: 1
+  patent_cagr_pct: null
+  company_share: 1.0
+  as_of: '2026-07-07'
 last_verified: "2026-07-07"
 ---
 

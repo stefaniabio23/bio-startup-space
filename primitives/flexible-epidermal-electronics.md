@@ -75,6 +75,15 @@ momentum:
   confidence: high
   status: commercialized
   as_of: 2026-07
+scan:
+  bucket: hot-but-under-patented
+  paper_cagr_pct: 23.4
+  mean_fwci: 10.44
+  industry_share: 0.077
+  patent_total: 63
+  patent_cagr_pct: 4.0
+  company_share: 0.188
+  as_of: '2026-07-07'
 last_verified: "2026-07-06"
 ---
 

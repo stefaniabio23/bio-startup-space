@@ -243,6 +243,7 @@ def build_graph(by_type):
                 "trl_max": max(cap_trls) if cap_trls else "",
                 "capability_count": len(r.get("capabilities") or []),
                 "momentum": r.get("momentum", {}) if t == "primitive" else {},
+                "scan": r.get("scan", {}) if t == "primitive" else {},
                 "funding_stage": r.get("funding_stage", ""),
                 "total_funding_usd_m": r.get("total_funding_usd_m", ""),
                 "commercialisation_status": r.get("commercialisation_status", ""),

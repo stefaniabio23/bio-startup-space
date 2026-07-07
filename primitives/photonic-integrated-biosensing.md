@@ -64,6 +64,15 @@ momentum:
   confidence: high
   status: early-startups
   as_of: 2026-07
+scan:
+  bucket: emerging
+  paper_cagr_pct: 9.9
+  mean_fwci: 4.03
+  industry_share: 1.0
+  patent_total: null
+  patent_cagr_pct: null
+  company_share: null
+  as_of: '2026-07-07'
 last_verified: "2026-07-06"
 ---
 

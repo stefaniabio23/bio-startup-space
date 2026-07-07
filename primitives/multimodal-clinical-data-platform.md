@@ -54,6 +54,15 @@ regulatory_complexity: high
 capex_intensity: high
 defensibility: high
 notes: "Flatiron (oncology RWD) and Tempus (clinico-genomic) are the scaled players; Owkin adds federated multimodal learning across hospitals. The scarce asset is linked, curated multimodal data, not single-modality volume."
+scan:
+  bucket: hot-but-under-patented
+  paper_cagr_pct: 58.1
+  mean_fwci: 3.02
+  industry_share: 1.0
+  patent_total: null
+  patent_cagr_pct: null
+  company_share: null
+  as_of: '2026-07-07'
 last_verified: "2026-07-07"
 ---
 

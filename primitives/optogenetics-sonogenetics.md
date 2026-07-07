@@ -65,6 +65,15 @@ momentum:
   confidence: medium
   status: uncommercialized
   as_of: 2026-07
+scan:
+  bucket: emerging
+  paper_cagr_pct: 13.5
+  mean_fwci: 2.2
+  industry_share: 0.0
+  patent_total: null
+  patent_cagr_pct: null
+  company_share: null
+  as_of: '2026-07-07'
 last_verified: "2026-07-06"
 ---
 

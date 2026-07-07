@@ -11,6 +11,18 @@ export type RelationType =
   | "related"
   | "evidence"
 
+/** Commercialization scan (papers + patents) written by primitive-scanner */
+export interface Scan {
+  bucket?: string
+  paper_cagr_pct?: number
+  mean_fwci?: number
+  industry_share?: number
+  patent_total?: number
+  patent_cagr_pct?: number
+  company_share?: number
+  as_of?: string
+}
+
 /** Bibliometric momentum snapshot on a primitive */
 export interface Momentum {
   papers?: number
@@ -41,6 +53,7 @@ export interface GraphNode {
   commercialisation_status: string
   moat: string[]
   momentum?: Momentum
+  scan?: Scan
   // populated at runtime by force-graph
   x?: number
   y?: number
@@ -142,6 +155,7 @@ export interface EntityDetail {
   what_needs_to_happen?: string
   capabilities?: Capability[]
   momentum?: Momentum
+  scan?: Scan
   use_cases?: string[]
   evidence_level?: string
   regulatory_complexity?: string

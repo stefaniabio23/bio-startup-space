@@ -31,6 +31,7 @@ import type {
   EntityDetail,
   GraphNode,
   Momentum,
+  Scan,
   RelationType,
 } from "@/lib/types"
 
@@ -591,6 +592,41 @@ function EditForm({ detail, onClose }: { detail: EntityDetail; onClose: () => vo
   )
 }
 
+const BUCKET_STYLE: Record<string, { label: string; cls: string }> = {
+  "commercialising-now": { label: "Commercialising now", cls: "bg-sky-500/15 text-sky-300 border-sky-500/40" },
+  "patented-not-company-led": { label: "Patented, not company-led", cls: "bg-emerald-500/15 text-emerald-300 border-emerald-500/40" },
+  "hot-but-under-patented": { label: "Hot, under-patented", cls: "bg-amber-500/15 text-amber-300 border-amber-500/40" },
+  "over-patented-crowded": { label: "Over-patented / crowded", cls: "bg-red-500/15 text-red-300 border-red-500/40" },
+  "emerging": { label: "Emerging", cls: "bg-muted text-muted-foreground border-border" },
+}
+
+function ScanCard({ s }: { s: Scan }) {
+  const b = BUCKET_STYLE[s.bucket ?? ""] ?? BUCKET_STYLE["emerging"]
+  const pct = (v?: number) => (v == null ? "n/a" : `${v}%`)
+  const share = (v?: number) => (v == null ? "n/a" : `${Math.round(v * 100)}%`)
+  return (
+    <div className="rounded-md border border-border bg-card/60 p-3">
+      <div className="mb-2 flex items-center justify-between">
+        <span className="text-[11px] font-medium uppercase tracking-wide text-muted-foreground">
+          Commercialization scan
+        </span>
+        <span className={cn("rounded-md border px-1.5 py-0.5 text-[10.5px] font-semibold", b.cls)}>
+          {b.label}
+        </span>
+      </div>
+      <div className="grid grid-cols-2 gap-x-3 gap-y-1.5 text-[12px]">
+        <div><span className="text-muted-foreground">paper CAGR</span> <span className="tabular-nums text-foreground">{pct(s.paper_cagr_pct)}</span></div>
+        <div><span className="text-muted-foreground">mean FWCI</span> <span className="tabular-nums text-foreground">{s.mean_fwci ?? "n/a"}</span></div>
+        <div><span className="text-muted-foreground">patents</span> <span className="tabular-nums text-foreground">{s.patent_total ?? "n/a"}</span></div>
+        <div><span className="text-muted-foreground">patent CAGR</span> <span className="tabular-nums text-foreground">{pct(s.patent_cagr_pct)}</span></div>
+        <div><span className="text-muted-foreground">industry authors</span> <span className="tabular-nums text-foreground">{share(s.industry_share)}</span></div>
+        <div><span className="text-muted-foreground">company assignees</span> <span className="tabular-nums text-foreground">{share(s.company_share)}</span></div>
+      </div>
+      {s.as_of ? <div className="mt-2 text-[10px] text-muted-foreground">primitive-scanner, {s.as_of}</div> : null}
+    </div>
+  )
+}
+
 function MomentumCard({ m }: { m: Momentum }) {
   const stat = (label: string, value: string | number | undefined) =>
     value === undefined || value === "" ? null : (
@@ -675,6 +711,8 @@ function PrimitiveBody({ detail }: { detail: EntityDetail }) {
           </div>
         </div>
       ) : null}
+
+      {detail.scan && detail.scan.bucket ? <ScanCard s={detail.scan} /> : null}
 
       {detail.momentum && detail.momentum.papers ? (
         <MomentumCard m={detail.momentum} />
