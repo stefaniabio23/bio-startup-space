@@ -6,13 +6,17 @@ import type { EntityDetail, GraphData } from "./types"
 
 const fetcher = (url: string) => fetch(url).then((r) => r.json())
 
+// On GitHub Pages the app is served under /bio-startup-space, so static data
+// fetches must carry that prefix. Empty in local dev.
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? ""
+
 export function useGraphData() {
   const { data: graph, isLoading: graphLoading } = useSWR<GraphData>(
-    "/data/graph.json",
+    `${BASE}/data/graph.json`,
     fetcher,
   )
   const { data: index, isLoading: indexLoading } = useSWR<EntityDetail[]>(
-    "/data/index.json",
+    `${BASE}/data/index.json`,
     fetcher,
   )
 

@@ -42,6 +42,9 @@ export interface LinkedNode {
   relation: RelationType
 }
 
+// The GitHub Pages build is read-only (no /api/entry), so the edit affordance is hidden.
+const STATIC = process.env.NEXT_PUBLIC_STATIC === "1"
+
 interface DetailPanelProps {
   detail: EntityDetail | null
   node: GraphNode | null
@@ -316,15 +319,17 @@ export function DetailPanel({
               </div>
             </div>
             <div className="flex items-center gap-1">
-              <Button
-                variant={editing ? "secondary" : "ghost"}
-                size="icon-sm"
-                onClick={() => setEditing((v) => !v)}
-                aria-label="Edit entry"
-                title="Edit this entry"
-              >
-                <Pencil className="size-3.5" />
-              </Button>
+              {STATIC ? null : (
+                <Button
+                  variant={editing ? "secondary" : "ghost"}
+                  size="icon-sm"
+                  onClick={() => setEditing((v) => !v)}
+                  aria-label="Edit entry"
+                  title="Edit this entry"
+                >
+                  <Pencil className="size-3.5" />
+                </Button>
+              )}
               <Button
                 variant="ghost"
                 size="icon-sm"

@@ -7,6 +7,9 @@ import { cn } from "@/lib/utils"
 
 type View = "graph" | "table"
 
+// The GitHub Pages build has no write API, so edit/commit controls are hidden there.
+const STATIC = process.env.NEXT_PUBLIC_STATIC === "1"
+
 function CommitButton() {
   const [working, setWorking] = useState(false)
   const [msg, setMsg] = useState("")
@@ -137,7 +140,7 @@ export function TopBar({
             <span className="text-foreground">{edgeCount}</span> edges
           </span>
         </div>
-        <CommitButton />
+        {STATIC ? null : <CommitButton />}
       </div>
     </header>
   )

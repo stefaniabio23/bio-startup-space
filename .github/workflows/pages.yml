@@ -1,0 +1,77 @@
+name: Deploy viz to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "primitives/**"
+      - "entries/**"
+      - "ideas/**"
+      - "prior-work/**"
+      - "taxonomy/**"
+      - "scripts/**"
+      - "viz-next/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+# one concurrent deploy; let an in-progress run finish
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate graph + index from markdown
+        run: |
+          pip install pyyaml
+          python3 scripts/generate.py
+          mkdir -p viz-next/public/data
+          cp generated/graph.json generated/index.json viz-next/public/data/
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: viz-next/package-lock.json
+
+      - name: Build static site (read-only, no API routes)
+        working-directory: viz-next
+        env:
+          STATIC_EXPORT: "1"
+          BASE_PATH: "/bio-startup-space"
+        run: |
+          npm ci
+          rm -rf app/api            # server routes are excluded from the static build
+          touch public/.nojekyll    # serve _next/* unmangled
+          npm run build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: viz-next/out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
