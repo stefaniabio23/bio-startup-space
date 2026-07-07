@@ -4677,6 +4677,153 @@
       "total_funding_usd_m": "",
       "commercialisation_status": "",
       "moat": []
+    },
+    {
+      "id": "pw-detectr-sars-cov-2-2020",
+      "type": "prior_work",
+      "label": "CRISPR-Cas12-based detection of SARS-CoV-2",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": "",
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "pw-exosome-onchip-dl",
+      "type": "prior_work",
+      "label": "A deep learning-based integrated analytical sy\u2026",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": "",
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "pw-misev2023-2024",
+      "type": "prior_work",
+      "label": "Minimal information for studies of extracellul\u2026",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.5"
+      ],
+      "trl": "",
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "pw-nanopore-fulllength-protein-2023",
+      "type": "prior_work",
+      "label": "Unidirectional single-file transport of full-l\u2026",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.2"
+      ],
+      "trl": "",
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "pw-prime-editing-crops-2020",
+      "type": "prior_work",
+      "label": "Prime genome editing in rice and wheat",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.3"
+      ],
+      "trl": "",
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "pw-rfdiffusion-2023",
+      "type": "prior_work",
+      "label": "De novo design of protein structure and functi\u2026",
+      "substrate_family": "C",
+      "substrate_tags": [
+        "C.1",
+        "C.2"
+      ],
+      "trl": "",
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "pw-rosalind-cell-free-2020",
+      "type": "prior_work",
+      "label": "Cell-free biosensors for rapid detection of wa\u2026",
+      "substrate_family": "E",
+      "substrate_tags": [
+        "E.1",
+        "D.2"
+      ],
+      "trl": "",
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
+    },
+    {
+      "id": "pw-wearable-aptamer-hormone-2024",
+      "type": "prior_work",
+      "label": "A wearable aptamer nanobiosensor for non-invas\u2026",
+      "substrate_family": "D",
+      "substrate_tags": [
+        "D.1",
+        "D.3"
+      ],
+      "trl": "",
+      "trl_min": "",
+      "trl_max": "",
+      "capability_count": 0,
+      "momentum": {},
+      "funding_stage": "",
+      "total_funding_usd_m": "",
+      "commercialisation_status": "",
+      "moat": []
     }
   ],
   "edges": [
@@ -6734,6 +6881,61 @@
       "source": "idea-thz-metasurface-bmi",
       "target": "metamaterials-metasurfaces",
       "relation": "references"
+    },
+    {
+      "source": "pw-detectr-sars-cov-2-2020",
+      "target": "crispr-diagnostics",
+      "relation": "evidence"
+    },
+    {
+      "source": "pw-exosome-onchip-dl",
+      "target": "extracellular-vesicles",
+      "relation": "evidence"
+    },
+    {
+      "source": "pw-exosome-onchip-dl",
+      "target": "organ-on-chip",
+      "relation": "evidence"
+    },
+    {
+      "source": "pw-exosome-onchip-dl",
+      "target": "quantum-dot-sensing",
+      "relation": "evidence"
+    },
+    {
+      "source": "pw-exosome-onchip-dl",
+      "target": "ai-medical-imaging",
+      "relation": "evidence"
+    },
+    {
+      "source": "pw-misev2023-2024",
+      "target": "extracellular-vesicles",
+      "relation": "evidence"
+    },
+    {
+      "source": "pw-nanopore-fulllength-protein-2023",
+      "target": "nanopore-sensing",
+      "relation": "evidence"
+    },
+    {
+      "source": "pw-prime-editing-crops-2020",
+      "target": "prime-base-editing",
+      "relation": "evidence"
+    },
+    {
+      "source": "pw-rfdiffusion-2023",
+      "target": "protein-design-diffusion-models",
+      "relation": "evidence"
+    },
+    {
+      "source": "pw-rosalind-cell-free-2020",
+      "target": "cell-free-synthetic-biology",
+      "relation": "evidence"
+    },
+    {
+      "source": "pw-wearable-aptamer-hormone-2024",
+      "target": "electrochemical-aptamer-biosensing",
+      "relation": "evidence"
     }
   ]
 }

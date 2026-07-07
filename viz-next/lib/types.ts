@@ -1,4 +1,4 @@
-export type EntityType = "primitive" | "company" | "idea"
+export type EntityType = "primitive" | "company" | "idea" | "prior_work"
 
 export type SubstrateFamily = "A" | "B" | "C" | "D" | "E" | "F" | ""
 
@@ -9,6 +9,7 @@ export type RelationType =
   | "competes"
   | "complements"
   | "related"
+  | "evidence"
 
 /** Bibliometric momentum snapshot on a primitive */
 export interface Momentum {
@@ -76,6 +77,19 @@ export interface EntityDetail {
   name?: string
   // idea uses `idea` as its title / description
   idea?: string
+  // prior_work fields
+  title?: string
+  authors?: string[]
+  year?: number
+  venue?: string
+  doi?: string
+  url?: string
+  citations?: number
+  hypothesis?: string
+  methods?: string
+  what_it_proves?: string
+  next_question?: string
+  related_works?: string[]
   label?: string
   website?: string
   founded?: number
@@ -169,4 +183,5 @@ export const RELATION_TYPES: RelationType[] = [
   "competes",
   "complements",
   "related",
+  "evidence",
 ]

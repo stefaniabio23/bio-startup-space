@@ -404,6 +404,12 @@ function drawShape(
     ctx.lineTo(x, y + r)
     ctx.lineTo(x - r, y)
     ctx.closePath()
+  } else if (n.type === "prior_work") {
+    // paper → upward triangle
+    ctx.moveTo(x, y - r)
+    ctx.lineTo(x + r * 0.95, y + r * 0.75)
+    ctx.lineTo(x - r * 0.95, y + r * 0.75)
+    ctx.closePath()
   } else {
     // idea → square
     const s = r * 1.7

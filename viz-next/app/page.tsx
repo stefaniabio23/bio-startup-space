@@ -19,7 +19,7 @@ import type {
 
 type View = "graph" | "table"
 
-const ALL_TYPES: EntityType[] = ["primitive", "company", "idea"]
+const ALL_TYPES: EntityType[] = ["primitive", "company", "idea", "prior_work"]
 
 function initialFilters(): Filters {
   return {

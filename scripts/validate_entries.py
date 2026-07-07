@@ -52,6 +52,11 @@ TYPES = {
         "schema": SCHEMA_DIR / "idea.schema.yaml",
         "sections": ["## Idea", "## Why now", "## 3-month MVP"],
     },
+    "prior_work": {
+        "dir": PROJECT_ROOT / "prior-work",
+        "schema": SCHEMA_DIR / "prior_work.schema.yaml",
+        "sections": [],
+    },
 }
 
 
@@ -130,7 +135,7 @@ def main():
                     warnings.append(f"{rel}: missing body section '{section}'")
 
             # Referential integrity: primitive links must resolve.
-            if t in ("company", "idea"):
+            if t in ("company", "idea", "prior_work"):
                 for pid in as_list(fm.get("technology_platform_ids")):
                     if pid not in primitive_ids:
                         errors.append(

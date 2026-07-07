@@ -14337,5 +14337,263 @@
     "notes": "Moonshot. Best as a Cambridge/deeptech IP play or grant-funded spinout, not an EF-timeline company.",
     "last_verified": "2026-07-06",
     "type": "idea"
+  },
+  {
+    "id": "pw-detectr-sars-cov-2-2020",
+    "title": "CRISPR-Cas12-based detection of SARS-CoV-2",
+    "authors": [
+      "James P. Broughton",
+      "Xianding Deng",
+      "Guixia Yu",
+      "Clare L. Fasching",
+      "Charles Y. Chiu",
+      "Janice S. Chen"
+    ],
+    "year": 2020,
+    "venue": "Nature Biotechnology",
+    "doi": "10.1038/s41587-020-0513-4",
+    "technology_platform_ids": [
+      "crispr-diagnostics"
+    ],
+    "substrate_tags": [
+      "D.2"
+    ],
+    "hypothesis": "Cas12a collateral cleavage can turn sequence recognition into a fast, amplification-light lateral-flow readout for a specific viral target.",
+    "methods": "Couple isothermal RT-LAMP pre-amplification to a Cas12a guide RNA targeting SARS-CoV-2, with collateral cleavage of a reporter read out on a lateral-flow strip (the DETECTR assay).",
+    "what_it_proves": "CRISPR collateral cleavage delivers rapid, specific nucleic-acid detection at the point of need, validated on clinical respiratory samples for SARS-CoV-2.",
+    "next_question": "Can CRISPR detection reach true amplification-free, instrument-free sensitivity at clinical viral loads for multiplexed panels?",
+    "related_works": [
+      "Nucleic acid detection with CRISPR-Cas13a/C2c2 (SHERLOCK)",
+      "CRISPR-Cas12a-assisted nucleic acid detection"
+    ],
+    "notes": "The DETECTR / SARS-CoV-2 assay paper; canonical CRISPR-diagnostics reference from the pandemic.",
+    "last_verified": "2026-07-07",
+    "type": "prior_work"
+  },
+  {
+    "id": "pw-exosome-onchip-dl",
+    "title": "A deep learning-based integrated analytical system for tumor exosome on-chip isolation and automated image identification",
+    "authors": [
+      "Yunxing Lu",
+      "Haihui Wang",
+      "Zhou Zeng",
+      "Jianan Hui",
+      "Jiangyu Ji",
+      "Hongju Mao",
+      "Qiang Shi",
+      "Xiaoyue Yang"
+    ],
+    "year": 2025,
+    "venue": "Biosensors and Bioelectronics",
+    "technology_platform_ids": [
+      "extracellular-vesicles",
+      "organ-on-chip",
+      "quantum-dot-sensing",
+      "ai-medical-imaging"
+    ],
+    "substrate_tags": [
+      "D.2"
+    ],
+    "hypothesis": "On-chip integration of exosome isolation, quantum-dot marker labelling, and deep-learning image readout can detect tumor exosomes fast and sensitively without off-chip sample pretreatment.",
+    "methods": "An integrated microfluidic chip isolates exosomes on-chip, quantum dots report tumor-marker abundance at a lower detection limit, and a deep-learning model automates image identification and quantification.",
+    "what_it_proves": "Combining microfluidic isolation, quantum-dot labelling, and deep-learning readout yields fast, highly sensitive, automated exosome tumor-marker detection over a wide concentration range (about 8 orders of magnitude).",
+    "next_question": "Can a lab-stage integrated chip become a reproducible, regulatory-grade clinical liquid-biopsy assay with manufacturable quantum-dot chemistry?",
+    "related_works": [
+      "Engineered exosome liquid-biopsy diagnostics (ExoDx)",
+      "Quantum-dot single-molecule immunoassays"
+    ],
+    "notes": "Example of a multi-primitive evidence node: one paper grounds four primitives at once (EVs, organ-on-chip, quantum dots, AI imaging), which is exactly where integrated build-on opportunities sit.",
+    "last_verified": "2026-07-07",
+    "type": "prior_work"
+  },
+  {
+    "id": "pw-misev2023-2024",
+    "title": "Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches",
+    "authors": [
+      "Joshua A. Welsh",
+      "Deborah C. I. Goberdhan",
+      "Lorraine O'Driscoll",
+      "Kenneth W. Witwer"
+    ],
+    "year": 2024,
+    "venue": "Journal of Extracellular Vesicles",
+    "doi": "10.1002/jev2.12404",
+    "technology_platform_ids": [
+      "extracellular-vesicles"
+    ],
+    "substrate_tags": [
+      "E.5"
+    ],
+    "hypothesis": "Rigorous, community-agreed reporting standards are needed for extracellular-vesicle isolation, characterisation, and functional studies to make results comparable and reproducible.",
+    "methods": "Consensus guideline from the International Society for Extracellular Vesicles (ISEV), updating MISEV2018 with expanded sections including EV release, uptake, and in vivo approaches.",
+    "what_it_proves": "Establishes the reference reporting framework the whole EV field is expected to follow, defining what counts as adequate evidence for an EV claim.",
+    "next_question": "Which EV isolation and characterisation methods can meet MISEV standards at the throughput and reproducibility a diagnostic or therapeutic product actually needs?",
+    "related_works": [
+      "Minimal information for studies of extracellular vesicles 2018 (MISEV2018)",
+      "A deep learning-based integrated analytical system for tumor exosome on-chip isolation"
+    ],
+    "notes": "Consensus guideline (J. Extracell. Vesicles 13, e12404, 2024), not a single-experiment paper; author list is a large ISEV consortium, leads listed.",
+    "last_verified": "2026-07-07",
+    "type": "prior_work"
+  },
+  {
+    "id": "pw-nanopore-fulllength-protein-2023",
+    "title": "Unidirectional single-file transport of full-length proteins through a nanopore",
+    "authors": [
+      "Luning Yu",
+      "Xinqi Kang",
+      "Fanjun Li",
+      "Amr Makhamreh",
+      "Min Chen",
+      "Meni Wanunu"
+    ],
+    "year": 2023,
+    "venue": "Nature Biotechnology",
+    "doi": "10.1038/s41587-022-01598-3",
+    "technology_platform_ids": [
+      "nanopore-sensing"
+    ],
+    "substrate_tags": [
+      "D.2"
+    ],
+    "hypothesis": "Full-length proteins can be threaded slowly and directionally through a nanopore without an unfolding enzyme, so their ionic-current signature can be read as a fingerprint.",
+    "methods": "Use an electro-osmotic flow regime through a solid-state nanopore to capture and transport intact, full-length proteins single-file and unidirectionally, recording the current blockade as they pass.",
+    "what_it_proves": "Enzyme-free, slow, unidirectional translocation of whole proteins through a nanopore is achievable, a prerequisite step toward single-molecule protein identification and sequencing.",
+    "next_question": "Can the current fingerprints be resolved finely enough to identify residues and post-translational modifications, turning transport into de novo protein sequencing?",
+    "related_works": [
+      "Multi-pass single-molecule nanopore reading of long protein strands",
+      "Real-time detection of 20 amino acids with a functionalized nanopore"
+    ],
+    "notes": "Nature Biotechnology 41, 1130-1139 (2023); key enzyme-free protein-threading advance for nanopore sensing.",
+    "last_verified": "2026-07-07",
+    "type": "prior_work"
+  },
+  {
+    "id": "pw-prime-editing-crops-2020",
+    "title": "Prime genome editing in rice and wheat",
+    "authors": [
+      "Qiupeng Lin",
+      "Yuan Zong",
+      "Chenxiao Xue",
+      "Caixia Gao"
+    ],
+    "year": 2020,
+    "venue": "Nature Biotechnology",
+    "doi": "10.1038/s41587-020-0455-x",
+    "technology_platform_ids": [
+      "prime-base-editing"
+    ],
+    "substrate_tags": [
+      "E.3"
+    ],
+    "hypothesis": "Prime editing (a Cas9 nickase-reverse transcriptase fusion guided by a pegRNA) can make precise search-and-replace edits without double-strand breaks or donor DNA in plant genomes.",
+    "methods": "Adapt the prime-editing system to plants through codon, promoter, and editing-condition optimisation, then install point mutations, insertions, and deletions in rice and wheat protoplasts and regenerate edited rice plants.",
+    "what_it_proves": "Prime editing generalises beyond mammalian cells: donor-free, break-free precise edits work in crop genomes, with regenerated prime-edited rice at up to ~21.8% frequency.",
+    "next_question": "How far can pegRNA and editor optimisation push prime-editing efficiency and precision toward reliable therapeutic and agricultural editing at scale?",
+    "related_works": [
+      "Search-and-replace genome editing without double-strand breaks or donor DNA (Anzalone et al.)",
+      "Programmable base editing of A-T to G-C in genomic DNA"
+    ],
+    "notes": "FLAGGED: the hint pointed at a mammalian prime/base-editing platform advance, but this DOI is the Lin/Gao prime-editing-in-crops paper. It still grounds the prime-base-editing primitive; the foundational mammalian platform paper is Anzalone et al. 2019 (listed in related_works).",
+    "last_verified": "2026-07-07",
+    "type": "prior_work"
+  },
+  {
+    "id": "pw-rfdiffusion-2023",
+    "title": "De novo design of protein structure and function with RFdiffusion",
+    "authors": [
+      "Joseph L. Watson",
+      "David Juergens",
+      "Nathaniel R. Bennett",
+      "Brian L. Trippe",
+      "Jason Yim",
+      "David Baker"
+    ],
+    "year": 2023,
+    "venue": "Nature",
+    "doi": "10.1038/s41586-023-06415-8",
+    "technology_platform_ids": [
+      "protein-design-diffusion-models"
+    ],
+    "substrate_tags": [
+      "C.1",
+      "C.2"
+    ],
+    "hypothesis": "A diffusion generative model built on a structure-prediction network can design novel protein backbones and functions from scratch.",
+    "methods": "Fine-tune the RoseTTAFold structure-prediction network on a denoising (diffusion) objective, then generate backbones for unconditional monomers, binders, symmetric oligomers, and active-site scaffolds, and validate hundreds experimentally.",
+    "what_it_proves": "Diffusion over protein backbones is a general, experimentally validated route to de novo structure, symmetric assemblies, metal-binding sites, and target-specific binders.",
+    "next_question": "Can the same generative pipeline reliably design high-affinity binders and catalytic enzymes against arbitrary targets without extensive experimental screening?",
+    "related_works": [
+      "Illuminating protein space with a programmable generative model (Chroma)",
+      "Robust deep learning-based protein sequence design using ProteinMPNN"
+    ],
+    "notes": "Landmark de novo design paper; the reference primitive for protein-design diffusion models.",
+    "last_verified": "2026-07-07",
+    "type": "prior_work"
+  },
+  {
+    "id": "pw-rosalind-cell-free-2020",
+    "title": "Cell-free biosensors for rapid detection of water contaminants",
+    "authors": [
+      "Jaeyoung K. Jung",
+      "Khalid K. Alam",
+      "Matthew S. Verosloff",
+      "Daiana A. Capdevila",
+      "Julius B. Lucks",
+      "Danielle Tullman-Ercek"
+    ],
+    "year": 2020,
+    "venue": "Nature Biotechnology",
+    "doi": "10.1038/s41587-020-0571-7",
+    "technology_platform_ids": [
+      "cell-free-synthetic-biology"
+    ],
+    "substrate_tags": [
+      "E.1",
+      "D.2"
+    ],
+    "hypothesis": "Freeze-dried, ligand-regulated in vitro transcription reactions can detect specific chemical contaminants without live cells or lab equipment.",
+    "methods": "Engineer allosteric transcription factors to gate an in vitro transcription reaction (ROSALIND) producing a fluorescent RNA aptamer output, then freeze-dry the reactions for field use on water samples.",
+    "what_it_proves": "Cell-free genetic circuits can be lyophilised into stable, distributable biosensors that report specific small-molecule contaminants, decoupling synthetic-biology sensing from live cells and cold chains.",
+    "next_question": "Can freeze-dried cell-free sensors reach regulatory-grade quantitation and multiplexing across many analytes in a single field-deployable device?",
+    "related_works": [
+      "Paper-based synthetic gene networks (freeze-dried cell-free)",
+      "Wearable materials with embedded synthetic biology sensors for biomolecule detection"
+    ],
+    "notes": "The ROSALIND platform paper; a canonical freeze-dried cell-free synthetic-biology diagnostics reference.",
+    "last_verified": "2026-07-07",
+    "type": "prior_work"
+  },
+  {
+    "id": "pw-wearable-aptamer-hormone-2024",
+    "title": "A wearable aptamer nanobiosensor for non-invasive female hormone monitoring",
+    "authors": [
+      "Cui Ye",
+      "Minqiang Wang",
+      "Jihong Min",
+      "Roland Yingjie Tay",
+      "Wei Gao"
+    ],
+    "year": 2024,
+    "venue": "Nature Nanotechnology",
+    "doi": "10.1038/s41565-023-01513-0",
+    "technology_platform_ids": [
+      "electrochemical-aptamer-biosensing"
+    ],
+    "substrate_tags": [
+      "D.1",
+      "D.3"
+    ],
+    "hypothesis": "A wearable, aptamer-functionalised electrochemical patch can quantify a low-abundance hormone (oestradiol) non-invasively from sweat.",
+    "methods": "Detect the methylene-blue redox signal on inkjet-printed AuNP-MXene working electrodes functionalised with an oestradiol aptamer, in a mass-producible wearable patch.",
+    "what_it_proves": "Aptamer-based electrochemical sensing extends to sensitive, selective quantification of a low-concentration hormone in a manufacturable wearable format.",
+    "next_question": "Can sweat aptamer readings be calibrated to blood concentrations reliably enough for clinical decisions, and hold stable over days of continuous wear?",
+    "related_works": [
+      "Wireless real-time monitoring of oestradiol in sweat",
+      "Real-time in vivo molecular monitoring using electrochemical aptamer-based sensors"
+    ],
+    "notes": "FLAGGED: the hint described continuous implantable in-vivo aptamer sensing, but this DOI is actually the Ye/Gao wearable non-invasive sweat oestradiol nanobiosensor (Nat. Nanotechnol. 19, 330-337, 2024). Still a core electrochemical-aptamer-biosensing reference; the substrate is sweat, not blood.",
+    "last_verified": "2026-07-07",
+    "type": "prior_work"
   }
 ]

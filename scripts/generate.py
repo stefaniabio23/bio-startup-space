@@ -63,10 +63,17 @@ IDEA_COLUMNS = [
     "overall_score", "notes", "last_verified",
 ]
 
+PRIOR_WORK_COLUMNS = [
+    "id", "title", "authors", "year", "venue", "doi", "url", "citations",
+    "technology_platform_ids", "substrate_tags", "hypothesis", "methods",
+    "what_it_proves", "next_question", "related_works", "notes", "last_verified",
+]
+
 TYPES = {
-    "company":   {"dir": PROJECT_ROOT / "entries",    "csv": "companies.csv",  "columns": COMPANY_COLUMNS},
-    "primitive": {"dir": PROJECT_ROOT / "primitives", "csv": "primitives.csv", "columns": PRIMITIVE_COLUMNS},
-    "idea":      {"dir": PROJECT_ROOT / "ideas",      "csv": "ideas.csv",      "columns": IDEA_COLUMNS},
+    "company":    {"dir": PROJECT_ROOT / "entries",    "csv": "companies.csv",  "columns": COMPANY_COLUMNS},
+    "primitive":  {"dir": PROJECT_ROOT / "primitives", "csv": "primitives.csv", "columns": PRIMITIVE_COLUMNS},
+    "idea":       {"dir": PROJECT_ROOT / "ideas",      "csv": "ideas.csv",      "columns": IDEA_COLUMNS},
+    "prior_work": {"dir": PROJECT_ROOT / "prior-work", "csv": "prior_work.csv", "columns": PRIOR_WORK_COLUMNS},
 }
 
 # Company CSV columns sourced from body sections rather than frontmatter.
@@ -213,6 +220,9 @@ def build_graph(by_type):
         for r in records:
             if t == "idea":
                 label = r["id"].replace("idea-", "").replace("-", " ")
+            elif t == "prior_work":
+                title = r.get("title") or r.get("id")
+                label = title if len(title) <= 48 else title[:46] + "…"
             else:
                 label = r.get("name") or r.get("id")
             # ideas have no substrate_family; derive it from the first substrate_tag for colouring
@@ -269,6 +279,10 @@ def build_graph(by_type):
             cid = name_to_id.get(str(cc).lower())
             if cid:
                 edges.append({"source": r["id"], "target": cid, "relation": "closest"})
+
+    for r in by_type.get("prior_work", []):
+        for pid in r.get("technology_platform_ids") or []:
+            edges.append({"source": r["id"], "target": pid, "relation": "evidence"})
 
     return {"nodes": nodes, "edges": edges}
 

@@ -10,6 +10,7 @@ import {
   Lightbulb,
   ArrowUpRight,
   Pencil,
+  FileText,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
@@ -52,6 +53,7 @@ const TYPE_ICON = {
   primitive: Beaker,
   company: Building2,
   idea: Lightbulb,
+  prior_work: FileText,
 }
 
 function TrlBadge({ trl }: { trl: number | "" | undefined }) {
@@ -355,6 +357,8 @@ export function DetailPanel({
               <PrimitiveBody detail={detail} />
             ) : type === "company" ? (
               <CompanyBody detail={detail} />
+            ) : type === "prior_work" ? (
+              <PriorWorkBody detail={detail} />
             ) : (
               <IdeaBody detail={detail} />
             )}
@@ -459,6 +463,20 @@ const EDITABLE: Record<string, EditField[]> = {
     { key: "technology_platform_ids", label: "Primitive links", kind: "list", hint: "one slug per line" },
     { key: "three_month_mvp", label: "3-month MVP", kind: "prose" },
     { key: "why_now", label: "Why now", kind: "prose" },
+  ],
+  prior_work: [
+    { key: "title", label: "Title", kind: "prose" },
+    { key: "authors", label: "Authors", kind: "list", hint: "one per line" },
+    { key: "year", label: "Year", kind: "number" },
+    { key: "venue", label: "Venue", kind: "scalar" },
+    { key: "doi", label: "DOI", kind: "scalar" },
+    { key: "technology_platform_ids", label: "Grounds primitives", kind: "list", hint: "one primitive slug per line" },
+    { key: "hypothesis", label: "Hypothesis", kind: "prose" },
+    { key: "methods", label: "Methods", kind: "prose" },
+    { key: "what_it_proves", label: "What it proves", kind: "prose" },
+    { key: "next_question", label: "Next question", kind: "prose" },
+    { key: "related_works", label: "Related works", kind: "list", hint: "one per line" },
+    { key: "notes", label: "Notes", kind: "prose" },
   ],
 }
 
@@ -609,6 +627,35 @@ function MomentumCard({ m }: { m: Momentum }) {
         </div>
       ) : null}
     </div>
+  )
+}
+
+function PriorWorkBody({ detail }: { detail: EntityDetail }) {
+  return (
+    <>
+      <Prose label="Hypothesis" text={detail.hypothesis} />
+      <Prose label="Methods" text={detail.methods} />
+      <Prose label="What it proves" text={detail.what_it_proves} />
+      <Prose label="Next question" text={detail.next_question} />
+      <div className="grid grid-cols-2 gap-3">
+        <Field label="Year" value={detail.year} />
+        <Field label="Venue" value={detail.venue} />
+      </div>
+      {detail.doi ? (
+        <a
+          href={`https://doi.org/${detail.doi}`}
+          target="_blank"
+          rel="noreferrer"
+          className="inline-flex w-fit items-center gap-1 text-[12px] text-[#a78bfa] hover:underline"
+        >
+          doi:{detail.doi}
+          <ExternalLink className="size-3" />
+        </a>
+      ) : null}
+      <Chips label="Authors" items={detail.authors} />
+      <Chips label="Grounds primitives" items={detail.technology_platform_ids} />
+      <Chips label="Related works" items={detail.related_works} />
+    </>
   )
 }
 

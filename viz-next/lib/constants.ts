@@ -34,6 +34,7 @@ export const ENTITY_TYPES: { id: EntityType; label: string }[] = [
   { id: "primitive", label: "Primitive" },
   { id: "company", label: "Company" },
   { id: "idea", label: "Idea" },
+  { id: "prior_work", label: "Paper" },
 ]
 
 export const RELATIONS: {
@@ -48,6 +49,7 @@ export const RELATIONS: {
   { id: "competes", label: "competes", color: "#ef4444", dashed: true },
   { id: "complements", label: "complements", color: "#e0a458" },
   { id: "related", label: "related", color: "#8b95a3" },
+  { id: "evidence", label: "evidence", color: "#a78bfa", dashed: true },
 ]
 
 export const RELATION_COLORS: Record<string, string> = Object.fromEntries(
@@ -123,9 +125,10 @@ export function formatFunding(m: number | "" | undefined | null): string {
 /** entity display name works across companies (name), primitives (name) and ideas (idea). */
 export function entityName(e: {
   name?: string
+  title?: string
   idea?: string
   label?: string
   id: string
 }): string {
-  return e.name ?? e.label ?? e.idea ?? e.id
+  return e.name ?? e.title ?? e.label ?? e.idea ?? e.id
 }
