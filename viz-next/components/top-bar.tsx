@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { PanelLeft, Share2, Table2, GitBranch } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { ThemeToggle } from "@/components/theme-toggle"
 import { cn } from "@/lib/utils"
 
 type View = "graph" | "table"
@@ -140,6 +141,8 @@ export function TopBar({
             <span className="text-foreground">{edgeCount}</span> edges
           </span>
         </div>
+        <span className="text-border">·</span>
+        <ThemeToggle />
         {STATIC ? null : <CommitButton />}
       </div>
     </header>
