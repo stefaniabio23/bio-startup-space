@@ -32,10 +32,11 @@ except ImportError:
     sys.exit(2)
 
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
+# Ideas are kept private (see .gitignore); the ideas board is not published.
 TABS = [
     ("Companies", "companies.csv"),
     ("Primitives", "primitives.csv"),
-    ("Ideas", "ideas.csv"),
+    ("Prior work", "prior_work.csv"),
     ("Taxonomies", "taxonomies.csv"),
 ]
 PROJECT_ROOT = Path(__file__).resolve().parent.parent

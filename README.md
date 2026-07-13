@@ -1,26 +1,25 @@
 # bio-startup-space (tech-bio-map v2)
 
-A machine-readable **relational** map of the bio x AI and deeptech-bio landscape, built for an Entrepreneur First founder search. The **technical-primitive map is the spine**: companies, ideas, and grounding papers link back to primitives by stable slug, so each primitive is written once and referenced everywhere.
+A machine-readable **relational** map of the bio x AI and deeptech-bio landscape. The **technical-primitive map is the spine**: companies and grounding papers link back to primitives by stable slug, so each primitive is written once and referenced everywhere.
 
 Scripts validate every entity against its schema and cross-entity rules, generate per-table CSV / JSON / graph views, and publish to a Google Sheet and an interactive web graph. **GitHub is canonical; everything in `generated/`, the Sheet, and the viz is a downstream render.**
 
 **Live graph:** https://stefaniabio23.github.io/bio-startup-space/
 
-## The five entity types
+## The four entity types
 
 | Type | Dir | What it holds |
 |---|---|---|
 | **technical_primitive** (spine) | `primitives/` | the underlying scientific/engineering unlocks, with TRL, mechanism, translational gap, and a literature/patent momentum scan |
 | **company** | `entries/<substrate-family>/` (v2) and legacy thesis folders (v1) | companies, each linking to primitive(s) via `technology_platform_ids` |
-| **idea** | `ideas/` | founder-search ideas, each linked to primitives, with a 3-month MVP and route-fit |
 | **prior_work** | `prior-work/` | papers grounding a primitive in the literature, with a one-line hypothesis, method, what-it-proves, and the open question for a builder |
 | **controlled_taxonomies** | `taxonomy/taxonomy.yaml` | the single source of truth for every closed vocabulary (substrate families A-F, business models, TRL, etc.) |
 
 ## What's here
 
-- **43 technical primitives**, **150 companies**, **23 ideas**, and **8 prior-work papers**, all cross-linked into one graph of 224 nodes and ~450 edges.
-- Typed schemas in `schema/` (`company`, `technical_primitive`, `idea`, `prior_work`) plus the controlled taxonomy (v2.0).
-- Generated outputs: `companies.csv`, `primitives.csv`, `ideas.csv`, `prior_work.csv`, `capabilities.csv`, `taxonomies.csv`, a unified `index.json` (every record tagged with `type`), a `graph.json` (nodes + edges), a grouped `by-area.md`, and a `link_audit.md`.
+- **43 technical primitives**, **150 companies**, and **8 prior-work papers**, all cross-linked into one graph of 201 nodes and ~405 edges.
+- Typed schemas in `schema/` (`company`, `technical_primitive`, `prior_work`) plus the controlled taxonomy (v2.0).
+- Generated outputs: `companies.csv`, `primitives.csv`, `prior_work.csv`, `capabilities.csv`, `taxonomies.csv`, a unified `index.json` (every record tagged with `type`), a `graph.json` (nodes + edges), a grouped `by-area.md`, and a `link_audit.md`.
 - An interactive web graph in `viz-next/` (Next.js, deployed to GitHub Pages) and a dependency-free legacy version in `viz/` (Cytoscape.js, Cloudflare Pages).
 - A `technical-primitive-scanner/` subsystem that scores each primitive on literature and patent momentum and writes the result back into the primitive's frontmatter.
 
@@ -38,11 +37,9 @@ bio-startup-space/
 ├── schema/
 │   ├── company.schema.yaml         company frontmatter (v2 superset)
 │   ├── technical_primitive.schema.yaml
-│   ├── idea.schema.yaml
 │   └── prior_work.schema.yaml
 ├── primitives/<slug>.md            technical primitives (the spine)
 ├── entries/<substrate-family>/<id>.md   companies (v2); legacy thesis folders hold v1
-├── ideas/idea-<slug>.md            founder-search ideas
 ├── prior-work/pw-<slug>.md         grounding papers (evidence edges to primitives)
 ├── scripts/
 │   ├── validate_entries.py         per-type schema + referential integrity + taxonomy checks
@@ -61,7 +58,7 @@ bio-startup-space/
 
 ## Entry format
 
-Each entity is a Markdown file with YAML frontmatter plus prose sections. Companies, primitives, ideas, and prior-work each have their own schema in `schema/`; every controlled field is checked against `taxonomy/taxonomy.yaml`. Companies, ideas, and prior-work link to primitives via `technology_platform_ids` (validated for referential integrity), which is what stitches the graph together. See the `schema/` files for the full field lists and each content dir for live examples.
+Each entity is a Markdown file with YAML frontmatter plus prose sections. Companies, primitives, and prior-work each have their own schema in `schema/`; every controlled field is checked against `taxonomy/taxonomy.yaml`. Companies and prior-work link to primitives via `technology_platform_ids` (validated for referential integrity), which is what stitches the graph together. See the `schema/` files for the full field lists and each content dir for live examples.
 
 ## Usage
 
@@ -77,7 +74,7 @@ Publishing to a Google Sheet reads its service-account credential from the macOS
 
 ## Adding an entry
 
-Ask Claude: "add a bio-startup-space entry for X" (the `bio-startup-map` skill handles companies, primitives, ideas, and prior-work). It picks the entity type, fills the schema, resolves the primitive link, and runs validate + generate. Manually: add a file under the right dir following the matching schema, then run `validate_entries.py` and `generate.py`. Set `last_verified` whenever an entity changes.
+Ask Claude: "add a bio-startup-space entry for X" (the `bio-startup-map` skill handles companies, primitives, and prior-work). It picks the entity type, fills the schema, resolves the primitive link, and runs validate + generate. Manually: add a file under the right dir following the matching schema, then run `validate_entries.py` and `generate.py`. Set `last_verified` whenever an entity changes.
 
 ## Visualization
 
@@ -89,7 +86,7 @@ npm install
 npm run dev            # http://localhost:3000
 ```
 
-**Legacy (viz, Cloudflare Pages).** A dependency-free static graph + table view using Cytoscape.js from a CDN. Nodes are colored by substrate family and shaped by type; edges are `uses`, `references`, `closest`, `competes`, `complements`, and `evidence`.
+**Legacy (viz, Cloudflare Pages).** A dependency-free static graph + table view using Cytoscape.js from a CDN. Nodes are colored by substrate family and shaped by type; edges are `uses` (company to primitive), `evidence` (prior-work to primitive), and `competes` / `complements` (company to company).
 
 ```bash
 bash viz/build.sh                     # regenerate data into viz/data/
@@ -107,4 +104,4 @@ Two workflows run on push to `main`:
 - **`pages.yml`** regenerates the graph, builds the `viz-next` static export, and deploys it to GitHub Pages.
 - **`publish.yml`** validates, regenerates, and publishes the tables to the Google Sheet (also on a weekly Monday schedule).
 
-Both are gated on changes under `entries/`, `primitives/`, `ideas/`, `prior-work/`, `taxonomy/`, or `schema/`, so a normal entry commit refreshes the live graph and the Sheet with no manual step.
+Both are gated on changes under `entries/`, `primitives/`, `prior-work/`, `taxonomy/`, or `schema/`, so a normal entry commit refreshes the live graph and the Sheet with no manual step.

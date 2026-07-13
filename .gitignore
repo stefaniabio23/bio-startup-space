@@ -34,3 +34,9 @@ CLAUDE.md
 
 # static export output (built fresh in CI)
 viz-next/out/
+
+# Strategy-private: kept local, never published
+# (founder-search ideas board, EF brainstorm dir, proprietary literature/patent scanner)
+_private/
+entrepreneur-first/
+technical-primitive-scanner/

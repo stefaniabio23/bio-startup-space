@@ -319,9 +319,15 @@ def main():
         print("No entities found.")
         sys.exit(1)
 
-    # per-type CSVs
+    # per-type CSVs. Skip a type with no entities so we never emit a header-only
+    # file that leaks its schema (e.g. the ideas board when it is kept private).
     for t, cfg in TYPES.items():
-        with open(GENERATED_DIR / cfg["csv"], "w", newline="") as f:
+        csv_path = GENERATED_DIR / cfg["csv"]
+        if not by_type[t]:
+            if csv_path.exists():
+                csv_path.unlink()
+            continue
+        with open(csv_path, "w", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=cfg["columns"], extrasaction="ignore")
             writer.writeheader()
             for r in by_type[t]:
