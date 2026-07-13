@@ -1,6 +1,6 @@
 # Companies by area
 
-_136 companies._
+_150 companies._
 
 
 ## AI antibody and bispecific design
@@ -19,6 +19,10 @@ _136 companies._
 
 - **Sherlock Biosciences**, acquired, $111M
 
+## CRISPR/Cas9 gene-edited medicines
+
+- **CRISPR Therapeutics**, public, $2000M
+
 ## DNA data storage
 
 - **Biomemory**, series-a, $18M
@@ -31,9 +35,17 @@ _136 companies._
 
 - **Prime Medicine**, public, $490M
 
+## In-vivo base editing for cardiovascular disease
+
+- **Verve Therapeutics**, acquired, $750M
+
 ## In-vivo gene editing of the microbiome
 
 - **Eligo Bioscience**, series-b, $52.3M
+
+## In-vivo hematopoietic stem cell engineering
+
+- **Ensoma**, series-b, $155M
 
 ## Non-invasive brain-computer interface via sonogenetics
 
@@ -42,6 +54,10 @@ _136 companies._
 ## Orlando, Florida, USA
 
 - **Hesperos Inc**
+
+## Precision base-editing medicines
+
+- **Beam Therapeutics**, public, $2200M
 
 ## ai drug design
 
@@ -53,6 +69,10 @@ _136 companies._
 - **Genesis Molecular AI**, series-b, $340M
 - **Iambic Therapeutics**, series-c, $320M
 - **Terray Therapeutics**, series-b, $200M
+
+## ai gene therapy vector design
+
+- **Dyno Therapeutics**, series-a, $112M
 
 ## ai lnp design
 
@@ -83,9 +103,21 @@ _136 companies._
 
 - **MiniMed**, public, $560M
 
+## autonomous drug discovery
+
+- **Capable**, seed, $12M
+
+## biofoundry
+
+- **Ginkgo Bioworks**
+
 ## biological foundation models
 
 - **Basecamp Research**, series-b, $85M
+
+## biomining
+
+- **Maverick BioMetals**, seed, $19M
 
 ## biosimulation
 
@@ -223,6 +255,10 @@ _136 companies._
 
 - **Orca Bio**, series-d-plus, $625M
 
+## in vivo biologics design
+
+- **Manifold Bio**, series-a, $45M
+
 ## intraoperative brachytherapy for brain tumors
 
 - **GT Medical Technologies**, series-d-plus, $241M
@@ -230,6 +266,10 @@ _136 companies._
 ## liquid biopsy
 
 - **Guardant Health**, public, $1500M
+
+## mammalian synthetic biology
+
+- **Asimov**, series-b, $230M
 
 ## menstrual-fluid hormone testing
 
@@ -341,6 +381,10 @@ _136 companies._
 
 - **Forus Health**, series-b, $18.6M
 
+## precision fermentation proteins
+
+- **Geltor**, series-c, $137M
+
 ## precision health AI platform
 
 - **Verily**, series-d-plus, $2800M
@@ -403,6 +447,10 @@ _136 companies._
 
 - **Photonic Inc**, series-b, $475M
 
+## single-cell sequencing
+
+- **Scale Biosciences**, unknown, $32M
+
 ## single-molecule protein sequencing
 
 - **Pumpkinseed Bio**, series-a, $20M
@@ -419,9 +467,17 @@ _136 companies._
 
 - **Genvida**
 
+## spatial epigenomics
+
+- **AtlasXomics**
+
 ## spatial omics
 
 - **Stellaromics**, series-b, $105M
+
+## spatial transcriptomics
+
+- **Curio Bioscience**
 
 ## sweat sensing
 

@@ -1,5 +1,213 @@
 [
   {
+    "id": "atlasxomics",
+    "name": "AtlasXomics",
+    "website": "atlasxomics.com",
+    "founded": 2020,
+    "area": "spatial epigenomics",
+    "substrate_family": "A",
+    "substrate_tags": [
+      "A.1"
+    ],
+    "technology_platform_ids": [
+      "spatial-omics"
+    ],
+    "technology_platform_name": "DBiT-seq deterministic barcoding in tissue (spatial ATAC-seq and CUT&Tag)",
+    "funding_stage": "unknown",
+    "total_funding_usd_m": 0,
+    "public": false,
+    "business_model": "research_tools",
+    "buyer": [
+      "academic_lab",
+      "biotech",
+      "pharma"
+    ],
+    "customer": [
+      "academic_lab",
+      "biotech",
+      "pharma"
+    ],
+    "buyer_urgency": "medium",
+    "buyer_wtp": "high",
+    "sales_cycle": "medium",
+    "regulatory_burden": "light",
+    "tam_usd_m": 2000,
+    "new_capability": "Spatially resolved chromatin accessibility and histone-modification maps in intact tissue via deterministic microfluidic barcoding, extending spatial omics beyond RNA into the epigenome.",
+    "data_centrality": "important-enabler",
+    "data_ownership": [
+      "proprietary"
+    ],
+    "moat": [
+      "IP",
+      "wet-lab"
+    ],
+    "primary_value_chain_layer": "spatial epigenomics assays, services, and consumables for research",
+    "input": [
+      "tissue sections",
+      "microfluidic barcoding chips",
+      "ATAC-seq and CUT&Tag reagents and antibodies",
+      "sequencing readouts"
+    ],
+    "transformation_type": "measure",
+    "output": [
+      "spatial chromatin-accessibility maps",
+      "spatial histone-modification and multi-omic tissue maps"
+    ],
+    "technology_readiness_level": 8,
+    "limiting_factor": "Cost, ex vivo workflow complexity, and data-analysis burden keep spatial epigenomics in discovery rather than routine or clinical use.",
+    "commercialisation_status": "commercial_early",
+    "barrier_to_entry": "high",
+    "barrier_to_entry_logic": "The DBiT-seq deterministic-barcoding chemistry is exclusively licensed Yale IP from the Rong Fan lab, and few competitors offer spatial epigenomics rather than spatial RNA.",
+    "hardness": "very-hard",
+    "hardness_reason": "Reading chromatin accessibility and histone marks in situ while preserving spatial coordinates, at usable resolution and reproducibility, is a harder assay than spatial transcriptomics.",
+    "last_verified": "2026-07-13",
+    "type": "company",
+    "one_liner": "Spatial epigenomics company commercialising Yale's DBiT-seq deterministic microfluidic barcoding to map chromatin accessibility and histone modifications in intact tissue.",
+    "problem": "Spatial omics has focused on RNA, so the epigenome (which genes are switched on or accessible, and where) has been invisible in tissue context, and bulk or single-cell ATAC-seq discards spatial location.",
+    "workaround": "Bulk and single-cell ATAC-seq and CUT&Tag that lose spatial context through dissociation, plus spatial transcriptomics platforms that read RNA but not chromatin state, leaving the spatial epigenome unmeasured.",
+    "method": "DBiT-seq (Deterministic Barcoding in Tissue) flows two orthogonal sets of DNA barcodes across a tissue section through perpendicular microfluidic channels, so each spatial pixel receives a unique barcode pair encoding its x-y position. Combined with ATAC-seq, this maps open chromatin spatially; combined with CUT&Tag antibodies, it maps histone modifications; it also extends to transcriptomics and proteomics for multi-omic tissue atlases. The method was developed in Rong Fan's lab at Yale and is exclusively licensed to AtlasXomics.",
+    "validated_by": "DBiT-seq and its spatial ATAC-seq and CUT&Tag extensions are peer-reviewed methods from the Rong Fan lab at Yale (published in Cell and Nature-family journals). 2020 Yale spin-out; technology exclusively licensed from Yale. Partnership with EpiCypher (January 2024) to co-develop ultra-efficient antibodies for spatial and single-cell CUT&Tag. Analysis pipelines and documentation are public (GitHub, Latch.bio).",
+    "gaps": "Funding is thin and not cleanly disclosed (aggregators show roughly $1.8M over small rounds), so total_funding_usd_m is set to 0 and funding_stage to unknown. Founding year is reported as 2020 (one source says 2019). Per-sample cost, resolution, and throughput versus spatial RNA platforms are not independently benchmarked in public materials, and the spatial-epigenomics market is early and small.",
+    "notes": "Thin data on funding and stage: total_funding_usd_m set to 0 (only ~$1.8M in small disclosed rounds, no named priced round) and funding_stage set to unknown. Founded 2020 (Yale spin-out, New Haven), flagged uncertain against a 2019 alternative. Classed research_tools (assay, service, and consumables) with substrate_family A because it generates high-fidelity spatial epigenomic data; data_centrality is important-enabler since the data belongs to customers while the moat is the licensed DBiT-seq chemistry. Linked to the spatial-omics primitive: DBiT-seq is in-situ deterministic barcoding that reads molecular signal while preserving x-y tissue coordinates, matching the primitive's mechanism, extended here from RNA to chromatin and histone marks."
+  },
+  {
+    "id": "curio-bioscience",
+    "name": "Curio Bioscience",
+    "website": "curiobioscience.com",
+    "founded": 2021,
+    "area": "spatial transcriptomics",
+    "substrate_family": "A",
+    "substrate_tags": [
+      "A.1"
+    ],
+    "technology_platform_ids": [
+      "spatial-omics"
+    ],
+    "technology_platform_name": "Curio Seeker (Slide-seq) and Curio Trekker (Slide-tags)",
+    "funding_stage": "acquired",
+    "total_funding_usd_m": 0,
+    "public": false,
+    "business_model": "device_consumables",
+    "buyer": [
+      "academic_lab",
+      "biotech",
+      "pharma"
+    ],
+    "customer": [
+      "academic_lab",
+      "biotech",
+      "pharma"
+    ],
+    "buyer_urgency": "medium",
+    "buyer_wtp": "high",
+    "sales_cycle": "medium",
+    "regulatory_burden": "light",
+    "tam_usd_m": 4000,
+    "new_capability": "Whole-transcriptome spatial mapping at near-single-cell bead resolution from Slide-seq, plus Slide-tags that adds spatial coordinates to standard single-cell and single-nucleus data.",
+    "data_centrality": "important-enabler",
+    "data_ownership": [
+      "proprietary"
+    ],
+    "moat": [
+      "IP",
+      "wet-lab"
+    ],
+    "primary_value_chain_layer": "spatial transcriptomics kits and consumables for research",
+    "input": [
+      "fresh-frozen tissue sections",
+      "barcoded bead arrays and probe sets",
+      "single-cell and single-nucleus suspensions",
+      "sequencing readouts"
+    ],
+    "transformation_type": "measure",
+    "output": [
+      "whole-transcriptome spatial expression maps",
+      "spatially resolved single-cell and single-nucleus data"
+    ],
+    "technology_readiness_level": 9,
+    "limiting_factor": "N/A",
+    "commercialisation_status": "acquired",
+    "barrier_to_entry": "medium",
+    "barrier_to_entry_logic": "Broad-licensed Slide-seq and Slide-tags chemistry is defensible IP, but well-funded 2D spatial incumbents (10x, Vizgen, NanoString) hold the scaled research market.",
+    "hardness": "hard",
+    "hardness_reason": "Delivering whole-transcriptome capture at near-single-cell resolution on bead arrays, with clean tissue permeabilisation and reproducible capture efficiency, is a demanding wet-lab problem.",
+    "last_verified": "2026-07-13",
+    "type": "company",
+    "one_liner": "Spatial transcriptomics company commercialising Broad-developed Slide-seq (Curio Seeker) and Slide-tags (Curio Trekker) as kits, now part of Takara Bio.",
+    "problem": "Dissociating tissue for single-cell sequencing discards where each cell sat, and early array-based spatial methods read too coarse a spot to resolve individual cells across the whole transcriptome.",
+    "workaround": "Spot-based spatial arrays (10x Visium) at multi-cell resolution, imaging-based targeted-panel methods (Xenium, MERFISH) that read hundreds to thousands of genes rather than the whole transcriptome, and single-cell dissociation that throws away spatial context.",
+    "method": "Curio Seeker uses Slide-seq: a densely packed array of spatially barcoded beads captures mRNA released from an overlaid fresh-frozen tissue section, so each transcript inherits the bead's known x-y position, reconstructing a whole-transcriptome spatial map. Curio Trekker uses Slide-tags: spatial barcodes are transferred into nuclei within an intact section, so cells or nuclei carry their tissue coordinates through a standard single-cell or single-nucleus sequencing run. Slide-tags was published in Nature (December 2023) from the Fei Chen and Evan Macosko labs at the Broad.",
+    "validated_by": "Slide-seq and Slide-tags are peer-reviewed Broad methods, Slide-tags in Nature (2023). Academic co-founders Evan Macosko (MGH), Fei Chen (Harvard), and Samuel Rodriques (Francis Crick Institute). Curio Seeker adopted across neuroscience, developmental biology, immunology, and oncology, and offered through core facilities (for example the University of Minnesota Genomics Center). Acquired by Takara Bio USA Holdings in January 2025.",
+    "gaps": "Standalone funding history is not cleanly disclosed (aggregators show undisclosed rounds; acquisition price undisclosed), so total_funding_usd_m is set to 0. Per-sample cost, capture efficiency, and throughput versus imaging-based competitors are not independently benchmarked in the public materials. Post-acquisition product roadmap under Takara is not yet detailed.",
+    "notes": "Thin data on funding: total_funding_usd_m set to 0 (undisclosed) and funding_stage set to acquired following the January 2025 Takara Bio USA acquisition (price undisclosed), commercialisation_status acquired. Founded 2021 (Palo Alto); founder set includes academic co-founders Macosko, Chen, and Rodriques plus business founders. Classed device_consumables (kit and consumables model) with substrate_family A because it generates high-fidelity spatial data; data_centrality is important-enabler since the data belongs to customers while the moat is the licensed chemistry. Linked to the spatial-omics primitive: Slide-seq is in-situ barcoding chemistry that reads RNA while preserving x-y tissue coordinates, matching the primitive's mechanism."
+  },
+  {
+    "id": "scalebio",
+    "name": "Scale Biosciences",
+    "website": "scale.bio",
+    "founded": 2020,
+    "area": "single-cell sequencing",
+    "substrate_family": "A",
+    "substrate_tags": [
+      "A.1"
+    ],
+    "funding_stage": "unknown",
+    "total_funding_usd_m": 32,
+    "public": false,
+    "business_model": "research_tools",
+    "buyer": [
+      "academic_lab",
+      "biotech",
+      "pharma"
+    ],
+    "customer": [
+      "academic_lab",
+      "biotech",
+      "pharma"
+    ],
+    "buyer_urgency": "medium",
+    "buyer_wtp": "high",
+    "sales_cycle": "medium",
+    "regulatory_burden": "light",
+    "tam_usd_m": 4000,
+    "new_capability": "Quantum Barcoding consolidates split-pool combinatorial indexing so a single instrument-free workflow profiles from 84,000 to about 4 million single cells per run.",
+    "data_centrality": "important-enabler",
+    "data_ownership": [
+      "proprietary"
+    ],
+    "moat": [
+      "IP",
+      "wet-lab"
+    ],
+    "primary_value_chain_layer": "single-cell library-prep kits and consumables for research",
+    "input": [
+      "dissociated cell and nuclei suspensions",
+      "quantum barcoding plates and barcoded beads",
+      "sequencing readouts"
+    ],
+    "transformation_type": "measure",
+    "output": [
+      "single-cell RNA, methylation, and multi-omic expression matrices",
+      "massively multiplexed single-cell libraries"
+    ],
+    "technology_readiness_level": 9,
+    "limiting_factor": "N/A",
+    "commercialisation_status": "commercial_early",
+    "barrier_to_entry": "medium",
+    "barrier_to_entry_logic": "Patented split-pool Quantum Barcoding chemistry is defensible, but the wider combinatorial-indexing single-cell field has several credible incumbents and academic methods.",
+    "hardness": "hard",
+    "hardness_reason": "Pushing per-run cell counts into the millions while keeping data quality, low doublet rates, and a simple instrument-free workflow is a demanding chemistry and QC problem.",
+    "last_verified": "2026-07-13",
+    "type": "company",
+    "one_liner": "Single-cell library-prep company whose QuantumScale kits use split-pool combinatorial indexing to profile from tens of thousands to about 4 million cells per run, instrument-free.",
+    "problem": "Droplet-based single-cell methods (the dominant workflow) cap out at tens of thousands of cells per run, need dedicated microfluidic instruments, and get expensive fast, so large-scale atlas, perturbation, and population studies are cost-prohibitive.",
+    "workaround": "Droplet partitioning platforms (10x Genomics Chromium) run many separate reactions to reach scale, plus hash-tagging and sample multiplexing bolted on to stretch throughput, all tied to a capital instrument.",
+    "method": "Split-pool combinatorial indexing: cells or nuclei are distributed across barcoding plates over successive rounds so each cell picks up a unique combination of barcodes, making cell identity a function of barcode combinatorics rather than physical partitioning. Quantum Barcoding folds several barcode levels into consolidated plates and beads, reducing the split-and-pool steps other combinatorial methods require. Libraries sequence on standard NGS instruments; partnerships with Illumina (BaseSpace), NVIDIA, and Ultima Genomics support the downstream stack.",
+    "validated_by": "Kits are commercially shipping across RNA, methylation, and CRISPR guide-enrichment, with cell-count options from 84,000 to about 4 million. Backed by life-sciences-tools investors ARCH Venture Partners and Tao Capital; total disclosed funding roughly $32M. QuantumScale RNA supported in Illumina BaseSpace Sequence Hub, and public analysis documentation (ScaleRna pipeline) is available.",
+    "gaps": "Total funding, exact founding year, and current funding stage are not cleanly disclosed (aggregators list ~$32M and a 2020 founding; no confirmed named round). Head-to-head data-quality benchmarks against droplet and Parse split-pool methods are not independently published. The ~4M-cell figure is a kit capacity claim, not a routine validated study output.",
+    "notes": "Thin data on funding and stage: funding_stage set to unknown and total_funding_usd_m to 32 (best-effort aggregator figure, not a confirmed round). Classed research_tools (library-prep kit and consumables razor-and-blade) with substrate_family A because the company generates high-fidelity single-cell data, and data_centrality is important-enabler since the data belongs to customers while the moat is the barcoding chemistry IP. transformation_type is measure: this is single-cell data-generation tooling.\n\nPrimitive-link candidate: single-cell combinatorial-indexing (split-pool) library prep has no primitive in the spine yet. The closest existing primitives (spatial-omics, nanopore-sensing) describe different measurement modalities, so technology_platform_ids is omitted rather than forced. Propose a \"single-cell combinatorial-indexing library prep\" primitive covering Scale Biosciences and Parse Biosciences before the next batch."
+  },
+  {
     "id": "stellaromics",
     "name": "Stellaromics",
     "website": "stellaromics.com",
@@ -69,6 +277,155 @@
     "validated_by": "Underlying STARmap / RIBOmap methods published by the Wang and Deisseroth labs in Science and Nature-family journals. Raised ~$105M total: a $25M Series A (November 2023) and an $80M Series B (February 2025, led by Catalyst4 with Stanford University Ventures). Pyxa debuted at AGBT in February 2025; early access reported fully subscribed.",
     "gaps": "No named peer-reviewed publication in the launch materials, and the \"$105M\" total is a sum of the A and B rounds rather than an officially stated cumulative figure. Commercial shipment timing and per-sample cost and throughput are still early.",
     "notes": "Founded ~2022 (exact incorporation year not cleanly disclosed; emerged from stealth with the Series A in November 2023). Joint Deisseroth and Xiao Wang spin-out, corrected from a sole-founder framing. Classed device_consumables (instrument plus consumables plus software razor-and-blade). data_centrality is important-enabler because the generated data belongs to customers; the company's moat is the chemistry IP."
+  },
+  {
+    "id": "capable",
+    "name": "Capable",
+    "website": "capable.com",
+    "founded": 2025,
+    "area": "autonomous drug discovery",
+    "funding_stage": "seed",
+    "total_funding_usd_m": 12,
+    "public": false,
+    "business_model": "owned_pipeline",
+    "buyer": [
+      "pharma",
+      "payer"
+    ],
+    "buyer_urgency": "medium",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "heavy",
+    "tam_usd_m": 30000,
+    "data_centrality": "core-moat",
+    "data_ownership": [
+      "proprietary",
+      "generated-in-house"
+    ],
+    "moat": [
+      "data",
+      "wet-lab",
+      "model"
+    ],
+    "primary_value_chain_layer": "closed-loop preclinical drug discovery and optimization",
+    "input": [
+      "therapeutic target and mechanism hypotheses",
+      "peptide and nucleotide sequence space",
+      "cell and animal assay readouts"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "validated peptide and nucleotide drug leads",
+      "preclinical in vitro and in vivo data points"
+    ],
+    "barrier_to_entry": "high",
+    "barrier_to_entry_logic": "Verticalizing and re-engineering six preclinical modules to run 10-20x faster is a deep systems-integration effort that is hard to assemble, staff, and reproduce.",
+    "hardness": "very-hard",
+    "hardness_reason": "Whether a fully automated design-make-test loop actually yields clinic-ready drugs faster than incumbents is unproven at any clinical endpoint.",
+    "substrate_family": "B",
+    "substrate_tags": [
+      "B.1",
+      "B.2",
+      "B.6",
+      "C.1"
+    ],
+    "technology_platform_ids": [
+      "protein-design-diffusion-models",
+      "biology-foundation-models"
+    ],
+    "technology_platform_name": "Capable Core (6-module semi-autonomous preclinical loop)",
+    "new_capability": "Verticalized, semi-autonomous preclinical loop running key drug-discovery steps 10-20x faster, taking AI-designed peptide and nucleotide leads from design to validated data in about 24 hours.",
+    "technology_readiness_level": 4,
+    "commercialisation_status": "preclinical",
+    "customer": [
+      "pharma",
+      "payer"
+    ],
+    "limiting_factor": "No clinical-stage program; the speed and fewer-shot claims are self-reported and not yet proven to yield a clinic-ready drug.",
+    "last_verified": "2026-07-13",
+    "type": "company",
+    "one_liner": "Rapid-iteration therapeutics company whose verticalized, semi-autonomous lab takes AI-designed peptide and nucleotide leads from design to validated data in about 24 hours, starting with sleep and cognition.",
+    "problem": "Preclinical drug discovery is slow and serial: designing a candidate, synthesizing it, and running cell and animal assays takes months per cycle, so models see too few real data points to iterate well.",
+    "workaround": "Outsourced medicinal chemistry and CRO assay campaigns run at human timescales, with hand-offs between siloed design, synthesis, and testing steps, and data that rarely feeds cleanly back into the design model.",
+    "method": "Models iterate through hundreds of drug candidates, with each cycle generating thousands of validated data points that compound back into the loop for fewer-shot success on later targets. Peptide and nucleotide leads are made in-house with automated polymer synthesis, then screened in fast internal cell and mouse assays. Key cell and mouse results are double-validated with industry-standard contract labs, accepting slower, costlier external confirmation for final data.",
+    "validated_by": "Roughly $12M early round from 50 Years and HOF and from OpenAI executives Wojciech Zaremba, Kevin Weil, Srinivas Narayanan, and Fidji Simo. Founding team drawn from MIT, Harvard Medical School, Roche, ETH, and Dana-Farber; co-founder and CEO Isaak Freeman is ex-MIT Boyden Lab. Sample in vitro data and a 24-hour design-to-data claim shared publicly in July 2026; endorsed by Peter Diamandis.",
+    "gaps": "No clinical-stage or IND-stage program; all preclinical. The 10-20x speed, 24-hour loop, and fewer-shot claims are self-reported with no peer-reviewed or third-party benchmark yet. Founding year, exact HQ specifics beyond San Francisco, and a full investor list are not cleanly disclosed. Their strongest differentiator, the closed-loop automated preclinical execution, has no dedicated primitive in the spine yet; linked here to the generative-design primitives the loop is built on.",
+    "notes": "Thin data, best-effort from a July 2026 X thread by co-founder Isaak Freeman plus company web material. Founded set to 2025 and flagged uncertain (recent stealth-to-public launch). Filed under substrate family B (automation / execution) because the differentiating claim is the verticalized, re-engineered preclinical loop, not a single generative model; the C.1 tag and the two model primitives capture the generative-design leg. Owned-pipeline therapeutics company (sleep and cognition first), so buyer and customer are set to the eventual pharma-licensing and payer path rather than a current paying customer. Primitive-link candidate: a \"self-driving-lab / autonomous-experimentation\" primitive would fit this and the self-driving-lab peers better than the current generative-design links; propose before the next batch."
+  },
+  {
+    "id": "ginkgo-bioworks",
+    "name": "Ginkgo Bioworks",
+    "website": "ginkgo.bio",
+    "founded": 2008,
+    "area": "biofoundry",
+    "funding_stage": "public",
+    "total_funding_usd_m": 0,
+    "public": true,
+    "business_model": "platform_partnership",
+    "buyer": [
+      "biotech",
+      "pharma",
+      "academic_lab"
+    ],
+    "buyer_urgency": "medium",
+    "buyer_wtp": "medium",
+    "sales_cycle": "long",
+    "regulatory_burden": "light",
+    "tam_usd_m": 50000,
+    "data_centrality": "core-moat",
+    "data_ownership": [
+      "proprietary",
+      "generated-in-house",
+      "customer-generated"
+    ],
+    "moat": [
+      "wet-lab",
+      "data",
+      "capital",
+      "distribution"
+    ],
+    "primary_value_chain_layer": "automated organism engineering and lab-as-a-service",
+    "input": [
+      "organism engineering specifications from partners",
+      "DNA designs and genetic constructs",
+      "assay and screening campaigns"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "engineered strains and cell programs",
+      "high-throughput biological datapoints",
+      "autonomous lab run capacity"
+    ],
+    "barrier_to_entry": "very-high",
+    "barrier_to_entry_logic": "Building a large automated biofoundry (robots, DNA synthesis, assays, software) and the accumulated datapoints to run it is a capital-heavy, multi-year effort few can assemble.",
+    "hardness": "very-hard",
+    "hardness_reason": "Whether automated cell programming is reliably cheaper and faster than bespoke lab work across many organisms, and whether that converts to durable revenue, remains unproven at profitability.",
+    "substrate_family": "B",
+    "substrate_tags": [
+      "B.3",
+      "B.1",
+      "B.2",
+      "B.6"
+    ],
+    "technology_platform_name": "Nebula autonomous lab plus the Ginkgo cell-programming foundry",
+    "new_capability": "Runs organism engineering and biological experiments as an automated, around-the-clock lab service, generating structured datapoints at scale for partners and AI models instead of bespoke manual lab campaigns.",
+    "technology_readiness_level": 8,
+    "commercialisation_status": "commercial_early",
+    "customer": [
+      "biotech",
+      "pharma",
+      "academic_lab"
+    ],
+    "limiting_factor": "N/A",
+    "last_verified": "2026-07-13",
+    "type": "company",
+    "one_liner": "Cell-programming biofoundry that runs organism engineering and biology experiments as an automated, around-the-clock lab service, now pivoting to sell autonomous-lab capacity and structured datapoints.",
+    "problem": "Engineering an organism (a strain, enzyme, or pathway) or running a large biology campaign is slow, manual, and hard to reproduce: each program is a bespoke lab effort, throughput is bounded by human hands, and the data rarely comes out structured enough to train models or compound across projects.",
+    "workaround": "In-house wet labs staffed by scientists running experiments at human timescales, outsourced strain-engineering and screening at CROs, and manual data capture that stays siloed per project and rarely feeds cleanly into computational models.",
+    "method": "The foundry couples automated DNA synthesis and assembly, high-throughput strain construction, robotic assays, and software into a design-build-test-learn loop. Nebula runs over 50 instruments as an autonomous lab operating around the clock, executing real customer science and generating structured biological datapoints. Reasoning models with access to the robotic lab run many parallel hypotheses continuously, and the accumulated data is meant to compound across programs.",
+    "validated_by": "Public company (NYSE: DNA), listed via SPAC in 2021. Full-year 2025 revenue about $170M; cash and marketable securities about $423M at year-end 2025. Named partners include ProQR and Amazon on Cloud Lab. Completed divestiture of the Biosecurity business on 3 April 2026 to refocus on autonomous labs. Long history of pharma, biotech, agricultural, and industrial cell-engineering partnerships.",
+    "gaps": "Revenue fell about 25% in 2025 and Q1 2026 revenue dropped roughly 49% year over year, partly from the biosecurity divestiture and weak core service revenue; the company is restructuring and burning $125-150M of cash in 2026. The autonomous-lab pivot is early and its economics unproven. Persistent losses and no clear path to profitability disclosed. total_funding_usd_m set to 0 because it is public and pre-IPO private totals are not the relevant figure; ticker and cash position captured in Notes.",
+    "notes": "Founded 2008 by Jason Kelly and Reshma Shetty (and others from MIT); Boston, Massachusetts. Public via SPAC 2021, NYSE: DNA. Filed under substrate family B (automation / execution) because the differentiating asset is the automated biofoundry and autonomous lab, with substrate tag B.3 (biofoundry) primary plus B.1 (wet-lab automation), B.2 (high-throughput screening), and B.6 (DNA and RNA synthesis). Business model set to platform_partnership (foundry-as-a-service plus Cloud Lab capacity and Datapoints). funding_stage set to public per the listed-company rule; total_funding_usd_m set to 0 as a public-company placeholder. Primitive-link: no clean fit. Candidate primitive \"biofoundry / automated-cell-programming\" (robotic design-build-test-learn infrastructure for organism engineering plus autonomous-lab-as-a-service) would fit Ginkgo and the self-driving-lab peers, and overlaps the candidate flagged for Capable. Omitted technology_platform_ids and flagged this candidate."
   },
   {
     "id": "precision-nanosystems",
@@ -440,6 +797,79 @@
     "notes": "Substrate tag C.2 (molecular interaction) reflects the RNA-structure-prediction focus versus the generative C.1 tag used for the sequence-design peers. Linked to ai-lnp-design as the closest primitive per the map, though Atomic AI's core is RNA structure rather than lipid formulation. Total funding set to the ~$42M disclosed through Series A."
   },
   {
+    "id": "dyno-therapeutics",
+    "name": "Dyno Therapeutics",
+    "website": "dynotx.com",
+    "founded": 2018,
+    "area": "ai gene therapy vector design",
+    "funding_stage": "series-a",
+    "total_funding_usd_m": 112,
+    "public": false,
+    "business_model": "platform_partnership",
+    "buyer": [
+      "pharma",
+      "biotech"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "heavy",
+    "tam_usd_m": 50000,
+    "data_centrality": "core-moat",
+    "data_ownership": [
+      "proprietary",
+      "generated-in-house"
+    ],
+    "moat": [
+      "data",
+      "model",
+      "IP"
+    ],
+    "primary_value_chain_layer": "gene-therapy vector discovery and optimization",
+    "input": [
+      "target tissue and delivery requirements",
+      "AAV capsid sequence space",
+      "high-throughput in vivo capsid fitness measurements"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "novel AAV capsid designs with improved tropism and manufacturability",
+      "capsid variants with reduced immunogenicity",
+      "licensed gene-delivery vectors for partner pipelines"
+    ],
+    "barrier_to_entry": "high",
+    "barrier_to_entry_logic": "CapsidMap pairs ML capsid design with proprietary high-throughput in vivo fitness data across many properties at once, a paired data-plus-model asset that is slow and costly for a competitor to build.",
+    "hardness": "very-hard",
+    "hardness_reason": "Designing capsids that simultaneously hit tropism, manufacturability, and low immunogenicity, and translate from animal models to human gene therapy, remains hard and largely partner-dependent to prove.",
+    "substrate_family": "C",
+    "substrate_tags": [
+      "C.1",
+      "C.2"
+    ],
+    "technology_platform_ids": [
+      "protein-design-diffusion-models",
+      "biology-foundation-models"
+    ],
+    "technology_platform_name": "CapsidMap (ML-guided AAV capsid design plus high-throughput in vivo measurement)",
+    "new_capability": "Maps the AAV capsid fitness landscape with high-throughput in vivo data and ML, designing novel capsids optimised jointly for tropism, manufacturability, and immune evasion.",
+    "technology_readiness_level": 6,
+    "commercialisation_status": "pilot_deployment",
+    "customer": [
+      "pharma",
+      "biotech"
+    ],
+    "limiting_factor": "Designed capsids are advancing through partner pipelines but none has yet delivered an approved gene therapy, so human validation is pending.",
+    "last_verified": "2026-07-13",
+    "type": "company",
+    "one_liner": "AI gene-therapy company whose CapsidMap platform designs novel AAV capsids with better tissue targeting, manufacturability, and immune evasion, licensed to pharma partners.",
+    "problem": "Natural AAV capsids used for gene-therapy delivery have poor tissue specificity, provoke pre-existing immunity, and are hard to manufacture, so many gene therapies are limited by the vector rather than the payload.",
+    "workaround": "Directed evolution and rational mutagenesis of a handful of natural serotypes (AAV2, AAV9 and relatives), screened a few properties at a time, plus immunosuppression to manage anti-capsid immunity.",
+    "method": "CapsidMap treats capsid engineering as a design problem over the capsid protein sequence. Synthetic capsid libraries are measured in vivo for tropism, biodistribution, manufacturability, and immunogenicity simultaneously; ML models learn the fitness landscape from that proprietary data and propose novel capsids optimised across those objectives at once. Designed capsids are then licensed into partner gene-therapy programs.",
+    "validated_by": "$100M Series A (May 2021) led by Andreessen Horowitz, with Casdin Capital, GV, Obvious Ventures, and Lux Capital, plus ~$9M earlier seed funding. Partnerships with Novartis (ocular, 2020), Sarepta, Roche, Spark Therapeutics, and Astellas (muscle, 2021, $18M upfront and up to ~$1.6bn milestones); an expanded Roche CNS deal in October 2024 with $50M upfront. Wyss Institute origins tracing to George Church's lab.",
+    "gaps": "No Dyno-designed capsid has yet carried an approved gene therapy to market; value is realised through partners, so timelines and outcomes are partly outside Dyno's control. Capsid fitness data and model performance are proprietary and not independently benchmarked. Total disclosed equity (~$112M) is modest relative to the multi-billion-dollar milestone potential across deals.",
+    "notes": "Founded 2018 (public launch 2020) in Cambridge, MA; Wyss Institute / Church-lab origins. Total equity ~$112M (~$9M seed + $100M Series A + a small 2024 seed extension); large partnership upfronts (Astellas $18M, Roche $50M) are collaboration revenue, not equity, so they are excluded from total_funding_usd_m. substrate_tags cover generative sequence design (C.1) and the modelled capsid-tissue interaction (C.2). Linked to protein-design-diffusion-models (the capsid is a protein designed against a functional objective) and biology-foundation-models (sequence-to-fitness learning over the capsid landscape). TAM is a best-effort placeholder for the AAV gene-delivery market."
+  },
+  {
     "id": "instadeep",
     "name": "InstaDeep",
     "website": "instadeep.com",
@@ -650,6 +1080,80 @@
     "validated_by": "Reports >45,000 experimental data points across 120+ DBTL cycles and 4,300+ formulations. Demonstrated in-vivo extrahepatic delivery in mice with roughly 100x improved lung expression after AI iteration, and retrospectively predicted approved LNP designs. Published AI-designed LNPs for pulmonary gene therapy (Nature Biotechnology 2024). $19.5M oversubscribed seed (2023) backed by a16z Bio + Health, NFX, LionBird, Base4 Capital, and Technion.",
     "gaps": "No AI-designed Mana lipid has entered the clinic; independent third-party validation of the >45k data-point claim is limited; the split between own pipeline and partner licensing is not clearly disclosed. Cross-species translation of predicted tropism remains unproven at clinical scale.",
     "notes": "Tel Aviv-based. Total funding set to the disclosed $19.5M seed (an earlier ~$5M rolled into it). Business model read as partnership-led with a free public tool (Mina, launched 2025), so classed platform_partnership rather than owned_pipeline. The >45k data-point figure is the central differentiator and appears in company and Crunchbase materials."
+  },
+  {
+    "id": "manifold-bio",
+    "name": "Manifold Bio",
+    "website": "manifold.bio",
+    "founded": 2020,
+    "area": "in vivo biologics design",
+    "funding_stage": "series-a",
+    "total_funding_usd_m": 45,
+    "public": false,
+    "business_model": "platform_partnership",
+    "buyer": [
+      "pharma",
+      "biotech"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "heavy",
+    "tam_usd_m": 200000,
+    "data_centrality": "core-moat",
+    "data_ownership": [
+      "proprietary",
+      "generated-in-house"
+    ],
+    "moat": [
+      "data",
+      "model",
+      "IP"
+    ],
+    "primary_value_chain_layer": "in vivo biologics discovery and optimization",
+    "input": [
+      "protein target and epitope specifications",
+      "tissue-targeting and multispecific format requirements",
+      "multiplexed in vivo tissue distribution and PK readouts"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "de novo antibody and multispecific candidate sequences",
+      "blood-brain-barrier and tissue-targeting shuttle designs",
+      "quantitative in vivo biodistribution data per candidate"
+    ],
+    "barrier_to_entry": "high",
+    "barrier_to_entry_logic": "The protein-barcode readout lets hundreds of candidates be measured in one animal, a proprietary in vivo data flywheel that is expensive and slow for a competitor to reproduce.",
+    "hardness": "very-hard",
+    "hardness_reason": "Turning multiplexed in vivo distribution data into reliably developable, translatable tissue-targeted biologics is unproven at any clinical endpoint.",
+    "substrate_family": "C",
+    "substrate_tags": [
+      "C.1",
+      "C.2",
+      "A.1"
+    ],
+    "technology_platform_ids": [
+      "protein-design-diffusion-models",
+      "biology-foundation-models"
+    ],
+    "technology_platform_name": "mDesign (protein-barcode multiplexed in vivo screening plus mBER AI antibody design)",
+    "new_capability": "Protein barcodes (mCodes) let hundreds of candidate biologics be measured across tissues in a single animal, feeding an AI engine that designs tissue-targeted multispecifics in vivo-first.",
+    "technology_readiness_level": 5,
+    "commercialisation_status": "preclinical",
+    "customer": [
+      "pharma",
+      "biotech"
+    ],
+    "limiting_factor": "No candidate has reached the clinic; the in vivo design-to-translation loop is validated preclinically but not yet in humans.",
+    "last_verified": "2026-07-13",
+    "type": "company",
+    "one_liner": "In vivo biologics design company whose protein barcodes measure hundreds of therapeutic candidates in a single animal, feeding an AI engine that designs tissue-targeted multispecifics.",
+    "problem": "Protein therapeutics fail late because in vivo behaviour (biodistribution, tissue targeting, PK) can only be tested a few candidates at a time in animals, so design models see too little real in vivo data and translation stays a bottleneck.",
+    "workaround": "Serial single-candidate animal studies, in vitro binding and developability assays used as weak proxies for in vivo behaviour, and hand-engineered shuttle formats optimised one at a time.",
+    "method": "The mDesign engine pairs AI-guided protein design with multiplexed in vivo data in a closed loop. mBER designs millions of epitope-specific binders with structural priors, then all candidates are tested directly in vivo via barcoding rather than screened in vitro first. The measured tissue-distribution and PK data feed back to train the design models, an in vivo-first discovery approach aimed at tissue-targeted multispecifics and brain shuttles.",
+    "validated_by": "$40M Series A (July 2022) led by Triatomic Capital, with Section 32, FPV Ventures, Horizons Ventures, Tencent, plus seed backers Playground Global and Fifty Years; $5.4M seed (2020). November 2025 strategic collaboration and license with Roche for BBB shuttles: $55M upfront and potential for over $2bn in milestones. Founding team from Harvard Medical School and the Wyss Institute (Gleb Kuznetsov, Pierce Ogden, George Church).",
+    "gaps": "No disclosed clinical-stage program; all preclinical. The in vivo multiplexing throughput (stated up to hundreds per animal) and its translational advantage are largely self- and partner-reported, with no third-party clinical readout yet. Total disclosed equity is modest (~$45M) relative to the scale of the Roche deal, so scaling leans on partnership revenue.",
+    "notes": "Founded 2020 in the Boston area; Wyss Institute spinout. Total disclosed equity funding ~$45M ($5.4M seed + $40M Series A); the $55M Roche upfront is collaboration revenue, not equity, so it is not added to total_funding_usd_m. substrate_tags cover the generative-design model (C.1), the modelled binding interface (C.2), and the proprietary in vivo data asset (A.1) that is the real moat. Linked to protein-design-diffusion-models (mBER designs epitope-specific binders with structural priors) and biology-foundation-models (the proprietary in vivo data flywheel feeding design priors). TAM is a best-effort placeholder for the biologics discovery market, not a company figure."
   },
   {
     "id": "raina-biosciences",
@@ -6479,6 +6983,153 @@
     "notes": "San Francisco based, founded by Jyotika Varshney (CEO) and Zack Jones. Raised ~$21.4M over six rounds from investors including OCA Ventures, Serra Ventures, and Morpheus Ventures, plus non-dilutive federal grants. Positioned to benefit directly from the FDA Modernization Act's opening toward non-animal methods."
   },
   {
+    "id": "asimov",
+    "name": "Asimov",
+    "website": "asimov.com",
+    "founded": 2017,
+    "area": "mammalian synthetic biology",
+    "funding_stage": "series-b",
+    "total_funding_usd_m": 230,
+    "public": false,
+    "business_model": "platform_partnership",
+    "buyer": [
+      "biotech",
+      "pharma",
+      "cdmo"
+    ],
+    "buyer_urgency": "medium",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "medium",
+    "tam_usd_m": 25000,
+    "data_centrality": "core-moat",
+    "data_ownership": [
+      "proprietary",
+      "generated-in-house"
+    ],
+    "moat": [
+      "data",
+      "model",
+      "IP"
+    ],
+    "primary_value_chain_layer": "biologics cell-line and genetic-construct design",
+    "input": [
+      "biologic molecule and modality specifications",
+      "genetic-element and vector requirements",
+      "characterization data on genetic parts and CHO expression"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "optimized genetic constructs and expression vectors",
+      "engineered CHO host cell lines with predicted stable expression",
+      "genetic-circuit designs for biologics and gene-therapy manufacturing"
+    ],
+    "barrier_to_entry": "high",
+    "barrier_to_entry_logic": "A library of 2,500-plus characterised genetic elements paired with hybrid mechanistic-plus-ML design software and engineered CHO hosts is a data-and-tooling asset that is slow and capital-heavy to assemble.",
+    "hardness": "very-hard",
+    "hardness_reason": "Predicting stable, high-titer expression from genetic-construct sequence across modalities, reliably enough to compress cell-line development, is an unsolved design problem.",
+    "substrate_family": "E",
+    "substrate_tags": [
+      "E.1",
+      "C.1"
+    ],
+    "new_capability": "Computer-aided genetic design (Kernel) plus engineered CHO and AAV hosts that design and predict stable, high-titer expression systems, compressing biologics cell-line development to about four months.",
+    "technology_readiness_level": 7,
+    "commercialisation_status": "commercial_early",
+    "customer": [
+      "biotech",
+      "pharma",
+      "cdmo"
+    ],
+    "limiting_factor": "N/A",
+    "last_verified": "2026-07-13",
+    "type": "company",
+    "one_liner": "Mammalian synthetic-biology company whose Kernel design software plus engineered CHO and AAV host cells design and predict high-titer expression systems for biologics and gene-therapy manufacturing.",
+    "problem": "Cell-line development for biologics and gene therapies is slow and empirical: designing a genetic construct, integrating it, and screening clones for stable high-titer expression takes many months of trial and error, and the result is hard to predict from sequence.",
+    "workaround": "Manual vector design, random or semi-random genomic integration, and large clone-screening campaigns run by CDMOs and pharma process-development teams, with expression outcomes discovered experimentally rather than designed.",
+    "method": "Kernel connects Asimov's models, genetic parts, and hosts into one interface for designing and simulating genetic constructs. Hybrid mechanistic-and-machine-learning models guide codon usage, signal-peptide selection, and genetic-circuit layout; an ML model trained on CHO genome statistics and refined with biophysical predictions boosts titers across antibody formats. Designs run on the engineered CHO or AAV host, and characterization data feeds back into the parts library and models.",
+    "validated_by": "$200M raise announced January 2023 (Fifty Years, Andreessen Horowitz, and others), on top of a prior ~$30M including a $25M Series A led by Andreessen Horowitz; total ~$230M disclosed. Multi-year collaboration with DARPA on AI-assisted genetic engineering. Commercial CHO Edge and AAV Edge product lines with CDMO and biopharma customers; 2,500-plus characterised genetic elements and reported 5 to 10 g/L titers.",
+    "gaps": "Titer, timeline, and design-prediction claims (5 to 10 g/L, four-month development) are largely self-reported with limited third-party benchmarking. The genetic-circuit and expression-prediction models are proprietary and their generalisation across novel modalities is not independently validated. Precise current funding stage and post-2023 round details are not cleanly disclosed.",
+    "notes": "Founded 2017 in Boston; total disclosed funding ~$230M (~$30M early including $25M Series A, plus the $200M January 2023 raise); funding_stage set to series-b as a best-effort inference from the round sequence, not a confirmed label. Filed under substrate family E (biological) because the core object is engineered mammalian cells and genetic systems; the C.1 tag captures the generative genetic-design engine. commercialisation_status commercial_early and TRL 7 reflect live CHO Edge and AAV Edge products with customers, so limiting_factor is N/A. No primitive linked: the differentiating capability is genetic-circuit / synthetic-biology computer-aided design (Kernel), and the ML layer is task-specific hybrid mechanistic-plus-ML expression modelling rather than a single large pretrained biology foundation model, so biology-foundation-models is not a genuine mechanism match. Primitive-link candidate: a \"synthetic-biology-design / genetic-circuit-CAD\" primitive (mammalian genetic-construct and expression-system design) would fit Asimov and similar tooling companies; propose before the next batch. TAM is a best-effort placeholder for the cell-line-development and expression-system market."
+  },
+  {
+    "id": "beam-therapeutics",
+    "name": "Beam Therapeutics",
+    "website": "https://www.beamtx.com/",
+    "founded": 2017,
+    "area": "Precision base-editing medicines",
+    "substrate_family": "E",
+    "substrate_tags": [
+      "E.2",
+      "E.3",
+      "D.4"
+    ],
+    "technology_platform_ids": [
+      "prime-base-editing"
+    ],
+    "technology_platform_name": "Base editing",
+    "funding_stage": "public",
+    "total_funding_usd_m": 2200,
+    "public": true,
+    "business_model": "platform_to_pipeline_hybrid",
+    "buyer": [
+      "pharma",
+      "payer",
+      "provider"
+    ],
+    "customer": [
+      "pharma",
+      "payer",
+      "provider"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "heavy",
+    "tam_usd_m": 25000,
+    "new_capability": "Single-base DNA editing that chemically rewrites one letter of the genome without cutting both strands, correcting or installing precise changes both ex vivo in blood stem cells and in vivo in the liver.",
+    "data_centrality": "important-enabler",
+    "data_ownership": [
+      "proprietary",
+      "generated-in-house",
+      "licensed"
+    ],
+    "moat": [
+      "clinical-evidence",
+      "IP",
+      "founder-brand",
+      "capital"
+    ],
+    "primary_value_chain_layer": "therapeutic development",
+    "input": [
+      "base-editor-guide-rna-designs",
+      "patient-hematopoietic-stem-cells",
+      "lipid-nanoparticle-delivery-vehicles"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "ex-vivo-base-edited-cell-products",
+      "in-vivo-base-edited-liver-cells",
+      "base-editing-therapeutics"
+    ],
+    "technology_readiness_level": 6,
+    "limiting_factor": "No approved product; lead programs are Phase 1/2. In-vivo delivery beyond the liver, ex-vivo manufacturing and conditioning burden, and durable editing must be proven in pivotal trials.",
+    "commercialisation_status": "regulatory_review",
+    "barrier_to_entry": "very-high",
+    "barrier_to_entry_logic": "Founding base-editing IP from David Liu's lab, proprietary editor and delivery engineering, and multiple clinical-stage programs across ex-vivo and in-vivo routes form a lead few can reproduce.",
+    "hardness": "very-hard",
+    "hardness_reason": "Delivering precise single-base edits safely and durably in living patients, and proving durability over years across both blood-stem-cell and liver routes, is unproven at pivotal or commercial scale.",
+    "last_verified": "2026-07-13",
+    "type": "company",
+    "one_liner": "Beam Therapeutics is the base-editing pioneer, developing precision medicines that chemically rewrite a single DNA letter without cutting both strands, with clinical programs spanning ex-vivo sickle cell editing and in-vivo liver editing for genetic disease.",
+    "problem": "Most inherited diseases are caused by a single-letter DNA mutation, yet first-generation CRISPR cuts both strands and cannot make a clean single-base correction, risking unwanted insertions, deletions, and chromosomal rearrangements. Patients with disorders like sickle cell disease or alpha-1 antitrypsin deficiency have relied on lifelong management rather than a precise genetic fix.",
+    "workaround": "Chronic disease management: transfusions and hydroxyurea for sickle cell, augmentation therapy and transplant for AATD-related lung and liver disease, and nuclease CRISPR or gene-addition approaches that knock genes out or add copies rather than correcting the exact mutation.",
+    "method": "A base editor fuses a Cas protein to a deaminase and is guided by a guide RNA to a target site, where it chemically converts one DNA base to another (for example C-to-T or A-to-G) without a double-strand break. For BEAM-101, a patient's CD34+ blood stem cells are edited ex vivo in the HBG1/2 promoters to block BCL11A repression and raise fetal hemoglobin, then reinfused. For BEAM-302, a lipid nanoparticle delivers the editor to the liver in vivo to correct the disease-causing AATD mutation directly. The ESCAPE program adds an antibody-based conditioning alternative to reduce the toxicity of stem-cell transplant preparation.",
+    "validated_by": "BEAM-101 received FDA Regenerative Medicine Advanced Therapy (RMAT) designation for sickle cell disease and reported supportive BEACON Phase 1/2 data at EHA 2025, with initial pivotal-relevant data expected in 2026. BEAM-302 delivered the first-ever clinical in-vivo genetic correction of a disease-causing mutation in AATD, establishing clinical proof of concept, with a 60 mg dose selected and a global pivotal cohort planned for the second half of 2026. Beam ended Q1 2026 with about 1.2 billion USD in cash and runway into mid-2029.",
+    "gaps": "No approved product; lead assets are Phase 1/2 with pivotal cohorts only beginning in the second half of 2026. The ex-vivo sickle cell route still requires genotoxic conditioning (which the ESCAPE program aims to reduce), and in-vivo editing beyond the liver is unproven. Durability of single-base edits over years and long-term off-target safety in patients remain open questions.",
+    "notes": "Substrate spans ex-vivo edited blood stem cells (E.2, BEAM-101) and in-vivo liver editing (E.3, BEAM-302), with a therapeutic edit output (D.4). Linked to `prime-base-editing`, which names Beam as a closest company for both the ex-vivo edited-cell and in-vivo therapeutic-correction capabilities; Beam's mechanism is base editing specifically, the single-base half of that primitive.\n\nFounded 2017 in Cambridge, Massachusetts by David Liu, Feng Zhang, and J. Keith Joung, the base-editing inventors. IPO February 2020 on Nasdaq under ticker BEAM. Total capital raised across IPO and follow-on offerings is roughly 2.2 billion USD (estimate, cumulative figure not cleanly disclosed, flagged uncertain); cash was about 1.2 billion USD at Q1 2026 with runway into mid-2029. commercialisation_status set to `regulatory_review` given clinical-stage RMAT-designated programs and no approved product yet."
+  },
+  {
     "id": "capstan-therapeutics",
     "name": "Capstan Therapeutics",
     "website": "https://capstantx.com",
@@ -6621,6 +7272,82 @@
     "notes": "TRL 4 per the wetware-biocomputing primitive (in-vitro). Classed device_consumables: the CL1 hardware plus finite-lifespan neuron cultures form the razor-and-blade economics, with Cortical Cloud as the WaaS layer. transformation_type set to predict (the network computes and learns responses); the same substrate also serves as a measurement platform for drug response."
   },
   {
+    "id": "crispr-therapeutics",
+    "name": "CRISPR Therapeutics",
+    "website": "https://www.crisprtx.com/",
+    "founded": 2013,
+    "area": "CRISPR/Cas9 gene-edited medicines",
+    "substrate_family": "E",
+    "substrate_tags": [
+      "E.2",
+      "E.3"
+    ],
+    "technology_platform_ids": [
+      "engineered-cell-therapy"
+    ],
+    "technology_platform_name": "CRISPR/Cas9 gene editing",
+    "funding_stage": "public",
+    "total_funding_usd_m": 2000,
+    "public": true,
+    "business_model": "platform_to_pipeline_hybrid",
+    "buyer": [
+      "pharma",
+      "payer",
+      "provider"
+    ],
+    "customer": [
+      "pharma",
+      "payer",
+      "provider"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "heavy",
+    "tam_usd_m": 20000,
+    "new_capability": "First approved CRISPR therapy: ex-vivo Cas9 editing of a patient's own blood stem cells to raise fetal hemoglobin, delivering a one-time functional cure for sickle cell disease and beta-thalassemia.",
+    "data_centrality": "important-enabler",
+    "data_ownership": [
+      "proprietary",
+      "generated-in-house",
+      "licensed"
+    ],
+    "moat": [
+      "clinical-evidence",
+      "IP",
+      "regulatory-trust",
+      "capital"
+    ],
+    "primary_value_chain_layer": "therapeutic development",
+    "input": [
+      "cas9-guide-rna-designs",
+      "patient-or-donor-hematopoietic-stem-cells",
+      "lipid-nanoparticle-and-viral-delivery-vehicles"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "ex-vivo-edited-cell-therapy-products",
+      "in-vivo-gene-editing-therapeutics",
+      "approved-casgevy-treatment"
+    ],
+    "technology_readiness_level": 9,
+    "limiting_factor": "N/A for the approved Casgevy product; pipeline programs (in-vivo cardiovascular, allogeneic CAR-T) remain gated on delivery efficiency and durable off-the-shelf cell persistence.",
+    "commercialisation_status": "commercial_early",
+    "barrier_to_entry": "very-high",
+    "barrier_to_entry_logic": "An approved first-in-class CRISPR therapy, foundational Cas9 IP, a validated ex-vivo edited-cell manufacturing chain, and a partnered commercial footprint with Vertex form a lead that is extremely costly to reproduce.",
+    "hardness": "very-hard",
+    "hardness_reason": "Extending from a proven ex-vivo blood-stem-cell edit to durable in-vivo editing and off-the-shelf allogeneic CAR-T requires solving delivery and cell persistence problems that remain unproven at commercial scale.",
+    "last_verified": "2026-07-13",
+    "type": "company",
+    "one_liner": "CRISPR Therapeutics develops CRISPR/Cas9 gene-edited medicines and co-developed Casgevy with Vertex, the first CRISPR therapy approved anywhere, a one-time treatment for sickle cell disease and transfusion-dependent beta-thalassemia, alongside in-vivo editing and allogeneic CAR-T programs.",
+    "problem": "Sickle cell disease and beta-thalassemia are inherited blood disorders that today require lifelong transfusions, pain management, and hospitalizations, with a bone-marrow transplant the only prior cure and only for the minority with a matched donor. More broadly, most severe genetic and immune diseases have no route to a durable one-time fix.",
+    "workaround": "Chronic transfusions, hydroxyurea, iron chelation, and pain management for hemoglobinopathies; allogeneic stem-cell transplant for the few with matched donors; and patient-specific autologous CAR-T that is slow and costly to manufacture one patient at a time.",
+    "method": "A guide RNA directs Cas9 to a chosen genomic site where it cuts DNA, and the cell's repair either disrupts a target gene or, with a template, inserts new sequence. For Casgevy, a patient's own CD34+ blood stem cells are collected, edited ex vivo to disrupt the BCL11A enhancer so fetal hemoglobin rises, then reinfused after conditioning. In-vivo programs (CTX310, CTX340, CTX321) deliver Cas9 by lipid nanoparticle to edit liver lipid genes directly, and allogeneic CAR-T (zugo-cel, formerly CTX112) uses multiplexed Cas9 knockouts plus CAR insertion to make donor T cells off-the-shelf.",
+    "validated_by": "FDA approved Casgevy for sickle cell disease in December 2023 and for transfusion-dependent beta-thalassemia in January 2024, the first approved CRISPR-based medicine; the EU granted conditional marketing authorization in February 2024. By end of 2024 more than 50 patients had initiated cell collection across more than 50 activated authorized treatment centers. CTX310 (ANGPTL3) reported positive Phase 1 in-vivo cardiovascular data, with further updates due in the second half of 2026. Cash and marketable securities were roughly 1.86 billion USD as of March 31, 2025.",
+    "gaps": "Casgevy is approved but its ex-vivo, conditioning-dependent model is expensive and slow to scale, limiting patient throughput. The in-vivo and allogeneic CAR-T pipeline is still early clinical, with durable off-the-shelf cell persistence and in-vivo delivery efficiency unproven. Casgevy revenue accrues largely through Vertex under the 60/40 split, so CRISPR captures a minority share of the first approved product.",
+    "notes": "Substrate spans ex-vivo edited cells (E.2, Casgevy) and in-vivo editing (E.3, CTX310 line). Linked to `engineered-cell-therapy` because the approved product is an ex-vivo gene-edited autologous HSC therapy; that primitive centers on non-MHC-restricted allogeneic cells, so the fit is partial. Casgevy is autologous edited HSCs, and the company's allogeneic CAR-T (zugo-cel) is closer to the primitive's off-the-shelf thesis. The `prime-base-editing` primitive is a poorer fit since CRISPR Therapeutics uses nuclease Cas9 editing, not base or prime editing.\n\nFounded 2013 (Basel, Switzerland and Cambridge, Massachusetts), co-founded by Emmanuelle Charpentier, a co-inventor of CRISPR/Cas9. IPO October 2016 on Nasdaq under ticker CRSP. Total capital raised across private, IPO, and follow-on offerings is roughly 2.0 billion USD (estimate, cumulative figure not cleanly disclosed, flagged uncertain); cash and marketable securities were about 1.86 billion USD at Q1 2025. commercialisation_status set to `commercial_early` given one approved product (Casgevy) with an early ramp under Vertex."
+  },
+  {
     "id": "eligo-biosciences",
     "name": "Eligo Bioscience",
     "website": "https://eligo.bio/",
@@ -6689,6 +7416,148 @@
     "validated_by": "In 2024 the company published in-situ targeted base editing of E. coli and Klebsiella in the mouse gut in Nature, with edited bacteria stably maintained for at least 42 days. A prior GSK partnership (2021) and a 2025 French government France 2030 grant fund the acne and immuno-dermatology programs.",
     "gaps": "No human clinical efficacy data yet; lead programs remain preclinical. Manufacturing of phage-derived particles at clinical scale is unproven, and no regulatory precedent exists for an in-vivo bacterial gene-editing therapeutic.",
     "notes": "Founded 2014 in Paris by Xavier Duportet, David Bikard, Timothy Lu, and Luciano Marraffini. Roughly 47 employees as of 2026. Total disclosed funding around 52.3M USD across seed, a 2017 20M Series A (Seventure, Khosla Ventures), and a Series B expanded to about 35M, plus a 2025 5M non-dilutive France 2030 grant. The EB005 acne designation appears in earlier program references; the current company framing describes it as the lead CRISPR-based topical acne therapeutic."
+  },
+  {
+    "id": "ensoma",
+    "name": "Ensoma",
+    "website": "https://ensoma.com/",
+    "founded": 2021,
+    "area": "In-vivo hematopoietic stem cell engineering",
+    "substrate_family": "E",
+    "substrate_tags": [
+      "E.3",
+      "E.5"
+    ],
+    "technology_platform_ids": [
+      "engineered-cell-therapy"
+    ],
+    "technology_platform_name": "Engenious in-vivo HSC engineering (virus-like particles)",
+    "funding_stage": "series-b",
+    "total_funding_usd_m": 155,
+    "public": false,
+    "business_model": "platform_to_pipeline_hybrid",
+    "buyer": [
+      "pharma",
+      "payer",
+      "provider"
+    ],
+    "customer": [
+      "pharma",
+      "payer",
+      "provider"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "heavy",
+    "tam_usd_m": 15000,
+    "new_capability": "Engineering blood and immune stem cells inside the body, no chemotherapy conditioning or stem-cell donor, by delivering large genomic-editing cargo directly to HSCs with liver-detargeting virus-like particles.",
+    "data_centrality": "important-enabler",
+    "data_ownership": [
+      "proprietary",
+      "generated-in-house",
+      "licensed"
+    ],
+    "moat": [
+      "IP",
+      "wet-lab",
+      "capital"
+    ],
+    "primary_value_chain_layer": "therapeutic development",
+    "input": [
+      "engenious-virus-like-particles",
+      "genomic-editing-payloads-base-edit-to-multigene-insertion",
+      "hsc-targeting-ligands"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "in-vivo-engineered-hematopoietic-stem-cells",
+      "off-the-shelf-conditioning-free-genomic-medicines"
+    ],
+    "technology_readiness_level": 4,
+    "limiting_factor": "No clinical program yet; must demonstrate in-vivo HSC editing efficiency, durability, and safety of VLP delivery in humans, plus scalable VLP manufacturing, before first-in-human.",
+    "commercialisation_status": "preclinical",
+    "barrier_to_entry": "very-high",
+    "barrier_to_entry_logic": "Requires the Engenious virus-like-particle platform (20-plus years of Kiem/Lieber research), 35 kb cargo capacity, HSC-selective liver-detargeting delivery, and CRISPR engineering from the Twelve Bio acquisition, an assembly very few can reproduce.",
+    "hardness": "moonshot",
+    "hardness_reason": "Editing blood stem cells inside the body with no conditioning at all, safely and durably, is a first-in-class delivery problem no company has yet proven in humans.",
+    "last_verified": "2026-07-13",
+    "type": "company",
+    "one_liner": "Ensoma engineers blood and immune stem cells inside the body with its Engenious virus-like-particle platform, aiming to deliver off-the-shelf genomic medicines that need no chemotherapy conditioning and no stem-cell donor.",
+    "problem": "Curative blood-cell gene therapies today are built one patient at a time: cells are collected by leukapheresis, edited outside the body, and reinfused only after harsh chemotherapy conditioning that carries fertility, cancer, and mortality risk. That process is slow, expensive, and inaccessible to most patients worldwide, especially for diseases like sickle cell or chronic granulomatous disease common in low-resource settings.",
+    "workaround": "Ex-vivo autologous gene and cell therapies (Casgevy, lentiviral products) that require apheresis, external manufacturing, and myeloablative conditioning; allogeneic transplant for the few with matched donors; and chronic management for everyone else.",
+    "method": "Engenious vectors are virus-like particles with roughly 35 kilobases of cargo capacity, engineered to bind HSCs and avoid the liver. They carry a range of genomic tools, from single base edits up to large multi-gene insertions, into stem cells in the body, so no cells are removed and no conditioning is needed. The CRISPR engineering capability from the acquired Twelve Bio broadens the editing payloads the particles can deliver. Programs span genetic, immune, and oncology indications, with X-CGD as the lead.",
+    "validated_by": "Ensoma launched February 2021 with a 70 million USD Series A led by 5AM Ventures and a Takeda collaboration granting Takeda a worldwide license to Engenious vectors for up to five rare-disease indications, with a 10 million USD equity investment and up to 100 million USD in upfront and preclinical payments. A January 2023 85 million USD Series B accompanied the acquisition of CRISPR-engineering company Twelve Bio. Preclinical data include in-vivo HSC engineering restoring NADPH-enzyme function in an X-CGD mouse model, presented at ASH and ASGCT. Scientific co-founders are Hans-Peter Kiem (Fred Hutchinson) and Andre Lieber (University of Washington).",
+    "gaps": "No clinical-stage program disclosed; all data are preclinical, so the central claim that Engenious can edit HSCs in humans efficiently and durably without conditioning is unproven in people. VLP manufacturing at clinical scale, off-target and immunogenicity risk of repeat in-vivo dosing, and long-term durability are open. As a private company, funding runway beyond the disclosed rounds and exact program timelines are not cleanly disclosed.",
+    "notes": "Substrate is in-vivo engineered hematopoietic stem cells (E.3) delivered by virus-like particles (E.5, the exosome/EV/viral-vector tag). Linked to `engineered-cell-therapy` as the closest cell-engineering primitive, but the fit is partial: that primitive centers on ex-vivo allogeneic effector cells, while Ensoma's core novelty is the in-vivo VLP delivery of editing payloads to stem cells with no ex-vivo step. The delivery mechanism is the real differentiator; `extracellular-vesicles` (E.5) is a candidate closer-fit primitive for the VLP delivery angle, and an in-vivo-HSC-delivery primitive would fit better than either if the batch warrants one. Flagged for the next primitive review.\n\nFounded and launched February 2021 in Boston, incubated by 5AM Ventures' company-creation engine; CEO Emile Nuwaysir. Total disclosed funding is roughly 155 million USD (70 million USD Series A in 2021 plus 85 million USD Series B in January 2023), excluding Takeda milestone potential; figure flagged as best-effort since no later round is cleanly disclosed. funding_stage set to `series-b`; commercialisation_status `preclinical`."
+  },
+  {
+    "id": "geltor",
+    "name": "Geltor",
+    "website": "geltor.com",
+    "founded": 2015,
+    "area": "precision fermentation proteins",
+    "funding_stage": "series-c",
+    "total_funding_usd_m": 137,
+    "public": false,
+    "business_model": "manufacturing_cdmo",
+    "buyer": [
+      "consumer",
+      "biotech"
+    ],
+    "buyer_urgency": "medium",
+    "buyer_wtp": "medium",
+    "sales_cycle": "medium",
+    "regulatory_burden": "light",
+    "tam_usd_m": 12000,
+    "data_centrality": "important-enabler",
+    "data_ownership": [
+      "proprietary",
+      "generated-in-house"
+    ],
+    "moat": [
+      "IP",
+      "wet-lab",
+      "distribution"
+    ],
+    "primary_value_chain_layer": "designer-protein ingredient design and biomanufacturing",
+    "input": [
+      "target protein sequences (collagen, elastin, keratin variants)",
+      "microbial host strains",
+      "fermentation feedstock"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "animal-free designer protein and peptide ingredients",
+      "GRAS-cleared and cosmetic-grade polypeptides"
+    ],
+    "barrier_to_entry": "medium",
+    "barrier_to_entry_logic": "Designing a performant animal-free protein and getting it fermented at cost and regulatory-cleared is hard, but many precision-fermentation players and incumbent ingredient suppliers can pursue the same targets.",
+    "hardness": "hard",
+    "hardness_reason": "Hitting cost parity with cheap animal-derived collagen at fermentation scale, while designing proteins that perform in a formulation, is the binding constraint.",
+    "substrate_family": "E",
+    "substrate_tags": [
+      "E.4",
+      "E.1"
+    ],
+    "technology_platform_name": "Biodesigner AI (protein design plus microbial precision fermentation)",
+    "new_capability": "Computationally designs animal-free human-identical and biomimetic proteins (collagen, elastin, keratin) and produces them by microbial fermentation for beauty, personal care, and food.",
+    "technology_readiness_level": 9,
+    "commercialisation_status": "commercial_scaled",
+    "customer": [
+      "consumer",
+      "biotech"
+    ],
+    "limiting_factor": "N/A",
+    "last_verified": "2026-07-13",
+    "type": "company",
+    "one_liner": "Biodesign company that computationally designs animal-free proteins (collagen, elastin, keratin) and makes them by microbial precision fermentation as ingredients for beauty, personal care, and food.",
+    "problem": "Collagen, elastin, and keratin used in cosmetics and nutrition are extracted from animal tissue (bovine, marine, porcine), which brings supply variability, contamination and ethical concerns, sequence heterogeneity, and no way to design a protein for a specific performance target. Brands going vegan or clean-label have no drop-in animal-free equivalent that performs.",
+    "workaround": "Animal-derived collagen and gelatin from slaughterhouse and fishery byproducts, plant-protein substitutes that do not match collagen or elastin biology, and synthetic peptide mimetics that approximate rather than reproduce the human protein.",
+    "method": "The Biodesigner AI platform designs protein sequences (human-identical or biomimetic variants of collagen, elastin, keratin) tuned for a functional target, then expresses them in engineered microbial hosts by precision fermentation. The fermented protein is purified into a cosmetic-grade or food-grade polypeptide ingredient. The loop couples computational sequence design to fermentation and downstream formulation performance data.",
+    "validated_by": "Total funding of about $137M, with a 2025 equity round co-led by Starlight Ventures and iSelect Fund; earlier a $91.3M Series B. PrimaColl received an FDA \"no questions\" response to its GRAS notification, the first biotech collagen to reach that milestone, and won a 2026 Cosmetics and Toiletries All\u0113 Award. Commercial ingredient lines (Elastapure, HumaColl 21, Collume, Collagen sold into named consumer brands).",
+    "gaps": "Cost parity with cheap animal-derived collagen at scale is the persistent constraint for a commodity-adjacent ingredient. Fermentation economics and margin structure are not publicly disclosed. No confirmed Series C label or current valuation; funding-stage set to series-c as best-effort from cumulative $137M raised. Beauty and personal care is a smaller, more defensible market than food, where competition on price is fiercer.",
+    "notes": "Founded 2015 by Alex Lorestani and Nick Ouzounov, who met as molecular-biology PhD students at Princeton; HQ San Leandro, California; SOSV / IndieBio alum. Filed under substrate family E (biological) because the differentiating asset is the engineered-microbe fermentation platform, not a model, so substrate tag E.4 (engineered microbes) is primary with E.1 (synthetic bio) secondary. Business model set to manufacturing_cdmo (it sells fermented ingredients to brands); an ingredient-supplier / specialty-materials model is not a clean taxonomy value, closest is manufacturing_cdmo plus ip_licensing on the designed sequences. funding_stage is a best-effort inference. Primitive-link: no clean fit. Candidate primitive \"precision-fermentation-protein-biomanufacturing\" (engineered-microbe fermentation of designer proteins for consumer and food ingredients) would fit Geltor plus the fermentation-protein peers; cell-free-synthetic-biology does not fit (its mechanism is tube-free extract for diagnostics, Geltor uses live engineered cells at scale), and engineered-living-materials does not fit (structural live-cell matrix). Omitted technology_platform_ids and flagged this candidate."
   },
   {
     "id": "hesperos",
@@ -6894,6 +7763,72 @@
     "validated_by": "First product LogicInk UV brought to market and covered by Fast Company, Wareable, and Engineering.com. NIH grant funding for an alcohol-consumption monitoring Signal. Partnership and CRISPR license agreement announced in 2021 with the 221b Foundation and Sherlock Biosciences. Website currently lists Suncare and Hydration Signals as available.",
     "gaps": "Chemistry-only readouts are qualitative or semi-quantitative and cannot easily stream, log, or trend data the way electronic wearables do. Repeat-purchase economics for single-use cosmetic patches are unproven. The move from UV novelty toward regulated diagnostics (concussion, genetic predisposition, infectious disease) crosses into a much heavier regulatory and evidence burden than a cosmetic sun sensor.",
     "notes": "Thin-data company. LogicInk is small and quiet, with sparse and partly inconsistent public reporting. Funding figures vary by source: Tracxn reports roughly $1M across two rounds while Dealroom-adjacent reporting cites about $1.35M from Mission Bay Capital, Breakout Labs (Thiel Foundation), Village Global, and Atypical Ventures; the higher figure is used here and should be treated as approximate. Founded 2016 in San Francisco by Carlos Olguin (early Kickstarter/crowdfund history). tam_usd_m is set to 0 because no defensible market-size figure was found. Classification as cell-free synthetic biology reflects the platform's programmable-chemistry-and-biology framing and the CRISPR/cell-free diagnostic direction, not a claim that every shipping consumer product is a living or cell-free system. Whether the company remains actively selling versus operating in a low-activity state is uncertain; the website still lists live products as of last verification."
+  },
+  {
+    "id": "maverick-biometals",
+    "name": "Maverick BioMetals",
+    "website": "maverickbiometals.com",
+    "founded": 2021,
+    "area": "biomining",
+    "funding_stage": "seed",
+    "total_funding_usd_m": 19,
+    "public": false,
+    "business_model": "manufacturing_cdmo",
+    "buyer": [
+      "biotech"
+    ],
+    "buyer_urgency": "medium",
+    "buyer_wtp": "medium",
+    "sales_cycle": "long",
+    "regulatory_burden": "medium",
+    "tam_usd_m": 10000,
+    "data_centrality": "important-enabler",
+    "data_ownership": [
+      "proprietary",
+      "generated-in-house"
+    ],
+    "moat": [
+      "IP",
+      "wet-lab",
+      "model"
+    ],
+    "primary_value_chain_layer": "biological critical-mineral extraction",
+    "input": [
+      "crushed ore and mining waste",
+      "engineered microbes and extraction enzymes",
+      "target mineral crystal structures"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "extracted lithium and other critical metals",
+      "selective mineral-dissolution enzymes"
+    ],
+    "barrier_to_entry": "high",
+    "barrier_to_entry_logic": "Designing enzymes that selectively dissolve specific silicate crystal structures, then running them at mine-site economics, is a hard combination of protein design and process chemistry few teams have.",
+    "hardness": "very-hard",
+    "hardness_reason": "Whether enzyme-driven bioextraction actually recovers lithium at a cost and throughput competitive with brine evaporation and hard-rock processing at industrial scale is unproven.",
+    "substrate_family": "E",
+    "substrate_tags": [
+      "E.4",
+      "E.1"
+    ],
+    "technology_platform_name": "AI-designed extraction enzymes (LithX) plus whole-cell and cell-free bioextraction",
+    "new_capability": "Uses AI-designed enzymes and engineered microbes to dissolve silicate minerals and selectively extract lithium and other critical metals from ore and mining waste, without harsh chemical leaching.",
+    "technology_readiness_level": 4,
+    "commercialisation_status": "pilot_deployment",
+    "customer": [
+      "biotech"
+    ],
+    "limiting_factor": "Enzyme-driven extraction has not been shown to recover lithium at industrial cost and throughput; no operating mine-site plant yet.",
+    "last_verified": "2026-07-13",
+    "type": "company",
+    "one_liner": "Biomining company using AI-designed enzymes and engineered microbes to dissolve silicate minerals and extract lithium and other critical metals from ore and mining waste, without harsh chemical leaching.",
+    "problem": "Lithium and other critical minerals are recovered by energy-intensive, chemically harsh, and environmentally costly processes (brine evaporation ponds, acid leaching, high-temperature roasting), which are slow, waste-heavy, and often leave metals stranded in low-grade ore and tailings.",
+    "workaround": "Conventional hydrometallurgy and pyrometallurgy: acid or solvent leaching, roasting, and multi-year brine evaporation, plus mining-waste and tailings that are left unprocessed because extracting the residual metal is uneconomic.",
+    "method": "Ore or mining waste is crushed and ground, then combined with engineered microbes and the designed extraction enzymes in whole-cell or cell-free processes that degrade the silicate matrix to expose and release target metals for separation and recovery. An AI model designs the enzyme to fit the crystal structure of the specific mineral, giving selectivity for the target metal.",
+    "validated_by": "Roughly $19M seed round (April 2025) led by Olive Tree Capital, with Y Combinator, TechNexus, Soma Capital, Nomadic Venture Partners, and Liquid 2 Ventures; plus an earlier SBIR grant. Y Combinator S22 cohort; 2022 iGEM Startup Showcase finalist. Grew from a Baltimore basement bench to a 10,000 sq ft lab. Plans to build a plant at a mine site to produce lithium and strontium.",
+    "gaps": "Early and pre-industrial: TRL around 4, no operating mine-site plant, and no third-party data showing lithium recovery at competitive cost or throughput. Funding figures conflict across trackers (a $19M April 2025 seed and about $35M cumulative per Crunchbase, versus roughly $9.6M per Tracxn); total set to the $19M seed as best-effort, flagged uncertain. Founded year is not cleanly disclosed (iGEM 2022 finalist and YC S22 suggest ~2021-2022); set to 2021 and flagged uncertain. The company also appears under the name \"MaverickX,\" which broadens the framing to natural-resource extraction chemistry generally.",
+    "notes": "Thin data, best-effort from press interviews, Y Combinator and iGEM material, and startup-tracker profiles; several numbers conflict and are flagged in Gaps. Co-founded by Eric Herrera (CEO) and Jesse Evans. Slug set to maverick-biometals (the fuller registered name) to disambiguate from the generic \"Maverick.\" Filed under substrate family E (biological) with substrate tag E.4 (engineered microbes) primary and E.1 (synthetic bio) secondary; the AI enzyme-design leg is a supporting capability, the differentiator is microbial and enzymatic bioextraction. Business model set to manufacturing_cdmo as the closest taxonomy value for a company that will sell recovered metal or extraction-as-a-service to miners; a \"critical-mineral production / extraction-service\" model is not a clean taxonomy value. Primitive-link: no clean fit. Candidate primitive \"microbial-biomining / enzymatic-mineral-bioextraction\" (engineered microbes and designed enzymes that dissolve ore to recover critical metals) would fit Maverick and the biomining peers. cell-free-synthetic-biology does not fit despite Maverick using cell-free processes (that primitive is a diagnostics/biosensing substrate, not metal extraction); engineered-living-materials does not fit. Omitted technology_platform_ids and flagged this candidate."
   },
   {
     "id": "merge-labs",
@@ -7172,6 +8107,80 @@
     "validated_by": "In May 2020 Sherlock received the first-ever FDA Emergency Use Authorization for a CRISPR-based diagnostic, its SARS-CoV-2 test. The company launched the PROMISE clinical trial in 2024 to compare its disposable OTC molecular STI test against central-lab reference methods. In December 2024, OraSure Technologies acquired Sherlock, validating the platform commercially and funding the path to FDA clearance.",
     "gaps": "No FDA-cleared OTC molecular STI product on market yet as of mid-2026, so revenue depends on clearance of the chlamydia and gonorrhea assay. The acquisition milestone structure (up to $25M, mostly contingent on FDA approval) signals the outcome is unproven. Manufacturing an instrument-free molecular device at consumer price and scale remains a hard cost problem.",
     "notes": "Founded in 2019 from SHERLOCK research at the Broad Institute (Feng Zhang, Jim Collins, and colleagues) and named for Specific High-sensitivity Enzymatic Reporter unLOCKing. Raised roughly $111M across a Series A (about $49M total) and an $80M Series B (March 2022), with early backing including a $17.5M grant from the Open Philanthropy Project. Acquired Sense Biodetection to strengthen its instrument-free INSPECTR readout. Acquired by OraSure Technologies on December 19, 2024 for up to $25M ($5M upfront plus $20M in FDA-approval milestones and a low-single-digit royalty), and now operates as part of OraSure. The syphilis/STI framing reflects the broader at-home STI diagnostics push; the lead OTC molecular program targets chlamydia and gonorrhea."
+  },
+  {
+    "id": "verve-therapeutics",
+    "name": "Verve Therapeutics",
+    "website": "https://www.vervetx.com/",
+    "founded": 2018,
+    "area": "In-vivo base editing for cardiovascular disease",
+    "substrate_family": "E",
+    "substrate_tags": [
+      "E.3",
+      "D.4"
+    ],
+    "technology_platform_ids": [
+      "prime-base-editing"
+    ],
+    "technology_platform_name": "In-vivo base editing",
+    "funding_stage": "acquired",
+    "total_funding_usd_m": 750,
+    "public": false,
+    "business_model": "owned_pipeline",
+    "buyer": [
+      "pharma",
+      "payer",
+      "provider"
+    ],
+    "customer": [
+      "pharma",
+      "payer",
+      "provider"
+    ],
+    "buyer_urgency": "high",
+    "buyer_wtp": "high",
+    "sales_cycle": "long",
+    "regulatory_burden": "heavy",
+    "tam_usd_m": 30000,
+    "new_capability": "One-time in-vivo base edit of the liver that switches off a cholesterol-driving gene such as PCSK9, aiming to lower LDL for life from a single infusion instead of lifelong daily therapy.",
+    "data_centrality": "important-enabler",
+    "data_ownership": [
+      "proprietary",
+      "generated-in-house",
+      "licensed"
+    ],
+    "moat": [
+      "clinical-evidence",
+      "IP",
+      "capital"
+    ],
+    "primary_value_chain_layer": "therapeutic development",
+    "input": [
+      "target-gene-selections-pcsk9-angptl3-lpa",
+      "base-editor-guide-rna-payloads",
+      "lipid-nanoparticle-delivery-vehicles"
+    ],
+    "transformation_type": "generate",
+    "output": [
+      "in-vivo-base-edited-liver-cells",
+      "one-time-cardiovascular-gene-editing-therapeutics"
+    ],
+    "technology_readiness_level": 6,
+    "limiting_factor": "N/A (acquired by Eli Lilly, July 2025); prior blocker was durable in-vivo delivery and long-term safety of liver base editing at scale.",
+    "commercialisation_status": "acquired",
+    "barrier_to_entry": "very-high",
+    "barrier_to_entry_logic": "Requires licensed base-editing IP, proprietary LNP delivery chemistry tuned to the liver, and a first-in-class clinical safety dataset for in-vivo genome editing that very few groups can assemble.",
+    "hardness": "very-hard",
+    "hardness_reason": "Proving that a permanent, one-time edit of a healthy person's DNA is safe and durable over decades in a large cardiovascular-prevention population is unproven and unforgiving of any off-target or long-term risk.",
+    "last_verified": "2026-07-13",
+    "type": "company",
+    "one_liner": "Verve Therapeutics develops one-time in-vivo base-editing medicines that switch off cholesterol-driving genes such as PCSK9, ANGPTL3, and LPA in the liver, aiming to replace lifelong cardiovascular drugs with a single \"one-and-done\" infusion.",
+    "problem": "Cardiovascular disease is driven by chronically elevated LDL cholesterol and lipoprotein(a), yet the standard of care depends on patients taking daily pills or regular injections for life. Adherence decays over years, and a large fraction of high-risk patients never reach their lipid targets, so preventable heart attacks and strokes keep happening despite effective drugs existing.",
+    "workaround": "Statins, ezetimibe, PCSK9-inhibiting antibodies, and siRNA therapies lower LDL but must be taken repeatedly, indefinitely, and stop working when a patient stops. None of them alter the underlying gene, so the effect lasts only as long as dosing continues.",
+    "method": "A base editor, a guide RNA plus a deaminase fused to a Cas protein, is delivered to liver cells inside the body by a lipid nanoparticle. The editor chemically converts a single DNA base in the target gene without cutting both strands, introducing a stop or splice-disrupting change that switches the gene off permanently. Because hepatocytes carry the edit for their lifetime, the LDL-lowering effect is designed to persist from one dose. Lead programs target PCSK9 (VERVE-102), ANGPTL3 (VERVE-201), and LPA (VERVE-301).",
+    "validated_by": "VERVE-102 received FDA Fast Track designation in April 2025 and, in its Phase 1b trial, a single infusion reduced LDL-C by more than 50 percent in HeFH patients, an early human proof of concept for in-vivo cardiovascular base editing. Eli Lilly acquired Verve in July 2025 for approximately 1.0 billion USD upfront (10.50 USD per share) plus a contingent value right worth up to 3.00 USD per share, valuing the deal at up to 1.3 billion USD, an explicit large-pharma validation of the approach.",
+    "gaps": "No approved product; lead programs are early clinical (Phase 1b) at acquisition. Long-term durability and safety of a permanent liver edit in a large prevention population are unproven, and a prior VERVE-101 program was slowed by delivery and safety signals before the shift to VERVE-102. As a wholly owned Lilly subsidiary, Verve no longer discloses standalone financials or an independent pipeline cadence.",
+    "notes": "Substrate is in-vivo edited liver cells (E.3) producing a therapeutic edit (D.4); linked to the `prime-base-editing` primitive, which names Verve as a closest company for the in-vivo therapeutic gene-correction capability. Verve's mechanism is base editing (single-base conversion), not prime editing, and the primitive bundles both.\n\nFounded 2018 in Boston by Sekar Kathiresan, a Harvard cardiologist and human geneticist. IPO June 2021 on Nasdaq under ticker VERV, raising about 267 million USD; total capital raised across private rounds plus IPO is roughly 750 million USD (estimate, exact cumulative figure not cleanly disclosed, flagged uncertain). Eli Lilly completed the acquisition on July 25, 2025 after the tender offer expired July 23, 2025; VERV was delisted from Nasdaq on completion. funding_stage set to `acquired` and commercialisation_status to `acquired` per the Lilly deal; limiting_factor is N/A as an acquired entity."
   },
   {
     "id": "basecamp-research",
